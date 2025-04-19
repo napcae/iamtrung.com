@@ -9,6 +9,8 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './lib/image-loader.js',
   },
   output: 'export',
   basePath: process.env.NODE_ENV === 'production' ? '/iamtrung.com' : '',

@@ -54,8 +54,9 @@ export default function Home() {
                     <Image
                       src="/IMG_5118.jpeg"
                       alt="Picture of me"
-                      layout="fill"
-                      objectFit="cover"
+                      width={500}
+                      height={500}
+                      className="object-cover"
                     />
                     <p className="text-sm">Add a warm, authentic photo of yourself here</p>
                   </div>
