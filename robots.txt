@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trungnguyen.com/sitemap.xml
