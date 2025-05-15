@@ -47,7 +47,7 @@ export function ContactCTA() {
             <h2 className="text-2xl font-light mb-16 text-earth-muted">Let's Connect</h2>
             <div className="aspect-[4/3] relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
               <Image
-                src="/connect.jpeg"
+                src="./connect.jpeg"
                 alt="Let's connect and start a conversation"
                 fill
                 className="object-cover"

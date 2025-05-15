@@ -66,7 +66,7 @@ export function BookSection() {
             </p>
             <div className="relative rounded-lg overflow-hidden border border-earth-light/30 mt-8">
               <Image
-                src="/calm.jpeg"
+                src="./calm.jpeg"
                 alt="A peaceful reading space"
                 width={800}
                 height={600}

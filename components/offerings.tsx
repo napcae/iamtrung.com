@@ -13,7 +13,7 @@ export function Offerings() {
             <h2 className="text-2xl font-light text-earth-accent mb-4">How I Help</h2>
             <div className="relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
               <Image
-                src="/founders_pause.png"
+                src="./founders_pause.png"
                 alt="Founders taking a mindful pause"
                 width={800}
                 height={600}

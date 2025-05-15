@@ -22,7 +22,7 @@ export function InnerCircle() {
             <h2 className="text-2xl font-light text-earth-accent mb-4">The Inner Circle</h2>
             <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
               <Image
-                src="/inner_circle_gathering.jpeg"
+                src="./inner_circle_gathering.jpeg"
                 alt="Inner Circle community gathering"
                 fill
                 className="object-cover"
