@@ -49,16 +49,15 @@ export default function Home() {
               </div>
               <div className="hidden lg:block relative">
                 {/* Photo placeholder for warmth */}
-                <div className="aspect-square relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
+                <div className="relative w-full max-w-[390px] mx-auto rounded-lg overflow-hidden border border-earth-light/30">
+                  <div className="relative w-full aspect-[3/3]">
                     <Image
-                      src="/IMG_5118.jpeg"
+                      src="/me_aldi.jpeg"
                       alt="Picture of me"
-                      width={500}
-                      height={500}
+                      fill
                       className="object-cover"
+                      priority
                     />
-                    <p className="text-sm">Add a warm, authentic photo of yourself here</p>
                   </div>
                 </div>
               </div>

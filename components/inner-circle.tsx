@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { AnimatedSection } from "./animated-section"
 import { Button } from "./ui/button"
+import Image from "next/image"
 
 export function InnerCircle() {
   const handleSubscribe = (e: React.FormEvent) => {
@@ -19,11 +20,14 @@ export function InnerCircle() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-2xl font-light text-earth-accent mb-4">The Inner Circle</h2>
-            {/* Photo placeholder for warmth */}
-            <div className="aspect-[3/2] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-              <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                <p className="text-sm">Add a photo of a community gathering here</p>
-              </div>
+            <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
+              <Image
+                src="/inner_circle_gathering.jpeg"
+                alt="Inner Circle community gathering"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
           <div className="space-y-8">
