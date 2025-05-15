@@ -8,7 +8,7 @@ export function SocialIcons() {
         href="https://twitter.com/trungnguyen"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-earth-muted hover:text-earth-clay transition-colors"
+        className="text-earth-muted hover:text-earth-accent transition-colors"
         aria-label="Twitter"
       >
         <Twitter className="h-5 w-5" />
@@ -17,7 +17,7 @@ export function SocialIcons() {
         href="https://linkedin.com/in/trungnguyen"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-earth-muted hover:text-earth-clay transition-colors"
+        className="text-earth-muted hover:text-earth-accent transition-colors"
         aria-label="LinkedIn"
       >
         <Linkedin className="h-5 w-5" />
@@ -26,14 +26,14 @@ export function SocialIcons() {
         href="https://github.com/trungnguyen"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-earth-muted hover:text-earth-clay transition-colors"
+        className="text-earth-muted hover:text-earth-accent transition-colors"
         aria-label="GitHub"
       >
         <Github className="h-5 w-5" />
       </Link>
       <Link
         href="mailto:hello@trungnguyen.com"
-        className="text-earth-muted hover:text-earth-clay transition-colors"
+        className="text-earth-muted hover:text-earth-accent transition-colors"
         aria-label="Email"
       >
         <Mail className="h-5 w-5" />

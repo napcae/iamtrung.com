@@ -63,7 +63,7 @@ export function Navigation() {
               <Button
                 variant="outline"
                 size="sm"
-                className="border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none transition-all duration-300"
+                className="border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none transition-all duration-300"
               >
                 Start the Conversation
               </Button>
@@ -126,7 +126,7 @@ export function Navigation() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none w-full transition-all duration-300"
+                  className="border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none w-full transition-all duration-300"
                 >
                   Start the Conversation
                 </Button>

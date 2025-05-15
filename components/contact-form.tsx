@@ -41,7 +41,7 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="space-y-2">
-        <Label htmlFor="name" className="text-[#5C5C5C]">
+        <Label htmlFor="name" className="text-earth-muted">
           Name
         </Label>
         <Input
@@ -51,12 +51,12 @@ export function ContactForm() {
           value={formState.name}
           onChange={handleChange}
           required
-          className="border-[#E9EDC9] focus-visible:ring-[#D4A373] bg-white"
+          className="border-earth-light focus-visible:ring-earth-accent bg-white"
         />
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email" className="text-[#5C5C5C]">
+        <Label htmlFor="email" className="text-earth-muted">
           Email
         </Label>
         <Input
@@ -67,12 +67,12 @@ export function ContactForm() {
           value={formState.email}
           onChange={handleChange}
           required
-          className="border-[#E9EDC9] focus-visible:ring-[#D4A373] bg-white"
+          className="border-earth-light focus-visible:ring-earth-accent bg-white"
         />
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message" className="text-[#5C5C5C]">
+        <Label htmlFor="message" className="text-earth-muted">
           Message
         </Label>
         <Textarea
@@ -83,13 +83,13 @@ export function ContactForm() {
           value={formState.message}
           onChange={handleChange}
           required
-          className="border-[#E9EDC9] focus-visible:ring-[#D4A373] bg-white"
+          className="border-earth-light focus-visible:ring-earth-accent bg-white"
         />
       </div>
 
       <Button
         type="submit"
-        className="w-full sm:w-auto bg-[#D4A373] hover:bg-[#C69C6D] text-white rounded-full px-8"
+        className="w-full sm:w-auto bg-earth-accent hover:bg-earth-green text-white rounded-full px-8"
         disabled={isSubmitting}
       >
         {isSubmitting ? (
@@ -106,7 +106,7 @@ export function ContactForm() {
       </Button>
 
       {isSubmitted && (
-        <div className="p-4 bg-[#FEFAE0] text-[#D4A373] rounded-md border border-[#E9EDC9]">
+        <div className="p-4 bg-earth-light text-earth-accent rounded-md border border-earth-light">
           Thank you for your message! I'll get back to you soon.
         </div>
       )}

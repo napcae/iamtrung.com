@@ -28,7 +28,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight leading-tight">
-                  <span className="text-earth-clay">Architect</span> of Belonging
+                  <span className="text-earth-accent">Architect</span> of Belonging
                 </h1>
                 <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light">
                   I design the spaces where meaningful connection happens. Where purpose-driven founders find each
@@ -39,7 +39,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="lg"
-                      className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                      className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     >
                       Join The Inner Circle
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -90,15 +90,13 @@ export default function Home() {
                   Today, I help founders and high-achievers clear emotional bottlenecks, so they can scale without breaking what makes them great.
                 </p>
 
-                {/*
                 <div className="flex space-x-4 pt-4">
-                  <span className="text-earth-clay font-light">Money</span>
+                  <span className="text-earth-accent font-light">Money</span>
                   <span className="text-earth-dark">•</span>
-                  <span className="text-earth-clay font-light">Mastery</span>
+                  <span className="text-earth-accent font-light">Mastery</span>
                   <span className="text-earth-dark">•</span>
-                  <span className="text-earth-clay font-light">Meaning</span>
+                  <span className="text-earth-accent font-light">Meaning</span>
                 </div>
-                */}
               </div>
             </div>
           </div>
@@ -116,7 +114,7 @@ export default function Home() {
               </div>
               <div className="space-y-16">
                 <div className="space-y-8">
-                  <h3 className="text-2xl font-light text-earth-clay">Vision</h3>
+                  <h3 className="text-2xl font-light text-earth-accent">Vision</h3>
                   <p className="text-xl leading-relaxed font-light">
                     A global, high-trust ecosystem where founders, creatives, and visionaries connect deeply, scale
                     mindfully, and give back to society and nature.
@@ -124,7 +122,7 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-8">
-                  <h3 className="text-2xl font-light text-earth-clay">Mission</h3>
+                  <h3 className="text-2xl font-light text-earth-accent">Mission</h3>
                   <p className="text-xl leading-relaxed font-light">
                     To create presence-focused experiences that foster genuine human connection, collaboration, and
                     personal growth—while amplifying unheard voices and funding impactful businesses.

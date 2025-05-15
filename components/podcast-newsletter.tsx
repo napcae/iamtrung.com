@@ -3,14 +3,21 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { AnimatedSection } from "./animated-section"
+import { Button } from "./ui/button"
 
 export function PodcastNewsletter() {
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    // TODO: Implement newsletter subscription
+    alert("Newsletter subscription coming soon!");
+  };
+
   return (
     <AnimatedSection id="podcast" className="py-32 px-6 md:px-12 lg:px-24 bg-earth-light">
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light mb-16 text-earth-muted">The Uncomfort Zone</h2>
+            <h2 className="text-2xl font-light text-earth-accent mb-4">The Uncomfort Zone</h2>
           </div>
           <div className="space-y-12">
             <p className="text-xl font-light">
@@ -31,7 +38,7 @@ export function PodcastNewsletter() {
                     </div>
                   </div>
                   <header>
-                    <h3 className="text-lg font-light group-hover:text-earth-clay transition-colors duration-300">
+                    <h3 className="text-lg font-light group-hover:text-earth-accent transition-colors duration-300">
                       Building Antifragile Systems in Uncertain Times
                     </h3>
                     <p className="text-sm text-earth-muted">Episode 42 • 48 min</p>
@@ -49,15 +56,15 @@ export function PodcastNewsletter() {
                     <input
                       type="email"
                       placeholder="Your email address"
-                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-clay transition-colors duration-300"
+                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300"
                       required
                     />
-                    <button
-                      type="submit"
-                      className="w-full bg-earth-clay text-white px-6 py-2 font-light hover:bg-earth-sand transition-colors"
+                    <Button
+                      className="w-full bg-earth-accent hover:bg-earth-green text-white"
+                      onClick={handleSubscribe}
                     >
                       Subscribe
-                    </button>
+                    </Button>
                   </form>
                   <p className="text-xs text-earth-muted mt-4">
                     Join 10,000+ subscribers. No spam, unsubscribe anytime.
@@ -70,7 +77,7 @@ export function PodcastNewsletter() {
               href="https://uncomfortzone.substack.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-lg font-light text-earth-clay hover:text-earth-sand transition-colors border-b border-earth-light/50 hover:border-earth-clay pb-1"
+              className="inline-flex items-center text-lg font-light text-earth-accent hover:text-earth-green transition-colors border-b border-earth-light/50 hover:border-earth-accent pb-1"
             >
               Explore all episodes
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

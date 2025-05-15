@@ -29,7 +29,7 @@ export default function InnerCirclePage() {
                 </Link>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
-                  The <span className="text-earth-clay">Inner Circle</span>
+                  The <span className="text-earth-accent">Inner Circle</span>
                 </h1>
 
                 <p className="text-2xl font-light italic text-earth-muted">
@@ -45,7 +45,7 @@ export default function InnerCirclePage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Apply to Join
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -100,7 +100,7 @@ export default function InnerCirclePage() {
                   </ul>
 
                   <div className="pt-4">
-                    <Button className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
+                    <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
                       Apply Now (Takes 5 Minutes)
                     </Button>
                   </div>
@@ -208,7 +208,7 @@ export default function InnerCirclePage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Apply to Join
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -268,7 +268,7 @@ export default function InnerCirclePage() {
                     <h3 className="text-2xl font-light">Annual Membership</h3>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-clay">$12,000</span>
+                      <span className="text-4xl font-light text-earth-accent">$12,000</span>
                       <span className="text-earth-muted ml-2">USD / year</span>
                     </div>
 
@@ -296,7 +296,7 @@ export default function InnerCirclePage() {
                     </ul>
 
                     <div className="pt-6">
-                      <Button className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
+                      <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
                         Apply Now (Takes 5 Minutes)
                       </Button>
                     </div>
@@ -319,7 +319,7 @@ export default function InnerCirclePage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Apply to Join
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -388,7 +388,7 @@ export default function InnerCirclePage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Start Your Application
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

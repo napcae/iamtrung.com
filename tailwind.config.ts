@@ -53,17 +53,17 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Custom earthy color palette
+        // New forest-inspired color palette
         earth: {
-          background: "#F5F1E8", // Soft cream background
-          dark: "#2C2418", // Deep brown for text
-          accent: "#A67C52", // Warm terracotta/clay accent
-          muted: "#8A7968", // Muted taupe for secondary text
-          light: "#E8E0D0", // Light beige for cards/sections
-          green: "#606C38", // Sage green accent
-          olive: "#5F6F52", // Olive green accent
-          sand: "#DDA15E", // Sandy gold accent
-          clay: "#BC6C25", // Clay/terracotta accent
+          background: "#F8F9F7", // Light sage background
+          dark: "#1A2F23", // Deep forest for text
+          accent: "#2F5F48", // Main forest green
+          muted: "#5A7D6A", // Muted green for secondary text
+          light: "#E8EFE9", // Light sage for cards/sections
+          green: "#3A7D5A", // Medium green accent
+          olive: "#4A6B3D", // Olive green accent
+          sand: "#D4C4A8", // Warm sand accent
+          clay: "#A67C52", // Terracotta accent
         },
       },
       fontFamily: {

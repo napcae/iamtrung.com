@@ -29,7 +29,7 @@ export default function ProcrastinationWorkshopPage() {
                 </Link>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
-                  Stop Planning, <span className="text-earth-clay">Start Doing</span>
+                  Stop Planning, <span className="text-earth-accent">Start Doing</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light">
@@ -56,7 +56,7 @@ export default function ProcrastinationWorkshopPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Reserve Your Spot
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -94,7 +94,7 @@ export default function ProcrastinationWorkshopPage() {
                   </ul>
 
                   <div className="pt-4">
-                    <Button className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
+                    <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
                       Reserve Your Spot ($497)
                     </Button>
                   </div>
@@ -153,7 +153,7 @@ export default function ProcrastinationWorkshopPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Reserve Your Spot
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -241,7 +241,7 @@ export default function ProcrastinationWorkshopPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Reserve Your Spot
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -305,12 +305,12 @@ export default function ProcrastinationWorkshopPage() {
                     </div>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-clay">$497</span>
+                      <span className="text-4xl font-light text-earth-accent">$497</span>
                       <span className="text-earth-muted ml-2">USD</span>
                     </div>
 
                     <div className="pt-6">
-                      <Button className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
+                      <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
                         Reserve Your Spot Now
                       </Button>
                     </div>
@@ -333,7 +333,7 @@ export default function ProcrastinationWorkshopPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Reserve Your Spot
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -391,7 +391,7 @@ export default function ProcrastinationWorkshopPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
                     Reserve Your Spot
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

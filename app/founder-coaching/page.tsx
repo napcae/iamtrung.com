@@ -31,7 +31,7 @@ export default function FounderCoachingPage() {
                 </Link>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
-                  Clear the <span className="text-earth-clay">Roadblocks</span> to Your Greatest Work
+                  Clear the <span className="text-earth-accent">Roadblocks</span> to Your Greatest Work
                 </h1>
 
                 <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light">
@@ -43,7 +43,7 @@ export default function FounderCoachingPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
                     Book a Discovery Call
@@ -109,7 +109,7 @@ export default function FounderCoachingPage() {
 
                   <div className="pt-4">
                     <Button
-                      className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                      className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                       onClick={() => (window.location.href = "#contact")}
                     >
                       Apply Now (Free Discovery Call)
@@ -179,7 +179,7 @@ export default function FounderCoachingPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
                     Book Your Discovery Call
@@ -254,7 +254,7 @@ export default function FounderCoachingPage() {
                     <h3 className="text-2xl font-light">3-Month Intensive</h3>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-clay">$9,000</span>
+                      <span className="text-4xl font-light text-earth-accent">$9,000</span>
                       <span className="text-earth-muted ml-2">USD</span>
                     </div>
 
@@ -279,7 +279,7 @@ export default function FounderCoachingPage() {
 
                     <div className="pt-6">
                       <Button
-                        className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                        className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                         onClick={() => (window.location.href = "#contact")}
                       >
                         Apply Now (Free Discovery Call)
@@ -304,7 +304,7 @@ export default function FounderCoachingPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
                     Book Your Discovery Call
@@ -365,7 +365,7 @@ export default function FounderCoachingPage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
+                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
                     Book Your Discovery Call
@@ -402,7 +402,7 @@ export default function FounderCoachingPage() {
                       name="name"
                       placeholder="Your name"
                       required
-                      className="w-full border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-clay transition-colors duration-300"
+                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300"
                     />
                   </div>
 
@@ -412,7 +412,7 @@ export default function FounderCoachingPage() {
                       name="email"
                       placeholder="Your email"
                       required
-                      className="w-full border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-clay transition-colors duration-300"
+                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300"
                     />
                   </div>
 
@@ -422,13 +422,13 @@ export default function FounderCoachingPage() {
                       placeholder="Tell me about your challenges"
                       rows={4}
                       required
-                      className="w-full border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-clay transition-colors duration-300 resize-none"
+                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300 resize-none"
                     ></textarea>
                   </div>
 
                   <Button
                     type="submit"
-                    className="bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   >
                     <span className="flex items-center">
                       Book Your Discovery Call

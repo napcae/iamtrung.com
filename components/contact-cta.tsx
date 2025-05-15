@@ -55,7 +55,7 @@ export function ContactCTA() {
                 I work with founders who are committed to building technology with purpose and integrity. If that's you,
                 let's start a conversation.
               </p>
-              <p className="text-xl font-light text-earth-clay">
+              <p className="text-xl font-light text-earth-accent">
                 The world needs more builders who care about the impact of what they create.
               </p>
             </div>
@@ -70,7 +70,7 @@ export function ContactCTA() {
                   value={formState.name}
                   onChange={handleChange}
                   required
-                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-clay transition-colors duration-300"
+                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-accent transition-colors duration-300"
                 />
               </div>
 
@@ -83,7 +83,7 @@ export function ContactCTA() {
                   value={formState.email}
                   onChange={handleChange}
                   required
-                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-clay transition-colors duration-300"
+                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-accent transition-colors duration-300"
                 />
               </div>
 
@@ -96,13 +96,13 @@ export function ContactCTA() {
                   value={formState.message}
                   onChange={handleChange}
                   required
-                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-clay transition-colors duration-300 resize-none"
+                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-accent transition-colors duration-300 resize-none"
                 />
               </div>
 
               <Button
                 type="submit"
-                className="bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                className="w-full sm:w-auto bg-earth-accent hover:bg-earth-green text-white rounded-full px-8"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (
@@ -112,15 +112,15 @@ export function ContactCTA() {
                   </span>
                 ) : (
                   <span className="flex items-center">
-                    Start the Conversation
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    Send Message
+                    <ArrowRight className="ml-2 h-4 w-4" />
                   </span>
                 )}
               </Button>
 
               {isSubmitted && (
-                <div className="text-earth-dark font-light p-4 border border-earth-clay/30 bg-earth-clay/10">
-                  Thank you for reaching out. I'll get back to you within 24 hours to discuss how we can work together.
+                <div className="p-4 bg-earth-light text-earth-accent rounded-md border border-earth-light">
+                  Thank you for your message! I'll get back to you soon.
                 </div>
               )}
             </form>
