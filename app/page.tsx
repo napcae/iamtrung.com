@@ -52,8 +52,8 @@ export default function Home() {
                 <div className="relative w-full max-w-[390px] mx-auto rounded-lg overflow-hidden border border-earth-light/30">
                   <div className="relative w-full aspect-[3/3]">
                     <Image
-                      src="/me_aldi.jpeg"
-                      alt="Picture of me"
+                      src="./me_portrait.jpeg"
+                      alt="Portrait of Trung Nguyen"
                       fill
                       className="object-cover"
                       priority
@@ -71,11 +71,15 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
                 <h2 className="text-2xl font-light mb-16 text-earth-muted">My Story</h2>
-                {/* Photo placeholder for warmth */}
-                <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                    <p className="text-sm">Add a candid photo that tells part of your story</p>
-                  </div>
+                <div className="relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
+                  <Image
+                    src="./me_aldi.jpeg"
+                    alt="Trung Nguyen in front of a Chinese Aldi"
+                    width={800}
+                    height={600}
+                    className="w-full h-auto"
+                    priority
+                  />
                 </div>
               </div>
               <div className="space-y-8">
@@ -89,13 +93,13 @@ export default function Home() {
                   Today, I help founders and high-achievers clear emotional bottlenecks, so they can scale without breaking what makes them great.
                 </p>
 
-                <div className="flex space-x-4 pt-4">
+                {/* <div className="flex space-x-4 pt-4">
                   <span className="text-earth-accent font-light">Money</span>
                   <span className="text-earth-dark">•</span>
                   <span className="text-earth-accent font-light">Mastery</span>
                   <span className="text-earth-dark">•</span>
                   <span className="text-earth-accent font-light">Meaning</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

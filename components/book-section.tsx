@@ -1,4 +1,5 @@
 import { AnimatedSection } from "./animated-section"
+import Image from "next/image"
 
 interface Book {
   title: string
@@ -8,6 +9,27 @@ interface Book {
 }
 
 const books: Book[] = [
+  {
+    title: "Thinking in Systems",
+    author: "Donella H. Meadows",
+    cover: "/placeholder.svg?height=300&width=200",
+    description:
+      "This book transformed how I approach complex problems. It taught me to see patterns and relationships rather than isolated events, fundamentally changing my approach to building technology and organizations that can adapt to changing conditions.",
+  },
+  {
+    title: "Antifragile",
+    author: "Nassim Nicholas Taleb",
+    cover: "/placeholder.svg?height=300&width=200",
+    description:
+      "Taleb's concept of systems that gain from disorder revolutionized my philosophy on resilience. It's influenced how I build teams that don't just withstand challenges but actively grow stronger through them—a critical advantage in today's volatile markets.",
+  },
+  {
+    title: "Mindset",
+    author: "Carol S. Dweck",
+    cover: "/placeholder.svg?height=300&width=200",
+    description:
+      "The distinction between fixed and growth mindsets has been foundational to my coaching approach. This book helped me understand how to cultivate environments where people continuously evolve and embrace challenges as opportunities for growth.",
+  },
   {
     title: "Thinking in Systems",
     author: "Donella H. Meadows",
@@ -42,11 +64,15 @@ export function BookSection() {
               These works have profoundly influenced my thinking and approach to technology, leadership, and personal
               growth. They might transform your perspective too.
             </p>
-            {/* Photo placeholder for warmth */}
-            <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mt-8">
-              <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                <p className="text-sm">Add a photo of you reading or in your library</p>
-              </div>
+            <div className="relative rounded-lg overflow-hidden border border-earth-light/30 mt-8">
+              <Image
+                src="/calm.jpeg"
+                alt="A peaceful reading space"
+                width={800}
+                height={600}
+                className="w-full h-auto"
+                priority
+              />
             </div>
           </div>
           <div className="space-y-24">

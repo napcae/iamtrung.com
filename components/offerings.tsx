@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { AnimatedSection } from "./animated-section"
 import { Button } from "./ui/button"
+import Image from "next/image"
 
 export function Offerings() {
   return (
@@ -10,11 +11,15 @@ export function Offerings() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-2xl font-light text-earth-accent mb-4">How I Help</h2>
-            {/* Photo placeholder for warmth */}
-            <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-              <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                <p className="text-sm">Add a photo of you working with clients</p>
-              </div>
+            <div className="relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
+              <Image
+                src="/founders_pause.png"
+                alt="Founders taking a mindful pause"
+                width={800}
+                height={600}
+                className="w-full h-auto"
+                priority
+              />
             </div>
           </div>
           <div className="space-y-16">
@@ -83,7 +88,7 @@ export function Offerings() {
             </article>
 
             {/* Overcoming Procrastination Workshop */}
-            <article className="space-y-6 group">
+            {/* <article className="space-y-6 group">
               <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
                 Overcoming Procrastination Workshop
               </h3>
@@ -112,7 +117,7 @@ export function Offerings() {
                 Learn more
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>
