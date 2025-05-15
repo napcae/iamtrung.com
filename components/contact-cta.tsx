@@ -3,6 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -44,11 +45,14 @@ export function ContactCTA() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-2xl font-light mb-16 text-earth-muted">Let's Connect</h2>
-            {/* Photo placeholder for warmth */}
-            <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-              <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                <p className="text-sm">Add a warm, inviting photo here</p>
-              </div>
+            <div className="aspect-[4/3] relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
+              <Image
+                src="/connect.jpeg"
+                alt="Let's connect and start a conversation"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             <div className="space-y-8">
               <p className="text-xl font-light">

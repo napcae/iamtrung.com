@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Check, ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
@@ -383,11 +384,14 @@ export default function FounderCoachingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
                 <h2 className="text-2xl font-light mb-16 text-earth-muted">Get Started</h2>
-                {/* Photo placeholder for warmth */}
-                <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                    <p className="text-sm">Add a warm, inviting photo here</p>
-                  </div>
+                <div className="aspect-[4/3] relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
+                  <Image
+                    src="/connect.jpeg"
+                    alt="Let's connect and start a conversation"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
                 </div>
                 <p className="text-xl font-light">
                   Ready to break through your emotional roadblocks and do your greatest work? Let's start with a free
