@@ -13,7 +13,6 @@ const nextConfig = {
     loaderFile: './lib/image-loader.js',
   },
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/iamtrung.com' : '',
   async redirects() {
     return [
       {
