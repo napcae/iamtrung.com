@@ -257,32 +257,23 @@ export default function ProcrastinationWorkshopPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Success Stories</h2>
+                <h2 className="text-2xl font-light mb-16 text-earth-muted">What Participants Say</h2>
               </div>
 
-              <div className="space-y-16">
-                <div className="space-y-6 border-l-2 border-earth-green pl-6">
-                  <blockquote className="text-xl font-light leading-relaxed">
-                    "I've read countless books on productivity, but this workshop finally helped me understand why I
-                    procrastinate and gave me practical tools to break the cycle. I launched my podcast within a week of
-                    attending."
-                  </blockquote>
-                  <footer>
-                    <cite className="font-light">James Wilson</cite>
-                    <p className="text-sm text-earth-muted">Creative Director & Podcast Host</p>
-                  </footer>
-                </div>
-
-                <div className="space-y-6 border-l-2 border-earth-green pl-6">
-                  <blockquote className="text-xl font-light leading-relaxed">
-                    "The Action Protocol alone was worth 10x the price of admission. I've applied it to my writing
-                    practice and have finally finished the manuscript I've been 'working on' for three years."
-                  </blockquote>
-                  <footer>
-                    <cite className="font-light">Sophia Martinez</cite>
-                    <p className="text-sm text-earth-muted">Author & Entrepreneur</p>
-                  </footer>
-                </div>
+              <div className="space-y-12">
+                <article itemScope itemType="https://schema.org/Review">
+                  <div className="space-y-6">
+                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                      "Although I had seen many of the tools before, what shifted for me was Trung's way of applying them — translating ideas into real action. I was also inspired by seeing how many people around him had taken the leap to fully commit to their dreams instead of keeping it a side hustle. If someone is serious about building their own path and needs a real nudge toward action, this workshop is exactly what they need."
+                    </blockquote>
+                    <footer>
+                      <cite itemProp="author" className="font-light">
+                        Minh
+                      </cite>
+                      <p className="text-sm text-earth-muted">Workshop Participant</p>
+                    </footer>
+                  </div>
+                </article>
               </div>
             </div>
           </div>

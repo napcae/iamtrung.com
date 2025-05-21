@@ -10,7 +10,7 @@ export default function InnerCirclePage() {
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
       <Metadata
         title="The Inner Circle | Trung Nguyen"
-        description="A global community of values-driven founders. Connect deeply, scale mindfully, and give back to society and nature."
+        description="A global community of values-driven founders committed to unlimited curiosity, fearless authenticity, radical resilience, and kindness in community."
       />
       <Navigation />
 
@@ -121,21 +121,11 @@ export default function InnerCirclePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
                   <div className="text-earth-green mb-4">
-                    <Users className="h-8 w-8" />
-                  </div>
-                  <h3 className="text-xl font-light">Connect Deeply</h3>
-                  <p className="text-earth-muted font-light">
-                    We prioritize authentic relationships over transactional networking. Vulnerability is our strength.
-                  </p>
-                </div>
-
-                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
-                  <div className="text-earth-green mb-4">
                     <Globe className="h-8 w-8" />
                   </div>
-                  <h3 className="text-xl font-light">Scale Mindfully</h3>
+                  <h3 className="text-xl font-light">Unlimited Curiosity & Growth</h3>
                   <p className="text-earth-muted font-light">
-                    We grow our impact without sacrificing our values or wellbeing. Quality over quantity, always.
+                    Embrace a beginner's mind, constantly learning, evolving, and improving through every experience.
                   </p>
                 </div>
 
@@ -143,9 +133,9 @@ export default function InnerCirclePage() {
                   <div className="text-earth-green mb-4">
                     <Heart className="h-8 w-8" />
                   </div>
-                  <h3 className="text-xl font-light">Give Back</h3>
+                  <h3 className="text-xl font-light">Fearless Authenticity</h3>
                   <p className="text-earth-muted font-light">
-                    We're committed to regenerative practices that benefit society and nature as we grow.
+                    Be true to yourself and others. Lead with transparency, vulnerability, and integrity.
                   </p>
                 </div>
 
@@ -153,9 +143,19 @@ export default function InnerCirclePage() {
                   <div className="text-earth-green mb-4">
                     <Clock className="h-8 w-8" />
                   </div>
-                  <h3 className="text-xl font-light">Presence Focus</h3>
+                  <h3 className="text-xl font-light">Radical Resilience</h3>
                   <p className="text-earth-muted font-light">
-                    We believe in being fully present—with ourselves and others—as the foundation for meaningful work.
+                    Face challenges with determination and bounce back stronger, using setbacks as fuel for growth.
+                  </p>
+                </div>
+
+                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
+                  <div className="text-earth-green mb-4">
+                    <Users className="h-8 w-8" />
+                  </div>
+                  <h3 className="text-xl font-light">Kindness in Community</h3>
+                  <p className="text-earth-muted font-light">
+                    Collaborate and foster meaningful relationships. Together, we're stronger and more capable of creating lasting impact.
                   </p>
                 </div>
               </div>
@@ -227,28 +227,48 @@ export default function InnerCirclePage() {
                 <h2 className="text-2xl font-light mb-16 text-earth-muted">Member Stories</h2>
               </div>
 
-              <div className="space-y-16">
-                <div className="space-y-6 border-l-2 border-earth-green pl-6">
-                  <blockquote className="text-xl font-light leading-relaxed">
-                    "The Inner Circle has completely transformed how I think about building my company. The deep
-                    connections I've formed have become my most valuable asset—both personally and professionally."
-                  </blockquote>
-                  <footer>
-                    <cite className="font-light">Elena Vega</cite>
-                    <p className="text-sm text-earth-muted">Founder, Sustainable Fashion Brand</p>
-                  </footer>
-                </div>
+              <div className="space-y-12">
+                <article itemScope itemType="https://schema.org/Review">
+                  <div className="space-y-6">
+                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                      "I'm really happy to have met you, and I think it's fantastic that you want to bring more structure to the startup scene here. I find sharing in the founder circle incredibly valuable, though it does require a certain level of trust."
+                    </blockquote>
+                    <footer>
+                      <cite itemProp="author" className="font-light">
+                        Lien
+                      </cite>
+                      <p className="text-sm text-earth-muted">Founder & Inner Circle Member</p>
+                    </footer>
+                  </div>
+                </article>
 
-                <div className="space-y-6 border-l-2 border-earth-green pl-6">
-                  <blockquote className="text-xl font-light leading-relaxed">
-                    "I joined looking for investors but found something much more valuable—a community of founders who
-                    understand the emotional journey of building something that matters."
-                  </blockquote>
-                  <footer>
-                    <cite className="font-light">David Kim</cite>
-                    <p className="text-sm text-earth-muted">Founder, Climate Tech Startup</p>
-                  </footer>
-                </div>
+                <article itemScope itemType="https://schema.org/Review">
+                  <div className="space-y-6">
+                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                      "I really appreciate the format because it creates meaningful connections with people who are facing similar challenges. You can feel everyone's motivation to work on their goals, and the trust we've built makes these sessions truly valuable."
+                    </blockquote>
+                    <footer>
+                      <cite itemProp="author" className="font-light">
+                        Alex
+                      </cite>
+                      <p className="text-sm text-earth-muted">Founder & Inner Circle Member</p>
+                    </footer>
+                  </div>
+                </article>
+
+                <article itemScope itemType="https://schema.org/Review">
+                  <div className="space-y-6">
+                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                      "We're not in this journey alone. Everyone faces their own challenges, and knowing that others are working towards their goals makes the burden feel lighter. I appreciate how supportive we are, sharing our perspectives and decision-making processes."
+                    </blockquote>
+                    <footer>
+                      <cite itemProp="author" className="font-light">
+                        Martin Hoang
+                      </cite>
+                      <p className="text-sm text-earth-muted">Founder & Inner Circle Member</p>
+                    </footer>
+                  </div>
+                </article>
               </div>
             </div>
           </div>

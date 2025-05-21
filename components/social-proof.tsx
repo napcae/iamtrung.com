@@ -43,14 +43,13 @@ export function SocialProof() {
               <article itemScope itemType="https://schema.org/Review">
                 <div className="space-y-6">
                   <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
-                    "Trung helped us navigate our Series B with both technical precision and emotional intelligence. His
-                    guidance on scaling our infrastructure while preserving our culture was invaluable."
+                    "I think it's more about learning different ways to manage my own energy from others. There are so many valuable insights shared, and I want to apply these to both my professional and personal life."
                   </blockquote>
                   <footer>
                     <cite itemProp="author" className="font-light">
-                      Sarah Chen
+                      Tina Nguyen
                     </cite>
-                    <p className="text-sm text-earth-muted">CTO, Growth-stage SaaS</p>
+                    <p className="text-sm text-earth-muted">Founder & Workshop Participant</p>
                   </footer>
                 </div>
               </article>
@@ -58,14 +57,27 @@ export function SocialProof() {
               <article itemScope itemType="https://schema.org/Review">
                 <div className="space-y-6">
                   <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
-                    "What sets Trung apart is his ability to see both the technical and human dimensions of scaling. He
-                    doesn't just solve problems—he builds capabilities that last."
+                    "This applies to my personal life as well. Just try everything, A-B test everything, see what works. If it feels good for you, then do it. That's the mindset I'll be applying going forward in my life."
                   </blockquote>
                   <footer>
                     <cite itemProp="author" className="font-light">
-                      Michael Rodriguez
+                      Minh Tran
                     </cite>
-                    <p className="text-sm text-earth-muted">Founder & CEO, AI Platform</p>
+                    <p className="text-sm text-earth-muted">Founder & Workshop Participant</p>
+                  </footer>
+                </div>
+              </article>
+
+              <article itemScope itemType="https://schema.org/Review">
+                <div className="space-y-6">
+                  <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                    "I also like this group. I think it's always teaching me things. Like today, I definitely learned how to add more KPIs and make my life a little more organized, which was my goal."
+                  </blockquote>
+                  <footer>
+                    <cite itemProp="author" className="font-light">
+                      Choo Choo
+                    </cite>
+                    <p className="text-sm text-earth-muted">Founder & Workshop Participant</p>
                   </footer>
                 </div>
               </article>

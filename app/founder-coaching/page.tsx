@@ -198,36 +198,41 @@ export default function FounderCoachingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
                 <h2 className="text-2xl font-light mb-16 text-earth-muted">Transformations</h2>
-                {/* Photo placeholder for warmth */}
-                <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                    <p className="text-sm">Add a photo of a client transformation moment</p>
-                  </div>
+                <div className="space-y-12">
+                  <article itemScope itemType="https://schema.org/Review">
+                    <div className="space-y-6">
+                      <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                        "Trung's session helped me sharpen my understanding of my ICP and where to start focusing my writing efforts. The relaxed, conversational format made it easy to open up and walk away with practical insights I can apply immediately."
+                      </blockquote>
+                      <footer>
+                        <cite itemProp="author" className="font-light">
+                          Pedro
+                        </cite>
+                        <p className="text-sm text-earth-muted">Founder & Coaching Client</p>
+                      </footer>
+                    </div>
+                  </article>
                 </div>
               </div>
 
               <div className="space-y-16">
                 <div className="space-y-6 border-l-2 border-earth-green pl-6">
                   <blockquote className="text-xl font-light leading-relaxed">
-                    "Working with Trung helped me break through the emotional barriers that were holding my company
-                    back. I went from constant overwhelm to focused leadership, and our team culture has completely
-                    transformed."
+                    "I really appreciate the format because it creates meaningful connections with people who are facing similar challenges. You can feel everyone's motivation to work on their goals, and the trust we've built makes these sessions truly valuable."
                   </blockquote>
                   <footer>
-                    <cite className="font-light">Sarah Chen</cite>
-                    <p className="text-sm text-earth-muted">CEO, Growth-stage SaaS</p>
+                    <cite className="font-light">Alex</cite>
+                    <p className="text-sm text-earth-muted">Founder & Coaching Client</p>
                   </footer>
                 </div>
 
                 <div className="space-y-6 border-l-2 border-earth-green pl-6">
                   <blockquote className="text-xl font-light leading-relaxed">
-                    "Trung's approach combines technical understanding with emotional intelligence in a way I've never
-                    experienced before. He helped me see how my perfectionism was actually sabotaging our product
-                    launches."
+                    "We're not in this journey alone. Everyone faces their own challenges, and knowing that others are working towards their goals makes the burden feel lighter. I appreciate how supportive we are, sharing our perspectives and decision-making processes."
                   </blockquote>
                   <footer>
-                    <cite className="font-light">Michael Rodriguez</cite>
-                    <p className="text-sm text-earth-muted">Founder & CTO, AI Platform</p>
+                    <cite className="font-light">Martin Hoang</cite>
+                    <p className="text-sm text-earth-muted">Founder & Coaching Client</p>
                   </footer>
                 </div>
 

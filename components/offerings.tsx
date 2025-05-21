@@ -60,9 +60,9 @@ export function Offerings() {
               <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
                 The Inner Circle
               </h3>
-              <p className="text-lg leading-relaxed font-light text-earth-muted">
-                Join a curated community of values-driven founders. Connect deeply, scale mindfully, and give back to
-                society and nature.
+              <p className="text-earth-muted font-light">
+                Join a curated community of values-driven founders committed to unlimited curiosity, fearless authenticity,
+                radical resilience, and kindness in community.
               </p>
               <ul className="space-y-3 text-earth-muted">
                 <li className="flex items-baseline group cursor-pointer">

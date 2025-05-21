@@ -1,5 +1,7 @@
 import { AnimatedSection } from "./animated-section"
 import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight } from "lucide-react"
 
 interface Book {
   title: string
@@ -10,46 +12,39 @@ interface Book {
 
 const books: Book[] = [
   {
-    title: "Thinking in Systems",
-    author: "Donella H. Meadows",
+    title: "Mastery",
+    author: "Robert Greene",
     cover: "/placeholder.svg?height=300&width=200",
     description:
-      "This book transformed how I approach complex problems. It taught me to see patterns and relationships rather than isolated events, fundamentally changing my approach to building technology and organizations that can adapt to changing conditions.",
+      "Robert Greene's deep dive into the path to mastery, showing how dedication, patience, and strategic practice lead to exceptional achievement. This book has transformed how I approach personal growth and leadership development.",
   },
   {
-    title: "Antifragile",
-    author: "Nassim Nicholas Taleb",
+    title: "Get Together",
+    author: "Bailey Richardson, Kevin Huynh, Kai Elmer Sotto",
     cover: "/placeholder.svg?height=300&width=200",
     description:
-      "Taleb's concept of systems that gain from disorder revolutionized my philosophy on resilience. It's influenced how I build teams that don't just withstand challenges but actively grow stronger through them—a critical advantage in today's volatile markets.",
+      "A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the Inner Circle community.",
   },
   {
-    title: "Mindset",
-    author: "Carol S. Dweck",
+    title: "The Creative Act",
+    author: "Rick Rubin",
     cover: "/placeholder.svg?height=300&width=200",
     description:
-      "The distinction between fixed and growth mindsets has been foundational to my coaching approach. This book helped me understand how to cultivate environments where people continuously evolve and embrace challenges as opportunities for growth.",
+      "Rick Rubin's profound exploration of creativity as a spiritual practice. This book has deepened my understanding of presence, authenticity, and the creative process in both business and personal growth.",
   },
   {
-    title: "Thinking in Systems",
-    author: "Donella H. Meadows",
+    title: "Wherever You Go, There You Are",
+    author: "Jon Kabat-Zinn",
     cover: "/placeholder.svg?height=300&width=200",
     description:
-      "This book transformed how I approach complex problems. It taught me to see patterns and relationships rather than isolated events, fundamentally changing my approach to building technology and organizations that can adapt to changing conditions.",
-  },
-  {
-    title: "Antifragile",
-    author: "Nassim Nicholas Taleb",
-    cover: "/placeholder.svg?height=300&width=200",
-    description:
-      "Taleb's concept of systems that gain from disorder revolutionized my philosophy on resilience. It's influenced how I build teams that don't just withstand challenges but actively grow stronger through them—a critical advantage in today's volatile markets.",
+      "Jon Kabat-Zinn's classic on mindfulness meditation. This book has been foundational in my approach to cultivating presence and awareness in daily life and coaching practice.",
   },
   {
     title: "Mindset",
     author: "Carol S. Dweck",
     cover: "/placeholder.svg?height=300&width=200",
     description:
-      "The distinction between fixed and growth mindsets has been foundational to my coaching approach. This book helped me understand how to cultivate environments where people continuously evolve and embrace challenges as opportunities for growth.",
+      "Carol Dweck's groundbreaking work on the power of our beliefs. This book has been essential in my coaching approach, helping founders overcome limiting patterns and embrace growth.",
   },
 ]
 
@@ -92,6 +87,15 @@ export function BookSection() {
                   </h3>
                   <p className="text-sm text-earth-muted">by {book.author}</p>
                   <p className="text-earth-muted font-light">{book.description}</p>
+                  <Link
+                    href={`https://www.amazon.com/s?k=${encodeURIComponent(book.title + " " + book.author)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors border-b border-transparent hover:border-earth-accent pb-1"
+                  >
+                    Get the book
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
                 </div>
               </div>
             ))}

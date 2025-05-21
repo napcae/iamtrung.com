@@ -42,32 +42,30 @@ export function InnerCircle() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
               <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Connect Deeply</h4>
+                <h4 className="text-xl font-light text-earth-accent">Unlimited Curiosity & Growth</h4>
                 <p className="text-earth-muted font-light">
-                  Move beyond transactional networking to form authentic relationships that sustain you through the
-                  founder journey.
+                  Embrace a beginner's mind, constantly learning, evolving, and improving through every experience.
                 </p>
               </div>
 
               <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Scale Mindfully</h4>
+                <h4 className="text-xl font-light text-earth-accent">Fearless Authenticity</h4>
                 <p className="text-earth-muted font-light">
-                  Grow your impact without sacrificing your values or wellbeing. Build businesses that serve humanity.
+                  Be true to yourself and others. Lead with transparency, vulnerability, and integrity.
                 </p>
               </div>
 
               <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Give Back</h4>
+                <h4 className="text-xl font-light text-earth-accent">Radical Resilience</h4>
                 <p className="text-earth-muted font-light">
-                  Join a community committed to regenerative practices that give back to society and nature.
+                  Face challenges with determination and bounce back stronger, using setbacks as fuel for growth.
                 </p>
               </div>
 
               <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Presence Focus</h4>
+                <h4 className="text-xl font-light text-earth-accent">Kindness in Community</h4>
                 <p className="text-earth-muted font-light">
-                  Experience the power of being fully present—with yourself and others—as the foundation for meaningful
-                  work.
+                  Collaborate and foster meaningful relationships. Together, we're stronger and more capable of creating lasting impact.
                 </p>
               </div>
             </div>

@@ -119,8 +119,8 @@ export default function Home() {
                 <div className="space-y-8">
                   <h3 className="text-2xl font-light text-earth-accent">Vision</h3>
                   <p className="text-xl leading-relaxed font-light">
-                    A global, high-trust ecosystem where founders, creatives, and visionaries connect deeply, scale
-                    mindfully, and give back to society and nature.
+                    A global, high-trust ecosystem where founders, creatives, and visionaries embrace unlimited curiosity,
+                    practice fearless authenticity, demonstrate radical resilience, and foster kindness in community.
                   </p>
                 </div>
 
