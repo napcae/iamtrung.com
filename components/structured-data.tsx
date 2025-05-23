@@ -9,7 +9,7 @@ export function StructuredData() {
     image: "https://trungnguyen.com/trung-nguyen.jpg",
     sameAs: [
       "https://twitter.com/trungnguyen",
-      "https://linkedin.com/in/trungnguyen",
+      "https://www.linkedin.com/in/ctn1991/",
       "https://github.com/trungnguyen",
     ],
     jobTitle: "Founder Coach & Technical Advisor",

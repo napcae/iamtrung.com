@@ -14,7 +14,7 @@ export function SocialIcons() {
         <Twitter className="h-5 w-5" />
       </Link>
       <Link
-        href="https://linkedin.com/in/trungnguyen"
+        href="https://www.linkedin.com/in/ctn1991/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-earth-muted hover:text-earth-accent transition-colors"
@@ -32,7 +32,7 @@ export function SocialIcons() {
         <Github className="h-5 w-5" />
       </Link>
       <Link
-        href="mailto:hello@trungnguyen.com"
+        href="mailto:mail@ctnguyen.net"
         className="text-earth-muted hover:text-earth-accent transition-colors"
         aria-label="Email"
       >
