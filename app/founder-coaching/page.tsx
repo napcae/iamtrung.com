@@ -210,7 +210,7 @@ export default function FounderCoachingPage() {
                         </cite>
                         <p className="text-sm text-earth-muted">Founder & Coaching Client</p>
                       </footer>
-                    </div>
+                  </div>
                   </article>
                 </div>
               </div>

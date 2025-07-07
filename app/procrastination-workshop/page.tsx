@@ -265,14 +265,14 @@ export default function ProcrastinationWorkshopPage() {
                   <div className="space-y-6">
                     <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
                       "Although I had seen many of the tools before, what shifted for me was Trung's way of applying them — translating ideas into real action. I was also inspired by seeing how many people around him had taken the leap to fully commit to their dreams instead of keeping it a side hustle. If someone is serious about building their own path and needs a real nudge toward action, this workshop is exactly what they need."
-                    </blockquote>
-                    <footer>
+                  </blockquote>
+                  <footer>
                       <cite itemProp="author" className="font-light">
                         Minh
                       </cite>
                       <p className="text-sm text-earth-muted">Workshop Participant</p>
-                    </footer>
-                  </div>
+                  </footer>
+                </div>
                 </article>
               </div>
             </div>

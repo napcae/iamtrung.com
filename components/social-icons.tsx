@@ -5,7 +5,7 @@ export function SocialIcons() {
   return (
     <div className="flex space-x-4">
       <Link
-        href="https://twitter.com/trungnguyen"
+        href="https://twitter.com/napcae"
         target="_blank"
         rel="noopener noreferrer"
         className="text-earth-muted hover:text-earth-accent transition-colors"
@@ -23,7 +23,7 @@ export function SocialIcons() {
         <Linkedin className="h-5 w-5" />
       </Link>
       <Link
-        href="https://github.com/trungnguyen"
+        href="https://github.com/napcae"
         target="_blank"
         rel="noopener noreferrer"
         className="text-earth-muted hover:text-earth-accent transition-colors"

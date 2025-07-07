@@ -3,6 +3,7 @@
 import { useRef } from "react"
 import { useInView } from "framer-motion"
 import { AnimatedSection } from "./animated-section"
+import Image from "next/image"
 
 export function SocialProof() {
   const ref = useRef(null)
@@ -16,9 +17,13 @@ export function SocialProof() {
             <h2 className="text-2xl font-light mb-16 text-earth-muted">Trusted By</h2>
             {/* Photo placeholder for warmth */}
             <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-              <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                <p className="text-sm">Add a photo from a speaking engagement or workshop</p>
-              </div>
+              <Image
+                src="./workshop.jpg"
+                alt="Trung Nguyen speaking at a workshop"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
           <div className="space-y-16">
@@ -30,12 +35,12 @@ export function SocialProof() {
                 opacity: isInView ? 0.6 : 0,
                 transition: "opacity 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
               }}
-            >
+            > {/*
               <span className="text-earth-muted text-lg font-light">Google</span>
               <span className="text-earth-muted text-lg font-light">Stripe</span>
               <span className="text-earth-muted text-lg font-light">Airbnb</span>
               <span className="text-earth-muted text-lg font-light">Shopify</span>
-              <span className="text-earth-muted text-lg font-light">Vercel</span>
+              <span className="text-earth-muted text-lg font-light">Vercel</span> */}
             </div>
 
             {/* Testimonials */}

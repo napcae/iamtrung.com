@@ -62,72 +62,21 @@ export function ContactCTA() {
               <p className="text-xl font-light text-earth-accent">
                 The world needs more builders who care about the impact of what they create.
               </p>
+              <Button
+                asChild
+                className="w-full sm:w-auto bg-earth-accent hover:bg-earth-green text-white rounded-full px-8"
+              >
+                <a href="https://cal.com/trungfromberlin/intro-call" target="_blank" rel="noopener noreferrer">
+                  Start the Conversation
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
             </div>
           </div>
           <div>
-            <form onSubmit={handleSubmit} className="space-y-8">
-              <div className="space-y-2 group">
-                <Input
-                  id="name"
-                  name="name"
-                  placeholder="Your name"
-                  value={formState.name}
-                  onChange={handleChange}
-                  required
-                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-accent transition-colors duration-300"
-                />
-              </div>
+            <div>
 
-              <div className="space-y-2">
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="Your email"
-                  value={formState.email}
-                  onChange={handleChange}
-                  required
-                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-accent transition-colors duration-300"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <Textarea
-                  id="message"
-                  name="message"
-                  placeholder="Tell me about your vision"
-                  rows={4}
-                  value={formState.message}
-                  onChange={handleChange}
-                  required
-                  className="border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus-visible:ring-0 focus-visible:border-earth-accent transition-colors duration-300 resize-none"
-                />
-              </div>
-
-              <Button
-                type="submit"
-                className="w-full sm:w-auto bg-earth-accent hover:bg-earth-green text-white rounded-full px-8"
-                disabled={isSubmitting}
-              >
-                {isSubmitting ? (
-                  <span className="flex items-center">
-                    <span className="animate-spin mr-2 h-4 w-4 border-2 border-current border-t-transparent rounded-full" />
-                    Sending...
-                  </span>
-                ) : (
-                  <span className="flex items-center">
-                    Send Message
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </span>
-                )}
-              </Button>
-
-              {isSubmitted && (
-                <div className="p-4 bg-earth-light text-earth-accent rounded-md border border-earth-light">
-                  Thank you for your message! I'll get back to you soon.
-                </div>
-              )}
-            </form>
+            </div>
           </div>
         </div>
       </div>

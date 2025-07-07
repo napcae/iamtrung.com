@@ -19,7 +19,7 @@ export function PodcastSection() {
               perspectives.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-4 group">
                 <div className="aspect-square relative bg-[#222] overflow-hidden">
                   <Image
@@ -44,9 +44,9 @@ export function PodcastSection() {
                   </h3>
                   <p className="text-sm text-[#555]">Episode 42 • 48 min</p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="space-y-4 group">
+              {/* <div className="space-y-4 group">
                 <div className="aspect-square relative bg-[#222] overflow-hidden">
                   <Image
                     src="/placeholder.svg?height=400&width=400"
@@ -71,7 +71,7 @@ export function PodcastSection() {
                   <p className="text-sm text-[#555]">Episode 41 • 52 min</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <Link
               href="#"
@@ -88,12 +88,12 @@ export function PodcastSection() {
                 exclusive resources only for subscribers.
               </p>
               <form className="flex flex-col sm:flex-row gap-4">
-                <input
+                {/* <input
                   type="email"
                   placeholder="Your email address"
                   className="bg-transparent border border-[#333] px-4 py-2 text-white placeholder:text-[#555] focus:outline-none focus:border-[#3B82F6] transition-colors duration-300 flex-grow"
                   required
-                />
+                /> */}
                 <button
                   type="submit"
                   className="bg-[#3B82F6] text-white px-6 py-2 font-light hover:bg-[#3B82F6]/80 transition-colors"
@@ -101,7 +101,7 @@ export function PodcastSection() {
                   Subscribe
                 </button>
               </form>
-              <p className="text-xs text-[#555] mt-4">Join 10,000+ subscribers. No spam, unsubscribe anytime.</p>
+              <p className="text-xs text-[#555] mt-4">Join today. No spam, unsubscribe anytime.</p>
             </div>
           </div>
         </div>
