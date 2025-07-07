@@ -35,13 +35,13 @@ export default function Home() {
                   other, grow together, and build companies that heal humans, society and the planet.
                 </p>
                 <div className="pt-4">
-                  <Link href="/inner-circle">
+                  <Link href="/the-innernet">
                     <Button
                       variant="outline"
                       size="lg"
                       className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     >
-                      Join The Inner Circle
+                      Join The Innernet
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Button>
                   </Link>

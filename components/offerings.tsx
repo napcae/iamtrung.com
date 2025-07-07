@@ -58,7 +58,7 @@ export function Offerings() {
             {/* The Inner Circle */}
             <article className="space-y-6 group">
               <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
-                The Inner Circle
+                The Innernet
               </h3>
               <p className="text-earth-muted font-light">
                 Join a curated community of values-driven founders committed to unlimited curiosity, fearless authenticity,
@@ -79,7 +79,7 @@ export function Offerings() {
                 </li>
               </ul>
               <Link
-                href="/inner-circle"
+                href="/the-innernet"
                 className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors border-b border-transparent hover:border-earth-accent pb-1"
               >
                 Learn more

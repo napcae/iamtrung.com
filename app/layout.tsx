@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: "Trung Nguyen – The Innernet & Founder Coach",
+  description: "Founder coach, community builder, and creator of the Innernet. Helping founders find clarity, connection, and momentum.",
   generator: 'v0.dev',
 }
 

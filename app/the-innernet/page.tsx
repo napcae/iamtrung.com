@@ -5,11 +5,11 @@ import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
 import { Metadata } from "@/components/metadata"
 
-export default function InnerCirclePage() {
+export default function TheInnernetPage() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
       <Metadata
-        title="The Inner Circle | Trung Nguyen"
+        title="The Innernet | Trung Nguyen"
         description="A global community of values-driven founders committed to unlimited curiosity, fearless authenticity, radical resilience, and kindness in community."
       />
       <Navigation />
@@ -29,7 +29,7 @@ export default function InnerCirclePage() {
                 </Link>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
-                  The <span className="text-earth-accent">Inner Circle</span>
+                  The <span className="text-earth-accent">Innernet</span>
                 </h1>
 
                 <p className="text-2xl font-light italic text-earth-muted">
@@ -43,12 +43,15 @@ export default function InnerCirclePage() {
 
                 <div className="pt-4">
                   <Button
+                    asChild
                     variant="outline"
                     size="lg"
                     className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
-                    Apply to Join
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                      Apply to Join
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </a>
                   </Button>
                 </div>
 
@@ -100,8 +103,13 @@ export default function InnerCirclePage() {
                   </ul>
 
                   <div className="pt-4">
-                    <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
-                      Apply Now (Takes 5 Minutes)
+                    <Button
+                      asChild
+                      className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                    >
+                      <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                        Apply Now (Takes 5 Minutes)
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -191,8 +199,8 @@ export default function InnerCirclePage() {
                 <div className="space-y-4">
                   <h3 className="text-xl font-light">Peer Accountability Groups</h3>
                   <p className="text-earth-muted font-light">
-                    Join a small group of 4-5 founders who meet weekly to support each other's growth, celebrate wins,
-                    and work through challenges together. These groups become your trusted inner circle.
+                    Join a small group of 6-8 founders who meet weekly to support each other's growth, celebrate wins,
+                    and work through challenges together. These groups become your trusted Innernet.
                   </p>
                 </div>
 
@@ -206,12 +214,15 @@ export default function InnerCirclePage() {
 
                 <div className="pt-8">
                   <Button
+                    asChild
                     variant="outline"
                     size="lg"
                     className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
-                    Apply to Join
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                      Apply to Join
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -237,7 +248,7 @@ export default function InnerCirclePage() {
                       <cite itemProp="author" className="font-light">
                         Lien
                       </cite>
-                      <p className="text-sm text-earth-muted">Founder & Inner Circle Member</p>
+                      <p className="text-sm text-earth-muted">Founder & Innernet Member</p>
                     </footer>
                   </div>
                 </article>
@@ -251,7 +262,7 @@ export default function InnerCirclePage() {
                       <cite itemProp="author" className="font-light">
                         Alex
                       </cite>
-                      <p className="text-sm text-earth-muted">Founder & Inner Circle Member</p>
+                      <p className="text-sm text-earth-muted">Founder & Innernet Member</p>
                     </footer>
                   </div>
                 </article>
@@ -265,7 +276,7 @@ export default function InnerCirclePage() {
                       <cite itemProp="author" className="font-light">
                         Martin Hoang
                       </cite>
-                      <p className="text-sm text-earth-muted">Founder & Inner Circle Member</p>
+                      <p className="text-sm text-earth-muted">Founder & Innernet Member</p>
                     </footer>
                   </div>
                 </article>
@@ -288,22 +299,14 @@ export default function InnerCirclePage() {
                     <h3 className="text-2xl font-light">Annual Membership</h3>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-accent">$12,000</span>
+                      <span className="text-4xl font-light text-earth-accent">$600</span>
                       <span className="text-earth-muted ml-2">USD / year</span>
                     </div>
 
                     <ul className="space-y-4 pt-4">
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">4 quarterly in-person retreats (travel not included)</p>
-                      </li>
-                      <li className="flex items-start">
-                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
                         <p className="text-earth-muted">12 monthly virtual gatherings</p>
-                      </li>
-                      <li className="flex items-start">
-                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">Weekly peer accountability group</p>
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
@@ -316,8 +319,13 @@ export default function InnerCirclePage() {
                     </ul>
 
                     <div className="pt-6">
-                      <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
-                        Apply Now (Takes 5 Minutes)
+                      <Button
+                        asChild
+                        className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                      >
+                        <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                          Apply Now (Takes 5 Minutes)
+                        </a>
                       </Button>
                     </div>
 
@@ -337,12 +345,15 @@ export default function InnerCirclePage() {
 
                 <div className="pt-8">
                   <Button
+                    asChild
                     variant="outline"
                     size="lg"
                     className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
-                    Apply to Join
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                      Apply to Join
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -406,12 +417,15 @@ export default function InnerCirclePage() {
 
                 <div className="pt-8">
                   <Button
+                    asChild
                     variant="outline"
                     size="lg"
                     className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                   >
-                    Start Your Application
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                      Start Your Application
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </a>
                   </Button>
                 </div>
               </div>

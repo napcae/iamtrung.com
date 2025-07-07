@@ -19,11 +19,11 @@ export function InnerCircle() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light text-earth-accent mb-4">The Inner Circle</h2>
+            <h2 className="text-2xl font-light text-earth-accent mb-4">The Innernet</h2>
             <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
               <Image
                 src="./inner_circle_gathering.jpeg"
-                alt="Inner Circle community gathering"
+                alt="Innernet community gathering"
                 fill
                 className="object-cover"
                 priority
@@ -36,7 +36,7 @@ export function InnerCircle() {
             </h3>
 
             <p className="text-xl leading-relaxed font-light">
-              The Inner Circle is more than a network—it's a carefully curated ecosystem where genuine connection
+              The Innernet is more than a network—it's a carefully curated ecosystem where genuine connection
               happens naturally, where vulnerability is strength, and where your success is measured by your impact.
             </p>
 
@@ -71,13 +71,13 @@ export function InnerCircle() {
             </div>
 
             <div className="pt-8">
-              <Link href="/inner-circle">
+              <Link href="/the-innernet">
                 <Button
                   variant="outline"
                   size="lg"
                   className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                 >
-                  Join The Inner Circle
+                  Join The Innernet
                 </Button>
               </Link>
             </div>
