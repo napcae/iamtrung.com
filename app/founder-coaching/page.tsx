@@ -72,6 +72,13 @@ export default function FounderCoachingPage() {
                 {/* Photo placeholder for warmth */}
                 <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
                   <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
+                    <Image
+                      src="/founder-coaching/niklas.png"
+                      alt="Founder Coaching Session"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
                     <p className="text-sm">Add a photo of you coaching a client</p>
                   </div>
                 </div>
@@ -260,7 +267,7 @@ export default function FounderCoachingPage() {
                     <h3 className="text-2xl font-light">3-Month Intensive</h3>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-accent">$9,000</span>
+                      <span className="text-4xl font-light text-earth-accent">$1,299</span>
                       <span className="text-earth-muted ml-2">USD</span>
                     </div>
 
@@ -372,7 +379,7 @@ export default function FounderCoachingPage() {
                     variant="outline"
                     size="lg"
                     className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
-                    onClick={() => (window.location.href = "#contact")}
+                    onClick={() => window.open('https://cal.com/trungfromberlin/intro-call', '_blank')}
                   >
                     Book Your Discovery Call
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -402,49 +409,18 @@ export default function FounderCoachingPage() {
                   Ready to break through your emotional roadblocks and do your greatest work? Let's start with a free
                   discovery call to explore how we might work together.
                 </p>
+
               </div>
-              <div>
-                <form onSubmit={(e) => e.preventDefault()} className="space-y-8">
-                  <div className="space-y-2 group">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Your name"
-                      required
-                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your email"
-                      required
-                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <textarea
-                      name="message"
-                      placeholder="Tell me about your challenges"
-                      rows={4}
-                      required
-                      className="w-full bg-transparent border border-earth-light/50 px-4 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-accent transition-colors duration-300 resize-none"
-                    ></textarea>
-                  </div>
-
-                  <Button
-                    type="submit"
-                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
-                  >
-                    <span className="flex items-center">
-                      Book Your Discovery Call
-                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    </span>
-                  </Button>
-                </form>
+              <div className="flex items-center justify-center h-full">
+                <Button
+                  className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                  onClick={() => window.open('https://cal.com/trungfromberlin/intro-call', '_blank')}
+                >
+                  <span className="flex items-center">
+                    Book Your Discovery Call
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                </Button>
               </div>
             </div>
           </div>
