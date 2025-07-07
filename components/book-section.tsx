@@ -14,35 +14,35 @@ const books: Book[] = [
   {
     title: "Mastery",
     author: "Robert Greene",
-    cover: "/placeholder.svg?height=300&width=200",
+    cover: "/books/mastery.jpg",
     description:
       "Robert Greene's deep dive into the path to mastery, showing how dedication, patience, and strategic practice lead to exceptional achievement. This book has transformed how I approach personal growth and leadership development.",
   },
   {
     title: "Get Together",
     author: "Bailey Richardson, Kevin Huynh, Kai Elmer Sotto",
-    cover: "/placeholder.svg?height=300&width=200",
+    cover: "/books/get-together.jpg",
     description:
       "A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the Innernet community.",
   },
   {
     title: "The Creative Act",
     author: "Rick Rubin",
-    cover: "/placeholder.svg?height=300&width=200",
+    cover: "/books/the-creative-act.jpg",
     description:
       "Rick Rubin's profound exploration of creativity as a spiritual practice. This book has deepened my understanding of presence, authenticity, and the creative process in both business and personal growth.",
   },
   {
     title: "Wherever You Go, There You Are",
     author: "Jon Kabat-Zinn",
-    cover: "/placeholder.svg?height=300&width=200",
+    cover: "/books/whereever-you-go.jpg",
     description:
       "Jon Kabat-Zinn's classic on mindfulness meditation. This book has been foundational in my approach to cultivating presence and awareness in daily life and coaching practice.",
   },
   {
     title: "Mindset",
     author: "Carol S. Dweck",
-    cover: "/placeholder.svg?height=300&width=200",
+    cover: "/books/mindset.jpg",
     description:
       "Carol Dweck's groundbreaking work on the power of our beliefs. This book has been essential in my coaching approach, helping founders overcome limiting patterns and embrace growth.",
   },
@@ -75,10 +75,13 @@ export function BookSection() {
               <div key={index} className="grid grid-cols-1 md:grid-cols-4 gap-8 group">
                 <div className="md:col-span-1">
                   <div className="relative aspect-[2/3] bg-earth-light overflow-hidden shadow-md">
-                    {/* Book cover placeholder */}
-                    <div className="absolute inset-0 flex items-center justify-center text-earth-muted text-xs text-center p-2">
-                      Add {book.title} cover image here
-                    </div>
+                    <Image
+                      src={book.cover}
+                      alt={book.title + ' cover'}
+                      width={200}
+                      height={300}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
                 </div>
                 <div className="md:col-span-3 space-y-4">
