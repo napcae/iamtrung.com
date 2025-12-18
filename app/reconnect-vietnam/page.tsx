@@ -248,7 +248,7 @@ export default function ReconnectVietnamPage() {
                     <li>Quiet roads, faces, landscapes</li>
                     <li>The emotional texture of the journey</li>
                   </ul>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors">
+                  <a href="https://www.instagram.com/trung.berlin/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors">
                     Follow on Instagram <ArrowRight className="ml-2 h-4 w-4" />
                   </a>
                 </div>
