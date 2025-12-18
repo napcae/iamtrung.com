@@ -326,7 +326,7 @@ export default function ReconnectVietnamPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3">🏃</span>
-                    <span>Founders Running Club HCMC</span>
+                    <span><a href="https://www.instagram.com/frcsaigon/" target="_blank" rel="noopener noreferrer" className="text-earth-accent hover:underline">Founders Running Club HCMC</a></span>
                   </li>
                 </ul>
                 <p className="text-lg text-earth-muted font-light italic">
