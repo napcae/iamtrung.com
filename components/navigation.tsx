@@ -59,6 +59,12 @@ export function Navigation() {
             >
               Podcast
             </Link>
+            <Link
+              href="/reconnect-vietnam"
+              className="text-sm font-light text-earth-accent hover:text-earth-dark transition-colors"
+            >
+              Re:Connect Vietnam
+            </Link>
             <Link href="#contact">
               <Button
                 variant="outline"
@@ -121,6 +127,13 @@ export function Navigation() {
                 onClick={closeMenu}
               >
                 Podcast
+              </Link>
+              <Link
+                href="/reconnect-vietnam"
+                className="text-xl font-light text-earth-accent hover:text-earth-dark transition-colors"
+                onClick={closeMenu}
+              >
+                Re:Connect Vietnam
               </Link>
               <Link href="#contact" onClick={closeMenu}>
                 <Button

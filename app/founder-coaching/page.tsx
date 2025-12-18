@@ -412,15 +412,15 @@ export default function FounderCoachingPage() {
 
               </div>
               <div className="flex items-center justify-center h-full">
-                <Button
-                  className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                  <Button
+                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   onClick={() => window.open('https://cal.com/trungfromberlin/intro-call', '_blank')}
-                >
-                  <span className="flex items-center">
-                    Book Your Discovery Call
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </span>
-                </Button>
+                  >
+                    <span className="flex items-center">
+                      Book Your Discovery Call
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </span>
+                  </Button>
               </div>
             </div>
           </div>
