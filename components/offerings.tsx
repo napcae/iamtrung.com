@@ -23,31 +23,27 @@ export function Offerings() {
             </div>
           </div>
           <div className="space-y-16">
-            {/* Founder Coaching */}
+            {/* The Founder Verdict */}
             <article className="space-y-6 group">
               <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
-                Founder Coaching
+                The Founder Verdict
               </h3>
               <p className="text-lg leading-relaxed font-light text-earth-muted">
-                Clear emotional roadblocks that keep you from doing the hard things you're meant for. Develop resilience
-                without burning out.
+                A 90-minute diagnostic for bootstrapped founders who sense something structural is off.
+                One session. One verdict. No dependency.
               </p>
               <ul className="space-y-3 text-earth-muted">
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Emotional intelligence for technical founders</span>
+                  <span>Decision, execution & trust load analysis</span>
                 </li>
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Presence-based leadership development</span>
-                </li>
-                <li className="flex items-baseline group cursor-pointer">
-                  <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Building resilience through vulnerability</span>
+                  <span>Clear verdict you can act on alone</span>
                 </li>
               </ul>
               <Link
-                href="/founder-coaching"
+                href="/founder-diagnostic"
                 className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors border-b border-transparent hover:border-earth-accent pb-1"
               >
                 Learn more
