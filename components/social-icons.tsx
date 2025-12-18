@@ -1,17 +1,17 @@
 import Link from "next/link"
-import { Twitter, Linkedin, Github, Mail } from "lucide-react"
+import { Instagram, Linkedin, Github, Mail } from "lucide-react"
 
 export function SocialIcons() {
   return (
     <div className="flex space-x-4">
       <Link
-        href="https://twitter.com/napcae"
+        href="https://www.instagram.com/trung.berlin/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-earth-muted hover:text-earth-accent transition-colors"
-        aria-label="Twitter"
+        aria-label="Instagram"
       >
-        <Twitter className="h-5 w-5" />
+        <Instagram className="h-5 w-5" />
       </Link>
       <Link
         href="https://www.linkedin.com/in/ctn1991/"

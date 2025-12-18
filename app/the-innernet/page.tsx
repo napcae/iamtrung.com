@@ -9,8 +9,8 @@ export default function TheInnernetPage() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
       <Metadata
-        title="The Innernet | Trung Nguyen"
-        description="A global community of values-driven founders committed to unlimited curiosity, fearless authenticity, radical resilience, and kindness in community."
+        title="The Innernet | Sustainable High Performance"
+        description="A calm, high-clarity community for leaders, operators, and emerging talent who want to grow from the inside out. Inner work for outer impact."
       />
       <Navigation />
 
@@ -32,41 +32,42 @@ export default function TheInnernetPage() {
                   The <span className="text-earth-accent">Innernet</span>
                 </h1>
 
-                <p className="text-2xl font-light italic text-earth-muted">
-                  "Build slow, build strong, build for impact."
+                <p className="text-xl md:text-2xl font-light text-earth-muted">
+                  Sustainable High Performance
                 </p>
 
-                <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light">
-                  A global community of values-driven founders committed to creating businesses that serve humanity
-                  while honoring our shared connection to each other and the planet.
+                <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light leading-relaxed">
+                  A calm, high-clarity community for leaders, operators, and emerging talent who want to grow from the inside out.
+                </p>
+
+                <p className="text-lg text-earth-muted max-w-xl font-light leading-relaxed">
+                  We help you build sustainable high performance through guided reflection, emotional clarity, and shared wisdom — <span className="text-earth-accent">inner work for outer impact.</span>
                 </p>
 
                 <div className="pt-4">
                   <Button
                     asChild
-                    variant="outline"
-                    size="lg"
-                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
+                    className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   >
-                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-                      Apply to Join
+                    <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
+                      Join Weekly Reflection Session
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </a>
                   </Button>
                 </div>
 
-                <div className="pt-8 flex items-center space-x-4 text-sm text-earth-muted">
+                <div className="pt-4 flex flex-wrap items-center gap-4 text-sm text-earth-muted">
                   <div className="flex items-center">
                     <Check className="h-4 w-4 text-earth-green mr-2" />
-                    <span>Application-Only</span>
+                    <span>Weekly Ritual</span>
                   </div>
                   <div className="flex items-center">
                     <Check className="h-4 w-4 text-earth-green mr-2" />
-                    <span>Limited to 100 Members</span>
+                    <span>30 Minutes</span>
                   </div>
                   <div className="flex items-center">
                     <Check className="h-4 w-4 text-earth-green mr-2" />
-                    <span>Values-Aligned</span>
+                    <span>Global Community</span>
                   </div>
                 </div>
               </div>
@@ -79,25 +80,25 @@ export default function TheInnernetPage() {
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
                       <p className="text-earth-muted">
-                        You're a founder who believes business can be a force for positive change in the world
+                        You're ambitious but tired of burning out to achieve your goals
                       </p>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
                       <p className="text-earth-muted">
-                        You're seeking deeper connections beyond transactional networking
+                        You want high performance without losing yourself in the process
                       </p>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
                       <p className="text-earth-muted">
-                        You want to scale your impact without sacrificing your values or wellbeing
+                        You're looking for clarity, not more tactics or hacks
                       </p>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
                       <p className="text-earth-muted">
-                        You're committed to giving back to society and nature as you grow
+                        You value depth over noise, and connection over content
                       </p>
                     </li>
                   </ul>
@@ -107,8 +108,8 @@ export default function TheInnernetPage() {
                       asChild
                       className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                     >
-                      <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-                        Apply Now (Takes 5 Minutes)
+                      <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
+                        Join the Next Session
                       </a>
                     </Button>
                   </div>
@@ -118,52 +119,63 @@ export default function TheInnernetPage() {
           </div>
         </section>
 
-        {/* Core Values */}
+        {/* Why I Built It */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Our Values</h2>
+                <h2 className="text-2xl font-light mb-8 text-earth-muted">Why I Built This</h2>
+              </div>
+
+              <div className="space-y-6">
+                <p className="text-xl font-light leading-relaxed">
+                  I built InnerNet because everywhere I looked — founders, operators, emerging talent — people were smart but stuck: high output, low clarity, and slowly burning themselves down.
+                </p>
+                <p className="text-xl font-light leading-relaxed">
+                  I wanted a space where people could learn the emotional and strategic operating systems behind performance, so they could scale their lives and companies without losing themselves.
+                </p>
+                <p className="text-xl font-light leading-relaxed text-earth-accent italic">
+                  The world doesn't need more hustle — it needs wiser operators who build from center, not chaos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Core Values */}
+        <section className="py-24 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+              <div>
+                <h2 className="text-2xl font-light mb-16 text-earth-muted">What Makes It Different</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
-                  <div className="text-earth-green mb-4">
-                    <Globe className="h-8 w-8" />
-                  </div>
-                  <h3 className="text-xl font-light">Unlimited Curiosity & Growth</h3>
+                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
+                  <h3 className="text-xl font-light text-earth-accent">Spaciousness > Pressure</h3>
                   <p className="text-earth-muted font-light">
-                    Embrace a beginner's mind, constantly learning, evolving, and improving through every experience.
+                    A space that feels like exhaling. High standards without hardness.
                   </p>
                 </div>
 
-                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
-                  <div className="text-earth-green mb-4">
-                    <Heart className="h-8 w-8" />
-                  </div>
-                  <h3 className="text-xl font-light">Fearless Authenticity</h3>
+                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
+                  <h3 className="text-xl font-light text-earth-accent">Clarity > Hacks</h3>
                   <p className="text-earth-muted font-light">
-                    Be true to yourself and others. Lead with transparency, vulnerability, and integrity.
+                    We focus on the inner loops that power everything — identity, patterns, emotional regulation.
                   </p>
                 </div>
 
-                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
-                  <div className="text-earth-green mb-4">
-                    <Clock className="h-8 w-8" />
-                  </div>
-                  <h3 className="text-xl font-light">Radical Resilience</h3>
+                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
+                  <h3 className="text-xl font-light text-earth-accent">Connection > Content</h3>
                   <p className="text-earth-muted font-light">
-                    Face challenges with determination and bounce back stronger, using setbacks as fuel for growth.
+                    Depth without heaviness. Growth without noise. Shared wisdom over solo learning.
                   </p>
                 </div>
 
-                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-background">
-                  <div className="text-earth-green mb-4">
-                    <Users className="h-8 w-8" />
-                  </div>
-                  <h3 className="text-xl font-light">Kindness in Community</h3>
+                <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
+                  <h3 className="text-xl font-light text-earth-accent">Character > Skills</h3>
                   <p className="text-earth-muted font-light">
-                    Collaborate and foster meaningful relationships. Together, we're stronger and more capable of creating lasting impact.
+                    Philosophy-backed, community-fueled personal evolution for lasting change.
                   </p>
                 </div>
               </div>
@@ -171,57 +183,47 @@ export default function TheInnernetPage() {
           </div>
         </section>
 
-        {/* What You Get */}
-        <section className="py-24 px-6 md:px-12 lg:px-24">
+        {/* The Weekly Ritual */}
+        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">What You Get</h2>
+                <h2 className="text-2xl font-light mb-8 text-earth-muted">Weekly Reflection Session</h2>
+                <p className="text-lg text-earth-muted font-light">The core ritual</p>
               </div>
 
-              <div className="space-y-12">
-                <div className="space-y-4">
-                  <h3 className="text-xl font-light">Quarterly In-Person Retreats</h3>
-                  <p className="text-earth-muted font-light">
-                    Immersive 3-day experiences in beautiful locations where we disconnect from technology to connect
-                    deeply with each other. Focused on presence, vulnerability, and authentic relationship-building.
-                  </p>
-                </div>
+              <div className="space-y-8">
+                <p className="text-xl font-light leading-relaxed">
+                  Every week, we slow down for 30 minutes to reset our minds and learn from each other.
+                </p>
 
-                <div className="space-y-4">
-                  <h3 className="text-xl font-light">Monthly Virtual Gatherings</h3>
-                  <p className="text-earth-muted font-light">
-                    Facilitated sessions focused on specific challenges and opportunities. These aren't webinars—they're
-                    intimate conversations where everyone contributes their wisdom and experience.
-                  </p>
-                </div>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="text-earth-accent mr-3">→</span>
+                    <span className="text-lg font-light">Clear mental noise</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-earth-accent mr-3">→</span>
+                    <span className="text-lg font-light">Build emotional precision</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-earth-accent mr-3">→</span>
+                    <span className="text-lg font-light">Reset the inner loop so the outer loop runs better</span>
+                  </li>
+                </ul>
 
-                <div className="space-y-4">
-                  <h3 className="text-xl font-light">Peer Accountability Groups</h3>
-                  <p className="text-earth-muted font-light">
-                    Join a small group of 6-8 founders who meet weekly to support each other's growth, celebrate wins,
-                    and work through challenges together. These groups become your trusted Innernet.
-                  </p>
-                </div>
+                <p className="text-lg text-earth-muted font-light italic">
+                  One deep prompt. No fluff. Your weekly mindset OS upgrade.
+                </p>
 
-                <div className="space-y-4">
-                  <h3 className="text-xl font-light">Access to Funding</h3>
-                  <p className="text-earth-muted font-light">
-                    Members get priority access to investment opportunities through our network of values-aligned
-                    investors. We help connect purpose-driven founders with capital that respects their vision.
-                  </p>
-                </div>
-
-                <div className="pt-8">
+                <div className="pt-4">
                   <Button
                     asChild
-                    variant="outline"
-                    size="lg"
-                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
+                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   >
-                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-                      Apply to Join
-                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
+                      Join the Next Session
+                      <ArrowRight className="ml-2 h-4 w-4" />
                     </a>
                   </Button>
                 </div>
@@ -231,7 +233,7 @@ export default function TheInnernetPage() {
         </section>
 
         {/* Testimonials */}
-        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
+        <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
@@ -285,146 +287,43 @@ export default function TheInnernetPage() {
           </div>
         </section>
 
-        {/* Membership */}
-        <section className="py-24 px-6 md:px-12 lg:px-24">
-          <div className="w-full max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-              <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Membership</h2>
-              </div>
-
-              <div className="space-y-8">
-                <div className="p-8 border border-earth-light/50 bg-earth-light">
-                  <div className="space-y-6">
-                    <h3 className="text-2xl font-light">Annual Membership</h3>
-
-                    <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-accent">$600</span>
-                      <span className="text-earth-muted ml-2">USD / year</span>
-                    </div>
-
-                    <ul className="space-y-4 pt-4">
-                      <li className="flex items-start">
-                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">12 monthly virtual gatherings</p>
-                      </li>
-                      <li className="flex items-start">
-                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">Priority access to investment opportunities</p>
-                      </li>
-                      <li className="flex items-start">
-                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">Private community platform access</p>
-                      </li>
-                    </ul>
-
-                    <div className="pt-6">
-                      <Button
-                        asChild
-                        className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
-                      >
-                        <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-                          Apply Now (Takes 5 Minutes)
-                        </a>
-                      </Button>
-                    </div>
-
-                    <p className="text-xs text-earth-muted text-center pt-4">
-                      Limited to 100 members. Application required.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="space-y-6">
-                  <h3 className="text-xl font-light">Our Commitment</h3>
-                  <p className="text-earth-muted font-light">
-                    10% of all membership fees go directly to our Impact Fund, which invests in underrepresented
-                    founders building solutions for pressing social and environmental challenges.
-                  </p>
-                </div>
-
-                <div className="pt-8">
-                  <Button
-                    asChild
-                    variant="outline"
-                    size="lg"
-                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
-                  >
-                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-                      Apply to Join
-                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    </a>
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Application Process */}
+        {/* Stay Connected */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Application Process</h2>
+                <h2 className="text-2xl font-light mb-8 text-earth-muted">Stay Connected</h2>
+                <p className="text-lg text-earth-muted font-light">No spam. No pressure. Just honest conversations.</p>
               </div>
 
-              <div className="space-y-16">
-                <div className="space-y-8">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-earth-green/10 flex items-center justify-center text-earth-green mr-6 flex-shrink-0">
-                      1
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-light">Submit Application</h3>
-                      <p className="text-earth-muted font-light">
-                        Complete a brief application sharing your story, values, and why you want to join The Inner
-                        Circle. This takes about 5 minutes.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="space-y-8">
+                <p className="text-xl font-light leading-relaxed">
+                  If this resonates and you want to go deeper:
+                </p>
 
-                <div className="space-y-8">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-earth-green/10 flex items-center justify-center text-earth-green mr-6 flex-shrink-0">
-                      2
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-light">Values Alignment Call</h3>
-                      <p className="text-earth-muted font-light">
-                        If your application resonates, we'll schedule a 30-minute call to explore alignment and answer
-                        any questions. This is a two-way conversation to ensure mutual fit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <ul className="space-y-4">
+                  <li className="flex items-start text-lg font-light">
+                    <span className="text-earth-green mr-3">🟢</span>
+                    <span><a href="https://chat.whatsapp.com/F7bJ8CNxWqYIhZgNSjyOIv" target="_blank" rel="noopener noreferrer" className="text-earth-accent hover:underline">WhatsApp community</a> — low-noise, high-signal updates</span>
+                  </li>
+                  <li className="flex items-start text-lg font-light">
+                    <span className="mr-3">✉️</span>
+                    <span><a href="https://theuncomfortzone.substack.com" target="_blank" rel="noopener noreferrer" className="text-earth-accent hover:underline">The Uncomfort Zone</a> — reflections on work, identity, and alignment</span>
+                  </li>
+                </ul>
 
-                <div className="space-y-8">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-earth-green/10 flex items-center justify-center text-earth-green mr-6 flex-shrink-0">
-                      3
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-light">Welcome & Onboarding</h3>
-                      <p className="text-earth-muted font-light">
-                        Once accepted, you'll receive a welcome package and be paired with a current member who will
-                        help you integrate into the community and make meaningful connections from day one.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <p className="text-xl font-light text-earth-accent">
+                  👉 Join if it feels right
+                </p>
 
-                <div className="pt-8">
+                <div className="pt-4">
                   <Button
                     asChild
-                    variant="outline"
-                    size="lg"
-                    className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
+                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   >
-                    <a href="https://cal.com/trungfromberlin/intro-call?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-                      Start Your Application
-                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
+                      Join the Weekly Reflection
+                      <ArrowRight className="ml-2 h-4 w-4" />
                     </a>
                   </Button>
                 </div>
@@ -452,9 +351,6 @@ export default function TheInnernetPage() {
               </Link>
               <Link href="/#offerings" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Offerings
-              </Link>
-              <Link href="/#podcast" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Podcast
               </Link>
               <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Contact

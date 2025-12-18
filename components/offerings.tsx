@@ -55,27 +55,27 @@ export function Offerings() {
               </Link>
             </article>
 
-            {/* The Inner Circle */}
+            {/* The Innernet */}
             <article className="space-y-6 group">
               <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
                 The Innernet
               </h3>
               <p className="text-earth-muted font-light">
-                Join a curated community of values-driven founders committed to unlimited curiosity, fearless authenticity,
-                radical resilience, and kindness in community.
+                A calm, high-clarity community for leaders and emerging talent who want sustainable high performance.
+                Inner work for outer impact.
               </p>
               <ul className="space-y-3 text-earth-muted">
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Presence-focused experiences and retreats</span>
+                  <span>Weekly reflection sessions</span>
                 </li>
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Peer learning and accountability groups</span>
+                  <span>Emotional clarity & mental reset</span>
                 </li>
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Access to funding for impactful businesses</span>
+                  <span>Global community of aligned minds</span>
                 </li>
               </ul>
               <Link

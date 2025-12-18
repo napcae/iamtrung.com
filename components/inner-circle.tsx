@@ -5,12 +5,6 @@ import { Button } from "./ui/button"
 import Image from "next/image"
 
 export function InnerCircle() {
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Implement newsletter subscription
-    alert("Newsletter subscription coming soon!");
-  };
-
   return (
     <AnimatedSection
       id="inner-circle"
@@ -20,6 +14,7 @@ export function InnerCircle() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-2xl font-light text-earth-accent mb-4">The Innernet</h2>
+            <p className="text-lg text-earth-muted font-light mb-8">Sustainable High Performance</p>
             <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
               <Image
                 src="./inner_circle_gathering.jpeg"
@@ -32,52 +27,65 @@ export function InnerCircle() {
           </div>
           <div className="space-y-8">
             <h3 className="text-3xl font-light">
-              A Global Community of <span className="text-earth-accent">Values-Driven</span> Founders
+              A Calm, High-Clarity Community for <span className="text-earth-accent">Sustainable Growth</span>
             </h3>
 
             <p className="text-xl leading-relaxed font-light">
-              The Innernet is more than a network—it's a carefully curated ecosystem where genuine connection
-              happens naturally, where vulnerability is strength, and where your success is measured by your impact.
+              A space for leaders, operators, and emerging talent who want to grow from the inside out.
+              We help you build sustainable high performance through guided reflection, emotional clarity, and shared wisdom.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
-              <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Unlimited Curiosity & Growth</h4>
-                <p className="text-earth-muted font-light">
-                  Embrace a beginner's mind, constantly learning, evolving, and improving through every experience.
+            <p className="text-lg leading-relaxed font-light text-earth-muted italic">
+              Inner work for outer impact.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+              <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
+                <h4 className="text-lg font-light text-earth-accent">Spaciousness > Pressure</h4>
+                <p className="text-earth-muted font-light text-sm">
+                  High standards without hardness. A space that feels like exhaling.
                 </p>
               </div>
 
-              <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Fearless Authenticity</h4>
-                <p className="text-earth-muted font-light">
-                  Be true to yourself and others. Lead with transparency, vulnerability, and integrity.
+              <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
+                <h4 className="text-lg font-light text-earth-accent">Clarity > Hacks</h4>
+                <p className="text-earth-muted font-light text-sm">
+                  Focus on the inner loops that power everything.
                 </p>
               </div>
 
-              <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Radical Resilience</h4>
-                <p className="text-earth-muted font-light">
-                  Face challenges with determination and bounce back stronger, using setbacks as fuel for growth.
+              <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
+                <h4 className="text-lg font-light text-earth-accent">Connection > Content</h4>
+                <p className="text-earth-muted font-light text-sm">
+                  Depth without heaviness. Growth without noise.
                 </p>
               </div>
 
-              <div className="space-y-4 p-6 border border-earth-light bg-earth-background/50">
-                <h4 className="text-xl font-light text-earth-accent">Kindness in Community</h4>
-                <p className="text-earth-muted font-light">
-                  Collaborate and foster meaningful relationships. Together, we're stronger and more capable of creating lasting impact.
+              <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
+                <h4 className="text-lg font-light text-earth-accent">Character > Skills</h4>
+                <p className="text-earth-muted font-light text-sm">
+                  Philosophy-backed personal evolution.
                 </p>
               </div>
             </div>
 
-            <div className="pt-8">
+            <div className="pt-8 flex flex-wrap gap-4">
+              <Button
+                asChild
+                className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+              >
+                <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
+                  Join Weekly Reflection
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
               <Link href="/the-innernet">
                 <Button
                   variant="outline"
                   size="lg"
                   className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                 >
-                  Join The Innernet
+                  Learn More
                 </Button>
               </Link>
             </div>
