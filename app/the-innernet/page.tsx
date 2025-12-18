@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Check, ArrowLeft, Users, Globe, Heart, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
@@ -125,6 +126,14 @@ export default function TheInnernetPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
                 <h2 className="text-2xl font-light mb-8 text-earth-muted">Why I Built This</h2>
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30 mt-8">
+                  <Image
+                    src="/innernet/reflection.jpg"
+                    alt="Moment of reflection and clarity"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
 
               <div className="space-y-6">
@@ -190,6 +199,14 @@ export default function TheInnernetPage() {
               <div>
                 <h2 className="text-2xl font-light mb-8 text-earth-muted">Weekly Reflection Session</h2>
                 <p className="text-lg text-earth-muted font-light">The core ritual</p>
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30 mt-8">
+                  <Image
+                    src="/innernet/community.jpg"
+                    alt="Community gathering and connection"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
 
               <div className="space-y-8">
