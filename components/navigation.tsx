@@ -38,23 +38,23 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#about" className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors">
+            <Link href="/#about" className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors">
               About
             </Link>
             <Link
-              href="#mission"
+              href="/#mission"
               className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors"
             >
               Mission
             </Link>
             <Link
-              href="#offerings"
+              href="/#offerings"
               className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors"
             >
               Offerings
             </Link>
             <Link
-              href="#podcast"
+              href="/#podcast"
               className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors"
             >
               Podcast
@@ -65,7 +65,7 @@ export function Navigation() {
             >
               Re:Connect Vietnam
             </Link>
-            <Link href="#contact">
+            <Link href="/#contact">
               <Button
                 variant="outline"
                 size="sm"
@@ -101,28 +101,28 @@ export function Navigation() {
           >
             <nav className="flex flex-col p-6 space-y-8">
               <Link
-                href="#about"
+                href="/#about"
                 className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
                 onClick={closeMenu}
               >
                 About
               </Link>
               <Link
-                href="#mission"
+                href="/#mission"
                 className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
                 onClick={closeMenu}
               >
                 Mission
               </Link>
               <Link
-                href="#offerings"
+                href="/#offerings"
                 className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
                 onClick={closeMenu}
               >
                 Offerings
               </Link>
               <Link
-                href="#podcast"
+                href="/#podcast"
                 className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
                 onClick={closeMenu}
               >
@@ -135,7 +135,7 @@ export function Navigation() {
               >
                 Re:Connect Vietnam
               </Link>
-              <Link href="#contact" onClick={closeMenu}>
+              <Link href="/#contact" onClick={closeMenu}>
                 <Button
                   variant="outline"
                   size="lg"
