@@ -11,13 +11,13 @@ export default function FounderCoachingPage() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
       <Metadata
-        title="Founder Coaching | Trung Nguyen"
-        description="Clear emotional roadblocks that keep you from doing the hard things you're meant for. Develop resilience without burning out."
+        title="Founder Bottleneck Diagnostic | Trung Nguyen"
+        description="I find the real bottleneck slowing your startup's execution. One 90-minute session. Not coaching. Not advice. One answer: what's actually in the way, and why."
       />
       <Navigation />
 
       <main className="flex-1">
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="py-32 px-6 md:px-12 lg:px-24 min-h-[80vh] flex items-center">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -31,12 +31,14 @@ export default function FounderCoachingPage() {
                 </Link>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
-                  Clear the <span className="text-earth-clay">Roadblocks</span> to Your Greatest Work
+                  I find what&apos;s slowing your startup&apos;s execution.{" "}
+                  <span className="text-earth-clay">In 90 minutes.</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light">
-                  Founder coaching that helps high-achievers overcome emotional barriers—so you can do the hard things
-                  you're meant for, without burning out or losing yourself in the process.
+                  Most founders think they have a team problem, a process problem, or a focus problem.
+                  Usually it&apos;s none of those. One structured session. One answer: what&apos;s
+                  actually in the way — and why.
                 </p>
 
                 <div className="pt-4">
@@ -46,63 +48,55 @@ export default function FounderCoachingPage() {
                     className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
-                    Book a Discovery Call
+                    Book a Diagnostic Session
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Button>
                 </div>
 
-                <div className="pt-8 flex items-center space-x-4 text-sm text-earth-muted">
+                <div className="pt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-earth-muted">
                   <div className="flex items-center">
                     <Check className="h-4 w-4 text-earth-green mr-2" />
-                    <span>Limited Spots</span>
+                    <span>90 minutes. Time-boxed.</span>
                   </div>
                   <div className="flex items-center">
                     <Check className="h-4 w-4 text-earth-green mr-2" />
-                    <span>Application Required</span>
+                    <span>&euro;750. One session.</span>
                   </div>
                   <div className="flex items-center">
                     <Check className="h-4 w-4 text-earth-green mr-2" />
-                    <span>100% Confidential</span>
+                    <span>Not coaching. Not advice.</span>
                   </div>
                 </div>
               </div>
 
               <div className="bg-earth-light p-8 border border-earth-light/50">
-                {/* Photo placeholder for warmth */}
-                <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                    <p className="text-sm">Add a photo of you coaching a client</p>
-                  </div>
-                </div>
                 <div className="space-y-6">
-                  <h3 className="text-2xl font-light">Is This You?</h3>
+                  <h3 className="text-xl font-light text-earth-muted">Your company is moving. Nothing is landing.</h3>
 
-                  <ul className="space-y-4">
+                  <ul className="space-y-5">
                     <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <p className="text-earth-muted">
-                        You're a high-achieving founder who's built something impressive, but you're hitting emotional
-                        walls that technical skills can't solve
+                      <div className="w-1.5 h-1.5 rounded-full bg-earth-clay mt-2.5 mr-3 flex-shrink-0" />
+                      <p className="text-earth-muted font-light">
+                        Your team feels busy but releases keep slipping — and you can&apos;t explain why
                       </p>
                     </li>
                     <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <p className="text-earth-muted">
-                        You're struggling with imposter syndrome, decision paralysis, or perfectionism that's keeping
-                        you from your next level
+                      <div className="w-1.5 h-1.5 rounded-full bg-earth-clay mt-2.5 mr-3 flex-shrink-0" />
+                      <p className="text-earth-muted font-light">
+                        Decisions pile up on you. Engineers wait on your sign-off for things that should be obvious
                       </p>
                     </li>
                     <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <p className="text-earth-muted">
-                        You want to scale your impact without sacrificing your wellbeing or compromising your values
+                      <div className="w-1.5 h-1.5 rounded-full bg-earth-clay mt-2.5 mr-3 flex-shrink-0" />
+                      <p className="text-earth-muted font-light">
+                        You just raised or just started spending real money — and you can feel the
+                        expensive mistakes coming before you make them
                       </p>
                     </li>
                     <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <p className="text-earth-muted">
-                        You're seeking a trusted guide who's walked the founder path and can help you navigate its
-                        emotional complexities
+                      <div className="w-1.5 h-1.5 rounded-full bg-earth-clay mt-2.5 mr-3 flex-shrink-0" />
+                      <p className="text-earth-muted font-light">
+                        You&apos;ve tried fixing it with process, with hiring, with more work. The drag is still there.
                       </p>
                     </li>
                   </ul>
@@ -112,7 +106,7 @@ export default function FounderCoachingPage() {
                       className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                       onClick={() => (window.location.href = "#contact")}
                     >
-                      Apply Now (Free Discovery Call)
+                      Book a Diagnostic Session
                     </Button>
                   </div>
                 </div>
@@ -121,58 +115,116 @@ export default function FounderCoachingPage() {
           </div>
         </section>
 
-        {/* How It Works */}
+        {/* The Founder Verdict */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">The Process</h2>
+                <h2 className="text-2xl font-light mb-4 text-earth-muted">The Founder Verdict</h2>
+                <p className="text-earth-muted font-light max-w-xs">
+                  What founders say after the session — in their words, not mine.
+                </p>
               </div>
 
-              <div className="space-y-16">
-                <div className="space-y-8">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-earth-green/10 flex items-center justify-center text-earth-green mr-6 flex-shrink-0">
-                      1
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-light">Discovery Call</h3>
-                      <p className="text-earth-muted font-light">
-                        A 30-minute conversation to understand your unique challenges, goals, and whether we're the
-                        right fit for each other. No pressure, no obligations—just honest exploration.
-                      </p>
-                    </div>
-                  </div>
+              <div className="space-y-12">
+                <div className="space-y-4 border-l-2 border-earth-clay pl-6">
+                  <blockquote className="text-xl font-light leading-relaxed">
+                    &ldquo;It&apos;s like going to the doctor to get a scan you&apos;ve never had before —
+                    and you find out about problems you didn&apos;t know you had.&rdquo;
+                  </blockquote>
+                  <footer className="space-y-1">
+                    <cite className="font-light not-italic">William Burden</cite>
+                    <p className="text-sm text-earth-muted">Founder, Elqo</p>
+                    <p className="text-sm text-earth-muted">
+                      Result: 50k landing page views in 6 months &mdash; 25% CTA click-through,
+                      80% account creation rate.
+                    </p>
+                  </footer>
                 </div>
 
-                <div className="space-y-8">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-earth-green/10 flex items-center justify-center text-earth-green mr-6 flex-shrink-0">
-                      2
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-light">Deep Dive Session</h3>
-                      <p className="text-earth-muted font-light">
-                        A 90-minute intensive where we map your emotional landscape, identify core patterns, and create
-                        a personalized roadmap for transformation. You'll leave with immediate action steps.
-                      </p>
-                    </div>
-                  </div>
+                <div className="space-y-4 border-l-2 border-earth-clay pl-6">
+                  <blockquote className="text-xl font-light leading-relaxed">
+                    &ldquo;Our chat brought the clarity I needed — I actually just made some immediate
+                    changes to how I run Screate.&rdquo;
+                  </blockquote>
+                  <footer className="space-y-1">
+                    <cite className="font-light not-italic">Hien Nguyen</cite>
+                    <p className="text-sm text-earth-muted">Founder, Screate</p>
+                  </footer>
                 </div>
 
-                <div className="space-y-8">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-earth-green/10 flex items-center justify-center text-earth-green mr-6 flex-shrink-0">
-                      3
-                    </div>
-                    <div className="space-y-4">
-                      <h3 className="text-xl font-light">Ongoing Support</h3>
-                      <p className="text-earth-muted font-light">
-                        Bi-weekly 60-minute sessions focused on implementation, accountability, and navigating
-                        challenges as they arise. Plus, unlimited Telegram access for time-sensitive situations.
-                      </p>
-                    </div>
-                  </div>
+                <div className="space-y-4 border-l-2 border-earth-clay pl-6">
+                  <blockquote className="text-xl font-light leading-relaxed">
+                    &ldquo;You know that way you already know something, but it hits when someone says
+                    it to you straight? Sometimes you just need to take your medicine.&rdquo;
+                  </blockquote>
+                  <footer className="space-y-1">
+                    <cite className="font-light not-italic">Johny Harris</cite>
+                    <p className="text-sm text-earth-muted">Founder, Dai Viet Rugby</p>
+                  </footer>
+                </div>
+
+                <div className="space-y-4 border-l-2 border-earth-clay pl-6">
+                  <blockquote className="text-xl font-light leading-relaxed">
+                    &ldquo;Trung was super helpful whenever I was facing an important decision around
+                    my startup. His calm, clear perspective helped me see things more clearly and move
+                    forward with more confidence. You have everything to gain.&rdquo;
+                  </blockquote>
+                  <footer className="space-y-1">
+                    <cite className="font-light not-italic">Erik Fiala</cite>
+                    <p className="text-sm text-earth-muted">Founder</p>
+                  </footer>
+                </div>
+
+                <div className="space-y-4 border-l-2 border-earth-clay pl-6">
+                  <blockquote className="text-xl font-light leading-relaxed">
+                    &ldquo;Someone who can help you get unstuck — with a kind heart but a firm hand.&rdquo;
+                  </blockquote>
+                  <footer className="space-y-1">
+                    <cite className="font-light not-italic">Tuong Tran</cite>
+                    <p className="text-sm text-earth-muted">Founder</p>
+                  </footer>
+                </div>
+
+                <p className="text-sm text-earth-muted italic">
+                  Shared with permission. Sessions are confidential by default.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* What You Leave With */}
+        <section className="py-24 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+              <div>
+                <h2 className="text-2xl font-light mb-16 text-earth-muted">What you leave with</h2>
+              </div>
+
+              <div className="space-y-12">
+                <div className="space-y-3">
+                  <h3 className="text-xl font-light">The actual bottleneck — named</h3>
+                  <p className="text-earth-muted font-light">
+                    Not the surface complaint you walked in with. The structural cause making everything
+                    downstream harder than it needs to be. Named clearly, so you can act on it.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-light">1&ndash;3 real priorities</h3>
+                  <p className="text-earth-muted font-light">
+                    Not a framework. Not a list of things to explore. Three things — at most — that
+                    actually move the constraint. Everything else comes off the table.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-light">A clearer decision structure</h3>
+                  <p className="text-earth-muted font-light">
+                    For the next 30&ndash;60 days. So your team stops waiting on you for every call —
+                    and you stop being the bottleneck in your own company.
+                  </p>
                 </div>
 
                 <div className="pt-8">
@@ -182,7 +234,7 @@ export default function FounderCoachingPage() {
                     className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
-                    Book Your Discovery Call
+                    Book a Diagnostic Session
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Button>
                 </div>
@@ -191,48 +243,49 @@ export default function FounderCoachingPage() {
           </div>
         </section>
 
-        {/* Testimonials */}
-        <section className="py-24 px-6 md:px-12 lg:px-24">
+        {/* What This Is Not */}
+        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Transformations</h2>
-                {/* Photo placeholder for warmth */}
-                <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                    <p className="text-sm">Add a photo of a client transformation moment</p>
-                  </div>
-                </div>
+                <h2 className="text-2xl font-light mb-16 text-earth-muted">What this is not</h2>
               </div>
 
-              <div className="space-y-16">
-                <div className="space-y-6 border-l-2 border-earth-green pl-6">
-                  <blockquote className="text-xl font-light leading-relaxed">
-                    "Working with Trung helped me break through the emotional barriers that were holding my company
-                    back. I went from constant overwhelm to focused leadership, and our team culture has completely
-                    transformed."
-                  </blockquote>
-                  <footer>
-                    <cite className="font-light">Sarah Chen</cite>
-                    <p className="text-sm text-earth-muted">CEO, Growth-stage SaaS</p>
-                  </footer>
+              <div className="space-y-6">
+                <div className="pb-5 border-b border-earth-light/80">
+                  <p className="font-light">
+                    <span className="text-earth-dark">Not coaching.</span>{" "}
+                    <span className="text-earth-muted">
+                      No ongoing relationship. No weekly accountability structure. I give you the
+                      diagnosis — you run with it.
+                    </span>
+                  </p>
                 </div>
-
-                <div className="space-y-6 border-l-2 border-earth-green pl-6">
-                  <blockquote className="text-xl font-light leading-relaxed">
-                    "Trung's approach combines technical understanding with emotional intelligence in a way I've never
-                    experienced before. He helped me see how my perfectionism was actually sabotaging our product
-                    launches."
-                  </blockquote>
-                  <footer>
-                    <cite className="font-light">Michael Rodriguez</cite>
-                    <p className="text-sm text-earth-muted">Founder & CTO, AI Platform</p>
-                  </footer>
+                <div className="pb-5 border-b border-earth-light/80">
+                  <p className="font-light">
+                    <span className="text-earth-dark">Not advice.</span>{" "}
+                    <span className="text-earth-muted">
+                      I&apos;m not here to tell you what I&apos;d do. I&apos;m here to tell you
+                      what&apos;s actually slowing you — which is different, and usually more useful.
+                    </span>
+                  </p>
                 </div>
-
-                <div className="pt-8">
-                  <p className="text-earth-muted italic">
-                    "My coaching is 100% confidential. These testimonials are shared with explicit permission."
+                <div className="pb-5 border-b border-earth-light/80">
+                  <p className="font-light">
+                    <span className="text-earth-dark">Not open-ended.</span>{" "}
+                    <span className="text-earth-muted">
+                      90 minutes. One specific output. Not a strategy call that ends with
+                      &ldquo;here are a few things to think about.&rdquo;
+                    </span>
+                  </p>
+                </div>
+                <div>
+                  <p className="font-light">
+                    <span className="text-earth-dark">Not for early idea stage.</span>{" "}
+                    <span className="text-earth-muted">
+                      If you don&apos;t yet have a team or product in motion, this isn&apos;t the
+                      right moment. Come back when you&apos;re running something real.
+                    </span>
                   </p>
                 </div>
               </div>
@@ -241,39 +294,46 @@ export default function FounderCoachingPage() {
         </section>
 
         {/* Investment */}
-        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
+        <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Investment</h2>
+                <h2 className="text-2xl font-light mb-8 text-earth-muted">The investment</h2>
+                <div className="space-y-4 text-earth-muted font-light">
+                  <p>One wrong hire: 3&ndash;6 months and &euro;30,000+ gone.</p>
+                  <p>One month of misaligned execution: &euro;15,000&ndash;40,000 in salary burned.</p>
+                  <p>One week of your engineers waiting on a founder decision: &euro;2,000&ndash;4,000.</p>
+                  <p className="text-earth-dark font-normal pt-4">This session: &euro;750.</p>
+                </div>
               </div>
 
               <div className="space-y-8">
-                <div className="p-8 border border-earth-light/50 bg-earth-background">
+                <div className="p-8 border border-earth-light/50 bg-earth-light">
                   <div className="space-y-6">
-                    <h3 className="text-2xl font-light">3-Month Intensive</h3>
+                    <h3 className="text-2xl font-light">90-Minute Founder Bottleneck Diagnostic</h3>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-clay">$9,000</span>
-                      <span className="text-earth-muted ml-2">USD</span>
+                      <span className="text-4xl font-light text-earth-clay">&euro;750</span>
                     </div>
 
                     <ul className="space-y-4 pt-4">
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">90-minute deep dive session</p>
+                        <p className="text-earth-muted">90-minute structured diagnostic session</p>
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">6 bi-weekly 60-minute coaching sessions</p>
+                        <p className="text-earth-muted">The primary bottleneck named — not the surface complaint</p>
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">Unlimited Telegram access</p>
+                        <p className="text-earth-muted">1&ndash;3 real priorities for the next 30&ndash;60 days</p>
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <p className="text-earth-muted">Personalized resources and exercises</p>
+                        <p className="text-earth-muted">
+                          A clearer decision structure — so you stop being the bottleneck
+                        </p>
                       </li>
                     </ul>
 
@@ -282,34 +342,15 @@ export default function FounderCoachingPage() {
                         className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                         onClick={() => (window.location.href = "#contact")}
                       >
-                        Apply Now (Free Discovery Call)
+                        Book a Diagnostic Session
                       </Button>
                     </div>
 
                     <p className="text-xs text-earth-muted text-center pt-4">
-                      Payment plans available. Only 3 spots open each month.
+                      I&apos;ll ask one qualifying question first. If we&apos;re a fit, I&apos;ll send
+                      you a booking link.
                     </p>
                   </div>
-                </div>
-
-                <div className="space-y-6">
-                  <h3 className="text-xl font-light">Money-Back Guarantee</h3>
-                  <p className="text-earth-muted font-light">
-                    If after our first two sessions you don't feel this is the right fit, I'll refund your investment in
-                    full. No questions asked. I only want to work with founders I can truly help.
-                  </p>
-                </div>
-
-                <div className="pt-8">
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
-                    onClick={() => (window.location.href = "#contact")}
-                  >
-                    Book Your Discovery Call
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
                 </div>
               </div>
             </div>
@@ -317,47 +358,47 @@ export default function FounderCoachingPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-24 px-6 md:px-12 lg:px-24">
+        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">FAQ</h2>
+                <h2 className="text-2xl font-light mb-16 text-earth-muted">Common questions</h2>
               </div>
 
               <div className="space-y-12">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">How is this different from other coaching?</h3>
+                  <h3 className="text-xl font-light">How is this different from consulting or coaching?</h3>
                   <p className="text-earth-muted font-light">
-                    Most coaching focuses on strategies and tactics. I focus on the emotional barriers preventing you
-                    from implementing what you already know. As a founder myself, I understand the unique pressures you
-                    face and bring both technical expertise and emotional intelligence to our work.
+                    Consultants tell you what to do. Coaches follow up weekly. I do neither. I run a
+                    structured diagnostic to find the real constraint — not the symptom you came in
+                    with. The output is one answer, not a roadmap.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">How do I know if I'm ready for this?</h3>
+                  <h3 className="text-xl font-light">What if I already know what the problem is?</h3>
                   <p className="text-earth-muted font-light">
-                    You're ready if you've hit a ceiling in your growth that more knowledge or harder work can't break
-                    through. If you're sensing that the next level requires internal transformation, not just external
-                    strategies, this work is for you.
+                    Most founders do. Most are right about the symptom and wrong about the cause. If
+                    your diagnosis is correct, the session confirms it fast — and we spend the
+                    remaining time on what to actually do about it.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">What results can I expect?</h3>
+                  <h3 className="text-xl font-light">Who is this for?</h3>
                   <p className="text-earth-muted font-light">
-                    Clients typically experience clearer decision-making, reduced anxiety, improved leadership presence,
-                    better boundaries, and the ability to take bold action without the paralysis of perfectionism or
-                    imposter syndrome.
+                    Founders running 3&ndash;10 person teams who feel like their company is moving
+                    but nothing is landing. Founders who just raised or just started spending real
+                    money and want to avoid expensive mistakes before they make them.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">Is this therapy?</h3>
+                  <h3 className="text-xl font-light">What happens after the session?</h3>
                   <p className="text-earth-muted font-light">
-                    No. While our work addresses emotional patterns, it's focused specifically on your growth as a
-                    founder and leader. I'm not a therapist, and this isn't a substitute for mental health treatment if
-                    that's what you need.
+                    You run with the output. If it&apos;s clear the bottleneck needs faster structural
+                    removal than you can manage alone, we can discuss a Sprint engagement — but
+                    that&apos;s optional and never assumed.
                   </p>
                 </div>
 
@@ -368,7 +409,7 @@ export default function FounderCoachingPage() {
                     className="group border-earth-clay text-earth-clay hover:bg-earth-clay/10 hover:border-earth-clay rounded-none px-8 py-6 transition-all duration-300"
                     onClick={() => (window.location.href = "#contact")}
                   >
-                    Book Your Discovery Call
+                    Book a Diagnostic Session
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Button>
                 </div>
@@ -377,26 +418,26 @@ export default function FounderCoachingPage() {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section id="contact" className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
+        {/* Contact */}
+        <section id="contact" className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Get Started</h2>
-                {/* Photo placeholder for warmth */}
-                <div className="aspect-[4/3] relative bg-earth-light/50 rounded-lg overflow-hidden border border-earth-light/30 mb-8">
-                  <div className="absolute inset-0 flex items-center justify-center text-earth-muted">
-                    <p className="text-sm">Add a warm, inviting photo here</p>
-                  </div>
-                </div>
-                <p className="text-xl font-light">
-                  Ready to break through your emotional roadblocks and do your greatest work? Let's start with a free
-                  discovery call to explore how we might work together.
+                <h2 className="text-2xl font-light mb-8 text-earth-muted">Book a session</h2>
+                <p className="text-xl font-light mb-6">
+                  Send a message and I&apos;ll ask one qualifying question. If we&apos;re a fit,
+                  I&apos;ll send a booking link. If not, I&apos;ll tell you honestly — before you
+                  spend anything.
+                </p>
+                <p className="text-earth-muted font-light">
+                  Or DM me{" "}
+                  <span className="text-earth-dark font-normal">&ldquo;diagnostic&rdquo;</span>{" "}
+                  directly on LinkedIn.
                 </p>
               </div>
               <div>
                 <form onSubmit={(e) => e.preventDefault()} className="space-y-8">
-                  <div className="space-y-2 group">
+                  <div className="space-y-2">
                     <input
                       type="text"
                       name="name"
@@ -419,7 +460,7 @@ export default function FounderCoachingPage() {
                   <div className="space-y-2">
                     <textarea
                       name="message"
-                      placeholder="Tell me about your challenges"
+                      placeholder="What's the problem costing you right now — in time, money, or momentum?"
                       rows={4}
                       required
                       className="w-full border-0 border-b border-earth-light/50 rounded-none bg-transparent px-0 py-2 text-earth-dark placeholder:text-earth-muted focus:outline-none focus:border-earth-clay transition-colors duration-300 resize-none"
@@ -431,7 +472,7 @@ export default function FounderCoachingPage() {
                     className="bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   >
                     <span className="flex items-center">
-                      Book Your Discovery Call
+                      Book a Diagnostic Session
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </span>
                   </Button>
@@ -442,13 +483,12 @@ export default function FounderCoachingPage() {
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="py-12 px-6 md:px-12 lg:px-24 border-t border-earth-light/50">
         <div className="w-full max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="mb-6 md:mb-0">
               <p className="text-sm text-earth-muted">
-                © {new Date().getFullYear()} Trung Nguyen. All rights reserved.
+                &copy; {new Date().getFullYear()} Trung Nguyen. All rights reserved.
               </p>
             </div>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
