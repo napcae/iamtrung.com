@@ -6,7 +6,7 @@ import { SocialIcons } from "@/components/social-icons"
 
 export const metadata = {
   title: "The Founder Verdict | Trung Nguyen",
-  description: "A 90-minute diagnostic for founders with teams. One session. One verdict. No dependency.",
+  description: "A 90-minute execution bottleneck diagnostic for founders with teams. One session. One verdict. No dependency.",
 }
 
 export default function FounderDiagnosticPage() {
@@ -173,7 +173,7 @@ export default function FounderDiagnosticPage() {
               <div>
                 <h2 className="text-2xl font-light mb-8 text-earth-accent">How it works</h2>
                 <p className="text-xl font-light mb-6">
-                  A 90-minute diagnostic session.
+                  A 90-minute execution bottleneck diagnostic.
                 </p>
                 <p className="text-lg font-light text-earth-muted mb-8">
                   No coaching. No frameworks for the sake of frameworks. No long-term commitment.
@@ -262,7 +262,7 @@ export default function FounderDiagnosticPage() {
             </div>
 
             <p className="text-2xl font-light">
-              This session: <span className="text-earth-accent">&euro;1,000.</span>
+              This session: <span className="text-earth-accent">&euro;750.</span>
             </p>
             <p className="text-earth-muted font-light mt-3">
               90 minutes. No follow-up required. A verdict you can act on alone.
@@ -326,7 +326,7 @@ export default function FounderDiagnosticPage() {
             </h2>
 
             <p className="text-xl text-earth-muted font-light mb-6">
-              The session is 90 minutes. &euro;1,000. No follow-up required.
+              90 minutes. &euro;750. No follow-up required.
             </p>
 
             <p className="text-earth-muted font-light mb-8 max-w-xl mx-auto">
