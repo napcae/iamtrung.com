@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
 
 export const metadata = {
-  title: "The Founder Verdict | Trung Nguyen",
+  title: "Founder Bottleneck Diagnostic | Trung Nguyen",
   description: "A 90-minute execution bottleneck diagnostic for founders with teams. One session. One verdict. No dependency.",
 }
 
