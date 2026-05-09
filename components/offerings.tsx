@@ -23,10 +23,10 @@ export function Offerings() {
             </div>
           </div>
           <div className="space-y-16">
-            {/* The Founder Verdict */}
+            {/* Founder Bottleneck Diagnostic */}
             <article className="space-y-6 group">
               <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
-                The Founder Verdict
+                Founder Bottleneck Diagnostic
               </h3>
               <p className="text-lg leading-relaxed font-light text-earth-muted">
                 A 90-minute diagnostic for bootstrapped founders who sense something structural is off.
@@ -82,38 +82,6 @@ export function Offerings() {
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </article>
-
-            {/* Overcoming Procrastination Workshop */}
-            {/* <article className="space-y-6 group">
-              <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
-                Overcoming Procrastination Workshop
-              </h3>
-              <p className="text-lg leading-relaxed font-light text-earth-muted">
-                A 3-hour workshop that helps you break through procrastination patterns and take decisive action. Stop
-                planning, start doing.
-              </p>
-              <ul className="space-y-3 text-earth-muted">
-                <li className="flex items-baseline group cursor-pointer">
-                  <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Identify your unique procrastination triggers</span>
-                </li>
-                <li className="flex items-baseline group cursor-pointer">
-                  <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Learn practical techniques for immediate action</span>
-                </li>
-                <li className="flex items-baseline group cursor-pointer">
-                  <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
-                  <span>Create a personalized system for sustained momentum</span>
-                </li>
-              </ul>
-              <Link
-                href="/procrastination-workshop"
-                className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors border-b border-transparent hover:border-earth-accent pb-1"
-              >
-                Learn more
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </article> */}
           </div>
         </div>
       </div>
