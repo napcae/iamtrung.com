@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
 
 export const metadata = {
-  title: "The Founder Verdict | Trung Nguyen",
+  title: "Founder Bottleneck Diagnostic | Trung Nguyen",
   description: "A 90-minute execution bottleneck diagnostic for founders with teams. One session. One verdict. No dependency.",
 }
 
@@ -114,12 +114,7 @@ export default function FounderDiagnosticPage() {
                   &ldquo;It&apos;s like going to the doctor to get a scan you&apos;ve never had
                   before &mdash; and you find out about problems you didn&apos;t know you had.&rdquo;
                 </blockquote>
-                <cite className="not-italic font-light">William Burden</cite>
-                <p className="text-sm text-earth-muted mt-1">Founder, Elqo</p>
-                <p className="text-sm text-earth-muted mt-2">
-                  Result: 50k landing page views in 6 months &mdash; 25% CTA click-through,
-                  80% account creation rate.
-                </p>
+                <p className="text-sm text-earth-muted mt-1">— Founder, B2B SaaS</p>
               </div>
 
               <div className="border-l-2 border-earth-accent pl-6">
@@ -134,10 +129,9 @@ export default function FounderDiagnosticPage() {
               <div className="border-l-2 border-earth-accent pl-6">
                 <blockquote className="text-xl font-light leading-relaxed mb-4">
                   &ldquo;Our chat brought the clarity I needed &mdash; I actually just made some
-                  immediate changes to how I run Screate.&rdquo;
+                  immediate changes to how I run things.&rdquo;
                 </blockquote>
-                <cite className="not-italic font-light">Hien Nguyen</cite>
-                <p className="text-sm text-earth-muted mt-1">Founder, Screate</p>
+                <p className="text-sm text-earth-muted mt-1">— Founder, early-stage startup</p>
               </div>
 
               <div className="border-l-2 border-earth-accent pl-6">
@@ -156,11 +150,12 @@ export default function FounderDiagnosticPage() {
                   a firm hand.&rdquo;
                 </blockquote>
                 <cite className="not-italic font-light">Tuong Tran</cite>
-                <p className="text-sm text-earth-muted mt-1">Founder</p>
+                <p className="text-sm text-earth-muted mt-1">Director, Hex &mdash; Australian education startup</p>
+                <p className="text-sm text-earth-muted mt-1">via LinkedIn</p>
               </div>
 
               <p className="text-sm text-earth-muted italic">
-                Shared with permission. Sessions are confidential by default.
+                Named with permission. Anonymous quotes shared as received.
               </p>
             </div>
           </div>

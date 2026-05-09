@@ -5,20 +5,20 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 jobs:
   screenshot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
         with:
           version: 8
 
@@ -28,48 +28,53 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Install Playwright
-        run: npx playwright install --with-deps chromium
-
       - name: Take screenshots
         run: |
           mkdir -p screenshots
+          npx -y playwright install --with-deps chromium
           npx serve ./out -l 3000 &
           sleep 4
-          node << 'EOF'
-          const { chromium } = require('playwright');
-          (async () => {
-            const browser = await chromium.launch();
-            const page = await browser.newPage();
-            await page.setViewportSize({ width: 1440, height: 900 });
-            const pages = [
-              { url: 'http://localhost:3000', name: 'home' },
-              { url: 'http://localhost:3000/founder-diagnostic', name: 'founder-verdict' },
-            ];
-            for (const { url, name } of pages) {
-              await page.goto(url, { waitUntil: 'networkidle' });
-              await page.screenshot({ path: `screenshots/${name}-full.png`, fullPage: true });
-              await page.screenshot({ path: `screenshots/${name}-above-fold.png`, fullPage: false });
-            }
-            await browser.close();
-          })();
-          EOF
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 --full-page http://localhost:3000 screenshots/home-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 --full-page http://localhost:3000/founder-diagnostic screenshots/founder-verdict-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 http://localhost:3000 screenshots/home-above-fold.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 http://localhost:3000/founder-diagnostic screenshots/founder-verdict-above-fold.png
 
-      - name: Upload screenshots
-        uses: actions/upload-artifact@v3
+      - name: Publish screenshots to branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          name: page-screenshots
-          path: screenshots/
-          retention-days: 14
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pr-screenshots
+          publish_dir: ./screenshots
+          destination_dir: pr-${{ github.event.pull_request.number }}
+          keep_files: true
 
       - name: Comment on PR
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
-            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `**Preview screenshots ready** → [Download from Actions](${runUrl})\n\nCaptures: \`home\` and \`founder-verdict\` (full page + above the fold)`
+            const pr = context.issue.number;
+            const base = `https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/pr-screenshots/pr-${pr}`;
+            const marker = '<!-- preview-screenshots -->';
+            const body = [
+              marker,
+              '**Preview screenshots**',
+              '',
+              '| | Full page | Above fold |',
+              '|---|---|---|',
+              `| Home | ![](${base}/home-full.png) | ![](${base}/home-above-fold.png) |`,
+              `| Diagnostic | ![](${base}/founder-verdict-full.png) | ![](${base}/founder-verdict-above-fold.png) |`,
+            ].join('\n');
+            const { data: comments } = await github.rest.issues.listComments({
+              issue_number: pr, owner: context.repo.owner, repo: context.repo.repo,
             });
+            const existing = comments.find(c => c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                comment_id: existing.id, body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                issue_number: pr, owner: context.repo.owner, repo: context.repo.repo, body,
+              });
+            }
