@@ -28,32 +28,16 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Install Playwright
-        run: npx playwright install --with-deps chromium
-
       - name: Take screenshots
         run: |
           mkdir -p screenshots
+          npx -y playwright install --with-deps chromium
           npx serve ./out -l 3000 &
           sleep 4
-          node << 'EOF'
-          const { chromium } = require('playwright');
-          (async () => {
-            const browser = await chromium.launch();
-            const page = await browser.newPage();
-            await page.setViewportSize({ width: 1440, height: 900 });
-            const pages = [
-              { url: 'http://localhost:3000', name: 'home' },
-              { url: 'http://localhost:3000/founder-diagnostic', name: 'founder-verdict' },
-            ];
-            for (const { url, name } of pages) {
-              await page.goto(url, { waitUntil: 'networkidle' });
-              await page.screenshot({ path: `screenshots/${name}-full.png`, fullPage: true });
-              await page.screenshot({ path: `screenshots/${name}-above-fold.png`, fullPage: false });
-            }
-            await browser.close();
-          })();
-          EOF
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --full-page http://localhost:3000 screenshots/home-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --full-page http://localhost:3000/founder-diagnostic screenshots/founder-verdict-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 http://localhost:3000 screenshots/home-above-fold.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 http://localhost:3000/founder-diagnostic screenshots/founder-verdict-above-fold.png
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v4
