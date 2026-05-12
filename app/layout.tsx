@@ -14,7 +14,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <script src="https://swetrix.org/swetrix.js" defer></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('DOMContentLoaded', function() {
+                swetrix.init('q7UGSyIUlJGO', {
+                  apiURL: 'https://api.t.nettelbeckplatz.de/log',
+                })
+                swetrix.trackViews()
+              })
+            `,
+          }}
+        ></script>
+        <noscript>
+          <img
+            src="https://api.t.nettelbeckplatz.de/log/noscript?pid=q7UGSyIUlJGO"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
+      </body>
     </html>
   )
 }
