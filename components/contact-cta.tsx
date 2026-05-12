@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { ArrowRight } from "lucide-react"
-import Link from "next/link"
 import { AnimatedSection } from "./animated-section"
+import { DiagnosticBookingButton } from "./diagnostic-booking-button"
 
 export function ContactCTA() {
   const [formState, setFormState] = useState({
@@ -60,14 +60,7 @@ export function ContactCTA() {
                 The world needs more builders who care about the impact of what they create.
               </p>
               <div className="pt-4">
-                <Link href="https://cal.com/trungfromberlin/founder-bottleneck-diagnostic">
-                  <Button
-                    className="w-full bg-earth-clay hover:bg-earth-sand text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300 flex items-center justify-center gap-2"
-                  >
-                    Book a Founder Diagnostic Session
-                    <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </Link>
+                <DiagnosticBookingButton variant="default" />
               </div>
             </div>
           </div>
