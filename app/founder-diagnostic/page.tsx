@@ -333,7 +333,7 @@ export default function FounderDiagnosticPage() {
               asChild
               className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-10 py-6 h-auto font-light transition-all duration-300 text-lg"
             >
-              <a href="https://cal.com/trungfromberlin/intro-call" target="_blank" rel="noopener noreferrer">
+              <a href="https://cal.com/trungfromberlin/founder-bottleneck-diagnostic" target="_blank" rel="noopener noreferrer">
                 Book a session
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </a>
