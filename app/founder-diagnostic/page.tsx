@@ -251,13 +251,13 @@ export default function FounderDiagnosticPage() {
             <h2 className="text-2xl font-light mb-12 text-earth-accent">The investment</h2>
 
             <div className="space-y-4 text-lg font-light text-earth-muted mb-10">
-              <p>One wrong hire: 3&ndash;6 months and &euro;30,000+ gone.</p>
-              <p>One month of misaligned execution: &euro;15,000&ndash;40,000 in salary burned.</p>
-              <p>One week of your best engineers waiting on a founder decision: &euro;2,000&ndash;4,000.</p>
+              <p>One wrong hire: 3&ndash;6 months and $30,000+ gone.</p>
+              <p>One month of misaligned execution: $15,000&ndash;40,000 in salary burned.</p>
+              <p>One week of your best engineers waiting on a founder decision: $2,000&ndash;4,000.</p>
             </div>
 
             <p className="text-2xl font-light">
-              This session: <span className="text-earth-accent">&euro;299.</span>
+              This session: <span className="text-earth-accent">$299.</span>
             </p>
             <p className="text-earth-muted font-light mt-3">
               90 minutes. No follow-up required. A verdict you can act on alone.
@@ -321,7 +321,7 @@ export default function FounderDiagnosticPage() {
             </h2>
 
             <p className="text-xl text-earth-muted font-light mb-6">
-              90 minutes. &euro;299. No follow-up required.
+              90 minutes. $299. No follow-up required.
             </p>
 
             <p className="text-earth-muted font-light mb-8 max-w-xl mx-auto">
