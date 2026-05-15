@@ -257,7 +257,7 @@ export default function FounderDiagnosticPage() {
             </div>
 
             <p className="text-2xl font-light">
-              This session: <span className="text-earth-accent">&euro;750.</span>
+              This session: <span className="text-earth-accent">&euro;299.</span>
             </p>
             <p className="text-earth-muted font-light mt-3">
               90 minutes. No follow-up required. A verdict you can act on alone.
@@ -321,7 +321,7 @@ export default function FounderDiagnosticPage() {
             </h2>
 
             <p className="text-xl text-earth-muted font-light mb-6">
-              90 minutes. &euro;750. No follow-up required.
+              90 minutes. &euro;299. No follow-up required.
             </p>
 
             <p className="text-earth-muted font-light mb-8 max-w-xl mx-auto">
