@@ -38,7 +38,7 @@ export default function FounderDiagnosticPage() {
               </p>
 
               <p className="text-lg text-earth-muted font-light">
-                If that sounds familiar, keep reading.
+                That bottleneck has a name. And it&apos;s usually not what you think it is.
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function FounderDiagnosticPage() {
         {/* The Real Issue */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
-            <h2 className="text-2xl font-light mb-12 text-earth-accent">Here&apos;s what I&apos;ve noticed</h2>
+            <h2 className="text-2xl font-light mb-12 text-earth-accent">The real problem</h2>
 
             <div className="space-y-6 text-xl font-light leading-relaxed">
               <p>
@@ -183,7 +183,7 @@ export default function FounderDiagnosticPage() {
               className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-10 py-6 h-auto font-light transition-all duration-300 text-lg"
             >
               <a href="https://cal.com/trungfromberlin/founder-bottleneck-diagnostic" target="_blank" rel="noopener noreferrer">
-                Book a session
+                Get the verdict
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
@@ -346,12 +346,12 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-light mb-8">
-              If this resonates
+              You already know if this is for you.
             </h2>
 
             <p className="text-earth-muted font-light mb-8 max-w-xl mx-auto">
               If you want clarity more than reassurance &mdash; and you&apos;re ready to hear
-              something you might not like &mdash; this might be useful.
+              something you might not like &mdash; this is for you.
             </p>
 
             <p className="text-xl text-earth-muted font-light mb-6">
@@ -363,13 +363,13 @@ export default function FounderDiagnosticPage() {
               className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-10 py-6 h-auto font-light transition-all duration-300 text-lg"
             >
               <a href="https://cal.com/trungfromberlin/founder-bottleneck-diagnostic" target="_blank" rel="noopener noreferrer">
-                Book a session
+                Get the verdict
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
 
             <p className="text-sm text-earth-muted mt-8">
-              No pressure. If it&apos;s not the right moment, that&apos;s fine too.
+              Takes 2 minutes to book. No commitment beyond the session.
             </p>
           </div>
         </section>
