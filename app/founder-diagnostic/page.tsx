@@ -161,6 +161,27 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
+        {/* Post-Testimonial CTA */}
+        <section className="py-20 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-3xl mx-auto text-center">
+            <p className="text-2xl font-light mb-6">
+              Heard enough?
+            </p>
+            <p className="text-earth-muted font-light mb-8">
+              90 minutes. $299. One verdict you can act on — alone.
+            </p>
+            <Button
+              asChild
+              className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-10 py-6 h-auto font-light transition-all duration-300 text-lg"
+            >
+              <a href="https://cal.com/trungfromberlin/founder-bottleneck-diagnostic" target="_blank" rel="noopener noreferrer">
+                Book a session
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </a>
+            </Button>
+          </div>
+        </section>
+
         {/* The Offer */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-6xl mx-auto">
@@ -257,7 +278,7 @@ export default function FounderDiagnosticPage() {
             </div>
 
             <p className="text-2xl font-light">
-              This session: <span className="text-earth-accent">$750.</span>
+              This session: <span className="text-earth-accent">$299.</span>
             </p>
             <p className="text-earth-muted font-light mt-3">
               90 minutes. No follow-up required. A verdict you can act on alone.
@@ -320,13 +341,13 @@ export default function FounderDiagnosticPage() {
               If this resonates
             </h2>
 
-            <p className="text-xl text-earth-muted font-light mb-6">
-              90 minutes. $750. No follow-up required.
-            </p>
-
             <p className="text-earth-muted font-light mb-8 max-w-xl mx-auto">
               If you want clarity more than reassurance &mdash; and you&apos;re ready to hear
               something you might not like &mdash; this might be useful.
+            </p>
+
+            <p className="text-xl text-earth-muted font-light mb-6">
+              90 minutes. $299. No follow-up required.
             </p>
 
             <Button
