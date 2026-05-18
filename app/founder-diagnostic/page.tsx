@@ -154,6 +154,14 @@ export default function FounderDiagnosticPage() {
                 <p className="text-sm text-earth-muted mt-1">via LinkedIn</p>
               </div>
 
+              <div className="aspect-video w-full max-w-2xl">
+                <iframe
+                  src="https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview"
+                  className="w-full h-full"
+                  allow="autoplay"
+                />
+              </div>
+
               <p className="text-sm text-earth-muted italic">
                 Named with permission. Anonymous quotes shared as received.
               </p>
