@@ -74,7 +74,7 @@ export default function FounderDiagnosticPage() {
                 <blockquote className="text-xl font-light leading-relaxed mb-4">
                   &ldquo;It&apos;s like going to the doctor for a scan you&apos;ve never had before and you find out problems you didn&apos;t know you had.&rdquo;
                 </blockquote>
-                <cite className="not-italic font-light">— William Burden, Elqo</cite>
+                <cite className="not-italic font-light">— Founder, B2B SaaS</cite>
               </div>
 
               <div className="border-l-2 border-earth-accent pl-6">
@@ -82,6 +82,14 @@ export default function FounderDiagnosticPage() {
                   &ldquo;I immediately sat down and decoded the whole thing and I know exactly what I need to do next.&rdquo;
                 </blockquote>
                 <cite className="not-italic font-light">— Hien Nguyen, Sidekiq</cite>
+              </div>
+
+              <div className="aspect-video w-full max-w-2xl">
+                <iframe
+                  src="https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview"
+                  className="w-full h-full"
+                  allow="autoplay"
+                />
               </div>
             </div>
           </div>
@@ -132,7 +140,7 @@ export default function FounderDiagnosticPage() {
                 A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
               </p>
               <p>
-                I&apos;m not a coach. I don&apos;t do ongoing advisory. One session. One answer.
+                I&apos;m not offering coaching or advisory through this page. One diagnostic. One session. One answer. What comes next is a separate conversation.
               </p>
             </div>
           </div>
