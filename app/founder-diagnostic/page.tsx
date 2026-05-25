@@ -27,7 +27,7 @@ export default function FounderDiagnosticPage() {
                 Back
               </Link>
 
-              <h1 className="text-4xl md:text-5xl font-light tracking-tight leading-tight">
+              <h1 className="text-4xl md:text-5xl font-normal leading-relaxed">
                 Something in your startup is slowing everything down. You feel it. You haven&apos;t named it yet.
               </h1>
 
