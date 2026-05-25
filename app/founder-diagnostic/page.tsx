@@ -41,19 +41,21 @@ export default function FounderDiagnosticPage() {
         {/* Section 2: Recognition */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-12">
+            <div className="space-y-16">
               <div>
-                <h2 className="text-2xl font-light mb-4 text-earth-accent">Your team is moving but nothing is landing.</h2>
-                <p className="text-lg font-light leading-relaxed text-earth-muted">
-                  Sprints end, decisions pile up, your best people are waiting on you for everything. You built something real. Now you&apos;re the bottleneck in your own machine &mdash; and you can&apos;t see it from the inside.
-                </p>
+                <h2 className="text-2xl font-light mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
+                <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
+                  <p>Sprints end. Decisions pile up. Your best people are waiting on you.</p>
+                  <p>You&apos;re the bottleneck in your own machine — and you can&apos;t see it from the inside.</p>
+                </div>
               </div>
 
               <div>
-                <h2 className="text-2xl font-light mb-4 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for — or how to say it.</h2>
-                <p className="text-lg font-light leading-relaxed text-earth-muted">
-                  You keep second-guessing the ICP, the message, who to go after first. Every conversation pulls you in a different direction. You&apos;re spending time and money, but without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.
-                </p>
+                <h2 className="text-2xl font-light mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
+                <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
+                  <p>Every conversation pulls you in a different direction.</p>
+                  <p>Without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -63,11 +65,8 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-12">
-              <p className="text-xl font-light leading-relaxed">
-                Most founders who&apos;ve done this say the same thing after: &ldquo;I already knew it — I just hadn&apos;t said it out loud.&rdquo;
-              </p>
-              <p className="text-xl font-light leading-relaxed text-earth-muted">
-                That&apos;s the point. The diagnostic doesn&apos;t give you new information. It names the thing you already felt — clearly enough that you can stop doing the expensive thing and start doing the right thing.
+              <p className="text-sm text-earth-muted font-light tracking-wide uppercase">
+                What founders say
               </p>
 
               <div className="border-l-2 border-earth-accent pl-6">
@@ -132,19 +131,27 @@ export default function FounderDiagnosticPage() {
         {/* Section 5: About */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-6 text-lg font-light leading-relaxed">
-              <p>
-                I&apos;ve worked with 25+ early-stage founders across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat.
-              </p>
-              <p className="text-earth-muted">
-                Most founders who go through this clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s $15k–$30k in runway recovered. The math works faster if you already feel it.
-              </p>
-              <p>
-                A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
-              </p>
-              <p>
-                I&apos;m not offering coaching or advisory through this page. One diagnostic. One session. One answer. What comes next is a separate conversation.
-              </p>
+            <div className="space-y-8 text-lg font-light leading-relaxed">
+              <div>
+                <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The pattern</h3>
+                <p>
+                  25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The math</h3>
+                <p className="text-earth-muted">
+                  Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s $15k–$30k in runway recovered.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">What this is</h3>
+                <p>
+                  One diagnostic. One session. One answer. Not coaching. Not ongoing advisory. What comes next is a separate conversation.
+                </p>
+              </div>
             </div>
           </div>
         </section>
