@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, ArrowLeft, Check } from "lucide-react"
+import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -42,19 +42,29 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-16">
-              <div>
-                <h2 className="text-2xl font-light mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
-                <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
-                  <p>Sprints end. Decisions pile up. Your best people are waiting on you.</p>
-                  <p>You&apos;re the bottleneck in your own machine — and you can&apos;t see it from the inside.</p>
+              <div className="flex gap-6">
+                <div className="flex-shrink-0">
+                  <AlertCircle className="h-6 w-6 text-earth-accent mt-1" />
+                </div>
+                <div>
+                  <h2 className="text-2xl font-light mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
+                  <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
+                    <p>Sprints end. Decisions pile up. Your best people are waiting on you.</p>
+                    <p>You&apos;re the bottleneck in your own machine — and you can&apos;t see it from the inside.</p>
+                  </div>
                 </div>
               </div>
 
-              <div>
-                <h2 className="text-2xl font-light mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
-                <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
-                  <p>Every conversation pulls you in a different direction.</p>
-                  <p>Without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.</p>
+              <div className="flex gap-6">
+                <div className="flex-shrink-0">
+                  <Target className="h-6 w-6 text-earth-accent mt-1" />
+                </div>
+                <div>
+                  <h2 className="text-2xl font-light mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
+                  <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
+                    <p>Every conversation pulls you in a different direction.</p>
+                    <p>Without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -69,21 +79,21 @@ export default function FounderDiagnosticPage() {
                 What founders say
               </p>
 
-              <div className="border-l-2 border-earth-accent pl-6">
+              <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
                 <blockquote className="text-xl font-light leading-relaxed mb-4">
                   &ldquo;It&apos;s like going to the doctor for a scan you&apos;ve never had before and you find out problems you didn&apos;t know you had.&rdquo;
                 </blockquote>
-                <cite className="not-italic font-light">— Founder, B2B SaaS</cite>
+                <cite className="not-italic font-light text-earth-muted">— Founder, B2B SaaS</cite>
               </div>
 
-              <div className="border-l-2 border-earth-accent pl-6">
+              <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
                 <blockquote className="text-xl font-light leading-relaxed mb-4">
                   &ldquo;I immediately sat down and decoded the whole thing and I know exactly what I need to do next.&rdquo;
                 </blockquote>
-                <cite className="not-italic font-light">— Hien Nguyen, Sidekiq</cite>
+                <cite className="not-italic font-light text-earth-muted">— Hien Nguyen, Sidekiq</cite>
               </div>
 
-              <div className="aspect-video w-full max-w-2xl">
+              <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
                 <iframe
                   src="https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview"
                   className="w-full h-full"
@@ -131,26 +141,35 @@ export default function FounderDiagnosticPage() {
         {/* Section 5: About */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-8 text-lg font-light leading-relaxed">
-              <div>
-                <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The pattern</h3>
-                <p>
-                  25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.
-                </p>
+            <div className="space-y-6 text-lg font-light leading-relaxed">
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The pattern</h3>
+                  <p>
+                    25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The math</h3>
-                <p className="text-earth-muted">
-                  Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s $15k–$30k in runway recovered.
-                </p>
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <TrendingUp className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The math</h3>
+                  <p className="text-earth-muted">
+                    Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s <span className="text-earth-dark font-medium">$15k–$30k in runway recovered</span>.
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">What this is</h3>
-                <p>
-                  One diagnostic. One session. One answer. Not coaching. Not ongoing advisory. What comes next is a separate conversation.
-                </p>
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Lightbulb className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">What this is</h3>
+                  <p>
+                    One diagnostic. One session. One answer. Not coaching. Not ongoing advisory. What comes next is a separate conversation.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
