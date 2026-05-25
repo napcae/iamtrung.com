@@ -149,16 +149,18 @@ export default function FounderDiagnosticPage() {
         {/* Section 6: CTA */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
-            <p className="text-2xl font-light mb-2">
+            <p className="text-2xl font-light mb-8">
               $299. 90 minutes.
             </p>
-            <p className="text-xl text-earth-muted font-light mb-8">
-              DM me &ldquo;diagnostic&rdquo; on{" "}
-              <Link href="https://www.linkedin.com/in/trungfromberlin/" target="_blank" rel="noopener noreferrer" className="text-earth-accent hover:underline">
-                LinkedIn
-              </Link>{" "}
-              to start.
-            </p>
+            <Button
+              asChild
+              className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-10 py-6 h-auto font-light transition-all duration-300 text-lg"
+            >
+              <a href="https://www.linkedin.com/in/trungfromberlin/" target="_blank" rel="noopener noreferrer">
+                Start on LinkedIn
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </a>
+            </Button>
           </div>
         </section>
       </main>
