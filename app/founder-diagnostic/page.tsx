@@ -137,6 +137,9 @@ export default function FounderDiagnosticPage() {
                 I&apos;ve worked with 25+ early-stage founders across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat.
               </p>
               <p className="text-earth-muted">
+                Most founders who go through this clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s $15k–$30k in runway recovered. The math works faster if you already feel it.
+              </p>
+              <p>
                 A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
               </p>
               <p>
