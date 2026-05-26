@@ -47,7 +47,7 @@ export default function FounderDiagnosticPage() {
                   <AlertCircle className="h-6 w-6 text-earth-accent mt-1" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-light mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
+                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
                   <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
                     <p>Sprints end. Decisions pile up. Your best people are waiting on you.</p>
                     <p>You&apos;re the bottleneck in your own machine — and you can&apos;t see it from the inside.</p>
@@ -60,7 +60,7 @@ export default function FounderDiagnosticPage() {
                   <Target className="h-6 w-6 text-earth-accent mt-1" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-light mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
+                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
                   <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
                     <p>Every conversation pulls you in a different direction.</p>
                     <p>Without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.</p>
@@ -178,16 +178,16 @@ export default function FounderDiagnosticPage() {
         {/* Section 6: CTA */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
-            <p className="text-2xl font-light mb-8">
+            <p className="text-3xl font-normal mb-12">
               $299. 90 minutes.
             </p>
             <Button
               asChild
-              className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-10 py-6 h-auto font-light transition-all duration-300 text-lg"
+              className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl"
             >
               <a href="https://www.linkedin.com/in/ctn1991/" target="_blank" rel="noopener noreferrer">
                 Start on LinkedIn
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
           </div>
