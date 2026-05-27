@@ -151,7 +151,7 @@ export default function ReconnectVietnamPage() {
                     asChild
                     className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
                   >
-                    <a href="https://cal.com/trungfromberlin/intro-call" target="_blank" rel="noopener noreferrer">
+                    <a href="https://cal.com/trungfrom/intro-call" target="_blank" rel="noopener noreferrer">
                       Contribute to the Cause
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </a>
@@ -248,7 +248,7 @@ export default function ReconnectVietnamPage() {
                     <li>Quiet roads, faces, landscapes</li>
                     <li>The emotional texture of the journey</li>
                   </ul>
-                  <a href="https://www.instagram.com/trung.berlin/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors">
+                  <a href="https://www.instagram.com/trungmoves/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-earth-accent hover:text-earth-green transition-colors">
                     Follow on Instagram <ArrowRight className="ml-2 h-4 w-4" />
                   </a>
                 </div>
