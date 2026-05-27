@@ -5,7 +5,7 @@ export function SocialIcons() {
   return (
     <div className="flex space-x-4">
       <Link
-        href="https://www.instagram.com/trung.berlin/"
+        href="https://www.instagram.com/trungmoves/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-earth-muted hover:text-earth-accent transition-colors"
