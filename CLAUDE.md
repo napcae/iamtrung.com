@@ -2,16 +2,17 @@
 
 ## Source of truth
 
-The `napcae/li` repo is the **single source of truth** for all content decisions.
-Never use values from the live page, `gh-pages` branch, or memory — always fetch from `li` first.
+The `napcae/TrungOPS` repo (formerly `napcae/li` — renamed) is the **single source of truth**
+for all content decisions. Never use values from the live page, `gh-pages` branch, or memory —
+always fetch from `TrungOPS` first.
 
-| What | Where in `li` |
-|------|---------------|
+| What | Where in `TrungOPS` |
+|------|---------------------|
 | Offer name | `offers/diagnostic.md` — heading line |
 | Price | `offers/diagnostic.md` — Price field |
 | ICP definitions (A + B) | `strategy/icp.md` |
 | Positioning / voice | `strategy/positioning.md` |
-| Testimonial permission | `testimonials/fragments.md` — `publish_name:` field |
+| Testimonial permission | `testimonials/wall-of-love.md` / `case-studies.md` — `Permission:` line |
 
 ## Offer name
 
@@ -23,7 +24,8 @@ Do not use it as a page title, metadata title, or offer name.
 
 ## Pricing
 
-Current price: **€750**. Check `li/offers/diagnostic.md` before setting any price.
+Current price: **$299** (flat, locked May 18 2026 — per `TrungOPS/offers/diagnostic.md`).
+Check `TrungOPS/offers/diagnostic.md` before setting any price.
 Do not use prices from the rendered page or `gh-pages`.
 
 ## Git branches
@@ -36,10 +38,11 @@ All changes go on a feature branch from `main`, then PR to `main`.
 
 ## Testimonial publishing rule
 
-Before naming anyone in a testimonial, check `publish_name:` in `li/testimonials/fragments.md`.
+Before naming anyone in a testimonial, check the `Permission:` line for that person in
+`TrungOPS/testimonials/wall-of-love.md` or `testimonials/case-studies.md`.
 
-- `publish_name: YES` → safe to name
-- `publish_name: NO` → publish anonymously with role/stage only (e.g. "Founder, B2B SaaS")
-- Field missing → treat as NO until confirmed
+- Permission says name cleared → safe to name (honor any caveats, e.g. "hold job-search references")
+- Permission limited / anonymized → publish with role/stage only (e.g. "Founder, B2B SaaS")
+- No `Permission:` line → treat as NO until confirmed
 
 Also check the quote text itself for names or identifiable details (company name, metrics).
