@@ -24,9 +24,12 @@ Do not use it as a page title, metadata title, or offer name.
 
 ## Pricing
 
-Current price: **$299** (flat, locked May 18 2026 — per `TrungOPS/offers/diagnostic.md`).
-Check `TrungOPS/offers/diagnostic.md` before setting any price.
-Do not use prices from the rendered page or `gh-pages`.
+**No price is published on the site.** Pricing is value-based, set in the conversation (Enns) —
+the diagnostic page intentionally shows no number.
+
+Internal anchor/floor is **$299** (per `TrungOPS/offers/diagnostic.md`) — never publish it on the
+page, in metadata, or in copy. If a price ever needs to appear, check `TrungOPS/offers/diagnostic.md`
+first and confirm before publishing.
 
 ## Git branches
 
