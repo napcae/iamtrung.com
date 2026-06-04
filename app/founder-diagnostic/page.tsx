@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb } from "lucide-react"
+import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -104,6 +104,45 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
+        {/* Section: How it runs */}
+        <section className="py-24 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl font-light mb-12 text-earth-accent">How the 90 minutes runs</h2>
+
+            <div className="space-y-6 text-lg font-light leading-relaxed">
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <ClipboardList className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">Before</h3>
+                  <p>
+                    A short intake. You send me where things actually stand: team, traction, what feels stuck. No deck, no prep theatre &mdash; fifteen minutes of honesty.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">During</h3>
+                  <p>
+                    Ninety minutes, live, just us. I ask, you answer, and we follow the thread to the real constraint &mdash; not the one you walked in assuming it was.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Compass className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">After</h3>
+                  <p>
+                    You leave with the bottleneck named, your 1&ndash;3 priorities, and a decision structure for the next 30&ndash;60 days. What comes next is a separate conversation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Section 4: Deliverables */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
@@ -179,7 +218,7 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
             <p className="text-3xl font-normal mb-12">
-              $299. 90 minutes.
+              One session. 90 minutes. One answer.
             </p>
             <Button
               asChild
