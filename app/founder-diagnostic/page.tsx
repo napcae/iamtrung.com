@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb } from "lucide-react"
+import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -104,37 +104,68 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 4: Deliverables */}
+        {/* Section: How it runs (process + what you leave with) */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
-            <h2 className="text-2xl font-light mb-12 text-earth-accent">One session. 90 minutes. You leave with:</h2>
+            <h2 className="text-2xl font-light mb-12 text-earth-accent">How the 90 minutes runs</h2>
 
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                <span className="font-light text-lg">
-                  The actual bottleneck named — not the surface complaint, the structural cause
-                </span>
-              </li>
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                <span className="font-light text-lg">
-                  1–3 real priorities replacing current noise
-                </span>
-              </li>
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                <span className="font-light text-lg">
-                  A clearer decision structure for the next 30–60 days
-                </span>
-              </li>
-              <li className="flex items-start">
-                <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                <span className="font-light text-lg">
-                  Less expensive drift
-                </span>
-              </li>
-            </ul>
+            <div className="space-y-12">
+              <div className="flex gap-6">
+                <ClipboardList className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">Before</h3>
+                  <p className="text-lg font-light leading-relaxed">
+                    A short intake. You send me where things actually stand: team, traction, what feels stuck. No deck, no prep theatre &mdash; fifteen minutes of honesty.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">During</h3>
+                  <p className="text-lg font-light leading-relaxed">
+                    Ninety minutes, live, just us. I ask, you answer, and we follow the thread to the real constraint &mdash; not the one you walked in assuming it was.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <Compass className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">After</h3>
+                  <p className="text-lg font-light leading-relaxed mb-6">
+                    You walk out with a clear answer &mdash; one you can act on the same week:
+                  </p>
+                  <ul className="space-y-4">
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                      <span className="font-light text-lg">
+                        The actual bottleneck named — not the surface complaint, the structural cause
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                      <span className="font-light text-lg">
+                        1–3 real priorities replacing current noise
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                      <span className="font-light text-lg">
+                        A clearer decision structure for the next 30–60 days
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                      <span className="font-light text-lg">
+                        Less expensive drift
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -167,7 +198,7 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">What this is</h3>
                   <p>
-                    One diagnostic. One session. One answer. Not coaching. Not ongoing advisory. What comes next is a separate conversation.
+                    Not coaching. Not ongoing advisory. One diagnostic &mdash; and what comes next is a separate conversation.
                   </p>
                 </div>
               </div>
@@ -179,7 +210,7 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
             <p className="text-3xl font-normal mb-12">
-              $299. 90 minutes.
+              One session. 90 minutes. One answer.
             </p>
             <Button
               asChild
