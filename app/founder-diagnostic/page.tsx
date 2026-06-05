@@ -135,7 +135,7 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">After</h3>
                   <p>
-                    You leave with the bottleneck named, your 1&ndash;3 priorities, and a decision structure for the next 30&ndash;60 days. What comes next is a separate conversation.
+                    By the end, the constraint is named &mdash; clearly enough to act on the same week, not file away for later.
                   </p>
                 </div>
               </div>
@@ -206,7 +206,7 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">What this is</h3>
                   <p>
-                    One diagnostic. One session. One answer. Not coaching. Not ongoing advisory. What comes next is a separate conversation.
+                    Not coaching. Not ongoing advisory. One diagnostic &mdash; and what comes next is a separate conversation.
                   </p>
                 </div>
               </div>
