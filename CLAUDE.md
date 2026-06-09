@@ -49,3 +49,40 @@ Before naming anyone in a testimonial, check the `Permission:` line for that per
 - No `Permission:` line → treat as NO until confirmed
 
 Also check the quote text itself for names or identifiable details (company name, metrics).
+
+## Tech stack
+
+- **Next.js 15** (static export — `output: 'export'`, output dir `./out`)
+- **React 19**, TypeScript 5, Tailwind CSS 3, Radix UI
+- **Package manager**: pnpm · **Node**: 18+
+- Custom image loader at `/lib/image-loader.js` (required for static export)
+
+## Commands
+
+```
+pnpm dev      # dev server → localhost:3000
+pnpm build    # static export → ./out
+pnpm lint
+```
+
+## Pages
+
+| Route | File |
+|-------|------|
+| `/` | `app/page.tsx` |
+| `/founder-diagnostic` | `app/founder-diagnostic/page.tsx` |
+| `/the-innernet` | `app/the-innernet/page.tsx` |
+| `/procrastination-workshop` | `app/procrastination-workshop/page.tsx` |
+| `/reconnect-vietnam` | `app/reconnect-vietnam/page.tsx` |
+
+Root layout: `app/layout.tsx` — imports `<Analytics />` (Swetrix + MS Clarity).
+
+## Analytics
+
+Both in `components/analytics.tsx`:
+- **Swetrix** — project ID `q7UGSyIUlJGO`, API `https://api.t.nettelbeckplatz.de/log`
+- **MS Clarity** — project ID `x11527g676`
+
+## Deployment
+
+Push to `main` → GitHub Actions builds → publishes `./out` to `gh-pages`. Never edit `gh-pages` directly.
