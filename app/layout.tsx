@@ -6,7 +6,7 @@ import { Analytics } from '@/components/analytics'
 const inter = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
-  display: 'swap',
+  display: 'block',
   variable: '--font-inter',
 })
 
