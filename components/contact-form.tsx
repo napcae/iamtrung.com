@@ -41,7 +41,7 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="space-y-2">
-        <Label htmlFor="name" className="text-earth-muted">
+        <Label htmlFor="name" className="text-earth-dark font-medium text-sm">
           Name
         </Label>
         <Input
@@ -51,12 +51,12 @@ export function ContactForm() {
           value={formState.name}
           onChange={handleChange}
           required
-          className="border-earth-light focus-visible:ring-earth-accent bg-white"
+          className="border-earth-accent/30 focus-visible:ring-2 focus-visible:ring-earth-accent focus-visible:border-earth-accent bg-white"
         />
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email" className="text-earth-muted">
+        <Label htmlFor="email" className="text-earth-dark font-medium text-sm">
           Email
         </Label>
         <Input
@@ -67,12 +67,12 @@ export function ContactForm() {
           value={formState.email}
           onChange={handleChange}
           required
-          className="border-earth-light focus-visible:ring-earth-accent bg-white"
+          className="border-earth-accent/30 focus-visible:ring-2 focus-visible:ring-earth-accent focus-visible:border-earth-accent bg-white"
         />
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message" className="text-earth-muted">
+        <Label htmlFor="message" className="text-earth-dark font-medium text-sm">
           Message
         </Label>
         <Textarea
@@ -83,7 +83,7 @@ export function ContactForm() {
           value={formState.message}
           onChange={handleChange}
           required
-          className="border-earth-light focus-visible:ring-earth-accent bg-white"
+          className="border-earth-accent/30 focus-visible:ring-2 focus-visible:ring-earth-accent focus-visible:border-earth-accent bg-white"
         />
       </div>
 
@@ -106,7 +106,7 @@ export function ContactForm() {
       </Button>
 
       {isSubmitted && (
-        <div className="p-4 bg-earth-light text-earth-accent rounded-md border border-earth-light">
+        <div className="p-4 bg-earth-light text-earth-dark rounded-md border border-earth-accent/20 text-sm">
           Thank you for your message! I'll get back to you soon.
         </div>
       )}

@@ -34,10 +34,10 @@ jobs:
           npx -y playwright install --with-deps chromium
           npx serve ./out -l 3000 &
           sleep 4
-          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 --full-page http://localhost:3000 screenshots/home-full.png
-          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 --full-page http://localhost:3000/founder-diagnostic screenshots/founder-verdict-full.png
-          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 http://localhost:3000 screenshots/home-above-fold.png
-          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 3000 http://localhost:3000/founder-diagnostic screenshots/founder-verdict-above-fold.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 --full-page http://localhost:3000 screenshots/home-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 --full-page http://localhost:3000/founder-diagnostic screenshots/founder-verdict-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 http://localhost:3000 screenshots/home-above-fold.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 http://localhost:3000/founder-diagnostic screenshots/founder-verdict-above-fold.png
 
       - name: Publish screenshots to branch
         uses: peaceiris/actions-gh-pages@v4

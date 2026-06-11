@@ -10,7 +10,7 @@ export function Offerings() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light text-earth-accent mb-4">How I Help</h2>
+            <h2 className="text-2xl font-semibold text-earth-accent mb-4">How I Help</h2>
             <div className="relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
               <Image
                 src="./founders_pause.png"
@@ -25,14 +25,14 @@ export function Offerings() {
           <div className="space-y-16">
             {/* Founder Bottleneck Diagnostic */}
             <article className="space-y-6 group">
-              <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
+              <h3 className="text-2xl font-medium group-hover:text-earth-accent transition-colors duration-300">
                 Founder Bottleneck Diagnostic
               </h3>
-              <p className="text-lg leading-relaxed font-light text-earth-muted">
+              <p className="text-lg leading-relaxed font-normal text-earth-dark">
                 A 90-minute diagnostic for bootstrapped founders who sense something structural is off.
                 One session. One verdict. No dependency.
               </p>
-              <ul className="space-y-3 text-earth-muted">
+              <ul className="space-y-3 text-earth-dark">
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
                   <span>Decision, execution & trust load analysis</span>
@@ -53,14 +53,14 @@ export function Offerings() {
 
             {/* The Innernet */}
             <article className="space-y-6 group">
-              <h3 className="text-2xl font-light group-hover:text-earth-accent transition-colors duration-300">
+              <h3 className="text-2xl font-medium group-hover:text-earth-accent transition-colors duration-300">
                 The Innernet
               </h3>
-              <p className="text-earth-muted font-light">
+              <p className="text-earth-dark font-normal">
                 A calm, high-clarity community for leaders and emerging talent who want sustainable high performance.
                 Inner work for outer impact.
               </p>
-              <ul className="space-y-3 text-earth-muted">
+              <ul className="space-y-3 text-earth-dark">
                 <li className="flex items-baseline group cursor-pointer">
                   <span className="text-earth-accent mr-3 transition-all duration-300 group-hover:translate-x-1">→</span>
                   <span>Weekly reflection sessions</span>
