@@ -60,10 +60,11 @@
   html {
     scroll-behavior: smooth;
   }
-  h1, h2, h3 {
-    font-family: var(--font-serif), Georgia, serif;
-    font-weight: 400;
-  }
 }
 
-/* Add package.json for framer-motion */
+/* Unlayered — beats Tailwind utility layer, enforces Instrument Serif at natural weight */
+h1, h2 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
