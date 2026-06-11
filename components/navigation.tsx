@@ -27,7 +27,7 @@ export function Navigation() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled ? "bg-earth-background/90 backdrop-blur-md" : "bg-transparent",
+        scrolled || isOpen ? "bg-white/95 backdrop-blur-md border-b border-earth-light" : "bg-transparent",
       )}
     >
       <div className="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
@@ -93,57 +93,59 @@ export function Navigation() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="fixed inset-0 top-20 z-50 bg-earth-background md:hidden"
-            initial={{ opacity: 0, y: -10 }}
+            className="fixed inset-0 top-20 z-50 bg-white border-t border-earth-light shadow-lg md:hidden"
+            initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.18 }}
           >
-            <nav className="flex flex-col p-6 space-y-8">
+            <nav className="flex flex-col px-6 py-8 space-y-6">
               <Link
                 href="/#about"
-                className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
                 onClick={closeMenu}
               >
                 About
               </Link>
               <Link
                 href="/#mission"
-                className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
                 onClick={closeMenu}
               >
                 Mission
               </Link>
               <Link
                 href="/#offerings"
-                className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
                 onClick={closeMenu}
               >
                 Offerings
               </Link>
               <Link
                 href="/#podcast"
-                className="text-xl font-light text-earth-muted hover:text-earth-dark transition-colors"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
                 onClick={closeMenu}
               >
                 Podcast
               </Link>
               <Link
                 href="/reconnect-vietnam"
-                className="text-xl font-light text-earth-accent hover:text-earth-dark transition-colors"
+                className="text-lg font-normal text-earth-accent hover:text-earth-dark transition-colors"
                 onClick={closeMenu}
               >
                 Re:Connect Vietnam
               </Link>
-              <Link href="/#contact" onClick={closeMenu}>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none w-full transition-all duration-300"
-                >
-                  Start the Conversation
-                </Button>
-              </Link>
+              <div className="pt-2 border-t border-earth-light">
+                <Link href="/#contact" onClick={closeMenu}>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="border-earth-accent text-earth-accent hover:bg-earth-accent hover:text-white rounded-none w-full transition-all duration-300"
+                  >
+                    Start the Conversation
+                  </Button>
+                </Link>
+              </div>
             </nav>
           </motion.div>
         )}
