@@ -21,9 +21,8 @@ export function AnimatedSection({ children, className, id }: AnimatedSectionProp
       id={id}
       className={className}
       style={{
-        transform: isInView ? "none" : "translateY(30px)",
-        opacity: isInView ? 1 : 0,
-        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s",
+        transform: isInView ? "none" : "translateY(24px)",
+        transition: "transform 0.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.05s",
       }}
     >
       {children}
