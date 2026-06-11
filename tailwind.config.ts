@@ -67,7 +67,8 @@ const config = {
         },
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
