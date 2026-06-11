@@ -54,8 +54,8 @@ export function BookSection() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light mb-16 text-earth-muted">Books That Shaped Me</h2>
-            <p className="text-xl font-light">
+            <h2 className="text-2xl font-semibold mb-16 text-earth-dark">Books That Shaped Me</h2>
+            <p className="text-xl font-normal">
               These works have profoundly influenced my thinking and approach to technology, leadership, and personal
               growth. They might transform your perspective too.
             </p>
@@ -85,11 +85,11 @@ export function BookSection() {
                   </div>
                 </div>
                 <div className="md:col-span-3 space-y-4">
-                  <h3 className="text-xl font-light group-hover:text-earth-green transition-colors duration-300">
+                  <h3 className="text-xl font-medium group-hover:text-earth-green transition-colors duration-300">
                     {book.title}
                   </h3>
                   <p className="text-sm text-earth-muted">by {book.author}</p>
-                  <p className="text-earth-muted font-light">{book.description}</p>
+                  <p className="text-earth-dark font-normal">{book.description}</p>
                   <Link
                     href={`https://www.amazon.com/s?k=${encodeURIComponent(book.title + " " + book.author)}`}
                     target="_blank"

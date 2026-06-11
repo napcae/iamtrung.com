@@ -10,10 +10,10 @@ export function PodcastSection() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light mb-16 text-[#999999]">Weekly Insights</h2>
+            <h2 className="text-2xl font-semibold mb-16 text-[#999999]">Weekly Insights</h2>
           </div>
           <div className="space-y-12">
-            <p className="text-xl font-light">
+            <p className="text-xl font-normal">
               Each week, I explore the intersection of technology, leadership, and personal growth with industry experts
               and thought leaders. Join thousands of founders who tune in for actionable strategies and fresh
               perspectives.
@@ -39,7 +39,7 @@ export function PodcastSection() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-light group-hover:text-[#3B82F6] transition-colors duration-300">
+                  <h3 className="text-lg font-medium group-hover:text-[#3B82F6] transition-colors duration-300">
                     Building Resilient Teams in Uncertain Markets
                   </h3>
                   <p className="text-sm text-[#555]">Episode 42 • 48 min</p>
@@ -65,7 +65,7 @@ export function PodcastSection() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-light group-hover:text-[#3B82F6] transition-colors duration-300">
+                  <h3 className="text-lg font-medium group-hover:text-[#3B82F6] transition-colors duration-300">
                     The Future of Sustainable Tech: Beyond the Hype
                   </h3>
                   <p className="text-sm text-[#555]">Episode 41 • 52 min</p>
@@ -75,15 +75,15 @@ export function PodcastSection() {
 
             <Link
               href="#"
-              className="inline-flex items-center text-lg font-light text-[#3B82F6] hover:text-[#3B82F6]/80 transition-colors border-b border-[#333] hover:border-[#3B82F6] pb-1"
+              className="inline-flex items-center text-lg font-normal text-[#3B82F6] hover:text-[#3B82F6]/80 transition-colors border-b border-[#333] hover:border-[#3B82F6] pb-1"
             >
               Browse all episodes
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
 
             <div className="pt-12 border-t border-[#222]">
-              <h3 className="text-xl font-light mb-6">Join the Community</h3>
-              <p className="text-[#999999] font-light mb-6">
+              <h3 className="text-xl font-medium mb-6">Join the Community</h3>
+              <p className="text-[#999999] font-normal mb-6">
                 Get weekly insights on technology, leadership, and personal growth delivered to your inbox, plus
                 exclusive resources only for subscribers.
               </p>
@@ -96,7 +96,7 @@ export function PodcastSection() {
                 /> */}
                 <button
                   type="submit"
-                  className="bg-[#3B82F6] text-white px-6 py-2 font-light hover:bg-[#3B82F6]/80 transition-colors"
+                  className="bg-[#3B82F6] text-white px-6 py-2 font-normal hover:bg-[#3B82F6]/80 transition-colors"
                 >
                   Subscribe
                 </button>

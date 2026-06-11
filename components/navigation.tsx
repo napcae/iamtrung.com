@@ -32,36 +32,36 @@ export function Navigation() {
     >
       <div className="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
         <div className="flex h-20 items-center justify-between">
-          <Link href="/" className="text-xl font-light">
+          <Link href="/" className="text-xl font-normal">
             Trung Nguyen
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/#about" className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors">
+            <Link href="/#about" className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors">
               About
             </Link>
             <Link
               href="/#mission"
-              className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors"
+              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
             >
               Mission
             </Link>
             <Link
               href="/#offerings"
-              className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors"
+              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
             >
               Offerings
             </Link>
             <Link
               href="/#podcast"
-              className="text-sm font-light text-earth-muted hover:text-earth-dark transition-colors"
+              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
             >
               Podcast
             </Link>
             <Link
               href="/reconnect-vietnam"
-              className="text-sm font-light text-earth-accent hover:text-earth-dark transition-colors"
+              className="text-sm font-normal text-earth-accent hover:text-earth-dark transition-colors"
             >
               Re:Connect Vietnam
             </Link>

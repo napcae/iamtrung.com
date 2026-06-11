@@ -28,11 +28,11 @@ export default function ProcrastinationWorkshopPage() {
                   Back to Home
                 </Link>
 
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
                   Stop Planning, <span className="text-earth-accent">Start Doing</span>
                 </h1>
 
-                <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light">
+                <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal">
                   A transformative 3-hour workshop that helps high-achievers break through procrastination patterns and
                   take decisive action on their most important work.
                 </p>
@@ -66,7 +66,7 @@ export default function ProcrastinationWorkshopPage() {
 
               <div className="bg-earth-light p-8 border border-earth-light/50">
                 <div className="space-y-6">
-                  <h3 className="text-2xl font-light">Is This You?</h3>
+                  <h3 className="text-2xl font-medium">Is This You?</h3>
 
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -94,7 +94,7 @@ export default function ProcrastinationWorkshopPage() {
                   </ul>
 
                   <div className="pt-4">
-                    <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
+                    <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300">
                       Reserve Your Spot ($497)
                     </Button>
                   </div>
@@ -113,37 +113,37 @@ export default function ProcrastinationWorkshopPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">What You'll Learn</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">What You'll Learn</h2>
               </div>
 
               <div className="space-y-12">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">The Psychology of Procrastination</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">The Psychology of Procrastination</h3>
+                  <p className="text-earth-muted font-normal">
                     Understand the hidden emotional drivers behind your procrastination patterns. Discover why willpower
                     and motivation aren't enough, and what actually works instead.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">Your Unique Procrastination Profile</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">Your Unique Procrastination Profile</h3>
+                  <p className="text-earth-muted font-normal">
                     Identify your specific procrastination triggers and patterns. Are you a perfectionist, avoider,
                     busy-bee, or novelty-seeker? Each type requires a different approach.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">The Action Protocol</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">The Action Protocol</h3>
+                  <p className="text-earth-muted font-normal">
                     Learn a step-by-step system for breaking through resistance and taking immediate action on your most
                     important projects. This practical framework works even when motivation is low.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">Implementation Planning</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">Implementation Planning</h3>
+                  <p className="text-earth-muted font-normal">
                     Create your personalized implementation plan to maintain momentum after the workshop. You'll leave
                     with clear next steps and accountability structures to ensure lasting change.
                   </p>
@@ -169,14 +169,14 @@ export default function ProcrastinationWorkshopPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Workshop Details</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">Workshop Details</h2>
               </div>
 
               <div className="space-y-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                    <h3 className="text-xl font-light">Date & Time</h3>
-                    <p className="text-earth-muted font-light">
+                    <h3 className="text-xl font-medium">Date & Time</h3>
+                    <p className="text-earth-muted font-normal">
                       May 15, 2023
                       <br />
                       10:00 AM - 1:00 PM Pacific Time
@@ -184,8 +184,8 @@ export default function ProcrastinationWorkshopPage() {
                   </div>
 
                   <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                    <h3 className="text-xl font-light">Location</h3>
-                    <p className="text-earth-muted font-light">
+                    <h3 className="text-xl font-medium">Location</h3>
+                    <p className="text-earth-muted font-normal">
                       Live Virtual Workshop
                       <br />
                       Zoom link provided upon registration
@@ -193,8 +193,8 @@ export default function ProcrastinationWorkshopPage() {
                   </div>
 
                   <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                    <h3 className="text-xl font-light">Group Size</h3>
-                    <p className="text-earth-muted font-light">
+                    <h3 className="text-xl font-medium">Group Size</h3>
+                    <p className="text-earth-muted font-normal">
                       Limited to 20 participants
                       <br />
                       For personalized attention
@@ -202,8 +202,8 @@ export default function ProcrastinationWorkshopPage() {
                   </div>
 
                   <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                    <h3 className="text-xl font-light">Recording</h3>
-                    <p className="text-earth-muted font-light">
+                    <h3 className="text-xl font-medium">Recording</h3>
+                    <p className="text-earth-muted font-normal">
                       Full workshop recording available
                       <br />
                       Lifetime access included
@@ -212,7 +212,7 @@ export default function ProcrastinationWorkshopPage() {
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">What's Included</h3>
+                  <h3 className="text-xl font-medium">What's Included</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
@@ -257,13 +257,13 @@ export default function ProcrastinationWorkshopPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">What Participants Say</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">What Participants Say</h2>
               </div>
 
               <div className="space-y-12">
                 <article itemScope itemType="https://schema.org/Review">
                   <div className="space-y-6">
-                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                    <blockquote itemProp="reviewBody" className="text-xl font-normal leading-relaxed">
                       "Although I had seen many of the tools before, what shifted for me was Trung's way of applying them — translating ideas into real action. I was also inspired by seeing how many people around him had taken the leap to fully commit to their dreams instead of keeping it a side hustle. If someone is serious about building their own path and needs a real nudge toward action, this workshop is exactly what they need."
                   </blockquote>
                   <footer>
@@ -284,24 +284,24 @@ export default function ProcrastinationWorkshopPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Investment</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">Investment</h2>
               </div>
 
               <div className="space-y-8">
                 <div className="p-8 border border-earth-light/50 bg-earth-light">
                   <div className="space-y-6">
                     <div className="flex justify-between items-center">
-                      <h3 className="text-2xl font-light">Workshop Registration</h3>
+                      <h3 className="text-2xl font-medium">Workshop Registration</h3>
                       <div className="bg-earth-green/10 text-earth-green px-3 py-1 text-sm">7 Spots Left</div>
                     </div>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-light text-earth-accent">$497</span>
+                      <span className="text-4xl font-normal text-earth-accent">$497</span>
                       <span className="text-earth-muted ml-2">USD</span>
                     </div>
 
                     <div className="pt-6">
-                      <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300">
+                      <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300">
                         Reserve Your Spot Now
                       </Button>
                     </div>
@@ -313,8 +313,8 @@ export default function ProcrastinationWorkshopPage() {
                 </div>
 
                 <div className="space-y-6">
-                  <h3 className="text-xl font-light">100% Satisfaction Guarantee</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">100% Satisfaction Guarantee</h3>
+                  <p className="text-earth-muted font-normal">
                     If you don't find the workshop valuable, simply let us know by the end of the session and we'll
                     refund your investment in full. No questions asked.
                   </p>
@@ -340,21 +340,21 @@ export default function ProcrastinationWorkshopPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">FAQ</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">FAQ</h2>
               </div>
 
               <div className="space-y-12">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">Will this be recorded?</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">Will this be recorded?</h3>
+                  <p className="text-earth-muted font-normal">
                     Yes, the full workshop will be recorded and you'll have lifetime access to the replay. However, I
                     encourage live attendance for the interactive exercises and personalized feedback.
                   </p>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">How is this different from other productivity workshops?</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">How is this different from other productivity workshops?</h3>
+                  <p className="text-earth-muted font-normal">
                     Most productivity workshops focus on techniques and tools. This workshop addresses the emotional and
                     psychological roots of procrastination, giving you a complete system that works with your unique
                     patterns, not against them.
@@ -362,8 +362,8 @@ export default function ProcrastinationWorkshopPage() {
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">Is this right for me if I'm not a founder?</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">Is this right for me if I'm not a founder?</h3>
+                  <p className="text-earth-muted font-normal">
                     Absolutely. This workshop is designed for any high-achiever who struggles with procrastination,
                     regardless of your professional background. Past participants have included writers, artists,
                     executives, and entrepreneurs.
@@ -371,8 +371,8 @@ export default function ProcrastinationWorkshopPage() {
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-light">What if I can't attend live?</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium">What if I can't attend live?</h3>
+                  <p className="text-earth-muted font-normal">
                     While live attendance is recommended, you'll still get tremendous value from the recording and
                     materials. You can also submit questions in advance, which I'll address during the workshop.
                   </p>

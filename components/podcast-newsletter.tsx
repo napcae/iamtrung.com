@@ -18,7 +18,7 @@ export function PodcastNewsletter() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light text-earth-accent mb-4">The Uncomfort Zone</h2>
+            <h2 className="text-2xl font-semibold text-earth-accent mb-4">The Uncomfort Zone</h2>
             <Image
               src="/newsletter.jpeg"
               alt="Newsletter illustration"
@@ -30,7 +30,7 @@ export function PodcastNewsletter() {
           </div>
           <div className="space-y-12">
 
-            <p className="text-xl font-light">
+            <p className="text-xl font-normal">
               Join founders and leaders who receive my weekly insights on growth, technology, and embracing
               discomfort as a catalyst for transformation.
             </p>
@@ -54,7 +54,7 @@ export function PodcastNewsletter() {
                     </div>
                   </div>
                   <header>
-                    <h3 className="text-lg font-light group-hover:text-earth-accent transition-colors duration-300">
+                    <h3 className="text-lg font-medium group-hover:text-earth-accent transition-colors duration-300">
                     Opening Your Inner Door: The Power of Being Real
                     </h3>
                     <p className="text-sm text-earth-muted">Episode 16 • 9 min</p>
@@ -64,8 +64,8 @@ export function PodcastNewsletter() {
 
               <div className="space-y-4">
                 <div className="p-8 border border-earth-light/50 h-full flex flex-col bg-earth-background">
-                  <h3 className="text-xl font-light mb-4">Weekly Newsletter</h3>
-                  <p className="text-earth-muted font-light mb-6 flex-grow">
+                  <h3 className="text-xl font-medium mb-4">Weekly Newsletter</h3>
+                  <p className="text-earth-dark font-normal mb-6 flex-grow">
                     Get actionable insights on building resilient systems and teams, delivered directly to your inbox.
                   </p>
                   <a
@@ -89,7 +89,7 @@ export function PodcastNewsletter() {
               href="https://theuncomfortzone.substack.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-lg font-light text-earth-accent hover:text-earth-green transition-colors border-b border-earth-light/50 hover:border-earth-accent pb-1"
+              className="inline-flex items-center text-lg font-normal text-earth-accent hover:text-earth-green transition-colors border-b border-earth-light/50 hover:border-earth-accent pb-1"
             >
               Explore all episodes
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

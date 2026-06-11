@@ -29,26 +29,26 @@ export default function TheInnernetPage() {
                   Back to Home
                 </Link>
 
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
                   The <span className="text-earth-accent">Innernet</span>
                 </h1>
 
-                <p className="text-xl md:text-2xl font-light text-earth-muted">
+                <p className="text-xl md:text-2xl font-normal text-earth-dark">
                   Sustainable High Performance
                 </p>
 
-                <p className="text-lg md:text-xl text-earth-muted max-w-xl font-light leading-relaxed">
+                <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal leading-relaxed">
                   A calm, high-clarity community for leaders, operators, and emerging talent who want to grow from the inside out.
                 </p>
 
-                <p className="text-lg text-earth-muted max-w-xl font-light leading-relaxed">
+                <p className="text-lg text-earth-dark max-w-xl font-normal leading-relaxed">
                   We help you build sustainable high performance through guided reflection, emotional clarity, and shared wisdom — <span className="text-earth-accent">inner work for outer impact.</span>
                 </p>
 
                 <div className="pt-4">
                   <Button
                     asChild
-                    className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                    className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300"
                   >
                     <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
                       Join Weekly Reflection Session
@@ -75,7 +75,7 @@ export default function TheInnernetPage() {
 
               <div className="bg-earth-light p-8 border border-earth-light/50">
                 <div className="space-y-6">
-                  <h3 className="text-2xl font-light">Is This You?</h3>
+                  <h3 className="text-2xl font-medium">Is This You?</h3>
 
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -107,7 +107,7 @@ export default function TheInnernetPage() {
                   <div className="pt-4">
                     <Button
                       asChild
-                      className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                      className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300"
                     >
                       <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
                         Join the Next Session
@@ -125,7 +125,7 @@ export default function TheInnernetPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-8 text-earth-muted">Why I Built This</h2>
+                <h2 className="text-2xl font-semibold mb-8 text-earth-dark">Why I Built This</h2>
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30 mt-8">
                   <Image
                     src="/innernet/reflection.jpg"
@@ -137,10 +137,10 @@ export default function TheInnernetPage() {
               </div>
 
               <div className="space-y-6">
-                <p className="text-xl font-light leading-relaxed">
+                <p className="text-xl font-normal leading-relaxed">
                   I built InnerNet because everywhere I looked — founders, operators, emerging talent — people were smart but stuck: high output, low clarity, and slowly burning themselves down.
                 </p>
-                <p className="text-xl font-light leading-relaxed">
+                <p className="text-xl font-normal leading-relaxed">
                   I wanted a space where people could learn the emotional and strategic operating systems behind performance, so they could scale their lives and companies without losing themselves.
                 </p>
                 <p className="text-xl font-light leading-relaxed text-earth-accent italic">
@@ -156,34 +156,34 @@ export default function TheInnernetPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">What Makes It Different</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">What Makes It Different</h2>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-light text-earth-accent">Spaciousness > Pressure</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium text-earth-accent">Spaciousness > Pressure</h3>
+                  <p className="text-earth-muted font-normal">
                     A space that feels like exhaling. High standards without hardness.
                   </p>
                 </div>
 
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-light text-earth-accent">Clarity > Hacks</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium text-earth-accent">Clarity > Hacks</h3>
+                  <p className="text-earth-muted font-normal">
                     We focus on the inner loops that power everything — identity, patterns, emotional regulation.
                   </p>
                 </div>
 
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-light text-earth-accent">Connection > Content</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium text-earth-accent">Connection > Content</h3>
+                  <p className="text-earth-muted font-normal">
                     Depth without heaviness. Growth without noise. Shared wisdom over solo learning.
                   </p>
                 </div>
 
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-light text-earth-accent">Character > Skills</h3>
-                  <p className="text-earth-muted font-light">
+                  <h3 className="text-xl font-medium text-earth-accent">Character > Skills</h3>
+                  <p className="text-earth-muted font-normal">
                     Philosophy-backed, community-fueled personal evolution for lasting change.
                   </p>
                 </div>
@@ -197,8 +197,8 @@ export default function TheInnernetPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-8 text-earth-muted">Weekly Reflection Session</h2>
-                <p className="text-lg text-earth-muted font-light">The core ritual</p>
+                <h2 className="text-2xl font-semibold mb-8 text-earth-dark">Weekly Reflection Session</h2>
+                <p className="text-lg text-earth-dark font-normal">The core ritual</p>
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30 mt-8">
                   <Image
                     src="/innernet/community.jpg"
@@ -210,22 +210,22 @@ export default function TheInnernetPage() {
               </div>
 
               <div className="space-y-8">
-                <p className="text-xl font-light leading-relaxed">
+                <p className="text-xl font-normal leading-relaxed">
                   Every week, we slow down for 30 minutes to reset our minds and learn from each other.
                 </p>
 
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="text-earth-accent mr-3">→</span>
-                    <span className="text-lg font-light">Clear mental noise</span>
+                    <span className="text-lg font-normal">Clear mental noise</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-earth-accent mr-3">→</span>
-                    <span className="text-lg font-light">Build emotional precision</span>
+                    <span className="text-lg font-normal">Build emotional precision</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-earth-accent mr-3">→</span>
-                    <span className="text-lg font-light">Reset the inner loop so the outer loop runs better</span>
+                    <span className="text-lg font-normal">Reset the inner loop so the outer loop runs better</span>
                   </li>
                 </ul>
 
@@ -236,7 +236,7 @@ export default function TheInnernetPage() {
                 <div className="pt-4">
                   <Button
                     asChild
-                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300"
                   >
                     <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
                       Join the Next Session
@@ -254,13 +254,13 @@ export default function TheInnernetPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-16 text-earth-muted">Member Stories</h2>
+                <h2 className="text-2xl font-semibold mb-16 text-earth-dark">Member Stories</h2>
               </div>
 
               <div className="space-y-12">
                 <article itemScope itemType="https://schema.org/Review">
                   <div className="space-y-6">
-                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                    <blockquote itemProp="reviewBody" className="text-xl font-normal leading-relaxed">
                       "I'm really happy to have met you, and I think it's fantastic that you want to bring more structure to the startup scene here. I find sharing in the founder circle incredibly valuable, though it does require a certain level of trust."
                     </blockquote>
                     <footer>
@@ -274,7 +274,7 @@ export default function TheInnernetPage() {
 
                 <article itemScope itemType="https://schema.org/Review">
                   <div className="space-y-6">
-                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                    <blockquote itemProp="reviewBody" className="text-xl font-normal leading-relaxed">
                       "I really appreciate the format because it creates meaningful connections with people who are facing similar challenges. You can feel everyone's motivation to work on their goals, and the trust we've built makes these sessions truly valuable."
                     </blockquote>
                     <footer>
@@ -288,7 +288,7 @@ export default function TheInnernetPage() {
 
                 <article itemScope itemType="https://schema.org/Review">
                   <div className="space-y-6">
-                    <blockquote itemProp="reviewBody" className="text-xl font-light leading-relaxed">
+                    <blockquote itemProp="reviewBody" className="text-xl font-normal leading-relaxed">
                       "We're not in this journey alone. Everyone faces their own challenges, and knowing that others are working towards their goals makes the burden feel lighter. I appreciate how supportive we are, sharing our perspectives and decision-making processes."
                     </blockquote>
                     <footer>
@@ -309,34 +309,34 @@ export default function TheInnernetPage() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
-                <h2 className="text-2xl font-light mb-8 text-earth-muted">Stay Connected</h2>
-                <p className="text-lg text-earth-muted font-light">No spam. No pressure. Just honest conversations.</p>
+                <h2 className="text-2xl font-semibold mb-8 text-earth-dark">Stay Connected</h2>
+                <p className="text-lg text-earth-dark font-normal">No spam. No pressure. Just honest conversations.</p>
               </div>
 
               <div className="space-y-8">
-                <p className="text-xl font-light leading-relaxed">
+                <p className="text-xl font-normal leading-relaxed">
                   If this resonates and you want to go deeper:
                 </p>
 
                 <ul className="space-y-4">
-                  <li className="flex items-start text-lg font-light">
+                  <li className="flex items-start text-lg font-normal">
                     <span className="text-earth-green mr-3">🟢</span>
                     <span><a href="https://chat.whatsapp.com/F7bJ8CNxWqYIhZgNSjyOIv" target="_blank" rel="noopener noreferrer" className="text-earth-accent hover:underline">WhatsApp community</a> — low-noise, high-signal updates</span>
                   </li>
-                  <li className="flex items-start text-lg font-light">
+                  <li className="flex items-start text-lg font-normal">
                     <span className="mr-3">✉️</span>
                     <span><a href="https://theuncomfortzone.substack.com" target="_blank" rel="noopener noreferrer" className="text-earth-accent hover:underline">The Uncomfort Zone</a> — reflections on work, identity, and alignment</span>
                   </li>
                 </ul>
 
-                <p className="text-xl font-light text-earth-accent">
+                <p className="text-xl font-normal text-earth-accent">
                   👉 Join if it feels right
                 </p>
 
                 <div className="pt-4">
                   <Button
                     asChild
-                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-light transition-all duration-300"
+                    className="bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300"
                   >
                     <a href="https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP" target="_blank" rel="noopener noreferrer">
                       Join the Weekly Reflection
