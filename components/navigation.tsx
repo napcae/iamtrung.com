@@ -27,7 +27,9 @@ export function Navigation() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        scrolled || isOpen ? "bg-white/95 backdrop-blur-md border-b border-earth-light" : "bg-transparent",
+        isOpen ? "bg-white border-b border-earth-light"
+          : scrolled ? "bg-white/95 backdrop-blur-md border-b border-earth-light"
+          : "bg-transparent",
       )}
     >
       <div className="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
