@@ -51,24 +51,31 @@ All values are exact. Do not approximate or substitute.
 
 ## 3. Typography
 
-**Font family:** Inter (Google Fonts) — precision and legibility, not decoration  
-**Fallback stack:** `Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`
+**Two-font system:**
+- **Instrument Serif** — H1 and H2 only. Chosen for editorial weight and humanity. Loaded via `next/font/google`.
+- **Inter** — everything else: H3, body, UI, labels, captions. Precision and legibility.
+
+**Instrument Serif fallback:** `Instrument Serif, Georgia, serif`  
+**Inter fallback:** `Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`
 
 ### Weight + size hierarchy
 
-| Element | Weight | Weight value | Size range | Notes |
-|---------|--------|-------------|------------|-------|
-| H1 / Hero | Bold | 700 | 4xl–7xl (36px–72px) | Few words. Owns the screen. |
-| H2 / Section | Semibold | 600 | 2xl (24px) | Clear chapter break |
-| H3 / Subhead | Medium | 500 | xl–2xl (20px–24px) | Card header, section label |
-| Body | Normal | 400 | lg–xl (18px–20px) | Always readable, never thin |
-| Metadata | Normal | 400 | sm (14px) | Footer links, captions, dates |
-| Atmospheric quote | Light + italic | 300 | lg–2xl (18px–24px) | Poetic emphasis only — not UI, not headings |
+| Element | Font | Weight | Weight value | Size range | Notes |
+|---------|------|--------|-------------|------------|-------|
+| H1 / Hero | Instrument Serif | Regular | 400 | 4xl–7xl (36px–72px) | Natural weight only. Letter-spacing: -0.02em. |
+| H2 / Section | Instrument Serif | Regular | 400 | 2xl (24px) | Natural weight only. Letter-spacing: -0.02em. |
+| H3 / Subhead | Inter | Medium | 500 | xl–2xl (20px–24px) | Card header. Sometimes uppercase + tracking-wide at sm size. |
+| Body | Inter | Normal | 400 | lg–xl (18px–20px) | Always readable, never thin |
+| Metadata / labels | Inter | Normal | 400 | sm (14px) | Uppercase + letter-spacing wide for section labels |
+| Citation / attribution | Inter | Light + italic | 300 | sm–base | Citations, testimonial attribution only |
+| Atmospheric quote | Inter | Light + italic | 300 | lg–2xl (18px–24px) | Poetic emphasis only — not UI, not headings |
 
 ### Typography rules
-- `font-light` (300) is **reserved for poetic/reflective italic text only** — never headings, never buttons, never UI
+- **H1 and H2 always render in Instrument Serif at weight 400** — this is enforced by unlayered CSS in `globals.css` and overrides any Tailwind weight class on those elements. Do not attempt to bold them.
+- Instrument Serif italic is available and may be used for atmospheric or reflective phrases within H1/H2.
+- `font-light` (300) is **reserved for citations and poetic/reflective italic text only** — never standard UI, never buttons
 - `line-height`: relaxed (1.625) on all body copy — this is a reflection space, not a news site
-- `letter-spacing`: tight on large headings, default everywhere else
+- `letter-spacing`: `-0.02em` on H1/H2, `wide` + `uppercase` on small section labels, default everywhere else
 - Never center-align body paragraphs — only headings and pull-quotes
 
 ---
@@ -181,16 +188,17 @@ When generating any asset for this brand, apply the following context block:
 ```
 Brand: Trung Nguyen / iamtrung.com
 Colors: bg #F8F9F7, text #1A2F23, accent #2F5F48, hover #3A7D5A, surface #E8EFE9, muted #5A7D6A
-Font: Inter — headings bold/semibold, body normal (400), atmospheric quotes light italic only
+Fonts: Instrument Serif Regular 400 (H1, H2 only) + Inter (everything else: H3 Medium 500, body Normal 400, citations Light 300 italic)
 Buttons: square corners (border-radius: 0), solid accent or outlined
 Voice: direct, honest, spacious, certain — short declaratives, contrast structure, no hype words
 Spacing: generous — 128px section padding, max-width 1152px
-Never: gradients, shadows, rounded interactive elements, two greens together, font-light on headings
+Never: gradients, shadows, rounded interactive elements, two greens together, bold/heavy weight on H1 or H2
 ```
 
 ### Social / banner assets
 - Dominant background: `#F8F9F7` or `#1A2F23` (light or dark — one per asset)
-- Headline: Inter Bold, `#1A2F23` or `#F8F9F7` depending on bg, tracked tight
+- Headline: Instrument Serif Regular (400), letter-spacing -0.02em, `#1A2F23` or `#F8F9F7` depending on bg
+- Subline / body: Inter Normal (400)
 - Accent element: single use of `#2F5F48` — one word, one line, one element
 - No stock photography, no fake smiles, no gradients
 - Whitespace is the design — don't fill it
@@ -198,7 +206,7 @@ Never: gradients, shadows, rounded interactive elements, two greens together, fo
 ### Client-facing documents (decks, proposals)
 - Cover: `#1A2F23` background, `#F8F9F7` text, `#2F5F48` accent word
 - Body slides: `#F8F9F7` background, `#1A2F23` text
-- Headers: Inter Semibold 600
+- Slide headers: Instrument Serif Regular 400, letter-spacing -0.02em
 - Body: Inter Normal 400, 18–20px, line-height 1.625
 - No decorative elements beyond a `#D4C4A8` divider rule where structure is needed
 
