@@ -24,9 +24,9 @@ export function TestimonialMinimal({ quote, author, company, delay = 0 }: Testim
         transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${delay}s`,
       }}
     >
-      <p className="text-xl font-light leading-relaxed">"{quote}"</p>
+      <p className="text-xl font-normal leading-relaxed">"{quote}"</p>
       <div>
-        <p className="font-light">{author}</p>
+        <p className="font-normal">{author}</p>
         <p className="text-sm text-[#555]">{company}</p>
       </div>
     </div>

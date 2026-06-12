@@ -1,6 +1,22 @@
 import type { Metadata } from 'next'
+import { Inter, Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@/components/analytics'
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-inter',
+})
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ['latin'],
+  weight: '400',
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-serif',
+})
 
 export const metadata: Metadata = {
   title: "Trung Nguyen – The Innernet & Founder Coach",
@@ -14,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={`${inter.variable} ${instrumentSerif.variable}`}>
+      <body className={inter.className}>
         {children}
         <Analytics />
       </body>

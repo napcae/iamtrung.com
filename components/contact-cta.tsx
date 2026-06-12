@@ -44,7 +44,7 @@ export function ContactCTA() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-light mb-16 text-earth-muted">Let's Connect</h2>
+            <h2 className="text-2xl font-semibold mb-16 text-earth-dark">Let's Connect</h2>
             <div className="aspect-[4/3] relative rounded-lg overflow-hidden border border-earth-light/30 mb-8">
               <Image
                 src="./connect.jpeg"
@@ -55,11 +55,11 @@ export function ContactCTA() {
               />
             </div>
             <div className="space-y-8">
-              <p className="text-xl font-light">
+              <p className="text-xl font-normal">
                 I work with founders who are committed to building technology with purpose and integrity. If that's you,
                 let's start a conversation.
               </p>
-              <p className="text-xl font-light text-earth-accent">
+              <p className="text-xl font-normal text-earth-accent">
                 The world needs more builders who care about the impact of what they create.
               </p>
               <Button

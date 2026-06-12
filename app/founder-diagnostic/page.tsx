@@ -31,7 +31,7 @@ export default function FounderDiagnosticPage() {
                 Something in your startup is slowing everything down. You feel it. You haven&apos;t named it yet.
               </h1>
 
-              <p className="text-xl text-earth-muted font-light leading-relaxed max-w-2xl">
+              <p className="text-xl text-earth-dark font-normal leading-relaxed max-w-2xl">
                 I run 90-minute Founder Bottleneck Diagnostics &mdash; one structured session to find the real constraint. Not advice. Not strategy. One answer: what&apos;s actually in the way, and why.
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function FounderDiagnosticPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-normal mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
-                  <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
+                  <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
                     <p>Sprints end. Decisions pile up. Your best people are waiting on you.</p>
                     <p>You&apos;re the bottleneck in your own machine — and you can&apos;t see it from the inside.</p>
                   </div>
@@ -61,7 +61,7 @@ export default function FounderDiagnosticPage() {
                 </div>
                 <div>
                   <h2 className="text-2xl font-normal mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
-                  <div className="space-y-3 text-lg font-light leading-relaxed text-earth-muted">
+                  <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
                     <p>Every conversation pulls you in a different direction.</p>
                     <p>Without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.</p>
                   </div>
@@ -75,19 +75,19 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-12">
-              <p className="text-sm text-earth-muted font-light tracking-wide uppercase">
+              <p className="text-sm text-earth-muted font-normal tracking-wide uppercase">
                 What founders say
               </p>
 
               <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
-                <blockquote className="text-xl font-light leading-relaxed mb-4">
+                <blockquote className="text-xl font-normal leading-relaxed mb-4">
                   &ldquo;It&apos;s like going to the doctor for a scan you&apos;ve never had before and you find out problems you didn&apos;t know you had.&rdquo;
                 </blockquote>
                 <cite className="not-italic font-light text-earth-muted">— Founder, B2B SaaS</cite>
               </div>
 
               <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
-                <blockquote className="text-xl font-light leading-relaxed mb-4">
+                <blockquote className="text-xl font-normal leading-relaxed mb-4">
                   &ldquo;I immediately sat down and decoded the whole thing and I know exactly what I need to do next.&rdquo;
                 </blockquote>
                 <cite className="not-italic font-light text-earth-muted">— Hien Nguyen, Sidekiq</cite>
@@ -107,14 +107,14 @@ export default function FounderDiagnosticPage() {
         {/* Section: How it runs (process + what you leave with) */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
-            <h2 className="text-2xl font-light mb-12 text-earth-accent">How the 90 minutes runs</h2>
+            <h2 className="text-2xl font-semibold mb-12 text-earth-accent">How the 90 minutes runs</h2>
 
             <div className="space-y-12">
               <div className="flex gap-6">
                 <ClipboardList className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">Before</h3>
-                  <p className="text-lg font-light leading-relaxed">
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">Before</h3>
+                  <p className="text-lg font-normal leading-relaxed">
                     A short intake. You send me where things actually stand: team, traction, what feels stuck. No deck, no prep theatre &mdash; fifteen minutes of honesty.
                   </p>
                 </div>
@@ -123,8 +123,8 @@ export default function FounderDiagnosticPage() {
               <div className="flex gap-6">
                 <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">During</h3>
-                  <p className="text-lg font-light leading-relaxed">
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">During</h3>
+                  <p className="text-lg font-normal leading-relaxed">
                     Ninety minutes, live, just us. I ask, you answer, and we follow the thread to the real constraint &mdash; not the one you walked in assuming it was.
                   </p>
                 </div>
@@ -133,32 +133,32 @@ export default function FounderDiagnosticPage() {
               <div className="flex gap-6">
                 <Compass className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">After</h3>
-                  <p className="text-lg font-light leading-relaxed mb-6">
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">After</h3>
+                  <p className="text-lg font-normal leading-relaxed mb-6">
                     You walk out with a clear answer &mdash; one you can act on the same week:
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-light text-lg">
+                      <span className="font-normal text-lg">
                         The actual bottleneck named — not the surface complaint, the structural cause
                       </span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-light text-lg">
+                      <span className="font-normal text-lg">
                         1–3 real priorities replacing current noise
                       </span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-light text-lg">
+                      <span className="font-normal text-lg">
                         A clearer decision structure for the next 30–60 days
                       </span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-light text-lg">
+                      <span className="font-normal text-lg">
                         Less expensive drift
                       </span>
                     </li>
@@ -172,11 +172,11 @@ export default function FounderDiagnosticPage() {
         {/* Section 5: About */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-6 text-lg font-light leading-relaxed">
+            <div className="space-y-6 text-lg font-normal leading-relaxed">
               <div className="bg-earth-light rounded-lg p-8 flex gap-6">
                 <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The pattern</h3>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The pattern</h3>
                   <p>
                     25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.
                   </p>
@@ -186,7 +186,7 @@ export default function FounderDiagnosticPage() {
               <div className="bg-earth-light rounded-lg p-8 flex gap-6">
                 <TrendingUp className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">The math</h3>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The math</h3>
                   <p className="text-earth-muted">
                     Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s <span className="text-earth-dark font-medium">$15k–$30k in runway recovered</span>.
                   </p>
@@ -196,7 +196,7 @@ export default function FounderDiagnosticPage() {
               <div className="bg-earth-light rounded-lg p-8 flex gap-6">
                 <Lightbulb className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-light mb-3">What this is</h3>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What this is</h3>
                   <p>
                     Not coaching. Not ongoing advisory. One diagnostic &mdash; and what comes next is a separate conversation.
                   </p>
