@@ -3,10 +3,20 @@ import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp,
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
+import {
+  founderDiagnosticMeta,
+  hero,
+  recognition,
+  testimonials,
+  process,
+  about,
+  cta,
+  videoEmbed,
+} from "@/data/founder-diagnostic"
 
 export const metadata = {
-  title: "Founder Bottleneck Diagnostic | Trung Nguyen",
-  description: "A 90-minute diagnostic to find your startup's real bottleneck. For founders with teams or founders who just raised. One session. One answer.",
+  title: founderDiagnosticMeta.title,
+  description: founderDiagnosticMeta.description,
 }
 
 export default function FounderDiagnosticPage() {
@@ -28,11 +38,11 @@ export default function FounderDiagnosticPage() {
               </Link>
 
               <h1 className="text-4xl md:text-5xl font-normal leading-relaxed">
-                Something in your startup is slowing everything down. You feel it. You haven&apos;t named it yet.
+                {hero.headline}
               </h1>
 
               <p className="text-xl text-earth-dark font-normal leading-relaxed max-w-2xl">
-                I run 90-minute Founder Bottleneck Diagnostics &mdash; one structured session to find the real constraint. Not advice. Not strategy. One answer: what&apos;s actually in the way, and why.
+                {hero.subheadline}
               </p>
             </div>
           </div>
@@ -47,10 +57,11 @@ export default function FounderDiagnosticPage() {
                   <AlertCircle className="h-6 w-6 text-earth-accent mt-1" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">Your team is moving but nothing is landing.</h2>
+                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[0].headline}</h2>
                   <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
-                    <p>Sprints end. Decisions pile up. Your best people are waiting on you.</p>
-                    <p>You&apos;re the bottleneck in your own machine — and you can&apos;t see it from the inside.</p>
+                    {recognition[0].body.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -60,10 +71,11 @@ export default function FounderDiagnosticPage() {
                   <Target className="h-6 w-6 text-earth-accent mt-1" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">You&apos;ve built something. You&apos;re not sure who it&apos;s really for.</h2>
+                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[1].headline}</h2>
                   <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
-                    <p>Every conversation pulls you in a different direction.</p>
-                    <p>Without a clear answer to &ldquo;who is this for,&rdquo; nothing compounds.</p>
+                    {recognition[1].body.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -79,25 +91,20 @@ export default function FounderDiagnosticPage() {
                 What founders say
               </p>
 
-              <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
-                <blockquote className="text-xl font-normal leading-relaxed mb-4">
-                  &ldquo;It&apos;s like going to the doctor for a scan you&apos;ve never had before and you find out problems you didn&apos;t know you had.&rdquo;
-                </blockquote>
-                <cite className="not-italic font-light text-earth-muted">— Founder, B2B SaaS</cite>
-              </div>
-
-              <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
-                <blockquote className="text-xl font-normal leading-relaxed mb-4">
-                  &ldquo;I immediately sat down and decoded the whole thing and I know exactly what I need to do next.&rdquo;
-                </blockquote>
-                <cite className="not-italic font-light text-earth-muted">— Hien Nguyen, Sidekiq</cite>
-              </div>
+              {testimonials.map((t) => (
+                <div key={t.id} className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
+                  <blockquote className="text-xl font-normal leading-relaxed mb-4">
+                    &ldquo;{t.quote}&rdquo;
+                  </blockquote>
+                  <cite className="not-italic font-light text-earth-muted">— {t.attribution}</cite>
+                </div>
+              ))}
 
               <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
                 <iframe
-                  src="https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview"
+                  src={videoEmbed.src}
                   className="w-full h-full"
-                  allow="autoplay"
+                  allow={videoEmbed.allow}
                 />
               </div>
             </div>
@@ -107,7 +114,7 @@ export default function FounderDiagnosticPage() {
         {/* Section: How it runs (process + what you leave with) */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
-            <h2 className="text-2xl font-semibold mb-12 text-earth-accent">How the 90 minutes runs</h2>
+            <h2 className="text-2xl font-semibold mb-12 text-earth-accent">{process.sectionHeadline}</h2>
 
             <div className="space-y-12">
               <div className="flex gap-6">
@@ -115,7 +122,7 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">Before</h3>
                   <p className="text-lg font-normal leading-relaxed">
-                    A short intake. You send me where things actually stand: team, traction, what feels stuck. No deck, no prep theatre &mdash; fifteen minutes of honesty.
+                    {process.before}
                   </p>
                 </div>
               </div>
@@ -125,7 +132,7 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">During</h3>
                   <p className="text-lg font-normal leading-relaxed">
-                    Ninety minutes, live, just us. I ask, you answer, and we follow the thread to the real constraint &mdash; not the one you walked in assuming it was.
+                    {process.during}
                   </p>
                 </div>
               </div>
@@ -135,33 +142,15 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">After</h3>
                   <p className="text-lg font-normal leading-relaxed mb-6">
-                    You walk out with a clear answer &mdash; one you can act on the same week:
+                    {process.after.intro}
                   </p>
                   <ul className="space-y-4">
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-normal text-lg">
-                        The actual bottleneck named — not the surface complaint, the structural cause
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-normal text-lg">
-                        1–3 real priorities replacing current noise
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-normal text-lg">
-                        A clearer decision structure for the next 30–60 days
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <span className="font-normal text-lg">
-                        Less expensive drift
-                      </span>
-                    </li>
+                    {process.after.deliverables.map((item, i) => (
+                      <li key={i} className="flex items-start">
+                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                        <span className="font-normal text-lg">{item}</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -177,9 +166,7 @@ export default function FounderDiagnosticPage() {
                 <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The pattern</h3>
-                  <p>
-                    25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.
-                  </p>
+                  <p>{about.pattern}</p>
                 </div>
               </div>
 
@@ -188,7 +175,8 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The math</h3>
                   <p className="text-earth-muted">
-                    Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s <span className="text-earth-dark font-medium">$15k–$30k in runway recovered</span>.
+                    Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s{" "}
+                    <span className="text-earth-dark font-medium">$15k–$30k in runway recovered</span>.
                   </p>
                 </div>
               </div>
@@ -197,9 +185,7 @@ export default function FounderDiagnosticPage() {
                 <Lightbulb className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What this is</h3>
-                  <p>
-                    Not coaching. Not ongoing advisory. One diagnostic &mdash; and what comes next is a separate conversation.
-                  </p>
+                  <p>{about.frame}</p>
                 </div>
               </div>
             </div>
@@ -210,14 +196,14 @@ export default function FounderDiagnosticPage() {
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
             <p className="text-3xl font-normal mb-12">
-              One session. 90 minutes. One answer.
+              {cta.headline}
             </p>
             <Button
               asChild
               className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl"
             >
-              <a href="https://www.linkedin.com/in/ctn1991/" target="_blank" rel="noopener noreferrer">
-                Start on LinkedIn
+              <a href={cta.buttonUrl} target="_blank" rel="noopener noreferrer">
+                {cta.buttonText}
                 <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
