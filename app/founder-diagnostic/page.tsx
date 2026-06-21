@@ -59,8 +59,8 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[0].headline}</h2>
                   <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
-                    {recognition[0].body.split(". ").filter(Boolean).map((sentence, i) => (
-                      <p key={i}>{sentence}.</p>
+                    {recognition[0].body.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
                     ))}
                   </div>
                 </div>
@@ -73,8 +73,8 @@ export default function FounderDiagnosticPage() {
                 <div>
                   <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[1].headline}</h2>
                   <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
-                    {recognition[1].body.split(". ").filter(Boolean).map((sentence, i) => (
-                      <p key={i}>{sentence}.</p>
+                    {recognition[1].body.map((paragraph, i) => (
+                      <p key={i}>{paragraph}</p>
                     ))}
                   </div>
                 </div>

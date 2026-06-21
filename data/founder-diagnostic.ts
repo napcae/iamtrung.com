@@ -16,15 +16,20 @@ export const hero = {
 
 export const recognition = [
   {
-    id: "execution",
-    headline: "Your team is moving but nothing is landing.",
-    body: "Sprints end, decisions pile up, your best people are waiting on you for everything. You built something real. Now you’re the bottleneck in your own machine — and you can’t see it from the inside.",
+    id: “execution”,
+    headline: “Your team is moving but nothing is landing.”,
+    body: [
+      “Sprints end, decisions pile up, your best people are waiting on you for everything. You built something real.”,
+      “Now you’re the bottleneck in your own machine — and you can’t see it from the inside.”,
+    ],
   },
   {
-    id: "positioning",
-    headline:
-      "You’ve built something. You’re not sure who it’s really for — or how to say it.",
-    body: 'You keep second-guessing the ICP, the message, who to go after first. Every conversation pulls you in a different direction. You’re spending time and money, but without a clear answer to “who is this for,” nothing compounds.',
+    id: “positioning”,
+    headline: “You’ve built something. You’re not sure who it’s really for — or how to say it.”,
+    body: [
+      “Every conversation pulls you in a different direction.”,
+      ‘Without a clear answer to “who is this for,” nothing compounds.’,
+    ],
   },
 ]
 
