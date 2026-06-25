@@ -7,7 +7,7 @@ import { SocialIcons } from "@/components/social-icons"
 
 export const metadata = {
   title: "Re:Connect Vietnam | Trung Nguyen",
-  description: "Movement. Mental Health. Sustainable High Performance. A 12-month reflection. A 6-week journey. A story about coming back — to self, to roots, to what actually matters.",
+  description: "Movement. Mental Health. Sustainable High Performance. An 18-month reflection. A 2,500km journey. A story about coming back — to self, to roots, to what actually matters.",
 }
 
 export default function ReconnectVietnamPage() {
@@ -37,12 +37,12 @@ export default function ReconnectVietnamPage() {
                 Movement. Mental Health. Sustainable High Performance.
               </p>
               <p className="text-lg text-earth-muted font-light italic">
-                A 12-month reflection. A 6-week journey.<br />
-                A story about coming back — to self, to roots, to what actually matters.
+                An 18-month reflection. A 2,500km journey.<br />
+                A story about coming back — and what you find when you do.
               </p>
               <div className="pt-8 space-y-4">
                 <p className="text-xl font-normal leading-relaxed">
-                  After 12 months living in Vietnam, I'm riding from Hanoi to Saigon to tell a different story about performance, purpose, and mental health.
+                  Eighteen months ago, I landed in Vietnam knowing almost nobody. I rode 2,500km from Hanoi to Saigon — and I&apos;m still here, still building.
                 </p>
                 <p className="text-xl font-normal leading-relaxed">
                   This journey is about <span className="text-earth-accent">reconnection</span> — with the body, the mind, and a new generation of builders shaping modern Vietnam.
@@ -97,7 +97,7 @@ export default function ReconnectVietnamPage() {
                   I was successful — and burned out. More than once.
                 </p>
                 <p className="text-xl font-normal leading-relaxed">
-                  What finally helped wasn't pushing harder. It was <span className="text-earth-accent">slowing down. Moving. Reconnecting.</span>
+                  What finally helped wasn&apos;t pushing harder. It was <span className="text-earth-accent">slowing down. Moving. Reconnecting.</span>
                 </p>
                 <p className="text-xl font-normal leading-relaxed">
                   Cycling, running, climbing — they brought me back into my body. They taught me a different definition of performance:
@@ -144,7 +144,7 @@ export default function ReconnectVietnamPage() {
                 </ul>
                 <p className="text-xl font-light leading-relaxed italic text-earth-muted">
                   This is not charity as marketing.<br />
-                  It's community support — done quietly, intentionally, and locally.
+                  It&apos;s community support — done quietly, intentionally, and locally.
                 </p>
                 <div className="pt-4">
                   <Button
@@ -168,7 +168,7 @@ export default function ReconnectVietnamPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>
                 <h2 className="text-2xl font-semibold mb-8 text-earth-accent">The Journey</h2>
-                <p className="text-lg text-earth-dark font-normal">January 2025 · 6 weeks · ~2,500 km</p>
+                <p className="text-lg text-earth-dark font-normal">January 2026 · 39 days · ~2,500 km · completed</p>
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30 mt-8">
                   <Image
                     src="/reconnect/vietnam-road.jpg"
@@ -186,7 +186,7 @@ export default function ReconnectVietnamPage() {
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-xl font-medium text-earth-accent">How I Travel</h3>
+                  <h3 className="text-xl font-medium text-earth-accent">How I Traveled</h3>
                   <p className="text-xl font-normal">
                     Gravel bike · Minimal setup · Homestays · Conversations
                   </p>
@@ -213,7 +213,7 @@ export default function ReconnectVietnamPage() {
                   </ul>
                 </div>
                 <p className="text-2xl font-light italic text-earth-accent">
-                  This is not about speed. It's about presence.
+                  It wasn&apos;t about speed. It was about presence.
                 </p>
               </div>
             </div>
@@ -231,7 +231,7 @@ export default function ReconnectVietnamPage() {
                 <div className="p-6 border border-earth-light/50 bg-earth-background space-y-4">
                   <h3 className="text-xl font-medium text-earth-accent">LinkedIn — The Meaning</h3>
                   <ul className="space-y-2 text-earth-muted font-normal">
-                    <li>Reflections & synthesis</li>
+                    <li>Reflections &amp; synthesis</li>
                     <li>Sustainable high performance</li>
                     <li>Second season of business</li>
                     <li>Identity shifts after moving to Vietnam</li>
@@ -274,16 +274,16 @@ export default function ReconnectVietnamPage() {
               </div>
               <div className="space-y-6">
                 <p className="text-xl font-normal leading-relaxed">
-                  I'm Trung — founder, angel investor, and community builder.
+                  I&apos;m Trung — founder, angel investor, and community builder.
                 </p>
                 <p className="text-xl font-normal leading-relaxed">
-                  Born and raised in Germany, I moved to Vietnam a year ago to reconnect with my roots and rethink how I live and work.
+                  Born and raised in Germany, I moved to Vietnam 18 months ago to reconnect with my roots and rethink how I live and work.
                 </p>
                 <p className="text-xl font-normal leading-relaxed">
-                  I've worked as a software engineer and staff engineer in infrastructure and security, built companies, and experienced multiple burnouts along the way.
+                  I&apos;ve worked as a software engineer and staff engineer in infrastructure and security, built companies, and experienced multiple burnouts along the way.
                 </p>
                 <p className="text-xl font-normal leading-relaxed">
-                  Today, I work with founders on alignment and sustainable high performance, lead the Founders Running Club HCMC, and explore how movement creates clarity.
+                  Today, I run the Founder Bottleneck Diagnostic — working with operators and scalers on what&apos;s actually keeping them stuck. I lead the Founders Running Club HCMC, and I keep exploring how movement creates clarity.
                 </p>
                 <p className="text-xl font-normal leading-relaxed text-earth-accent">
                   Re:Connect Vietnam is part of that work — just more honest, and more human.
@@ -347,10 +347,10 @@ export default function ReconnectVietnamPage() {
               This is not about fixing anything.
             </p>
             <p className="text-xl font-normal leading-relaxed">
-              It's about <span className="text-earth-accent">reconnecting</span> — with ourselves, with each other, and with a healthier way of performing.
+              It&apos;s about <span className="text-earth-accent">reconnecting</span> — with ourselves, with each other, and with a healthier way of performing.
             </p>
             <p className="text-xl font-normal leading-relaxed">
-              If you've ever felt burned out, disconnected, or quietly exhausted — this journey is for you.
+              If you&apos;ve ever felt burned out, disconnected, or quietly exhausted — this journey is for you.
             </p>
             <div className="pt-8 space-y-4">
               <p className="text-lg text-earth-muted font-light italic">
@@ -397,4 +397,3 @@ export default function ReconnectVietnamPage() {
     </div>
   )
 }
-
