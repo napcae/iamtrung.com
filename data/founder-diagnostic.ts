@@ -90,3 +90,73 @@ export const videoEmbed = {
   src: "https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview",
   allow: "autoplay",
 }
+
+// Intro Loom — video slot. src is empty until the Loom is filmed; the page
+// renders a "coming soon" placeholder instead of a broken iframe.
+export const introVideo = {
+  headline: "Two minutes on how I actually work",
+  blurb:
+    "Before you read any further -- here's me, and what a session actually is. No deck, no pitch.",
+  src: "",
+  allow: "autoplay",
+}
+
+// Teardown — on-page visual ("anatomy of a diagnosis"). One real case, rendered
+// as a walk-through. Data-driven so the case can be swapped by editing this object.
+export const teardown = {
+  sectionHeadline: "What finding the bottleneck actually looks like",
+  attribution: "Founder, early-stage public speaking platform",
+  surfaceComplaint: "My marketing is slow. I need to post more.",
+  theQuestion: "How many people land on your page each month?",
+  theAnswer: "I don't know.",
+  reveal: [
+    "50,000 visitors a month",
+    "A quarter clicking the call to action",
+    "Most of them creating an account",
+  ],
+  realBottleneck: "The funnel worked. He'd built the tracking and never opened it.",
+  loop: ["Name a problem", "Attack it", "Nothing moves", "Push harder"],
+  quote:
+    "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had.",
+}
+
+// Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
+// real name; all others are role/stage only (namePublic=false -> attribution only).
+export const caseStudies = [
+  {
+    id: "tran-minh-algomate",
+    quote:
+      "Your question-asking approach helped me save 10 to 15 hours of nonsense outreach.",
+    attribution: "Minh, Algomate",
+    problem: "Came in sure his execution was the problem.",
+    root: "The root wasn't an unclear ICP -- it was an undecided founder.",
+    outcome: "A simple daily outreach routine he actually runs.",
+  },
+  {
+    id: "burden-william",
+    quote:
+      "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had.",
+    attribution: "Founder, early-stage public speaking platform",
+    problem: "\"Marketing is slow -- I need to post more.\"",
+    root: "He never read the funnel data he already had.",
+    outcome: "Result landed months later -- durability, not a quick high.",
+  },
+  {
+    id: "nguyen-hien",
+    quote:
+      "I immediately sat down and decoded the whole thing and I know exactly what I need to do next.",
+    attribution: "Founder, productivity tool",
+    problem: "Unclear product direction.",
+    root: "A volume problem, not a product problem.",
+    outcome: "Same-session action -- knew the next move that day.",
+  },
+  {
+    id: "harris-johny",
+    quote:
+      "You already know something, but it hits when someone says it to you straight. Sometimes you just need to take your medicine.",
+    attribution: "Founder, sports nonprofit",
+    problem: "Avoided selling for a year to protect community trust.",
+    root: "Selling means sustainability -- otherwise the mission doesn't exist.",
+    outcome: "Published the three insights himself, unprompted.",
+  },
+]

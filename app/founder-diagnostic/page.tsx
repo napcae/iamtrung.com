@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass } from "lucide-react"
+import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, MessageSquare, HelpCircle, Video } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -7,11 +7,14 @@ import {
   founderDiagnosticMeta,
   hero,
   recognition,
-  testimonials,
+  mechanism,
   process,
   about,
   cta,
   videoEmbed,
+  introVideo,
+  teardown,
+  caseStudies,
 } from "@/data/founder-diagnostic"
 
 export const metadata = {
@@ -83,22 +86,127 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 3: Mechanism */}
+        {/* Section 3: Intro video — the person + the posture */}
+        <section className="py-24 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-4xl mx-auto">
+            <div className="space-y-6">
+              <div className="flex gap-6">
+                <Video className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h2 className="text-2xl font-normal mb-3 text-earth-accent">{introVideo.headline}</h2>
+                  <p className="text-lg font-normal leading-relaxed text-earth-dark max-w-2xl">
+                    {introVideo.blurb}
+                  </p>
+                </div>
+              </div>
+
+              {introVideo.src ? (
+                <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
+                  <iframe
+                    src={introVideo.src}
+                    className="w-full h-full"
+                    allow={introVideo.allow}
+                  />
+                </div>
+              ) : (
+                <div className="aspect-video w-full max-w-2xl rounded-lg border border-dashed border-earth-muted/40 flex items-center justify-center bg-earth-light">
+                  <span className="text-sm text-earth-muted uppercase tracking-wide">Coming soon</span>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* Section 4: Teardown — anatomy of a diagnosis (on-page visual) */}
+        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
+          <div className="w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl font-semibold mb-12 text-earth-accent">{teardown.sectionHeadline}</h2>
+
+            <div className="space-y-8">
+              {/* Surface complaint */}
+              <div className="flex gap-6">
+                <MessageSquare className="h-6 w-6 text-earth-muted flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-muted uppercase tracking-wide font-medium mb-2">What he walked in saying</h3>
+                  <p className="text-xl font-normal leading-relaxed text-earth-dark italic">&ldquo;{teardown.surfaceComplaint}&rdquo;</p>
+                </div>
+              </div>
+
+              {/* The one question -> the answer */}
+              <div className="flex gap-6">
+                <HelpCircle className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div className="space-y-2">
+                  <p className="text-lg font-normal leading-relaxed text-earth-dark">
+                    <span className="text-earth-accent font-medium">Q:</span> {teardown.theQuestion}
+                  </p>
+                  <p className="text-lg font-normal leading-relaxed text-earth-muted flex items-center">
+                    <ArrowRight className="h-4 w-4 mr-2 flex-shrink-0" />
+                    &ldquo;{teardown.theAnswer}&rdquo;
+                  </p>
+                </div>
+              </div>
+
+              {/* The reveal */}
+              <div className="flex gap-6">
+                <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What the data already showed</h3>
+                  <ul className="space-y-3">
+                    {teardown.reveal.map((fact, i) => (
+                      <li key={i} className="flex items-start">
+                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                        <span className="font-normal text-lg text-earth-dark">{fact}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {/* The loop */}
+              <div className="flex gap-6">
+                <RotateCw className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The loop it breaks</h3>
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-2">
+                    {teardown.loop.map((node, i) => (
+                      <span key={i} className="flex items-center">
+                        <span className="rounded-full border border-earth-accent/40 px-4 py-2 text-sm font-normal text-earth-dark bg-earth-background">
+                          {node}
+                        </span>
+                        {i < teardown.loop.length - 1 ? (
+                          <ArrowRight className="h-4 w-4 mx-1 text-earth-muted" />
+                        ) : (
+                          <RotateCw className="h-4 w-4 mx-1 text-earth-muted" />
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* The real bottleneck */}
+              <div className="border-l-4 border-earth-accent pl-6 py-2">
+                <p className="text-xl font-normal leading-relaxed text-earth-dark">{teardown.realBottleneck}</p>
+              </div>
+
+              {/* Closing quote */}
+              <div className="bg-earth-background rounded-lg p-8 border-l-4 border-earth-accent">
+                <blockquote className="text-xl font-normal leading-relaxed mb-4">
+                  &ldquo;{teardown.quote}&rdquo;
+                </blockquote>
+                <cite className="not-italic font-light text-earth-muted">— {teardown.attribution}</cite>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 5: Mechanism — framing + existing video (preserved) */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-12">
-              <p className="text-sm text-earth-muted font-normal tracking-wide uppercase">
-                What founders say
+              <p className="text-lg font-normal leading-relaxed text-earth-dark max-w-2xl">
+                {mechanism.framing}
               </p>
-
-              {testimonials.map((t) => (
-                <div key={t.id} className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
-                  <blockquote className="text-xl font-normal leading-relaxed mb-4">
-                    &ldquo;{t.quote}&rdquo;
-                  </blockquote>
-                  <cite className="not-italic font-light text-earth-muted">— {t.attribution}</cite>
-                </div>
-              ))}
 
               <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
                 <iframe
@@ -158,7 +266,41 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 5: About */}
+        {/* Section 7: Case studies */}
+        <section className="py-24 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-4xl mx-auto">
+            <p className="text-sm text-earth-muted font-normal tracking-wide uppercase mb-12">
+              What founders say
+            </p>
+
+            <div className="space-y-8">
+              {caseStudies.map((c) => (
+                <div key={c.id} className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
+                  <blockquote className="text-xl font-normal leading-relaxed mb-4">
+                    &ldquo;{c.quote}&rdquo;
+                  </blockquote>
+                  <cite className="not-italic font-light text-earth-muted block mb-6">— {c.attribution}</cite>
+                  <dl className="space-y-2 text-base">
+                    <div className="flex gap-3">
+                      <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Came in</dt>
+                      <dd className="text-earth-dark">{c.problem}</dd>
+                    </div>
+                    <div className="flex gap-3">
+                      <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Root</dt>
+                      <dd className="text-earth-dark">{c.root}</dd>
+                    </div>
+                    <div className="flex gap-3">
+                      <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Outcome</dt>
+                      <dd className="text-earth-dark">{c.outcome}</dd>
+                    </div>
+                  </dl>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Section 8: About */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-6 text-lg font-normal leading-relaxed">
@@ -192,7 +334,7 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 6: CTA */}
+        {/* Section 9: CTA */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
             <p className="text-3xl font-normal mb-12">
