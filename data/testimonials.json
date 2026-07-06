@@ -1,0 +1,111 @@
+{
+  "_doNotEdit": "GENERATED — edit source files and regenerate. Never edit this file directly. See context/website/README.md for the full process.",
+  "_generated": "2026-06-25",
+  "_sources": [
+    "testimonials/wall-of-love.md",
+    "testimonials/case-studies.md"
+  ],
+  "_rule": "Only publish testimonials where namePublic is true. All others: use attribution field only (no name, no company). Check nameStatus before any site update.",
+  "diagnostic": [
+    {
+      "id": "burden-william",
+      "quote": "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had.",
+      "namePublic": false,
+      "nameStatus": "pending",
+      "attribution": "Founder, early-stage public speaking platform",
+      "tier": 1,
+      "use": "hero testimonial — scan metaphor, durability proof (result landed 6 months post-session)",
+      "doNotUse": "Do not name William Burden or Elqo until name is cleared."
+    },
+    {
+      "id": "nguyen-hien",
+      "quote": "I immediately sat down and decoded the whole thing and I know exactly what I need to do next.",
+      "namePublic": false,
+      "nameStatus": "pending",
+      "attribution": "Founder, productivity tool",
+      "tier": 1,
+      "use": "same-session action proof — 'decoded' is repeatable language",
+      "doNotUse": "Do not name Hien Nguyen or Sidekiq until name is cleared."
+    },
+    {
+      "id": "harris-johny",
+      "quote": "You know that way you already know something, but it hits when someone says it to you straight? Sometimes you just need to take your medicine.",
+      "namePublic": false,
+      "nameStatus": "pending",
+      "attribution": "Founder, sports nonprofit",
+      "tier": 1,
+      "use": "diagnostic function in client's own words — pull, not push"
+    },
+    {
+      "id": "tran-minh-algomate",
+      "quote": "Your question-asking approach helped me save 10 to 15 hours of nonsense outreach.",
+      "namePublic": true,
+      "nameStatus": "confirmed",
+      "attribution": "Minh, Algomate",
+      "tier": 1,
+      "use": "root vs. branch — came in thinking execution was the problem, diagnostic found the undecided founder; time cost quantified",
+      "doNotUse": "Cleared as 'Minh, Algomate' only. Do not use full name 'Minh Tran'."
+    },
+    {
+      "id": "tran-minh-algomate-root",
+      "quote": "I thought my execution was the problem, but that's just the branch of the tree, not the root core problem.",
+      "namePublic": true,
+      "nameStatus": "confirmed",
+      "attribution": "Minh, Algomate",
+      "tier": 1,
+      "use": "client articulating surface-vs-root in his own words — pairs with the teardown reveal",
+      "doNotUse": "Cleared as 'Minh, Algomate' only. Do not use full name 'Minh Tran'."
+    },
+    {
+      "id": "fiala-erik",
+      "quote": "Trung was super helpful whenever I asked him for an opinion on a decision regarding my startup I wasn't 100% clear about and he helped point me in the right direction. If you're considering working with him, I'd recommend you do. You can only gain from it.",
+      "namePublic": false,
+      "nameStatus": "pending",
+      "attribution": "Founder",
+      "tier": 1,
+      "use": "decision-point clarity, direct recommendation"
+    },
+    {
+      "id": "luescher-chris",
+      "quote": "You are good at laying things out on a table, like a puzzle, putting it together and helping someone articulate and see the next necessary steps. And aside from the clarity, there's always this knowledge, this certainty: we can make it work somehow with this guy, without awkwardness, without any games.",
+      "namePublic": true,
+      "nameStatus": "confirmed",
+      "attribution": "Chris Luescher, mindtv",
+      "tier": 3,
+      "use": "trust/relationship angle only — graceful exit, no-pressure positioning",
+      "doNotUse": "Non-buyer arc. Do not deploy as diagnostic outcome proof."
+    },
+    {
+      "id": "paulina",
+      "quote": "Trung taught me that failure can be a fact without being a verdict.",
+      "namePublic": false,
+      "nameStatus": "pending",
+      "attribution": "Consultant",
+      "tier": 3,
+      "use": "trust/character content only — not ICP A, not diagnostic proof"
+    },
+    {
+      "id": "tran-minh-hoang",
+      "quote": "Your service or your sessions essentially helps me to accelerate my learning rate. Without you, probably it's going to take like a few more years of very painful experiences.",
+      "namePublic": true,
+      "nameStatus": "confirmed",
+      "attribution": "Minh Hoang",
+      "tier": 2,
+      "use": "durability proof, learning acceleration",
+      "doNotUse": "Career clarity context, not founder bottleneck. Hold job-search references until she confirms process is finalized. Do not position as ICP A proof."
+    }
+  ],
+  "pendingClearance": [
+    "burden-william",
+    "nguyen-hien",
+    "harris-johny",
+    "fiala-erik",
+    "paulina"
+  ],
+  "readyToPublish": [
+    "luescher-chris",
+    "tran-minh-hoang",
+    "tran-minh-algomate",
+    "tran-minh-algomate-root"
+  ]
+}
