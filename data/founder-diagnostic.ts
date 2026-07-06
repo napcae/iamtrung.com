@@ -154,7 +154,7 @@ export const caseStudies = [
     id: "harris-johny",
     quote:
       "You already know something, but it hits when someone says it to you straight. Sometimes you just need to take your medicine.",
-    attribution: "Founder, sports nonprofit",
+    attribution: "Johny Harris, Dai Viet Rugby",
     problem: "Avoided selling for a year to protect community trust.",
     root: "Selling means sustainability -- otherwise the mission doesn't exist.",
     outcome: "Published the three insights himself, unprompted.",
