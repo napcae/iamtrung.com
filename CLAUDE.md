@@ -74,8 +74,20 @@ pnpm lint
 | `/the-innernet` | `app/the-innernet/page.tsx` |
 | `/procrastination-workshop` | `app/procrastination-workshop/page.tsx` |
 | `/reconnect-vietnam` | `app/reconnect-vietnam/page.tsx` |
+| `/d/[slug]` | `app/d/[slug]/page.tsx` — branded documents (see below) |
 
 Root layout: `app/layout.tsx` — imports `<Analytics />` (Swetrix + MS Clarity).
+
+## Branded documents (handouts, one-pagers)
+
+Forwardable documents live at stable URLs under `/d/` — unlisted (noindex, not in
+nav or sitemap), forwarded person to person. Do not put them in Google Docs.
+
+- Source: `content/documents/[slug].md` (frontmatter + markdown) → rendered at `/d/[slug]`
+- Matching PDF generated during deploy → `/d/[slug].pdf` (`scripts/generate-pdfs.mjs`, local: `pnpm build && pnpm pdf`)
+- Content source of truth is `TrungOPS` (see each file's `source:` frontmatter) — edit there first, then mirror the body here
+- Styling: `.branded-doc` in `app/globals.css`, per `brand/guidelines.md`; testimonial attributions are italicized in the markdown and render as citations
+- Updating content never changes the URL — that's the point
 
 ## Analytics
 
