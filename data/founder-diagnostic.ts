@@ -75,13 +75,25 @@ export const process = {
 export const about = {
   pattern:
     "25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.",
-  math: "Most founders clear 6-12 weeks of avoided drift. For a 5-person team at $10k/month, that's $15k-$30k in runway recovered.",
+  math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true.",
   frame:
     "Not coaching. Not ongoing advisory. One diagnostic -- and what comes next is a separate conversation.",
 }
 
 export const cta = {
-  headline: "One session. 90 minutes. One answer.",
+  headline: "One session. 90 minutes. You leave knowing what to stop.",
+  body:
+    "Tell me what's actually stuck -- a few lines on where things stand. No deck, no prep theatre. I read every one personally. If it's a fit, I'll reply within 2 business days with a next step -- sometimes a short call, sometimes a direct booking for the 90-minute session, sometimes an honest \"not a fit.\"",
+  // Airtable Form embed URL (https://airtable.com/embed/...). While empty, the page
+  // shows the LinkedIn fallback CTA below. Paste the Website Inquiries form's share
+  // URL to switch the front door to the intake form (LinkedIn drops to secondary).
+  // Spec: TrungOPS/context/website/intake-buildspec.md §4.
+  embedUrl: "",
+  secondary: {
+    text: "Already connected on LinkedIn? Message me \"diagnostic\" there instead.",
+    url: "https://www.linkedin.com/in/ctn1991/",
+  },
+  // Fallback CTA while embedUrl is empty (keeps the current LinkedIn front door).
   buttonText: "Start on LinkedIn",
   buttonUrl: "https://www.linkedin.com/in/ctn1991/",
 }

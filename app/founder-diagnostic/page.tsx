@@ -315,11 +315,8 @@ export default function FounderDiagnosticPage() {
               <div className="bg-earth-light rounded-lg p-8 flex gap-6">
                 <TrendingUp className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The math</h3>
-                  <p className="text-earth-muted">
-                    Most founders clear 6–12 weeks of avoided drift. For a 5-person team at $10k/month, that&apos;s{" "}
-                    <span className="text-earth-dark font-medium">$15k–$30k in runway recovered</span>.
-                  </p>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The cost</h3>
+                  <p className="text-earth-muted">{about.math}</p>
                 </div>
               </div>
 
@@ -334,21 +331,49 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 9: CTA */}
+        {/* Section 9: CTA — embedded Airtable intake form when cta.embedUrl is set,
+            LinkedIn fallback until then. Spec: TrungOPS/context/website/intake-buildspec.md */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
-            <p className="text-3xl font-normal mb-12">
+            <p className="text-3xl font-normal mb-8">
               {cta.headline}
             </p>
-            <Button
-              asChild
-              className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl"
-            >
-              <a href={cta.buttonUrl} target="_blank" rel="noopener noreferrer">
-                {cta.buttonText}
-                <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
-              </a>
-            </Button>
+
+            {cta.embedUrl ? (
+              <>
+                <p className="text-lg font-normal leading-relaxed text-earth-dark mb-10 max-w-2xl mx-auto">
+                  {cta.body}
+                </p>
+                <div className="w-full max-w-2xl mx-auto rounded-lg overflow-hidden border border-earth-light shadow-sm bg-earth-background">
+                  <iframe
+                    src={cta.embedUrl}
+                    className="w-full"
+                    style={{ height: 760, background: "transparent" }}
+                    title="Founder Bottleneck Diagnostic — intake"
+                  />
+                </div>
+                <p className="text-sm text-earth-muted mt-6">
+                  <a
+                    href={cta.secondary.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-earth-dark transition-colors"
+                  >
+                    {cta.secondary.text}
+                  </a>
+                </p>
+              </>
+            ) : (
+              <Button
+                asChild
+                className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl mt-4"
+              >
+                <a href={cta.buttonUrl} target="_blank" rel="noopener noreferrer">
+                  {cta.buttonText}
+                  <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
+                </a>
+              </Button>
+            )}
           </div>
         </section>
       </main>
