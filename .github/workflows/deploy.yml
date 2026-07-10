@@ -33,6 +33,11 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Generate document PDFs
+        run: |
+          npx -y playwright install --with-deps chromium
+          node scripts/generate-pdfs.mjs
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

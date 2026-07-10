@@ -203,6 +203,12 @@ Never: gradients, shadows, rounded interactive elements, two greens together, bo
 - No stock photography, no fake smiles, no gradients
 - Whitespace is the design — don't fill it
 
+### Forwardable documents (handouts, one-pagers)
+Implemented in this repo — do not use Google Docs or external tools:
+- Source: `content/documents/[slug].md` → rendered at `iamtrung.com/d/[slug]` (unlisted, noindex) + auto-generated PDF at `/d/[slug].pdf`
+- Styles: `.branded-doc` in `app/globals.css` — already encodes the rules in this file
+- Content source of truth: `TrungOPS` (see the file's `source:` frontmatter)
+
 ### Client-facing documents (decks, proposals)
 - Cover: `#1A2F23` background, `#F8F9F7` text, `#2F5F48` accent word
 - Body slides: `#F8F9F7` background, `#1A2F23` text
