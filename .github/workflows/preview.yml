@@ -38,6 +38,8 @@ jobs:
           npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 --full-page http://localhost:3000/founder-diagnostic screenshots/founder-verdict-full.png
           npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 http://localhost:3000 screenshots/home-above-fold.png
           npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 http://localhost:3000/founder-diagnostic screenshots/founder-verdict-above-fold.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 --full-page http://localhost:3000/d/diagnostic-handout screenshots/handout-full.png
+          npx playwright screenshot --browser chromium --viewport-size 1440,900 --wait-for-timeout 5000 http://localhost:3000/d/diagnostic-handout screenshots/handout-above-fold.png
 
       - name: Publish screenshots to branch
         uses: peaceiris/actions-gh-pages@v4
@@ -63,6 +65,7 @@ jobs:
               '|---|---|---|',
               `| Home | ![](${base}/home-full.png) | ![](${base}/home-above-fold.png) |`,
               `| Diagnostic | ![](${base}/founder-verdict-full.png) | ![](${base}/founder-verdict-above-fold.png) |`,
+              `| Handout (/d/diagnostic-handout) | ![](${base}/handout-full.png) | ![](${base}/handout-above-fold.png) |`,
             ].join('\n');
             const { data: comments } = await github.rest.issues.listComments({
               issue_number: pr, owner: context.repo.owner, repo: context.repo.repo,
