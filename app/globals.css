@@ -129,10 +129,13 @@ h1, h2 {
   color: #3a7d5a;
 }
 
-/* PDF output (scripts/generate-pdfs.mjs prints /d/[slug] via Chromium) */
+/* PDF output (scripts/generate-pdfs.mjs prints /d/[slug] via Chromium).
+   Print is a separate, denser typesetting: two-column A4 so the handout fits
+   1–2 pages while column line-length keeps small type readable. The web page
+   keeps its spacious layout — only @media print changes. */
 @page {
   size: A4;
-  margin: 18mm 0;
+  margin: 11mm 0;
 }
 @media print {
   body {
@@ -141,11 +144,41 @@ h1, h2 {
     /* Paper is white — a partial sage fill inside the page margins looks broken */
     background: #fff;
   }
+  .branded-doc {
+    columns: 2;
+    column-gap: 9mm;
+  }
   .branded-doc h2 {
     break-after: avoid;
+    font-size: 12pt;
+    margin: 0.9rem 0 0.35rem;
   }
-  .branded-doc blockquote,
+  .branded-doc p,
   .branded-doc li {
+    font-size: 9pt;
+    line-height: 1.45;
+  }
+  .branded-doc p {
+    margin-bottom: 0.4rem;
+  }
+  .branded-doc ul {
+    padding-left: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+  .branded-doc li {
+    margin-bottom: 0.1rem;
     break-inside: avoid;
+  }
+  .branded-doc blockquote {
+    break-inside: avoid;
+    border-left-width: 3px;
+    padding-left: 0.8rem;
+    margin: 0.6rem 0;
+  }
+  .branded-doc blockquote p {
+    margin-bottom: 0.3rem;
+  }
+  .branded-doc blockquote em {
+    font-size: 8pt;
   }
 }
