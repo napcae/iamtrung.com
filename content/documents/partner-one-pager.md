@@ -4,6 +4,7 @@ label: Partner one-pager
 description: The pattern to recognize in your own network, and a frictionless way to make the intro. For referral partners of the Founder Bottleneck Diagnostic.
 updated: 2026-07-11
 source: TrungOPS/partnerships/one-pager.md
+audience: partner
 ---
 
 ## What I do (one line)

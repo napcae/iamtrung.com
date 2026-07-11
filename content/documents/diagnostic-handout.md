@@ -4,6 +4,7 @@ label: A forwardable explainer
 description: One 90-minute session to find the real thing holding a founder back. Who it's for, who it's not for, and whether it actually works.
 updated: 2026-07-10
 source: TrungOPS/partnerships/referral-handout.md
+audience: prospect
 ---
 
 ## The short version
