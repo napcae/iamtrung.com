@@ -33,17 +33,17 @@ export default async function DocumentPage({
 
   return (
     <main className="min-h-screen bg-earth-background print:bg-white">
-      <article className="mx-auto max-w-2xl px-6 py-16 md:py-24 print:py-0">
-        <header className="mb-12">
+      <article className="mx-auto max-w-2xl px-6 py-16 md:py-24 print:max-w-none print:px-[14mm] print:py-0">
+        <header className="mb-12 print:mb-3">
           {doc.label && (
-            <p className="mb-6 text-sm uppercase tracking-wide text-earth-muted">
+            <p className="mb-6 text-sm uppercase tracking-wide text-earth-muted print:mb-1 print:text-[8.5pt]">
               {doc.label}
             </p>
           )}
-          <h1 className="text-4xl md:text-5xl text-earth-dark">{doc.title}</h1>
-          <div className="mt-6 flex items-baseline justify-between gap-6 border-b border-earth-sand pb-6">
+          <h1 className="text-4xl md:text-5xl text-earth-dark print:text-[23pt]">{doc.title}</h1>
+          <div className="mt-6 flex items-baseline justify-between gap-6 border-b border-earth-sand pb-6 print:mt-2 print:pb-2">
             {updated && (
-              <p className="text-sm text-earth-muted">Last updated {updated}</p>
+              <p className="text-sm text-earth-muted print:text-[8.5pt]">Last updated {updated}</p>
             )}
             <a
               href={`/d/${doc.slug}.pdf`}
@@ -56,13 +56,14 @@ export default async function DocumentPage({
 
         <div className="branded-doc">
           <ReactMarkdown>{doc.content}</ReactMarkdown>
-        </div>
-
-        <footer className="mt-16 border-t border-earth-sand pt-6 text-sm text-earth-muted">
-          <p className="print:hidden">Trung Nguyen · iamtrung.com</p>
-          <p className="hidden print:block">
+          {/* Print footer flows inside the columns so it can't orphan onto a new page */}
+          <p className="mt-3 hidden border-t border-earth-sand pt-1.5 text-[8pt] text-earth-muted print:block">
             Live version: iamtrung.com/d/{doc.slug}
           </p>
+        </div>
+
+        <footer className="mt-16 border-t border-earth-sand pt-6 text-sm text-earth-muted print:hidden">
+          <p>Trung Nguyen · iamtrung.com</p>
         </footer>
       </article>
     </main>
