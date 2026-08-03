@@ -305,6 +305,14 @@ export default function FounderDiagnosticPage() {
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-6 text-lg font-normal leading-relaxed">
               <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Check className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">Who this is for</h3>
+                  <p>{about.whoFor}</p>
+                </div>
+              </div>
+
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
                 <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The pattern</h3>
