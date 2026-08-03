@@ -1,36 +1,56 @@
-import Script from "next/script"
+// Entity data — keep in sync with app/layout.tsx metadata and /about.
+// Source of truth: TrungOPS strategy/positioning.md + strategy/seo.md.
+// sameAs: only verified, live profiles (footer social links are the reference).
+export const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://iamtrung.com/#trung-nguyen",
+  name: "Trung Nguyen",
+  url: "https://iamtrung.com",
+  image: "https://iamtrung.com/me_portrait.jpeg",
+  jobTitle: "Founder Bottleneck Diagnostician",
+  description:
+    "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for post-MVP founder-led companies with 3–20 people, finding and naming the constraint behind stalled decisions, execution and growth.",
+  sameAs: [
+    "https://www.linkedin.com/in/ctn1991/",
+    "https://theuncomfortzone.substack.com",
+    "https://www.instagram.com/trungmoves/",
+    "https://github.com/napcae",
+  ],
+  knowsAbout: [
+    "founder bottleneck diagnostics",
+    "startup execution bottlenecks",
+    "founder decision load",
+    "organizational constraint diagnosis",
+    "founder dependency",
+    "founder community building",
+    "angel investing",
+  ],
+  mainEntityOfPage: "https://iamtrung.com/about",
+}
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://iamtrung.com/#website",
+  name: "Trung Nguyen",
+  url: "https://iamtrung.com",
+  publisher: { "@id": "https://iamtrung.com/#trung-nguyen" },
+}
+
+// Plain <script> tags (not next/script) so the JSON-LD is present in the
+// static HTML for crawlers that don't execute JavaScript.
 export function StructuredData() {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Trung Nguyen",
-    url: "https://trungnguyen.com",
-    image: "https://trungnguyen.com/trung-nguyen.jpg",
-    sameAs: [
-      "https://twitter.com/trungnguyen",
-      "https://www.linkedin.com/in/ctn1991/",
-      "https://github.com/trungnguyen",
-    ],
-    jobTitle: "Founder Coach & Technical Advisor",
-    worksFor: {
-      "@type": "Organization",
-      name: "The Uncomfort Zone",
-    },
-    description:
-      "Empowering founders to build resilient systems and teams that transform industries while staying true to their purpose.",
-    knowsAbout: [
-      "Technical Leadership",
-      "Scaling Startups",
-      "Engineering Management",
-      "Resilient Systems",
-      "Founder Coaching",
-    ],
-  }
-
   return (
-    <Script id="structured-data" type="application/ld+json">
-      {JSON.stringify(structuredData)}
-    </Script>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+    </>
   )
 }

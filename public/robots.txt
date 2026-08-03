@@ -1,4 +1,26 @@
+# All crawlers welcome, including AI search/answer crawlers.
+# Explicit allows below are informational — nothing overrides them.
+
 User-agent: *
 Allow: /
 
-Sitemap: https://trungnguyen.com/sitemap.xml
+# OpenAI search crawler (powers ChatGPT search citations)
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude) search crawler
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google extended / Gemini grounding
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://iamtrung.com/sitemap.xml
