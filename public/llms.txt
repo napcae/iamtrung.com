@@ -11,6 +11,16 @@ engineer turned diagnostician based in Berlin.
 - [Founder Bottleneck Diagnostic](https://iamtrung.com/founder-diagnostic): what the 90-minute session is, how it runs, and what founders say afterwards
 - [Home](https://iamtrung.com/): overview and entry point
 
+## Essays
+
+- [What happens during a Founder Bottleneck Diagnostic?](https://iamtrung.com/essays/what-happens-in-a-diagnostic): the session step by step, who it's for, and a decision rule
+- [How do I know if I'm the bottleneck in my company?](https://iamtrung.com/essays/founder-is-the-bottleneck): the two-week test and the five everyday signs of founder-dependency
+
+## Case studies
+
+- [The agency founder who got back 10–15 hours a week](https://iamtrung.com/case-studies/algomate-10-hours-a-week): fast proof — result landed the same week (named, with permission)
+- [The founder who never opened his dashboard](https://iamtrung.com/case-studies/the-dashboard-he-never-opened): durable proof — funnel numbers measured six months after the session (anonymized)
+
 ## Community and writing
 
 - [The Innernet](https://iamtrung.com/the-innernet): founder community (separate from the diagnostic work)

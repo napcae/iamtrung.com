@@ -178,6 +178,19 @@ export default function AboutPage() {
                 </Link>{" "}
                 — what a session is, how it runs, and what founders say afterwards
               </li>
+              <li>
+                <Link href="/case-studies" className="text-earth-accent hover:underline">
+                  Case studies
+                </Link>{" "}
+                — what founders thought was wrong, what the diagnostic found, and the results, with real
+                numbers where clients cleared them
+              </li>
+              <li>
+                <Link href="/essays" className="text-earth-accent hover:underline">
+                  Essays
+                </Link>{" "}
+                — direct answers to the questions founders actually ask
+              </li>
             </ul>
           </div>
         </section>
