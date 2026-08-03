@@ -40,8 +40,14 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/#about" className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors">
+            <Link href="/about" className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors">
               About
+            </Link>
+            <Link
+              href="/founder-diagnostic"
+              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
+            >
+              Diagnostic
             </Link>
             <Link
               href="/#mission"
@@ -103,11 +109,18 @@ export function Navigation() {
           >
             <nav className="flex flex-col px-6 py-8 space-y-6">
               <Link
-                href="/#about"
+                href="/about"
                 className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
                 onClick={closeMenu}
               >
                 About
+              </Link>
+              <Link
+                href="/founder-diagnostic"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
+                onClick={closeMenu}
+              >
+                Diagnostic
               </Link>
               <Link
                 href="/#mission"

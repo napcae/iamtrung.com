@@ -18,10 +18,32 @@ const instrumentSerif = Instrument_Serif({
   variable: '--font-serif',
 })
 
+// Canonical entity descriptor — keep identical everywhere it appears
+// (homepage, /about, structured data, external bios). Source of truth:
+// TrungOPS strategy/positioning.md (#core-title) + strategy/seo.md.
+const entityDescription =
+  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for post-MVP founder-led companies with 3–20 people, finding and naming the constraint behind stalled decisions, execution and growth."
+
 export const metadata: Metadata = {
-  title: "Trung Nguyen – The Innernet & Founder Coach",
-  description: "Founder coach, community builder, and creator of the Innernet. Helping founders find clarity, connection, and momentum.",
-  generator: 'v0.dev',
+  metadataBase: new URL("https://iamtrung.com"),
+  title: {
+    default: "Trung Nguyen — Founder Bottleneck Diagnostician",
+    template: "%s | Trung Nguyen",
+  },
+  description: entityDescription,
+  openGraph: {
+    type: "website",
+    url: "https://iamtrung.com",
+    siteName: "Trung Nguyen",
+    title: "Trung Nguyen — Founder Bottleneck Diagnostician",
+    description: entityDescription,
+    images: ["/me_portrait.jpeg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Trung Nguyen — Founder Bottleneck Diagnostician",
+    description: entityDescription,
+  },
 }
 
 export default function RootLayout({

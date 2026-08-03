@@ -74,9 +74,24 @@ pnpm lint
 | `/the-innernet` | `app/the-innernet/page.tsx` |
 | `/procrastination-workshop` | `app/procrastination-workshop/page.tsx` |
 | `/reconnect-vietnam` | `app/reconnect-vietnam/page.tsx` |
+| `/about` | `app/about/page.tsx` — entity page (Person/ProfilePage JSON-LD) |
+| `/essays` + `/essays/[slug]` | `app/essays/` — indexed essays from `content/essays/*.md` |
+| `/case-studies` + `/case-studies/[slug]` | `app/case-studies/` — indexed case studies from `content/case-studies/*.md` |
 | `/d/[slug]` | `app/d/[slug]/page.tsx` — branded documents (see below) |
 
 Root layout: `app/layout.tsx` — imports `<Analytics />` (Swetrix + MS Clarity).
+
+## Essays & case studies (indexed long-form)
+
+Unlike `/d/` documents these ARE for search and AI crawlers: indexed, in the sitemap, Article
+JSON-LD, internally linked to `/founder-diagnostic` and `/about`.
+
+- Source: `content/essays/[slug].md` and `content/case-studies/[slug].md` (frontmatter + markdown),
+  rendered via `components/article-page.tsx` + `lib/articles.ts`
+- Canonical copy lives in `TrungOPS/context/website/essays|case-studies/[slug].md` — edit there
+  first, then mirror the body here (each file's `source:` frontmatter points back)
+- Case studies are permission-gated: names/quotes only per the testimonial permission rules below
+- New articles: add the markdown file, then add the URL to `public/sitemap.xml` and `public/llms.txt`
 
 ## Branded documents (handouts, one-pagers)
 

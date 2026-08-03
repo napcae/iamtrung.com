@@ -9,15 +9,17 @@ import { ContactCTA } from "@/components/contact-cta"
 import { AnimatedSection } from "@/components/animated-section"
 import { Offerings } from "@/components/offerings"
 import { SocialIcons } from "@/components/social-icons"
-import { Metadata } from "@/components/metadata"
 import { StructuredData } from "@/components/structured-data"
 import { InnerCircle } from "@/components/inner-circle"
 import { BookSection } from "@/components/book-section"
 
+export const metadata = {
+  alternates: { canonical: "/" },
+}
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
-      <Metadata />
       <StructuredData />
       <Navigation />
 
@@ -28,22 +30,28 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-tight">
-                  <span className="text-earth-accent">Architect</span> of Belonging
+                  Founder Bottleneck <span className="text-earth-accent">Diagnostician</span>
                 </h1>
                 <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal">
-                  I design the spaces where meaningful connection happens. Where purpose-driven founders find each
-                  other, grow together, and build companies that heal humans, society and the planet.
+                  I'm Trung Nguyen. I find the constraint founders are already scaling around instead of fixing.
+                  90 minutes, one session — for post-MVP founder-led companies with 3–20 people.
                 </p>
-                <div className="pt-4">
-                  <Link href="/the-innernet">
+                <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
+                  <Link href="/founder-diagnostic">
                     <Button
                       variant="outline"
                       size="lg"
                       className="group border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none px-8 py-6 transition-all duration-300"
                     >
-                      Join The Innernet
+                      The Founder Bottleneck Diagnostic
                       <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Button>
+                  </Link>
+                  <Link
+                    href="/about"
+                    className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
+                  >
+                    Who is Trung Nguyen? →
                   </Link>
                 </div>
               </div>
@@ -90,7 +98,10 @@ export default function Home() {
                   After leading engineering teams and carving my own path through freelancing and venture-building, I learned something simple: Transformation doesn't happen through transactions — it happens when people bet on each other.
                 </p>
                 <p className="text-xl leading-relaxed font-normal">
-                  Today, I help founders and high-achievers clear emotional bottlenecks, so they can scale without breaking what makes them great.
+                  Today I run Founder Bottleneck Diagnostics: 90 minutes to find and name the constraint behind
+                  stalled decisions, execution and growth. I still write about the founder's internal state,
+                  because it distorts business diagnosis — but the commercial work is structural, not therapy
+                  and not ongoing coaching.
                 </p>
 
                 {/* <div className="flex space-x-4 pt-4">
@@ -169,7 +180,7 @@ export default function Home() {
               <Link href="#" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Home
               </Link>
-              <Link href="#about" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
+              <Link href="/about" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 About
               </Link>
               <Link href="#offerings" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
