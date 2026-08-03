@@ -8,27 +8,26 @@ export const founderDiagnosticMeta = {
 }
 
 export const hero = {
-  headline:
-    "Something in your startup is slowing everything down. You feel it. You haven't named it yet.",
+  headline: "You already know you're good. Get a second read before the next bet.",
   subheadline:
-    "I run 90-minute Founder Bottleneck Diagnostics -- one structured session and you stop scaling around the wrong thing. Not advice. Not strategy. You leave knowing what to stop, and the one move to make instead.",
+    "I run 90-minute Founder Bottleneck Diagnostics for founders who are already running a tight operation and want an outside read before they scale further. One session. The blind spot every operator carries -- named by someone who's seen it in ten other companies before yours.",
 }
 
 export const recognition = [
   {
     id: "execution",
-    headline: "Your team is moving but nothing is landing.",
+    headline: "Everything's working. You still want someone to check the blind spot before you scale it.",
     body: [
-      "Sprints end, decisions pile up, your best people are waiting on you for everything. You built something real.",
-      "Now you're the bottleneck in your own machine -- and you can't see it from the inside.",
+      "You've built something real -- team, traction, a system that runs without you micromanaging it.",
+      "This is the check a sharp operator runs before compounding a decision: whatever's underneath the system gets bigger when you scale it.",
     ],
   },
   {
     id: "positioning",
-    headline: "You've built something. You're not sure who it's really for -- or how to say it.",
+    headline: "What's working today is producing results. You want a sharper read before you go all-in on it.",
     body: [
-      "Every conversation pulls you in a different direction.",
-      "Without a clear answer to \"who is this for,\" nothing compounds.",
+      "You have a working theory of the customer, and it's producing results right now.",
+      "What you want tested is whether that theory holds as you commit further to it -- before you spend the next two quarters compounding a mismatch nobody's caught yet.",
     ],
   },
 ]
@@ -58,7 +57,7 @@ export const testimonials = [
 export const process = {
   sectionHeadline: "How the 90 minutes runs",
   before:
-    "A short intake. You send me where things actually stand: team, traction, what feels stuck. No deck, no prep theatre -- fifteen minutes of honesty.",
+    "A short intake. You send me where things actually stand: team, traction, and the one thing you want a second, sharper read on. No deck, no prep theatre -- fifteen minutes of honesty.",
   during:
     "Ninety minutes, live, just us. I ask, you answer, and we follow the thread to the real constraint -- not the one you walked in assuming it was.",
   after: {
@@ -73,6 +72,8 @@ export const process = {
 }
 
 export const about = {
+  whoFor:
+    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves. You already know you're good -- this confirms the blind spot before it gets expensive, the way a sharp operator checks work with another sharp operator.",
   pattern:
     "25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.",
   math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true.",
