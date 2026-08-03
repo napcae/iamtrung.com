@@ -73,7 +73,7 @@ export const process = {
 
 export const about = {
   whoFor:
-    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves. You already know you're good -- this confirms the blind spot before it gets expensive, the way a sharp operator checks work with another sharp operator.",
+    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves. You already know you're good -- this confirms the blind spot before it gets expensive, the way a sharp operator checks work with another sharp operator. These are founders who go looking for the truth, especially the uncomfortable parts, because growth happens by expanding past the blind spot.",
   pattern:
     "25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.",
   math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true.",
