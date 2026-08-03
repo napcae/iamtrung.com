@@ -117,6 +117,11 @@ export default function AboutPage() {
               <li>The team is moving but nothing is landing.</li>
             </ul>
             <p className="text-xl leading-relaxed font-normal">
+              Even sharp operators who are already doing well feel this right before their next real
+              jump — a calm unease where something senses off, the timing or trigger still unclear, a
+              pattern felt but not yet named.
+            </p>
+            <p className="text-xl leading-relaxed font-normal">
               Not a fit: founders who want validation, founders who want ongoing coaching, and idea-stage
               founders with no team or product yet.
             </p>
@@ -213,6 +218,12 @@ export default function AboutPage() {
                 className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
               >
                 Diagnostic
+              </Link>
+              <Link href="/essays" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
+                Essays
+              </Link>
+              <Link href="/case-studies" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
+                Case studies
               </Link>
               <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Contact

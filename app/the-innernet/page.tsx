@@ -369,6 +369,12 @@ export default function TheInnernetPage() {
               <Link href="/#offerings" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Offerings
               </Link>
+              <Link href="/essays" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
+                Essays
+              </Link>
+              <Link href="/case-studies" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
+                Case studies
+              </Link>
               <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Contact
               </Link>
