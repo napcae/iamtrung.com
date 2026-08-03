@@ -2,50 +2,36 @@
 title: Founder Bottleneck Diagnostic
 label: A forwardable explainer
 description: One 90-minute session to find the real thing holding a founder back. Who it's for, who it's not for, and whether it actually works.
-updated: 2026-07-10
+updated: 2026-08-03
 source: TrungOPS/partnerships/referral-handout.md
 audience: prospect
 ---
 
 ## The short version
 
-One 90-minute session to find the real thing holding a founder back. Not advice. Not a strategy deck. One session to name the actual constraint and the one move to make next.
-
-Most founders come in sure they already know the problem. "My team is slow." "My marketing isn't working." "I can't focus." Usually that's the symptom. The session finds the cause. Surface complaint rarely equals the real bottleneck.
+One 90-minute session. We find the thing that's actually holding you back, not the thing you walked in thinking it was. Most founders show up already sure of the problem, "my team's slow," "marketing isn't working," "I can't focus." Usually that's not it, that's just the symptom. We find what's under it.
 
 ## Who's behind it
 
-I'm Trung. Before this I spent 10+ years in engineering and infrastructure, including Contentful and Workpath. As infra lead at Workpath, the foundations my team built let the company scale to six product teams shipping at the same time.
+I'm Trung. Before this, 10+ years in engineering, mostly infrastructure, including Contentful and Workpath. At Workpath I ran infra, and what my team built there is a big part of why the company could run six product teams shipping at once.
 
-I'm not a coach and not a generalist consultant. My background is systems, theory of constraints, security and infra. I do for a founder and their company the same thing I used to do for broken systems: find where it's actually stuck, not where it looks stuck.
+I'm not a coach and I'm not a consultant who does a bit of everything. Systems, theory of constraints, security, infra, that's the background. What I do for a founder now is basically what I used to do for a broken system: find where it's actually stuck, not where it looks stuck.
 
-A peer from that time said it well:
+A peer from that time put it well:
 
 > "Trung excels at seeing the big picture for our team and where we can and should focus our resources. A great sparring partner for any kind of topic."
 >
 > *Martin, engineering peer at Workpath*
 
-## Who it's for
+## Who it helps
 
-Founders running something real that's starting to crack:
+Usually founders with 3 to 30 people, past MVP, a year or more in, with actual revenue or users. Something feels off and they can't quite name it. A lot of the time they quietly suspect they're the bottleneck themselves.
 
-- 3 to 30 people, past MVP, a year or more in
-- Has revenue or real users
-- Quietly suspects they've become the bottleneck
-- Can feel something is off but can't name it
+Two situations I see a lot. One: things are already running, team feels slow, priorities are everywhere, founder's stuck inside their own machine. Two: they just raised or just started spending, about to hire, scared of an expensive mistake they can't see coming yet. Different setup, same underlying thing.
 
-Two flavors of the same problem:
+Simplest way to put it: they're confidently wrong about their own bottleneck, and stuck because of it. That's who this is for.
 
-- Operators: team feels slow, priorities everywhere, founder stuck inside their own machine
-- Scalers: just raised or just started spending, about to hire, scared of an expensive mistake they can't see yet
-
-The quick test for whether someone's a fit: are they confidently wrong about their own bottleneck, and clearly stuck? That's who this helps most.
-
-## Who it's not for
-
-- Idea stage, no team or product yet
-- Anyone who wants validation or a cheerleader
-- Anyone looking for ongoing coaching. This is one bounded session, on purpose
+Probably not for you if you're still at idea stage with no team or product, if you want someone to tell you you're doing fine, or if you're after ongoing coaching. This is one session. On purpose.
 
 ## Does it actually work
 
@@ -69,15 +55,12 @@ Fair question, especially if we haven't worked together. A few real ones:
 
 ## What you walk out with
 
-- The one thing to stop doing, named plainly
-- 1 to 3 real priorities instead of a vague list
-- A decision you'd been putting off, made
-- The number or fact you'd been avoiding, in front of you
+Usually: the thing to stop doing, said plainly. One to three real priorities instead of a long list. A decision you'd been sitting on, made. The number you'd been avoiding, finally on the table.
 
-The value is in the naming, not in a 40-page plan. You should be able to repeat it to your co-founder in one sentence.
+That's basically the whole thing, honestly, not a 40-page plan. If it worked, you should be able to say it back to your co-founder in one sentence.
 
 ## How it works
 
-Remote, 90 minutes. Pricing is value-based and set in the conversation, not before it. If you want to feel it out first, a short coffee chat is free, no pitch.
+Remote, 90 minutes. Price gets set in the conversation, not before it, depends what we find. If you want to feel it out first, a short coffee chat's free, no pitch.
 
-If this sounds like someone you know, forward it. If it's you, reach out and we'll see if it's a fit. And if it's not a fit, I'll tell you straight. That's kind of the whole point.
+Know someone this sounds like? Forward it. If it's you, just reach out and we'll figure out if it's a fit. If it's not, I'll say so.
