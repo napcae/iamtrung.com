@@ -5,13 +5,15 @@ import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
 import { getArticle, formatDate, type ArticleKind } from "@/lib/articles"
 
-// Shared renderer for /essays/[slug] and /case-studies/[slug].
-// Every article links back to the diagnostic and entity pages, and carries
-// Article JSON-LD inline so it exists in the static HTML.
+// Shared renderer for /essays/[slug], /case-studies/[slug], and
+// /media/[slug]. Every page links back to the diagnostic and entity pages,
+// and carries JSON-LD (Article, or PodcastEpisode for media) inline so it
+// exists in the static HTML.
 
 const KIND_LABEL: Record<ArticleKind, { label: string; indexPath: string; indexName: string }> = {
   essays: { label: "Essay", indexPath: "/essays", indexName: "All essays" },
   "case-studies": { label: "Case study", indexPath: "/case-studies", indexName: "All case studies" },
+  media: { label: "Podcast", indexPath: "/media", indexName: "All appearances" },
 }
 
 export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string }) {
@@ -19,30 +21,48 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
   const meta = KIND_LABEL[kind]
   const url = `https://iamtrung.com/${kind}/${slug}`
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: article.title,
-    description: article.description,
-    url,
-    mainEntityOfPage: url,
-    datePublished: article.published,
-    dateModified: article.updated || article.published,
-    author: {
-      "@type": "Person",
-      "@id": "https://iamtrung.com/#trung-nguyen",
-      name: "Trung Nguyen",
-      url: "https://iamtrung.com/about",
-      jobTitle: "Founder Bottleneck Diagnostician",
-    },
+  const person = {
+    "@type": "Person",
+    "@id": "https://iamtrung.com/#trung-nguyen",
+    name: "Trung Nguyen",
+    url: "https://iamtrung.com/about",
+    jobTitle: "Founder Bottleneck Diagnostician",
   }
+
+  const schema =
+    kind === "media"
+      ? {
+          "@context": "https://schema.org",
+          "@type": "PodcastEpisode",
+          name: article.title,
+          description: article.description,
+          url,
+          mainEntityOfPage: url,
+          datePublished: article.published,
+          dateModified: article.updated || article.published,
+          associatedMedia: article.episodeUrl
+            ? { "@type": "MediaObject", contentUrl: article.episodeUrl }
+            : undefined,
+          partOfSeries: article.podcastName
+            ? { "@type": "PodcastSeries", name: article.podcastName }
+            : undefined,
+          actor: [person],
+        }
+      : {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: article.title,
+          description: article.description,
+          url,
+          mainEntityOfPage: url,
+          datePublished: article.published,
+          dateModified: article.updated || article.published,
+          author: person,
+        }
 
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Navigation />
 
       <main className="flex-1">
@@ -59,11 +79,26 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
             <h1 className="text-4xl md:text-5xl text-earth-dark leading-tight">{article.title}</h1>
             <div className="mt-6 border-b border-earth-sand pb-6">
               <p className="text-sm text-earth-muted">
-                Trung Nguyen · {formatDate(article.published)}
+                {kind === "media" && article.hostName && article.podcastName
+                  ? `With ${article.hostName} on ${article.podcastName} · `
+                  : "Trung Nguyen · "}
+                {formatDate(article.published)}
                 {article.updated && article.updated !== article.published
                   ? ` · Updated ${formatDate(article.updated)}`
                   : ""}
               </p>
+              {kind === "media" && article.episodeUrl && (
+                <p className="mt-2 text-sm">
+                  <a
+                    href={article.episodeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-earth-accent hover:underline"
+                  >
+                    Watch the full episode →
+                  </a>
+                </p>
+              )}
             </div>
           </header>
 

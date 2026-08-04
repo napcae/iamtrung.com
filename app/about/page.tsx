@@ -196,6 +196,12 @@ export default function AboutPage() {
                 </Link>{" "}
                 — direct answers to the questions founders actually ask
               </li>
+              <li>
+                <Link href="/media" className="text-earth-accent hover:underline">
+                  Media appearances
+                </Link>{" "}
+                — podcasts and interviews, with a summary and key questions for each
+              </li>
             </ul>
           </div>
         </section>

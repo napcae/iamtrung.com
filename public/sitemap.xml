@@ -55,6 +55,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://iamtrung.com/media</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://iamtrung.com/media/feel-safe-in-your-body-victor-goenka</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://iamtrung.com/the-innernet</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
