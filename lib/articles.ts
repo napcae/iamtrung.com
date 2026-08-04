@@ -2,13 +2,14 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 
-// Indexed long-form content: essays (buyer-question articles) and case
-// studies. Unlike /d/ documents these ARE meant for search and AI-answer
-// crawlers — indexed, in the sitemap, internally linked. Source of truth
-// for the copy is napcae/TrungOPS (see each file's `source` frontmatter) —
-// edit there first, then mirror the body here.
+// Indexed long-form content: essays (buyer-question articles), case
+// studies, and media appearances (podcast/video). Unlike /d/ documents
+// these ARE meant for search and AI-answer crawlers — indexed, in the
+// sitemap, internally linked. Source of truth for the copy is
+// napcae/TrungOPS (see each file's `source` frontmatter) — edit there
+// first, then mirror the body here.
 
-export type ArticleKind = "essays" | "case-studies"
+export type ArticleKind = "essays" | "case-studies" | "media"
 
 export interface Article {
   slug: string
@@ -17,6 +18,10 @@ export interface Article {
   published: string
   updated: string
   content: string
+  // media-only fields
+  podcastName?: string
+  hostName?: string
+  episodeUrl?: string
 }
 
 function dirFor(kind: ArticleKind): string {
@@ -42,6 +47,9 @@ export function getArticle(kind: ArticleKind, slug: string): Article {
     published: data.published ? String(data.published) : "",
     updated: data.updated ? String(data.updated) : "",
     content,
+    podcastName: data.podcastName,
+    hostName: data.hostName,
+    episodeUrl: data.episodeUrl,
   }
 }
 
