@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, ArrowLeft, Check, AlertCircle, Target, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, MessageSquare, HelpCircle, Video } from "lucide-react"
+import { ArrowRight, ArrowLeft, Check, AlertCircle, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, MessageSquare, HelpCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -12,7 +12,6 @@ import {
   about,
   cta,
   videoEmbed,
-  introVideo,
   teardown,
   caseStudies,
 } from "@/data/founder-diagnostic"
@@ -54,71 +53,24 @@ export default function FounderDiagnosticPage() {
         {/* Section 2: Recognition */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-16">
-              <div className="flex gap-6">
-                <div className="flex-shrink-0">
-                  <AlertCircle className="h-6 w-6 text-earth-accent mt-1" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[0].headline}</h2>
-                  <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
-                    {recognition[0].body.map((paragraph, i) => (
-                      <p key={i}>{paragraph}</p>
-                    ))}
-                  </div>
-                </div>
+            <div className="flex gap-6">
+              <div className="flex-shrink-0">
+                <AlertCircle className="h-6 w-6 text-earth-accent mt-1" />
               </div>
-
-              <div className="flex gap-6">
-                <div className="flex-shrink-0">
-                  <Target className="h-6 w-6 text-earth-accent mt-1" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[1].headline}</h2>
-                  <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
-                    {recognition[1].body.map((paragraph, i) => (
-                      <p key={i}>{paragraph}</p>
-                    ))}
-                  </div>
+              <div>
+                <h2 className="text-2xl font-normal mb-6 text-earth-accent">{recognition[0].headline}</h2>
+                <div className="space-y-3 text-lg font-normal leading-relaxed text-earth-dark">
+                  {recognition[0].body.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Section 3: Intro video — the person + the posture */}
+        {/* Section 3: Teardown — anatomy of a diagnosis (on-page visual) */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
-          <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-6">
-              <div className="flex gap-6">
-                <Video className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h2 className="text-2xl font-normal mb-3 text-earth-accent">{introVideo.headline}</h2>
-                  <p className="text-lg font-normal leading-relaxed text-earth-dark max-w-2xl">
-                    {introVideo.blurb}
-                  </p>
-                </div>
-              </div>
-
-              {introVideo.src ? (
-                <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
-                  <iframe
-                    src={introVideo.src}
-                    className="w-full h-full"
-                    allow={introVideo.allow}
-                  />
-                </div>
-              ) : (
-                <div className="aspect-video w-full max-w-2xl rounded-lg border border-dashed border-earth-muted/40 flex items-center justify-center bg-earth-light">
-                  <span className="text-sm text-earth-muted uppercase tracking-wide">Coming soon</span>
-                </div>
-              )}
-            </div>
-          </div>
-        </section>
-
-        {/* Section 4: Teardown — anatomy of a diagnosis (on-page visual) */}
-        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
             <h2 className="text-2xl font-semibold mb-12 text-earth-accent">{teardown.sectionHeadline}</h2>
 
@@ -208,7 +160,7 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 5: Mechanism — framing + existing video (preserved) */}
+        {/* Section 4: Mechanism — framing + existing video (preserved) */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-12">
@@ -274,7 +226,7 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 7: Case studies */}
+        {/* Section: Case studies */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <p className="text-sm text-earth-muted font-normal tracking-wide uppercase mb-12">
@@ -317,7 +269,7 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 8: About */}
+        {/* Section: About */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-6 text-lg font-normal leading-relaxed">
@@ -356,7 +308,7 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 9: CTA — embedded Airtable intake form when cta.embedUrl is set,
+        {/* Section: CTA — embedded Airtable intake form when cta.embedUrl is set,
             LinkedIn fallback until then. Spec: TrungOPS/context/website/intake-buildspec.md */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-3xl mx-auto text-center">
