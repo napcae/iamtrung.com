@@ -82,6 +82,18 @@ export function Offerings() {
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
             </article>
+
+            <div className="flex flex-wrap gap-x-6 gap-y-2 pt-4 text-sm text-earth-muted">
+              <Link href="/essays" className="hover:text-earth-accent transition-colors">
+                Essays
+              </Link>
+              <Link href="/case-studies" className="hover:text-earth-accent transition-colors">
+                Case studies
+              </Link>
+              <Link href="/media" className="hover:text-earth-accent transition-colors">
+                Media appearances
+              </Link>
+            </div>
           </div>
         </div>
       </div>

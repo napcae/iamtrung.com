@@ -143,9 +143,12 @@ export default function AboutPage() {
               <Link href="/the-innernet" className="text-earth-accent hover:underline">
                 The Innernet
               </Link>
-              , a community for founders, and writes about the founder's internal state — because it distorts
-              business diagnosis. The commercial work is structural Founder Bottleneck Diagnostics, not
-              therapy and not ongoing coaching.
+              , a community for founders, and{" "}
+              <Link href="/media" className="text-earth-accent hover:underline">
+                talks about the founder's internal state
+              </Link>{" "}
+              — because it distorts business diagnosis. The commercial work is structural Founder
+              Bottleneck Diagnostics, not therapy and not ongoing coaching.
             </p>
           </div>
         </section>

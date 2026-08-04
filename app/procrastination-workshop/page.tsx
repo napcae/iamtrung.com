@@ -3,15 +3,17 @@ import { ArrowRight, Check, ArrowLeft, Clock, Calendar, Users } from "lucide-rea
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
-import { Metadata } from "@/components/metadata"
+
+export const metadata = {
+  title: "Overcoming Procrastination Workshop",
+  description:
+    "A 3-hour workshop that helps high-achievers break through procrastination patterns and take decisive action.",
+  alternates: { canonical: "/procrastination-workshop" },
+}
 
 export default function ProcrastinationWorkshopPage() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
-      <Metadata
-        title="Overcoming Procrastination Workshop | Trung Nguyen"
-        description="A transformative 3-hour workshop that helps high-achievers break through procrastination patterns and take decisive action."
-      />
       <Navigation />
 
       <main className="flex-1">
