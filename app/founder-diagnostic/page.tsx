@@ -196,6 +196,14 @@ export default function FounderDiagnosticPage() {
                 </blockquote>
                 <cite className="not-italic font-light text-earth-muted">— {teardown.attribution}</cite>
               </div>
+
+              <Link
+                href="/case-studies/the-dashboard-he-never-opened"
+                className="inline-flex items-center text-sm text-earth-accent hover:underline"
+              >
+                Read the full case study
+                <ArrowRight className="ml-1 h-3 w-3" />
+              </Link>
             </div>
           </div>
         </section>
@@ -294,6 +302,15 @@ export default function FounderDiagnosticPage() {
                       <dd className="text-earth-dark">{c.outcome}</dd>
                     </div>
                   </dl>
+                  {c.caseStudySlug && (
+                    <Link
+                      href={`/case-studies/${c.caseStudySlug}`}
+                      className="inline-flex items-center mt-6 text-sm text-earth-accent hover:underline"
+                    >
+                      Read the full case study
+                      <ArrowRight className="ml-1 h-3 w-3" />
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>

@@ -46,4 +46,6 @@ mechanism as the Founder Bottleneck Diagnostic, described here in nervous-system
 
 ---
 
-*Watch the full episode: [Feel Safe in Your Body with Victor Goenka](https://www.youtube.com/watch?v=wYowmMmtXPY).*
+*Watch the full episode: [Feel Safe in Your Body with Victor Goenka](https://www.youtube.com/watch?v=wYowmMmtXPY).
+More on the mechanism: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic)
+· The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic)*

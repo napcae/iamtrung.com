@@ -4,15 +4,17 @@ import { ArrowRight, Check, ArrowLeft, Users, Globe, Heart, Clock } from "lucide
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
-import { Metadata } from "@/components/metadata"
+
+export const metadata = {
+  title: "The Innernet | Sustainable High Performance",
+  description:
+    "A calm, high-clarity community for leaders, operators, and emerging talent who want to grow from the inside out. Inner work for outer impact.",
+  alternates: { canonical: "/the-innernet" },
+}
 
 export default function TheInnernetPage() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
-      <Metadata
-        title="The Innernet | Sustainable High Performance"
-        description="A calm, high-clarity community for leaders, operators, and emerging talent who want to grow from the inside out. Inner work for outer impact."
-      />
       <Navigation />
 
       <main className="flex-1">

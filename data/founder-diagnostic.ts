@@ -144,6 +144,7 @@ export const caseStudies = [
     problem: "Came in sure his execution was the problem.",
     root: "The root wasn't an unclear ICP -- it was an undecided founder.",
     outcome: "A simple daily outreach routine he actually runs.",
+    caseStudySlug: "algomate-10-hours-a-week",
   },
   {
     id: "burden-william",
@@ -153,6 +154,7 @@ export const caseStudies = [
     problem: "\"Marketing is slow -- I need to post more.\"",
     root: "He never read the funnel data he already had.",
     outcome: "Result landed months later -- durability, not a quick high.",
+    caseStudySlug: "the-dashboard-he-never-opened",
   },
   {
     id: "nguyen-hien",

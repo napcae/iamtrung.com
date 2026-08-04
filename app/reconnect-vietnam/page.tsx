@@ -8,6 +8,7 @@ import { SocialIcons } from "@/components/social-icons"
 export const metadata = {
   title: "Re:Connect Vietnam | Trung Nguyen",
   description: "Movement. Mental Health. Sustainable High Performance. A 12-month reflection. A 6-week journey. A story about coming back — to self, to roots, to what actually matters.",
+  alternates: { canonical: "/reconnect-vietnam" },
 }
 
 export default function ReconnectVietnamPage() {

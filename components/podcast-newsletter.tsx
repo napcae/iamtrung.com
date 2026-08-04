@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { AnimatedSection } from "./animated-section"
@@ -7,18 +5,12 @@ import { Button } from "./ui/button"
 import Image from "next/image"
 
 export function PodcastNewsletter() {
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Implement newsletter subscription
-    alert("Newsletter subscription coming soon!");
-  };
-
   return (
     <AnimatedSection id="podcast" className="py-32 px-6 md:px-12 lg:px-24 bg-earth-light">
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-semibold text-earth-accent mb-4">The Uncomfort Zone</h2>
+            <h2 className="text-2xl font-semibold text-earth-accent mb-4">Newsletter</h2>
             <Image
               src="/newsletter.jpeg"
               alt="Newsletter illustration"
