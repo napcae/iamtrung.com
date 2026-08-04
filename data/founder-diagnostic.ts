@@ -8,26 +8,18 @@ export const founderDiagnosticMeta = {
 }
 
 export const hero = {
-  headline: "You already know you're good. Get a second read before the next bet.",
+  headline: "You already know you're good. You just don't know what you're about to scale by mistake.",
   subheadline:
     "I run 90-minute Founder Bottleneck Diagnostics for founders who are already running a tight operation and want an outside read before they scale further. One session. The blind spot every operator carries -- named by someone who's seen it in ten other companies before yours.",
 }
 
 export const recognition = [
   {
-    id: "execution",
-    headline: "Everything's working. You still want someone to check the blind spot before you scale it.",
+    id: "combined",
+    headline: "Everything's working. That's exactly when the blind spot gets expensive.",
     body: [
-      "You've built something real -- team, traction, a system that runs without you micromanaging it.",
-      "This is the check a sharp operator runs before compounding a decision: whatever's underneath the system gets bigger when you scale it.",
-    ],
-  },
-  {
-    id: "positioning",
-    headline: "What's working today is producing results. You want a sharper read before you go all-in on it.",
-    body: [
-      "You have a working theory of the customer, and it's producing results right now.",
-      "What you want tested is whether that theory holds as you commit further to it -- before you spend the next two quarters compounding a mismatch nobody's caught yet.",
+      "You've built something real -- a team and a system that runs without you micromanaging it, or a working theory of who it's for that's producing results right now.",
+      "Either way, this is the check a sharp operator runs before compounding a decision: whatever's underneath the system gets bigger when you scale it, and a mismatch nobody's caught yet doesn't fix itself by moving faster.",
     ],
   },
 ]
@@ -73,10 +65,10 @@ export const process = {
 
 export const about = {
   whoFor:
-    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves. You already know you're good -- this confirms the blind spot before it gets expensive, the way a sharp operator checks work with another sharp operator. These are founders who go looking for the truth, especially the uncomfortable parts, because growth happens by expanding past the blind spot.",
+    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves -- the way a sharp operator checks work with another sharp operator. Not for people looking for reassurance. For people who go looking for the uncomfortable part, because growth happens by expanding past the blind spot.",
   pattern:
     "25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.",
-  math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true.",
+  math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true. You can postpone the decision. You can't postpone what the current system keeps costing you.",
   frame:
     "Not coaching. Not ongoing advisory. One diagnostic -- and what comes next is a separate conversation.",
 }
@@ -104,17 +96,7 @@ export const videoEmbed = {
   allow: "autoplay",
 }
 
-// Intro Loom — video slot. src is empty until the Loom is filmed; the page
-// renders a "coming soon" placeholder instead of a broken iframe.
-export const introVideo = {
-  headline: "Two minutes on how I actually work",
-  blurb:
-    "Before you read any further -- here's me, and what a session actually is. No deck, no pitch.",
-  src: "",
-  allow: "autoplay",
-}
-
-// Teardown — on-page visual ("anatomy of a diagnosis"). One real case, rendered
+// Teardown -- on-page visual ("anatomy of a diagnosis"). One real case, rendered
 // as a walk-through. Data-driven so the case can be swapped by editing this object.
 export const teardown = {
   sectionHeadline: "What finding the bottleneck actually looks like",
@@ -135,6 +117,9 @@ export const teardown = {
 
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
 // real name; all others are role/stage only (namePublic=false -> attribution only).
+// Order: fast proof first, durable proof second -- TrungOPS/offers/diagnostic.md's
+// two-proof doctrine ("lead with the fast proof; add the durable proof when the
+// prospect asks 'but will it stick?'").
 export const caseStudies = [
   {
     id: "tran-minh-algomate",
@@ -142,7 +127,7 @@ export const caseStudies = [
       "Your question-asking approach helped me save 10 to 15 hours of nonsense outreach.",
     attribution: "Minh, Algomate",
     problem: "Came in sure his execution was the problem.",
-    root: "The root wasn't an unclear ICP -- it was an undecided founder.",
+    root: "The root wasn't the ICP -- it was a decision about who to become that he'd been avoiding making at all.",
     outcome: "A simple daily outreach routine he actually runs.",
     caseStudySlug: "algomate-10-hours-a-week",
   },
