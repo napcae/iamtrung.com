@@ -43,3 +43,36 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
+
+      # Pushes every sitemap URL to IndexNow (Bing, and other engines that share the
+      # protocol) so new/changed pages can be picked up in hours instead of waiting
+      # for the next scheduled crawl. Key file lives at public/<key>.txt (not a
+      # secret -- IndexNow keys are meant to be publicly verifiable). Never fails
+      # the deploy: a down IndexNow endpoint is non-fatal.
+      - name: Ping IndexNow
+        run: |
+          python3 -c "
+          import json, re, urllib.request
+
+          key = 'e42eabc7440940f8b52da2f3597400ef'
+          host = 'iamtrung.com'
+          urls = re.findall(r'<loc>(.*?)</loc>', open('out/sitemap.xml').read())
+
+          body = json.dumps({
+              'host': host,
+              'key': key,
+              'keyLocation': f'https://{host}/{key}.txt',
+              'urlList': urls,
+          }).encode()
+
+          req = urllib.request.Request(
+              'https://api.indexnow.org/indexnow',
+              data=body,
+              headers={'Content-Type': 'application/json; charset=utf-8'},
+          )
+          try:
+              resp = urllib.request.urlopen(req, timeout=15)
+              print(f'IndexNow: submitted {len(urls)} URLs, status {resp.status}')
+          except Exception as e:
+              print(f'IndexNow ping failed (non-fatal): {e}')
+          "
