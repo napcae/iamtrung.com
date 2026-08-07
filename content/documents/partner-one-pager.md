@@ -20,14 +20,15 @@ Founders who are moving but not sure they're moving in the right direction — c
 
 ## The phrases to listen for
 
-You'll know it's a fit when you hear something like:
+These are real things founders have actually said, not invented copy. You'll know it's a fit when you hear something like:
 
-- "We're moving but nothing is actually landing."
-- "My team is busy but nothing is progressing."
-- "I don't know what's actually slowing my team down."
-- "We just raised and I'm not sure we're building the right thing."
-- "I feel scattered despite progress."
-- "I know something's off but I can't put my finger on it."
+- "My team is slow" / "My team feels slow."
+- "Something's been slow for months and I don't know why."
+- "I thought doing more would fix it — it just made things worse."
+- "I feel lost all the time, 24 hours isn't enough."
+- "I can't see the north star I used to have."
+- "I get sweaty every time I think about spending more."
+- "I don't know if I can scale right now — I'm more scared of what happens after than the decision itself."
 
 They don't need to say it exactly. The pattern is: **smart, capable founder who can see something's wrong but can't name it.**
 

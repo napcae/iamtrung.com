@@ -111,7 +111,7 @@ export const caseStudies = [
   {
     id: "harris-johny",
     quote:
-      "You already know something, but it hits when someone says it to you straight. Sometimes you just need to take your medicine.",
+      "You know that way you already know something, but it hits when someone says it to you straight? Sometimes you just need to take your medicine.",
     attribution: "Johny Harris, Dai Viet Rugby",
     problem: "Avoided selling for a year to protect community trust.",
     root: "Selling means sustainability — otherwise the mission doesn't exist.",
@@ -122,17 +122,16 @@ export const caseStudies = [
 // Single priced CTA. The $49 self-serve fallback (Banana Offer) is paused off this
 // page for now per operator call (2026-08-07) — still canonical in TrungOPS, just
 // not rendered here until it's brought back.
-// Live buy/book checkout (cal.com + Stripe) is an open build item on the TrungOPS
-// side; the button routes to the LinkedIn DM "diagnostic" flow until it ships.
-// Button label is a plain call to action — price lives in the headline/body, not
-// stamped on the button itself.
+// Live Stripe checkout for the diagnostic (2026-08-07) -- replaces the LinkedIn-DM
+// placeholder. Button label is a plain call to action -- price lives in the
+// headline/body, not stamped on the button itself.
 export const cta = {
   diagnostic: {
     headline: "The Diagnostic — $750",
     body:
       "One 90-minute session. You leave with the bottleneck named and the one move to make instead (see above). Book directly — no screening call, no waiting for a reply.",
     buttonText: "Book the diagnostic",
-    buttonUrl: "https://www.linkedin.com/in/ctn1991/",
+    buttonUrl: "https://buy.stripe.com/4gM8wQb8sciq5Hu9pb38404",
   },
   secondary: {
     text: "Already connected on LinkedIn? DM \"diagnostic\" — same booking link, just faster to find.",
