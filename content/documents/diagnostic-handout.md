@@ -2,7 +2,7 @@
 title: Founder Bottleneck Diagnostic
 label: A forwardable explainer
 description: One 90-minute session to find the real thing holding a founder back. Who it's for, who it's not for, and whether it actually works.
-updated: 2026-08-03
+updated: 2026-08-07
 source: TrungOPS/partnerships/referral-handout.md
 audience: prospect
 ---
@@ -25,7 +25,7 @@ A peer from that time put it well:
 
 ## Who it helps
 
-Usually founders with 3 to 30 people, past MVP, a year or more in, with actual revenue or users. Something feels off and they can't quite name it. A lot of the time they quietly suspect they're the bottleneck themselves.
+Usually capable founders who already know something's off but can't quite name it. Already building, already running things, and compensating for the blind spot instead of resolving it. A lot of the time they quietly suspect they're the bottleneck themselves.
 
 Two situations I see a lot. One: things are already running, team feels slow, priorities are everywhere, founder's stuck inside their own machine. Two: they just raised or just started spending, about to hire, scared of an expensive mistake they can't see coming yet. Different setup, same underlying thing.
 
@@ -45,11 +45,11 @@ Fair question, especially if we haven't worked together. A few real ones:
 >
 > *Founder, early-stage public speaking platform (the result landed six months after the session, not the same week)*
 
-> "You are good at laying things out on a table, like a puzzle, helping someone articulate and see the next necessary steps. There's never any awkwardness, no games."
+> "You are good at laying things out on a table, like a puzzle, putting it together and helping someone articulate and see the next necessary steps. And aside from the clarity, there's always this knowledge, this certainty: we can make it work somehow with this guy, without awkwardness, without any games."
 >
 > *Chris, founder of mindtv (we didn't end up working together, he said this seven months later)*
 
-> "You already know something, but it hits when someone says it to you straight. Sometimes you just need to take your medicine."
+> "You know that way you already know something, but it hits when someone says it to you straight? Sometimes you just need to take your medicine."
 >
 > *Johny Harris, founder of Dai Viet Rugby*
 
@@ -61,6 +61,6 @@ That's basically the whole thing, honestly, not a 40-page plan. If it worked, yo
 
 ## How it works
 
-Remote, 90 minutes. Price gets set in the conversation, not before it, depends what we find. If you want to feel it out first, a short coffee chat's free, no pitch.
+Remote, 90 minutes, $750. Book directly, no call needed first: buy.stripe.com/4gM8wQb8sciq5Hu9pb38404. Already connected on LinkedIn? DM me "diagnostic" and I'll send the same link.
 
-Know someone this sounds like? Forward it. If it's you, just reach out and we'll figure out if it's a fit. If it's not, I'll say so.
+Know someone this sounds like? Forward it. If it's you, just book it. If it's not a fit once we're in the session, I'll say so.
