@@ -44,4 +44,4 @@ Run the two-week test honestly. "Grow" — go work on whatever your real constra
 
 ---
 
-*More on the person behind it: [About Trung Nguyen](/about) · Related: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver)*
+*More on the person behind it: [About Trung Nguyen](/about) · Related: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver) · [Why is nothing moving in my startup?](/essays/nothing-is-moving)*
