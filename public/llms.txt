@@ -16,6 +16,7 @@ engineer turned diagnostician based in Berlin.
 - [What happens during a Founder Bottleneck Diagnostic?](https://iamtrung.com/essays/what-happens-in-a-diagnostic): the session step by step, who it's for, and a decision rule
 - [How do I know if I'm the bottleneck in my company?](https://iamtrung.com/essays/founder-is-the-bottleneck): the two-week test and the five everyday signs of founder-dependency
 - [Why is everyone still waiting on me for everything?](https://iamtrung.com/essays/mechanic-not-driver): the mechanic-versus-driver test and why handoffs stall
+- [Why is nothing moving in my startup?](https://iamtrung.com/essays/nothing-is-moving): the ten-second test for a direction problem versus an execution problem
 
 ## Case studies
 
