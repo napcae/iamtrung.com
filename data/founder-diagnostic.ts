@@ -4,22 +4,23 @@
 export const founderDiagnosticMeta = {
   title: "Founder Bottleneck Diagnostic | Trung Nguyen",
   description:
-    "A 90-minute diagnostic to find your startup's real bottleneck. For founders with teams or founders who just raised. One session. One answer.",
+    "A 90-minute diagnostic to find your startup's real bottleneck -- $500-750, book directly, no call required. For founders who are already running things well and want an outside read before they scale a decision they can't fully audit themselves.",
 }
 
 export const hero = {
-  headline: "You already know you're good. You just don't know what you're about to scale by mistake.",
+  headline:
+    "Name the thing that's actually been blocking you -- so you can work on it instead of working around it.",
   subheadline:
-    "I run 90-minute Founder Bottleneck Diagnostics for founders who are already running a tight operation and want an outside read before they scale further. One session. The blind spot every operator carries -- named by someone who's seen it in ten other companies before yours.",
+    "Capable people are the last to know their own bottleneck. Everyone around you already sees it -- they just can't say it to your face. That's not a character flaw. It's a structural blind spot, and it's why outside diagnosis exists as a category.",
 }
 
 export const recognition = [
   {
     id: "combined",
-    headline: "Everything's working. That's exactly when the blind spot gets expensive.",
+    headline: "You're not imagining it. You're compensating for it.",
     body: [
-      "You've built something real -- a team and a system that runs without you micromanaging it, or a working theory of who it's for that's producing results right now.",
-      "Either way, this is the check a sharp operator runs before compounding a decision: whatever's underneath the system gets bigger when you scale it, and a mismatch nobody's caught yet doesn't fix itself by moving faster.",
+      "You're still the one who breaks the tie in the Slack thread. Signs off on the vendor everyone already agreed on. Gets pulled back into the hire you delegated three months ago. Not because the team can't -- because nobody's actually tested whether they could, and you've never stopped being the fallback.",
+      "That's not a discipline problem. It's a system built for an earlier chapter, still charging you for decisions it shouldn't need you for -- and it hasn't visibly broken, which is exactly the problem. You're still absorbing the cost, so it never has to.",
     ],
   },
 ]
@@ -27,73 +28,6 @@ export const recognition = [
 export const mechanism = {
   framing:
     "Most founders who've done this say the same thing after: \"I already knew it -- I just hadn't said it out loud.\" That's the point. The diagnostic doesn't give you new information. It names the thing you already felt -- clearly enough that you can stop doing the expensive thing and start doing the right thing.",
-}
-
-// Testimonials: only namePublic=true entries get full attribution.
-// Source: TrungOPS/context/website/output/testimonials.json
-export const testimonials = [
-  {
-    id: "burden-william",
-    quote:
-      "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had.",
-    attribution: "Founder, early-stage public speaking platform",
-  },
-  {
-    id: "nguyen-hien",
-    quote:
-      "I immediately sat down and decoded the whole thing and I know exactly what I need to do next.",
-    attribution: "Founder, productivity tool",
-  },
-]
-
-export const process = {
-  sectionHeadline: "How the 90 minutes runs",
-  before:
-    "A short intake. You send me where things actually stand: team, traction, and the one thing you want a second, sharper read on. No deck, no prep theatre -- fifteen minutes of honesty.",
-  during:
-    "Ninety minutes, live, just us. I ask, you answer, and we follow the thread to the real constraint -- not the one you walked in assuming it was.",
-  after: {
-    intro: "You walk out with a clear answer -- one you can act on the same week:",
-    deliverables: [
-      "The actual bottleneck named -- not the surface complaint, the structural cause",
-      "1-3 real priorities replacing current noise",
-      "A clearer decision structure for the next 30-60 days",
-      "Less expensive drift",
-    ],
-  },
-}
-
-export const about = {
-  whoFor:
-    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves -- the way a sharp operator checks work with another sharp operator. Not for people looking for reassurance. For people who go looking for the uncomfortable part, because growth happens by expanding past the blind spot.",
-  pattern:
-    "25+ early-stage founders. B2B SaaS, hardware, marketplace, agency. The surface complaints differ. The structural causes repeat.",
-  math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true. You can postpone the decision. You can't postpone what the current system keeps costing you.",
-  frame:
-    "Not coaching. Not ongoing advisory. One diagnostic -- and what comes next is a separate conversation.",
-}
-
-export const cta = {
-  headline: "One session. 90 minutes. You leave knowing what to stop.",
-  body:
-    "Tell me what's actually stuck -- a few lines on where things stand. No deck, no prep theatre. I read every one personally. If it's a fit, I'll reply within 2 business days with a next step -- sometimes a short call, sometimes a direct booking for the 90-minute session, sometimes an honest \"not a fit.\"",
-  // Airtable Form embed URL (https://airtable.com/embed/...). While empty, the page
-  // shows the LinkedIn fallback CTA below. Paste the Website Inquiries form's share
-  // URL to switch the front door to the intake form (LinkedIn drops to secondary).
-  // Spec: TrungOPS/context/website/intake-buildspec.md §4.
-  embedUrl: "",
-  secondary: {
-    text: "Already connected on LinkedIn? Message me \"diagnostic\" there instead.",
-    url: "https://www.linkedin.com/in/ctn1991/",
-  },
-  // Fallback CTA while embedUrl is empty (keeps the current LinkedIn front door).
-  buttonText: "Start on LinkedIn",
-  buttonUrl: "https://www.linkedin.com/in/ctn1991/",
-}
-
-export const videoEmbed = {
-  src: "https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview",
-  allow: "autoplay",
 }
 
 // Teardown -- on-page visual ("anatomy of a diagnosis"). One real case, rendered
@@ -113,6 +47,30 @@ export const teardown = {
   loop: ["Name a problem", "Attack it", "Nothing moves", "Push harder"],
   quote:
     "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had.",
+}
+
+export const process = {
+  sectionHeadline: "One session. 90 minutes. You leave with:",
+  deliverables: [
+    "The one thing to stop doing -- the actual bottleneck, named, not the surface complaint you walked in with",
+    "The one move to make instead",
+    "1-3 real priorities replacing the current noise",
+    "A decision you'd been deferring -- made",
+    "The number or fact you'd been avoiding -- now in front of you",
+  ],
+  test:
+    "Test we hold ourselves to: you should be able to repeat what you got to a co-founder without using the words clarity, see, or name. If you can't, it wasn't specific enough -- that's a miss, not a feature of the format.",
+  whatItIsnt:
+    "What it isn't: a plan, a framework, or ongoing coaching. One session. One answer. You leave knowing exactly what to stop and what to do instead -- what you do with it after that is yours.",
+}
+
+export const about = {
+  whoFor:
+    "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves -- the way a sharp operator checks work with another sharp operator. Not for people looking for reassurance. For people who go looking for the uncomfortable part, because growth happens by expanding past the blind spot.",
+  pattern:
+    "I've worked with 25+ early-stage founders across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.",
+  math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small -- but only if the problem is felt as expensive, not just true. You can postpone the decision. You can't postpone what the current system keeps costing you.",
+  frame: "I'm not a coach. I don't do ongoing advisory. One session. One answer.",
 }
 
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
@@ -160,3 +118,33 @@ export const caseStudies = [
     outcome: "Published the three insights himself, unprompted.",
   },
 ]
+
+// Two priced rungs, per TrungOPS/decisions/offer-design/2026-08-06-publish-diagnostic-price-and-credit-ladder.md.
+// Diagnostic first (validated offer), $49 as the named fallback -- never lead with it.
+// Live buy/book checkout (cal.com + Stripe) is an open build item on the TrungOPS side;
+// both buttons route to the LinkedIn DM "diagnostic" flow until that ships.
+export const cta = {
+  diagnostic: {
+    headline: "The Diagnostic -- $500-750",
+    body:
+      "One 90-minute session. You leave with the bottleneck named and the one move to make instead (see above). Book directly -- no screening call, no waiting for a reply.",
+    buttonText: "Book the diagnostic -- $500-750",
+    buttonUrl: "https://www.linkedin.com/in/ctn1991/",
+  },
+  banana: {
+    headline: "Not ready for a live session? Start with the $49 read.",
+    body:
+      "Written answers, one page back within 3 working days: what the pattern in what you told me actually is -- and, honestly, whether it's the real constraint or whether that needs the live session to find. $49 credits fully toward the diagnostic if you book afterward. Money-back if it's not useful.",
+    buttonText: "Get the $49 read",
+    buttonUrl: "https://www.linkedin.com/in/ctn1991/",
+  },
+  secondary: {
+    text: "Already connected on LinkedIn? DM \"diagnostic\" -- same booking link, just faster to find.",
+    url: "https://www.linkedin.com/in/ctn1991/",
+  },
+}
+
+export const videoEmbed = {
+  src: "https://drive.google.com/file/d/1mL-B-J7oM02KQY50toAuIJYZicDsnrpv/preview",
+  allow: "autoplay",
+}

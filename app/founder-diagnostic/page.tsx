@@ -179,7 +179,7 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section: How it runs (process + what you leave with) */}
+        {/* Section: What you leave with */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto">
             <h2 className="text-2xl font-semibold mb-12 text-earth-accent">{process.sectionHeadline}</h2>
@@ -187,46 +187,69 @@ export default function FounderDiagnosticPage() {
             <div className="space-y-12">
               <div className="flex gap-6">
                 <ClipboardList className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">Before</h3>
-                  <p className="text-lg font-normal leading-relaxed">
-                    {process.before}
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-6">
-                <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">During</h3>
-                  <p className="text-lg font-normal leading-relaxed">
-                    {process.during}
-                  </p>
-                </div>
+                <ul className="space-y-4">
+                  {process.deliverables.map((item, i) => (
+                    <li key={i} className="flex items-start">
+                      <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
+                      <span className="font-normal text-lg">{item}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               <div className="flex gap-6">
                 <Compass className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <p className="text-earth-muted font-normal leading-relaxed">{process.test}</p>
+              </div>
+
+              <div className="flex gap-6">
+                <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <p className="text-lg font-normal leading-relaxed">{process.whatItIsnt}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section: About (fit filter) */}
+        <section className="py-24 px-6 md:px-12 lg:px-24">
+          <div className="w-full max-w-4xl mx-auto">
+            <div className="space-y-6 text-lg font-normal leading-relaxed">
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Check className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">After</h3>
-                  <p className="text-lg font-normal leading-relaxed mb-6">
-                    {process.after.intro}
-                  </p>
-                  <ul className="space-y-4">
-                    {process.after.deliverables.map((item, i) => (
-                      <li key={i} className="flex items-start">
-                        <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                        <span className="font-normal text-lg">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">Who this is for</h3>
+                  <p>{about.whoFor}</p>
+                </div>
+              </div>
+
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The pattern</h3>
+                  <p>{about.pattern}</p>
+                </div>
+              </div>
+
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <TrendingUp className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The cost</h3>
+                  <p className="text-earth-muted">{about.math}</p>
+                </div>
+              </div>
+
+              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
+                <Lightbulb className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What this is</h3>
+                  <p>{about.frame}</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Section: Case studies */}
+        {/* Section: Case studies (more proof) */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
             <p className="text-sm text-earth-muted font-normal tracking-wide uppercase mb-12">
@@ -269,88 +292,55 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section: About */}
-        <section className="py-24 px-6 md:px-12 lg:px-24">
-          <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-6 text-lg font-normal leading-relaxed">
-              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
-                <Check className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">Who this is for</h3>
-                  <p>{about.whoFor}</p>
-                </div>
-              </div>
-
-              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
-                <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The pattern</h3>
-                  <p>{about.pattern}</p>
-                </div>
-              </div>
-
-              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
-                <TrendingUp className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The cost</h3>
-                  <p className="text-earth-muted">{about.math}</p>
-                </div>
-              </div>
-
-              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
-                <Lightbulb className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What this is</h3>
-                  <p>{about.frame}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Section: CTA — embedded Airtable intake form when cta.embedUrl is set,
-            LinkedIn fallback until then. Spec: TrungOPS/context/website/intake-buildspec.md */}
+        {/* Section: CTA — two priced rungs (diagnostic primary, $49 named fallback).
+            Spec: TrungOPS/context/website/landing-page.md, Section 8.
+            Live buy/book checkout is an open build item on the TrungOPS side; both
+            buttons route to the LinkedIn DM "diagnostic" flow until it ships. */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
-          <div className="w-full max-w-3xl mx-auto text-center">
-            <p className="text-3xl font-normal mb-8">
-              {cta.headline}
-            </p>
-
-            {cta.embedUrl ? (
-              <>
-                <p className="text-lg font-normal leading-relaxed text-earth-dark mb-10 max-w-2xl mx-auto">
-                  {cta.body}
-                </p>
-                <div className="w-full max-w-2xl mx-auto rounded-lg overflow-hidden border border-earth-light shadow-sm bg-earth-background">
-                  <iframe
-                    src={cta.embedUrl}
-                    className="w-full"
-                    style={{ height: 760, background: "transparent" }}
-                    title="Founder Bottleneck Diagnostic — intake"
-                  />
-                </div>
-                <p className="text-sm text-earth-muted mt-6">
-                  <a
-                    href={cta.secondary.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-earth-dark transition-colors"
-                  >
-                    {cta.secondary.text}
-                  </a>
-                </p>
-              </>
-            ) : (
+          <div className="w-full max-w-2xl mx-auto text-center space-y-16">
+            <div>
+              <p className="text-3xl font-normal mb-4">{cta.diagnostic.headline}</p>
+              <p className="text-lg font-normal leading-relaxed text-earth-dark mb-8 max-w-xl mx-auto">
+                {cta.diagnostic.body}
+              </p>
               <Button
                 asChild
-                className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl mt-4"
+                className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl"
               >
-                <a href={cta.buttonUrl} target="_blank" rel="noopener noreferrer">
-                  {cta.buttonText}
+                <a href={cta.diagnostic.buttonUrl} target="_blank" rel="noopener noreferrer">
+                  {cta.diagnostic.buttonText}
                   <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
                 </a>
               </Button>
-            )}
+            </div>
+
+            <div className="border-t border-earth-dark/10 pt-16">
+              <p className="text-2xl font-normal mb-4">{cta.banana.headline}</p>
+              <p className="text-lg font-normal leading-relaxed text-earth-dark mb-8 max-w-xl mx-auto">
+                {cta.banana.body}
+              </p>
+              <Button
+                asChild
+                variant="outline"
+                className="group rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl border-earth-accent text-earth-accent hover:bg-earth-accent hover:text-white"
+              >
+                <a href={cta.banana.buttonUrl} target="_blank" rel="noopener noreferrer">
+                  {cta.banana.buttonText}
+                  <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
+                </a>
+              </Button>
+            </div>
+
+            <p className="text-sm text-earth-muted">
+              <a
+                href={cta.secondary.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-earth-dark transition-colors"
+              >
+                {cta.secondary.text}
+              </a>
+            </p>
           </div>
         </section>
       </main>
