@@ -24,12 +24,18 @@ Do not use it as a page title, metadata title, or offer name.
 
 ## Pricing
 
-**No price is published on the site.** Pricing is value-based, set in the conversation (Enns) —
-the diagnostic page intentionally shows no number.
+**Published, as of 2026-08-06** (`TrungOPS/decisions/offer-design/2026-08-06-publish-diagnostic-price-and-credit-ladder.md`,
+supersedes the prior never-publish rule at this tier only):
 
-Internal anchor/floor is **$299** (per `TrungOPS/offers/diagnostic.md`) — never publish it on the
-page, in metadata, or in copy. If a price ever needs to appear, check `TrungOPS/offers/diagnostic.md`
-first and confirm before publishing.
+- **Diagnostic: $500–750**, published on `/founder-diagnostic` next to the primary buy/book CTA.
+- **$49 self-serve read** (internal codename Banana Offer), published, money-back, credits fully
+  toward the diagnostic if the buyer upgrades — named fallback CTA, never the default.
+- Advisory/premium tier stays **unpublished**, value-priced, warm/referral only — the Enns lock still
+  applies there.
+
+The $299 floor is gone as public language — never use it outward-facing. Before touching price copy,
+check `TrungOPS/offers/diagnostic.md` (Price section) and `TrungOPS/context/website/landing-page.md`
+directly rather than trusting a cached summary — this file has drifted stale on this exact point before.
 
 ## Git branches
 
