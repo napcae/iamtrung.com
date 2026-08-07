@@ -292,46 +292,28 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section: CTA — two priced rungs (diagnostic primary, $49 named fallback).
-            Spec: TrungOPS/context/website/landing-page.md, Section 8.
-            Live buy/book checkout is an open build item on the TrungOPS side; both
-            buttons route to the LinkedIn DM "diagnostic" flow until it ships. */}
+        {/* Section: CTA — single priced rung (diagnostic). The $49 fallback is paused
+            off this page for now (operator call, 2026-08-07) — still in the data file's
+            source, just not rendered. Spec: TrungOPS/context/website/landing-page.md,
+            Section 8. Live buy/book checkout is an open build item on the TrungOPS
+            side; the button routes to the LinkedIn DM "diagnostic" flow until it ships. */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
-          <div className="w-full max-w-2xl mx-auto text-center space-y-16">
-            <div>
-              <p className="text-3xl font-normal mb-4">{cta.diagnostic.headline}</p>
-              <p className="text-lg font-normal leading-relaxed text-earth-dark mb-8 max-w-xl mx-auto">
-                {cta.diagnostic.body}
-              </p>
-              <Button
-                asChild
-                className="group bg-earth-accent hover:bg-earth-green text-white rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl"
-              >
-                <a href={cta.diagnostic.buttonUrl} target="_blank" rel="noopener noreferrer">
-                  {cta.diagnostic.buttonText}
-                  <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
-                </a>
-              </Button>
-            </div>
+          <div className="w-full max-w-2xl mx-auto text-center">
+            <p className="text-3xl font-normal mb-4">{cta.diagnostic.headline}</p>
+            <p className="text-lg font-normal leading-relaxed text-earth-dark mb-8 max-w-xl mx-auto">
+              {cta.diagnostic.body}
+            </p>
+            <Button
+              asChild
+              className="group w-full sm:w-auto max-w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-6 sm:px-12 py-6 sm:py-8 h-auto font-normal transition-all duration-300 text-lg sm:text-xl whitespace-normal"
+            >
+              <a href={cta.diagnostic.buttonUrl} target="_blank" rel="noopener noreferrer">
+                {cta.diagnostic.buttonText}
+                <ArrowRight className="ml-3 h-6 w-6 shrink-0 transition-transform group-hover:translate-x-1" />
+              </a>
+            </Button>
 
-            <div className="border-t border-earth-dark/10 pt-16">
-              <p className="text-2xl font-normal mb-4">{cta.banana.headline}</p>
-              <p className="text-lg font-normal leading-relaxed text-earth-dark mb-8 max-w-xl mx-auto">
-                {cta.banana.body}
-              </p>
-              <Button
-                asChild
-                variant="outline"
-                className="group rounded-none px-12 py-8 h-auto font-normal transition-all duration-300 text-xl border-earth-accent text-earth-accent hover:bg-earth-accent hover:text-white"
-              >
-                <a href={cta.banana.buttonUrl} target="_blank" rel="noopener noreferrer">
-                  {cta.banana.buttonText}
-                  <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
-                </a>
-              </Button>
-            </div>
-
-            <p className="text-sm text-earth-muted">
+            <p className="text-sm text-earth-muted mt-8">
               <a
                 href={cta.secondary.url}
                 target="_blank"
