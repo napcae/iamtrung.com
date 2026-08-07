@@ -43,6 +43,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://iamtrung.com/essays/nothing-is-moving</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://iamtrung.com/case-studies</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
