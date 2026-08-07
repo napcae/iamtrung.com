@@ -44,4 +44,4 @@ If the same problem has survived three different explanations, your explanations
 
 ---
 
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck)*
+*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver)*
