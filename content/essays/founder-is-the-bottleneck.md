@@ -2,11 +2,11 @@
 title: "How do I know if I'm the bottleneck in my company?"
 description: "The two-week test, the five everyday signs, and why you can't see founder-dependency from the inside — with a decision rule at the end."
 published: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-07
 source: TrungOPS/context/website/essays/founder-is-the-bottleneck.md
 ---
 
-Ask one question: if you disappeared for two weeks, would your business grow, stall, or die? If it would die, you're the bottleneck. If it would stall, you're load-bearing in places you probably shouldn't be. If it would grow, the constraint is somewhere else. Most founders of 3–20 person companies land on "die" or "stall" — and most of them have a different explanation for why things are slow.
+Ask one question: if you disappeared for two weeks, would your business grow, stall, or die? If it would die, you're the bottleneck. If it would stall, you're load-bearing in places you probably shouldn't be. If it would grow, the constraint is somewhere else. Most founders land on "die" or "stall" — and most of them have a different explanation for why things are slow.
 
 ## The five everyday signs
 

@@ -34,7 +34,7 @@ export default function Home() {
                 </h1>
                 <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal">
                   I'm Trung Nguyen. I find the constraint founders are already scaling around instead of fixing.
-                  90 minutes, one session — for post-MVP founder-led companies with 3–20 people.
+                  90 minutes, one session — for capable founders compensating for a blind spot instead of resolving it.
                 </p>
                 <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
                   <Link href="/founder-diagnostic">

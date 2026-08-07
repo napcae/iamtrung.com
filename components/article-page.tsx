@@ -115,7 +115,7 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
               <Link href="/founder-diagnostic" className="text-earth-accent hover:underline">
                 90-minute diagnostics
               </Link>{" "}
-              for post-MVP founder-led companies with 3–20 people.
+              for capable founders who are compensating for a blind spot instead of resolving it.
             </p>
             <div className="mt-6 flex justify-end">
               <SocialIcons />

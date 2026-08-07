@@ -2,7 +2,7 @@
 title: "What happens during a Founder Bottleneck Diagnostic?"
 description: "The 90-minute session, step by step: what gets asked, what gets named, what you leave with — and who shouldn't book one."
 published: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-07
 source: TrungOPS/context/website/essays/what-happens-in-a-diagnostic.md
 ---
 
@@ -34,7 +34,7 @@ So the session doesn't give you new information. It gives back what you told it,
 
 ## Who it's for — and who it's not for
 
-It's built for founders of post-MVP companies, running a year or more, with 3–20 people. The tell: a lot of thinking, not a lot of deciding. Smart, busy, and in the same place as six months ago. Same problem, different explanation each quarter.
+It's built for capable founders who are compensating for a blind spot instead of resolving it. The tell: a lot of thinking, not a lot of deciding. Smart, busy, and in the same place as six months ago. Same problem, different explanation each quarter.
 
 Don't book one if you want validation for a decision you've made, if you're looking for ongoing coaching, or if you're at idea stage with no team or product yet. Those need different things.
 
