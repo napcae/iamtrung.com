@@ -22,7 +22,7 @@ const instrumentSerif = Instrument_Serif({
 // (homepage, /about, structured data, external bios). Source of truth:
 // TrungOPS strategy/positioning.md (#core-title) + strategy/seo.md.
 const entityDescription =
-  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for post-MVP founder-led companies with 3–20 people, finding and naming the constraint behind stalled decisions, execution and growth."
+  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth."
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://iamtrung.com"),

@@ -6,7 +6,7 @@ import { getArticles, formatDate } from "@/lib/articles"
 export const metadata = {
   title: "Essays",
   description:
-    "Essays by Trung Nguyen, Founder Bottleneck Diagnostician — direct answers to the questions founders of 3–20 person companies actually ask about stalled decisions, execution and growth.",
+    "Essays by Trung Nguyen, Founder Bottleneck Diagnostician — direct answers to the questions capable founders actually ask about stalled decisions, execution and growth.",
   alternates: { canonical: "/essays" },
 }
 

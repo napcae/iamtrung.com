@@ -2,7 +2,7 @@
 title: Make it easy to refer me
 label: Partner one-pager
 description: The pattern to recognize in your own network, and a frictionless way to make the intro. For referral partners of the Founder Bottleneck Diagnostic.
-updated: 2026-07-11
+updated: 2026-08-07
 source: TrungOPS/partnerships/one-pager.md
 audience: partner
 ---
@@ -13,7 +13,7 @@ I find what's actually slowing a founder's team down — and in one 90-minute se
 
 ## Who it's for
 
-Founders running small teams (roughly 3–20 people) who are moving but not sure they're moving in the right direction. Two flavors:
+Founders who are moving but not sure they're moving in the right direction — capable, already building, compensating for a blind spot instead of resolving it. Two flavors:
 
 - **The operator** — has a team, has revenue or users, but the system is cracking. Feels the drag every day. Thinks it's a process problem; it's usually a founder problem.
 - **The nervous scaler** — just raised or just started spending. About to hire. Can feel an expensive mistake coming but can't name what it is yet.

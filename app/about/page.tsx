@@ -12,7 +12,7 @@ import { personSchema } from "@/components/structured-data"
 // No price appears on this page — pricing is set in the conversation.
 
 const entityDescription =
-  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for post-MVP founder-led companies with 3–20 people, finding and naming the constraint behind stalled decisions, execution and growth."
+  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth."
 
 export const metadata = {
   title: { absolute: "About Trung Nguyen — Founder Bottleneck Diagnostician" },
@@ -106,8 +106,9 @@ export default function AboutPage() {
           <div className="w-full max-w-4xl mx-auto space-y-8">
             <h2 className="text-2xl font-semibold">Who he works with</h2>
             <p className="text-xl leading-relaxed font-normal">
-              Founders of post-MVP companies, running for a year or more, with teams of 3–20 people. The
-              pattern that fits:
+              Capable people are usually the last to know their own bottleneck — everyone around them
+              already sees it, they just can't say it to your face. Not a character flaw. A structural
+              blind spot. The pattern that fits:
             </p>
             <ul className="space-y-3 text-lg font-normal list-disc pl-6">
               <li>A lot of thinking, not a lot of deciding.</li>

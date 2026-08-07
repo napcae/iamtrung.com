@@ -10,7 +10,7 @@ export const personSchema = {
   image: "https://iamtrung.com/me_portrait.jpeg",
   jobTitle: "Founder Bottleneck Diagnostician",
   description:
-    "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for post-MVP founder-led companies with 3–20 people, finding and naming the constraint behind stalled decisions, execution and growth.",
+    "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth.",
   sameAs: [
     "https://www.linkedin.com/in/ctn1991/",
     "https://theuncomfortzone.substack.com",
