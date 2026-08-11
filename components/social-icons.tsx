@@ -1,9 +1,18 @@
 import Link from "next/link"
-import { Instagram, Linkedin, Github, Mail } from "lucide-react"
+import { Instagram, Linkedin, Github, Mail, Rss } from "lucide-react"
 
 export function SocialIcons() {
   return (
     <div className="flex space-x-4">
+      <Link
+        href="https://theuncomfortzone.substack.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-earth-muted hover:text-earth-accent transition-colors"
+        aria-label="Substack"
+      >
+        <Rss className="h-5 w-5" />
+      </Link>
       <Link
         href="https://www.instagram.com/trungmoves/"
         target="_blank"
