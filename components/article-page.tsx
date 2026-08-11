@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown"
 import { ArrowLeft } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
-import { getArticle, formatDate, type ArticleKind } from "@/lib/articles"
+import { getArticle, getLeadAnswer, formatDate, type ArticleKind } from "@/lib/articles"
 
 // Shared renderer for /essays/[slug], /case-studies/[slug], and
 // /media/[slug]. Every page links back to the diagnostic and entity pages,
@@ -60,9 +60,34 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
           author: person,
         }
 
+  // Essay titles are phrased as the founder's own question, and the lead
+  // paragraph already answers it directly (GEO article shape, strategy/seo.md)
+  // — FAQPage schema turns that into a structure AI answer engines can lift
+  // verbatim instead of having to summarize prose.
+  const faqSchema =
+    kind === "essays" && article.title.trim().endsWith("?")
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: article.title,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: getLeadAnswer(article.content),
+              },
+            },
+          ],
+        }
+      : undefined
+
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       <Navigation />
 
       <main className="flex-1">

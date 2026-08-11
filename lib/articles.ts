@@ -59,6 +59,19 @@ export function getArticles(kind: ArticleKind): Article[] {
     .sort((a, b) => (a.published < b.published ? 1 : -1))
 }
 
+// The lead paragraph of every essay is written as a direct, self-contained
+// answer to the title question (`strategy/seo.md` "GEO article shape") —
+// exactly what FAQPage schema's acceptedAnswer wants. Strip markdown syntax
+// down to plain text since JSON-LD text fields don't render markdown.
+export function getLeadAnswer(content: string): string {
+  const firstParagraph = content.trim().split(/\n\s*\n/)[0] ?? ""
+  return firstParagraph
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // [text](url) -> text
+    .replace(/[*_`]/g, "") // bold/italic/code markers
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
 export function formatDate(value: string): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return value
