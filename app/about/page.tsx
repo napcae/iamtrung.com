@@ -61,6 +61,14 @@ export default function AboutPage() {
                   "I'm the person you call when things are moving but you're not sure you're moving in the
                   right direction."
                 </p>
+                <article itemScope itemType="https://schema.org/Review" className="border-l-2 border-earth-accent/30 pl-4">
+                  <blockquote itemProp="reviewBody" className="text-base leading-relaxed font-normal text-earth-muted italic">
+                    "He doesn't expect anything in return. He just wants to see people succeed."
+                  </blockquote>
+                  <footer className="mt-2 text-sm text-earth-muted not-italic">
+                    — <cite itemProp="author">Michael Serpell</cite>, Planetary Productions
+                  </footer>
+                </article>
               </div>
               <div className="relative rounded-lg overflow-hidden border border-earth-light/30">
                 <div className="relative w-full aspect-[3/4]">

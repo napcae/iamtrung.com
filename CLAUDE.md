@@ -24,18 +24,21 @@ Do not use it as a page title, metadata title, or offer name.
 
 ## Pricing
 
-**Published, as of 2026-08-06** (`TrungOPS/decisions/offer-design/2026-08-06-publish-diagnostic-price-and-credit-ladder.md`,
-supersedes the prior never-publish rule at this tier only):
+**Published, as of 2026-08-07** (`TrungOPS/decisions/offer-design/2026-08-07-flatten-diagnostic-price-live-checkout.md`,
+flattens the 2026-08-06 publish decision's $500–750 range at the diagnostic rung only):
 
-- **Diagnostic: $500–750**, published on `/founder-diagnostic` next to the primary buy/book CTA.
-- **$49 self-serve read** (internal codename Banana Offer), published, money-back, credits fully
-  toward the diagnostic if the buyer upgrades — named fallback CTA, never the default.
+- **Diagnostic: $750 flat** (not a range), published on `/founder-diagnostic` with a live Stripe
+  checkout link (`https://buy.stripe.com/4gM8wQb8sciq5Hu9pb38404`) next to the primary buy/book CTA.
+- **$49 self-serve read** (internal codename Banana Offer) stays **off the live page for now**
+  (operator call, 2026-08-07) — still canonical in `TrungOPS/offers/self-serve-assessment.md`, not
+  currently rendered on `/founder-diagnostic`.
 - Advisory/premium tier stays **unpublished**, value-priced, warm/referral only — the Enns lock still
   applies there.
 
-The $299 floor is gone as public language — never use it outward-facing. Before touching price copy,
-check `TrungOPS/offers/diagnostic.md` (Price section) and `TrungOPS/context/website/landing-page.md`
-directly rather than trusting a cached summary — this file has drifted stale on this exact point before.
+The $299 floor and the $500–750 range are gone as public language — never use either outward-facing.
+Before touching price copy, check `TrungOPS/offers/diagnostic.md` (Price section) and
+`TrungOPS/context/website/landing-page.md` directly rather than trusting a cached summary — this
+file has drifted stale on this exact point before.
 
 ## Git branches
 
