@@ -1,6 +1,6 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-import { negotiate, markdownSiblingPath } from "./markdown-negotiation-worker.js"
+import { negotiate, markdownSiblingPath } from "./markdown-negotiation-worker.mjs"
 
 test("negotiate: explicit text/markdown wins", () => {
   assert.equal(negotiate("text/markdown"), "markdown")
