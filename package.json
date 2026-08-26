@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "postbuild": "node scripts/generate-markdown-siblings.mjs && node scripts/verify-agent-readiness.mjs",
+    "build": "next build && node scripts/generate-markdown-siblings.mjs && node scripts/verify-agent-readiness.mjs",
     "pdf": "node scripts/generate-pdfs.mjs",
     "start": "next start",
     "lint": "next lint",

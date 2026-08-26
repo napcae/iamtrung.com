@@ -2,7 +2,8 @@
 // Regression check for the agent-readiness fixes: fails the build (and CI)
 // if a future change silently drops the 404 recovery content, a markdown
 // sibling, the privacy page, or the llms.txt guidance section. Runs as
-// part of "postbuild" (see package.json), after generate-markdown-siblings.mjs.
+// chained onto the end of the "build" script in package.json, after
+// generate-markdown-siblings.mjs.
 
 import fs from "node:fs"
 import path from "node:path"
