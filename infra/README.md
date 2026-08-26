@@ -21,7 +21,7 @@ without any DNS or account changes.
 
 ## What full same-URL negotiation requires
 
-`markdown-negotiation-worker.js` in this folder is a ready-to-deploy
+`markdown-negotiation-worker.mjs` in this folder is a ready-to-deploy
 Cloudflare Worker that:
 
 - Parses the `Accept` header (including q-values) to decide whether a
