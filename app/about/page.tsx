@@ -238,6 +238,9 @@ export default function AboutPage() {
               <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Contact
               </Link>
+              <Link href="/privacy" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
+                Privacy
+              </Link>
             </div>
           </div>
 
