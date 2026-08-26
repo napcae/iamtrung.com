@@ -17,7 +17,12 @@
 //   2. Every other page is derived from its own rendered HTML output, so
 //      the markdown can never drift from what a visitor actually sees.
 //
-// Runs as a "postbuild" script, after `next build` has written ./out.
+// Chained onto the end of the "build" script in package.json (after `next
+// build` has written ./out) rather than a pnpm "postbuild" hook — pnpm's
+// default config does not auto-run post<script> hooks for custom scripts
+// on every pnpm major version (confirmed absent under pnpm 8, present
+// under pnpm 10), so an implicit lifecycle hook silently would not run
+// in CI on some setups.
 
 import fs from "node:fs"
 import path from "node:path"
