@@ -1,0 +1,9 @@
+name = "iamtrung-markdown-negotiation"
+main = "markdown-negotiation-worker.js"
+compatibility_date = "2026-08-01"
+
+# Uncomment once iamtrung.com's DNS is on this Cloudflare account (see
+# infra/README.md) and replace zone_name if it differs.
+# routes = [
+#   { pattern = "iamtrung.com/*", zone_name = "iamtrung.com" }
+# ]

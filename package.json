@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/generate-markdown-siblings.mjs && node scripts/verify-agent-readiness.mjs",
     "pdf": "node scripts/generate-pdfs.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "node --test scripts/lib/*.test.mjs infra/*.test.mjs"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",

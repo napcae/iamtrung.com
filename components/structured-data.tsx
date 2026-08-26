@@ -11,6 +11,8 @@ export const personSchema = {
   jobTitle: "Founder Bottleneck Diagnostician",
   description:
     "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth.",
+  disambiguatingDescription:
+    "This Trung Nguyen is a Vietnamese-German engineer turned Founder Bottleneck Diagnostician based in Berlin, Germany — not the Trung Nguyên Vietnamese coffee entrepreneur, and not any of the other people who share this name.",
   sameAs: [
     "https://www.linkedin.com/in/ctn1991/",
     "https://theuncomfortzone.substack.com",
