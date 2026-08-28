@@ -28,7 +28,7 @@ Do not use it as a page title, metadata title, or offer name.
 flattens the 2026-08-06 publish decision's €500–750 range at the diagnostic rung only):
 
 - **Diagnostic: €750 flat** (not a range), published on `/founder-diagnostic` with a live Stripe
-  checkout link (`https://buy.stripe.com/4gM8wQb8sciq5Hu9pb38404`) next to the primary buy/book CTA.
+  checkout link (`https://buy.stripe.com/4gMfZidgA6Y61rebxj38406`) next to the primary buy/book CTA.
 - **€49 self-serve read** (internal codename Banana Offer) stays **off the live page for now**
   (operator call, 2026-08-07) — still canonical in `TrungOPS/offers/self-serve-assessment.md`, not
   currently rendered on `/founder-diagnostic`.
