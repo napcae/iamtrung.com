@@ -105,7 +105,7 @@ The Diagnostic — €750
 
 One 90-minute session. You leave with the bottleneck named and the one move to make instead (see above). Book directly — no screening call, no waiting for a reply.
 
-[Book the diagnostic](https://buy.stripe.com/4gM8wQb8sciq5Hu9pb38404)
+[Book the diagnostic](https://buy.stripe.com/4gMfZidgA6Y61rebxj38406)
 
 [Already connected on LinkedIn? DM "diagnostic" — same booking link, just faster to find.](https://www.linkedin.com/in/ctn1991/)
 
