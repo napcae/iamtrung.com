@@ -22,7 +22,7 @@ Reserve Your Spot
 
 - You want a practical system for consistent execution, not just motivation
 
-Reserve Your Spot ($497)
+Reserve Your Spot (€497)
 
 Only 20 spots available. 7 spots remaining.
 
@@ -72,9 +72,9 @@ Lifetime access included
 
 - 3-hour interactive workshop with practical exercises
 
-- Procrastination Profile Assessment ($97 value)
+- Procrastination Profile Assessment (€97 value)
 
-- The Action Protocol Workbook ($47 value)
+- The Action Protocol Workbook (€47 value)
 
 - 2-week email follow-up sequence with implementation prompts
 
@@ -93,7 +93,7 @@ MinhWorkshop Participant
 
 7 Spots Left
 
-$497 USD
+€497 EUR
 
 Reserve Your Spot Now
 

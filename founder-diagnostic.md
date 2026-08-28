@@ -57,7 +57,7 @@ It's built for founders who are already running things well and want a peer's re
 
 ### The pattern
 
-I've worked with 25+ early-stage founders across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
+I've worked with 40+ founders who've outgrown the systems that got them here — across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
 
 ### The cost
 
@@ -65,7 +65,7 @@ The real cost of a wrong bottleneck is the weeks spent pushing a direction that 
 
 ### What this is
 
-I'm not a coach. I don't do ongoing advisory. One session. One answer.
+One session. One answer.
 
 What founders say
 
@@ -101,7 +101,7 @@ RootSelling means sustainability — otherwise the mission doesn't exist.
 
 OutcomePublished the three insights himself, unprompted.
 
-The Diagnostic — $750
+The Diagnostic — €750
 
 One 90-minute session. You leave with the bottleneck named and the one move to make instead (see above). Book directly — no screening call, no waiting for a reply.
 
