@@ -61,6 +61,6 @@ That's basically the whole thing, honestly, not a 40-page plan. If it worked, yo
 
 ## How it works
 
-Remote, 90 minutes, €750. Book directly, no call needed first: buy.stripe.com/4gM8wQb8sciq5Hu9pb38404. Already connected on LinkedIn? DM me "diagnostic" and I'll send the same link.
+Remote, 90 minutes, €750. Book directly, no call needed first: buy.stripe.com/4gMfZidgA6Y61rebxj38406. Already connected on LinkedIn? DM me "diagnostic" and I'll send the same link.
 
 Know someone this sounds like? Forward it. If it's you, just book it. If it's not a fit once we're in the session, I'll say so.

@@ -131,7 +131,7 @@ export const cta = {
     body:
       "One 90-minute session. You leave with the bottleneck named and the one move to make instead (see above). Book directly — no screening call, no waiting for a reply.",
     buttonText: "Book the diagnostic",
-    buttonUrl: "https://buy.stripe.com/4gM8wQb8sciq5Hu9pb38404",
+    buttonUrl: "https://buy.stripe.com/4gMfZidgA6Y61rebxj38406",
   },
   secondary: {
     text: "Already connected on LinkedIn? DM \"diagnostic\" — same booking link, just faster to find.",
