@@ -4,7 +4,7 @@
 export const founderDiagnosticMeta = {
   title: "Founder Bottleneck Diagnostic | Trung Nguyen",
   description:
-    "A 90-minute diagnostic to find your startup's real bottleneck — $750, book directly, no call required. For founders who are already running things well and want an outside read before they scale a decision they can't fully audit themselves.",
+    "A 90-minute diagnostic to find your startup's real bottleneck — €750, book directly, no call required. For founders who are already running things well and want an outside read before they scale a decision they can't fully audit themselves.",
 }
 
 export const hero = {
@@ -68,9 +68,9 @@ export const about = {
   whoFor:
     "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves — the way a sharp operator checks work with another sharp operator. Not for people looking for reassurance. For people who go looking for the uncomfortable part, because growth happens by expanding past the blind spot.",
   pattern:
-    "I've worked with 25+ early-stage founders across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.",
+    "I've worked with 40+ founders who've outgrown the systems that got them here — across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.",
   math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small — but only if the problem is felt as expensive, not just true. You can postpone the decision. You can't postpone what the current system keeps costing you.",
-  frame: "I'm not a coach. I don't do ongoing advisory. One session. One answer.",
+  frame: "One session. One answer.",
 }
 
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
@@ -119,7 +119,7 @@ export const caseStudies = [
   },
 ]
 
-// Single priced CTA. The $49 self-serve fallback (Banana Offer) is paused off this
+// Single priced CTA. The €49 self-serve fallback (Banana Offer) is paused off this
 // page for now per operator call (2026-08-07) — still canonical in TrungOPS, just
 // not rendered here until it's brought back.
 // Live Stripe checkout for the diagnostic (2026-08-07) -- replaces the LinkedIn-DM
@@ -127,7 +127,7 @@ export const caseStudies = [
 // headline/body, not stamped on the button itself.
 export const cta = {
   diagnostic: {
-    headline: "The Diagnostic — $750",
+    headline: "The Diagnostic — €750",
     body:
       "One 90-minute session. You leave with the bottleneck named and the one move to make instead (see above). Book directly — no screening call, no waiting for a reply.",
     buttonText: "Book the diagnostic",

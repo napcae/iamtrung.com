@@ -97,7 +97,7 @@ export default function ProcrastinationWorkshopPage() {
 
                   <div className="pt-4">
                     <Button className="w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-8 py-6 h-auto font-medium transition-all duration-300">
-                      Reserve Your Spot ($497)
+                      Reserve Your Spot (€497)
                     </Button>
                   </div>
 
@@ -222,11 +222,11 @@ export default function ProcrastinationWorkshopPage() {
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <p className="text-earth-muted">Procrastination Profile Assessment ($97 value)</p>
+                      <p className="text-earth-muted">Procrastination Profile Assessment (€97 value)</p>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
-                      <p className="text-earth-muted">The Action Protocol Workbook ($47 value)</p>
+                      <p className="text-earth-muted">The Action Protocol Workbook (€47 value)</p>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-earth-green mr-3 mt-1 flex-shrink-0" />
@@ -298,8 +298,8 @@ export default function ProcrastinationWorkshopPage() {
                     </div>
 
                     <div className="flex items-baseline">
-                      <span className="text-4xl font-normal text-earth-accent">$497</span>
-                      <span className="text-earth-muted ml-2">USD</span>
+                      <span className="text-4xl font-normal text-earth-accent">€497</span>
+                      <span className="text-earth-muted ml-2">EUR</span>
                     </div>
 
                     <div className="pt-6">
