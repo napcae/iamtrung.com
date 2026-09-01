@@ -2,6 +2,11 @@
 
 Direct answers to the questions founders actually ask — each one opens with the answer, then goes deep.
 
+- [## Founder coach vs. consultant vs. diagnostician: which one do you actually need?
+
+Three different purchases, three different problems. A decision rule for founders who know something is stuck but not what to buy about it.
+
+August 31, 2026](/essays/coach-consultant-diagnostician)
 - [## What happens during a Founder Bottleneck Diagnostic?
 
 The 90-minute session, step by step: what gets asked, what gets named, what you leave with — and who shouldn't book one.
