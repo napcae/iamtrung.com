@@ -142,7 +142,13 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
               </Link>{" "}
               for capable founders who are compensating for a blind spot instead of resolving it.
             </p>
-            <div className="mt-6 flex justify-end">
+            <div className="mt-6 flex items-center justify-end gap-6">
+              <Link
+                href="/essays/what-happens-in-a-diagnostic"
+                className="text-earth-accent hover:underline"
+              >
+                FAQ
+              </Link>
               <SocialIcons />
             </div>
           </footer>

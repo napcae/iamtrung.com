@@ -53,6 +53,10 @@ function canonicalHref(html) {
   return null
 }
 
+function footerLinksToFaq(html) {
+  return /<footer\b[\s\S]*href="\/essays\/what-happens-in-a-diagnostic"/i.test(html)
+}
+
 // 1. Agent-friendly 404: real recovery content, not the bare Next.js default.
 const notFoundHtml = read("404.html")
 check(notFoundHtml !== null, "out/404.html is missing")
@@ -90,6 +94,7 @@ for (const kind of ["essays", "case-studies", "media"]) {
       check(metaContent(articleHtml, "og:title") === data.title, `${kind}/${slug} does not have its own og:title`)
       check(metaContent(articleHtml, "og:url") === expectedUrl, `${kind}/${slug} does not have its own og:url`)
       check(metaContent(articleHtml, "twitter:title") === data.title, `${kind}/${slug} does not have its own twitter:title`)
+      check(footerLinksToFaq(articleHtml), `${kind}/${slug} footer does not link to the FAQ`)
       check(
         /"datePublished":"\d{4}-\d{2}-\d{2}"/.test(articleHtml),
         `${kind}/${slug} does not emit an ISO 8601 datePublished`,
@@ -162,6 +167,24 @@ if (homeHtml) {
     metaContent(homeHtml, "og:image") === "https://iamtrung.com/og/founder-bottleneck-diagnostic.png",
     "homepage og:image is not the branded diagnostic graphic",
   )
+}
+
+// 9. The existing diagnostic FAQ answer is discoverable from site footers.
+for (const route of [
+  "index",
+  "about",
+  "privacy",
+  "founder-diagnostic",
+  "procrastination-workshop",
+  "reconnect-vietnam",
+  "the-innernet",
+  "essays",
+  "case-studies",
+  "media",
+]) {
+  const html = read(`${route}.html`)
+  check(html !== null, `out/${route}.html is missing`)
+  if (html) check(footerLinksToFaq(html), `${route} footer does not link to the FAQ`)
 }
 
 if (failures.length > 0) {

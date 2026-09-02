@@ -413,6 +413,12 @@ export default function FounderDiagnosticPage() {
               <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Contact
               </Link>
+              <Link
+                href="/essays/what-happens-in-a-diagnostic"
+                className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
+              >
+                FAQ
+              </Link>
               <Link href="/privacy" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Privacy
               </Link>
