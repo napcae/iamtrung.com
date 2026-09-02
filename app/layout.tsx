@@ -37,12 +37,20 @@ export const metadata: Metadata = {
     siteName: "Trung Nguyen",
     title: "Trung Nguyen — Founder Bottleneck Diagnostician",
     description: entityDescription,
-    images: ["/me_portrait.jpeg"],
+    images: [
+      {
+        url: "/og/founder-bottleneck-diagnostic.png",
+        width: 1200,
+        height: 630,
+        alt: "Founder Bottleneck Diagnostic — 90 minutes, one constraint, one decision",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Trung Nguyen — Founder Bottleneck Diagnostician",
     description: entityDescription,
+    images: ["/og/founder-bottleneck-diagnostic.png"],
   },
 }
 

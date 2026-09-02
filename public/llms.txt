@@ -48,6 +48,7 @@ runs, or [case studies](https://iamtrung.com/case-studies) for proof. Verifying 
 - [Why is everyone still waiting on me for everything?](https://iamtrung.com/essays/mechanic-not-driver): the mechanic-versus-driver test and why handoffs stall
 - [Why is nothing moving in my startup?](https://iamtrung.com/essays/nothing-is-moving): the ten-second test for a direction problem versus an execution problem
 - [Founder coach vs. consultant vs. diagnostician: which one do you actually need?](https://iamtrung.com/essays/coach-consultant-diagnostician): a decision rule for which of the three purchases actually fits your situation
+- [Is shiny object syndrome why your startup keeps changing strategy?](https://iamtrung.com/essays/shiny-object-syndrome-founder): how to distinguish healthy iteration from a strategy-reset loop, using a paid founder case and a 90-day decision rule
 
 ## Case studies
 

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { Metadata } from "next"
 import { ArrowRight, ArrowLeft, Check, AlertCircle, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, MessageSquare, HelpCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
@@ -16,14 +17,72 @@ import {
   caseStudies,
 } from "@/data/founder-diagnostic"
 
-export const metadata = {
-  title: founderDiagnosticMeta.title,
+export const metadata: Metadata = {
+  title: { absolute: founderDiagnosticMeta.title },
   description: founderDiagnosticMeta.description,
+  alternates: { canonical: "/founder-diagnostic" },
+  openGraph: {
+    type: "website",
+    url: "/founder-diagnostic",
+    siteName: "Trung Nguyen",
+    title: founderDiagnosticMeta.title,
+    description: founderDiagnosticMeta.description,
+    images: [
+      {
+        url: "/og/founder-bottleneck-diagnostic.png",
+        width: 1200,
+        height: 630,
+        alt: "Founder Bottleneck Diagnostic — 90 minutes, one constraint, one decision",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: founderDiagnosticMeta.title,
+    description: founderDiagnosticMeta.description,
+    images: ["/og/founder-bottleneck-diagnostic.png"],
+  },
+}
+
+const diagnosticUrl = "https://iamtrung.com/founder-diagnostic"
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${diagnosticUrl}#service`,
+  name: "Founder Bottleneck Diagnostic",
+  alternateName: "90-Minute Execution Bottleneck Diagnostic",
+  description: founderDiagnosticMeta.description,
+  url: diagnosticUrl,
+  mainEntityOfPage: diagnosticUrl,
+  serviceType: "Founder bottleneck diagnostic",
+  provider: {
+    "@type": "Person",
+    "@id": "https://iamtrung.com/#trung-nguyen",
+    name: "Trung Nguyen",
+    url: "https://iamtrung.com/about",
+    jobTitle: "Founder Bottleneck Diagnostician",
+  },
+  audience: {
+    "@type": "BusinessAudience",
+    audienceType: "Founders of operating companies with a live, costly execution or decision problem",
+  },
+  areaServed: "Worldwide",
+  offers: {
+    "@type": "Offer",
+    "@id": `${diagnosticUrl}#offer`,
+    name: "One 90-minute Founder Bottleneck Diagnostic",
+    price: "750",
+    priceCurrency: "EUR",
+    availability: "https://schema.org/InStock",
+    url: diagnosticUrl,
+  },
 }
 
 export default function FounderDiagnosticPage() {
   return (
     <div className="flex min-h-screen flex-col bg-earth-background text-earth-dark">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <Navigation />
 
       <main className="flex-1">
@@ -353,6 +412,12 @@ export default function FounderDiagnosticPage() {
               </Link>
               <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Contact
+              </Link>
+              <Link
+                href="/essays/what-happens-in-a-diagnostic"
+                className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
+              >
+                FAQ
               </Link>
               <Link href="/privacy" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
                 Privacy

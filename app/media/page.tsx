@@ -44,9 +44,17 @@ export default function MediaIndex() {
         </section>
       </main>
       <footer className="py-12 px-6 border-t border-earth-light/50">
-        <div className="mx-auto max-w-2xl flex justify-between items-center">
+        <div className="mx-auto max-w-2xl flex justify-between items-center gap-6">
           <p className="text-sm text-earth-muted">© {new Date().getFullYear()} Trung Nguyen</p>
-          <SocialIcons />
+          <div className="flex items-center gap-6">
+            <Link
+              href="/essays/what-happens-in-a-diagnostic"
+              className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
+            >
+              FAQ
+            </Link>
+            <SocialIcons />
+          </div>
         </div>
       </footer>
     </div>

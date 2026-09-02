@@ -2,6 +2,15 @@
 
 import Script from 'next/script'
 
+declare global {
+  interface Window {
+    swetrix?: {
+      init: (projectId: string, options: { apiURL: string }) => void
+      trackViews: () => void
+    }
+  }
+}
+
 export function Analytics() {
   return (
     <>

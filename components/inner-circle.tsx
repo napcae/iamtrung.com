@@ -41,28 +41,28 @@ export function InnerCircle() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
               <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
-                <h4 className="text-lg font-medium text-earth-accent">Spaciousness > Pressure</h4>
+                <h4 className="text-lg font-medium text-earth-accent">Spaciousness &gt; Pressure</h4>
                 <p className="text-earth-muted font-normal text-sm">
                   High standards without hardness. A space that feels like exhaling.
                 </p>
               </div>
 
               <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
-                <h4 className="text-lg font-medium text-earth-accent">Clarity > Hacks</h4>
+                <h4 className="text-lg font-medium text-earth-accent">Clarity &gt; Hacks</h4>
                 <p className="text-earth-muted font-normal text-sm">
                   Focus on the inner loops that power everything.
                 </p>
               </div>
 
               <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
-                <h4 className="text-lg font-medium text-earth-accent">Connection > Content</h4>
+                <h4 className="text-lg font-medium text-earth-accent">Connection &gt; Content</h4>
                 <p className="text-earth-muted font-normal text-sm">
                   Depth without heaviness. Growth without noise.
                 </p>
               </div>
 
               <div className="space-y-2 p-4 border border-earth-light bg-earth-background/50">
-                <h4 className="text-lg font-medium text-earth-accent">Character > Skills</h4>
+                <h4 className="text-lg font-medium text-earth-accent">Character &gt; Skills</h4>
                 <p className="text-earth-muted font-normal text-sm">
                   Philosophy-backed personal evolution.
                 </p>
