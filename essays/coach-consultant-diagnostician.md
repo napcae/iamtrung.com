@@ -65,7 +65,7 @@ And anyone who genuinely knows what's wrong. If you can state the constraint pla
 
 ---
 
-**The Founder Bottleneck Diagnostic** is one 90-minute session, €750, for founders past MVP with a team of roughly 3–20. You leave with the constraint named and one concrete move. [What happens during a diagnostic →](/essays/what-happens-in-a-diagnostic)
+**The Founder Bottleneck Diagnostic** is one 90-minute session for capable founders who have already tried to fix a live, expensive problem and suspect their explanation is wrong. You leave with the constraint named and one concrete move. [What happens during a diagnostic →](/essays/what-happens-in-a-diagnostic)
 
 ---
 Source: https://iamtrung.com/essays/coach-consultant-diagnostician

@@ -44,5 +44,7 @@ If this policy changes in a way that matters, the effective date above will chan
 
 [Contact](/#contact)
 
+[FAQ](/essays/what-happens-in-a-diagnostic)
+
 ---
 Source: https://iamtrung.com/privacy
