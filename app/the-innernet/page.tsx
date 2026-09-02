@@ -163,28 +163,28 @@ export default function TheInnernetPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-medium text-earth-accent">Spaciousness > Pressure</h3>
+                  <h3 className="text-xl font-medium text-earth-accent">Spaciousness &gt; Pressure</h3>
                   <p className="text-earth-muted font-normal">
                     A space that feels like exhaling. High standards without hardness.
                   </p>
                 </div>
 
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-medium text-earth-accent">Clarity > Hacks</h3>
+                  <h3 className="text-xl font-medium text-earth-accent">Clarity &gt; Hacks</h3>
                   <p className="text-earth-muted font-normal">
                     We focus on the inner loops that power everything — identity, patterns, emotional regulation.
                   </p>
                 </div>
 
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-medium text-earth-accent">Connection > Content</h3>
+                  <h3 className="text-xl font-medium text-earth-accent">Connection &gt; Content</h3>
                   <p className="text-earth-muted font-normal">
                     Depth without heaviness. Growth without noise. Shared wisdom over solo learning.
                   </p>
                 </div>
 
                 <div className="space-y-4 p-6 border border-earth-light/50 bg-earth-light">
-                  <h3 className="text-xl font-medium text-earth-accent">Character > Skills</h3>
+                  <h3 className="text-xl font-medium text-earth-accent">Character &gt; Skills</h3>
                   <p className="text-earth-muted font-normal">
                     Philosophy-backed, community-fueled personal evolution for lasting change.
                   </p>

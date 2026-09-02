@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import type { Metadata } from "next"
 
 // Indexed long-form content: essays (buyer-question articles), case
 // studies, and media appearances (podcast/video). Unlike /d/ documents
@@ -18,6 +19,7 @@ export interface Article {
   published: string
   updated: string
   content: string
+  image?: string
   // media-only fields
   podcastName?: string
   hostName?: string
@@ -44,12 +46,59 @@ export function getArticle(kind: ArticleKind, slug: string): Article {
     slug,
     title: data.title,
     description: data.description ?? "",
-    published: data.published ? String(data.published) : "",
-    updated: data.updated ? String(data.updated) : "",
+    published: normalizeArticleDate(data.published),
+    updated: normalizeArticleDate(data.updated),
     content,
+    image: data.image,
     podcastName: data.podcastName,
     hostName: data.hostName,
     episodeUrl: data.episodeUrl,
+  }
+}
+
+// YAML parses unquoted YYYY-MM-DD frontmatter values as Date objects. String(Date)
+// produces a locale-shaped value ("Mon Aug 03 2026 ...") that is not the ISO 8601
+// date Google expects in Article structured data. Keep the source's date-only shape.
+export function normalizeArticleDate(value: unknown): string {
+  if (!value) return ""
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return value.toISOString().slice(0, 10)
+  }
+
+  const raw = String(value).trim()
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw
+
+  const parsed = new Date(raw)
+  return Number.isNaN(parsed.getTime()) ? raw : parsed.toISOString().slice(0, 10)
+}
+
+export function getArticleMetadata(kind: ArticleKind, slug: string): Metadata {
+  const article = getArticle(kind, slug)
+  const pathname = `/${kind}/${slug}`
+  const image = article.image || "/og/founder-bottleneck-diagnostic.png"
+  const imageSize = article.image ? { width: 1254, height: 1254 } : { width: 1200, height: 630 }
+
+  return {
+    title: article.title,
+    description: article.description,
+    alternates: { canonical: pathname },
+    openGraph: {
+      type: "article",
+      url: pathname,
+      siteName: "Trung Nguyen",
+      title: article.title,
+      description: article.description,
+      publishedTime: article.published,
+      modifiedTime: article.updated || article.published,
+      authors: ["https://iamtrung.com/about"],
+      images: [{ url: image, ...imageSize, alt: article.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.description,
+      images: [image],
+    },
   }
 }
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { ArticlePage } from "@/components/article-page"
-import { getArticle, getArticleSlugs } from "@/lib/articles"
+import { getArticleMetadata, getArticleSlugs } from "@/lib/articles"
 
 export const dynamicParams = false
 
@@ -14,12 +14,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
-  const article = getArticle("media", slug)
-  return {
-    title: article.title,
-    description: article.description,
-    alternates: { canonical: `/media/${slug}` },
-  }
+  return getArticleMetadata("media", slug)
 }
 
 export default async function MediaPage({

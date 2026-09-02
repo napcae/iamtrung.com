@@ -177,7 +177,11 @@ If yes → publish. If it sounds like a consultant wrote it in a hurry → rewri
 **Naming pattern:** specific over clever, honest over catchy.  
 "The Founder Verdict" = testimonials section label only. Not an offer name. Never use as page title or metadata.
 
-**Pricing:** No price published on site. Internal floor $299. Never publish a price without checking `TrungOPS/offers/diagnostic.md` first.
+**Pricing:** The diagnostic is currently published at €750 on the live page and checkout. The €49
+self-serve read stays off the page for now; advisory/premium pricing stays unpublished. Before any
+price-bearing asset, check `TrungOPS/offers/diagnostic.md` and
+`TrungOPS/context/website/landing-page.md`, then verify the live checkout currency — these sources
+have drifted before.
 
 ---
 

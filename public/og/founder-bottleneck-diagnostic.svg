@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <style>
+    .serif { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; letter-spacing: -0.02em; }
+    .sans { font-family: Inter, Arial, sans-serif; font-weight: 400; }
+    .label { font-family: Inter, Arial, sans-serif; font-weight: 500; font-size: 16px; letter-spacing: 0.15em; }
+  </style>
+
+  <rect width="1200" height="630" fill="#1A2F23"/>
+  <text x="72" y="74" class="label" fill="#E8EFE9">TRUNG NGUYEN · IAMTRUNG.COM</text>
+
+  <text x="72" y="208" class="serif" font-size="86" fill="#F8F9F7">Founder Bottleneck</text>
+  <text x="72" y="292" class="serif" font-size="86" fill="#E8EFE9">Diagnostic</text>
+
+  <text x="76" y="380" class="sans" font-size="27" fill="#F8F9F7">90 minutes. One constraint. One decision.</text>
+  <text x="76" y="430" class="sans" font-size="20" fill="#D4C4A8">Not coaching. Not a strategy retainer. One outside read.</text>
+
+  <line x1="742" y1="112" x2="742" y2="518" stroke="#D4C4A8" stroke-width="2"/>
+
+  <text x="792" y="164" class="label" fill="#5A7D6A">YOU LEAVE WITH</text>
+  <text x="792" y="239" class="serif" font-size="45" fill="#F8F9F7">What to stop</text>
+  <text x="792" y="326" class="serif" font-size="45" fill="#F8F9F7">The one move</text>
+  <text x="792" y="413" class="serif" font-size="45" fill="#F8F9F7">The evidence</text>
+  <text x="792" y="461" class="serif" font-size="45" fill="#F8F9F7">that counts</text>
+
+  <text x="72" y="573" class="label" fill="#5A7D6A">FOUNDER BOTTLENECK DIAGNOSTIC</text>
+</svg>
