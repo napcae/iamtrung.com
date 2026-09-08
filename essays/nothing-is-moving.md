@@ -29,8 +29,4 @@ If they match, your problem is somewhere else, probably genuinely execution, and
 If they don't match, don't fix it with a meeting where you restate the direction once and hope it sticks. A direction that has to be restated has usually never been decided cleanly in the first place, only announced. Find the actual undecided thing underneath it before you spend another quarter's effort compounding around a target nobody agreed on.
 
 ---
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck)*
-
----
 Source: https://iamtrung.com/essays/nothing-is-moving

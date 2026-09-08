@@ -37,8 +37,4 @@ Don't book one if you want validation for a decision you've made, if you're look
 If the same problem has survived three different explanations, your explanations are the problem — get it diagnosed. If you can name the number that would prove your current explanation right, and you've actually looked at it, you probably don't need a session yet.
 
 ---
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver)*
-
----
 Source: https://iamtrung.com/essays/what-happens-in-a-diagnostic

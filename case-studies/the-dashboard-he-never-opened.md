@@ -46,7 +46,5 @@ For the fast kind of proof — a result landing the same week — read [the agen
 
 *Attribution note: the founder recorded this testimonial on the record; his name and company aren't cleared for publication, so they're withheld.*
 
-*What actually happens in a session: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic)*
-
 ---
 Source: https://iamtrung.com/case-studies/the-dashboard-he-never-opened

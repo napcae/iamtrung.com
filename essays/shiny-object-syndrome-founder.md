@@ -66,8 +66,4 @@ If the trigger was mostly possibility, the window ended early, or the number cha
 Self-awareness names the loop. A business decision interrupts it.
 
 ---
-
-*Related: [Why is nothing moving in my startup?](/essays/nothing-is-moving) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic)*
-
----
 Source: https://iamtrung.com/essays/shiny-object-syndrome-founder

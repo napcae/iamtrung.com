@@ -42,9 +42,13 @@ If this policy changes in a way that matters, the effective date above will chan
 
 [Diagnostic](/founder-diagnostic)
 
-[Contact](/#contact)
+[Essays](/essays)
+
+[Case studies](/case-studies)
 
 [FAQ](/essays/what-happens-in-a-diagnostic)
+
+[Contact](/#contact)
 
 ---
 Source: https://iamtrung.com/privacy

@@ -39,7 +39,5 @@ That's the same week — this is the fast kind of proof. For what the slow kind 
 
 *Published with Minh's permission (testimonial recorded June 2026). All quotes verbatim.*
 
-*What actually happens in a session: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic)*
-
 ---
 Source: https://iamtrung.com/case-studies/algomate-10-hours-a-week

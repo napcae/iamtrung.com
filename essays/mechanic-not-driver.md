@@ -29,8 +29,4 @@ If it gets made and holds, you were the bottleneck on that one decision, and now
 If it stalls and comes back to you anyway, even after you've handed it back cleanly, that's worth taking seriously. It usually means there's a decision one level up, the one you haven't made, that the small one was actually standing in for. That's a pattern worth naming properly, not guessing at.
 
 ---
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is nothing moving in my startup?](/essays/nothing-is-moving)*
-
----
 Source: https://iamtrung.com/essays/mechanic-not-driver
