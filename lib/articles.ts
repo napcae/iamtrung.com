@@ -20,6 +20,11 @@ export interface Article {
   updated: string
   content: string
   image?: string
+  // Cluster links rendered by the shared article footer. Optional: when a file
+  // omits them, relatedFor() falls back to recent siblings + a case study, so a
+  // new article can never ship with an empty footer.
+  related?: string[]
+  proof?: string[]
   // media-only fields
   podcastName?: string
   hostName?: string
@@ -50,6 +55,8 @@ export function getArticle(kind: ArticleKind, slug: string): Article {
     updated: normalizeArticleDate(data.updated),
     content,
     image: data.image,
+    related: data.related,
+    proof: data.proof,
     podcastName: data.podcastName,
     hostName: data.hostName,
     episodeUrl: data.episodeUrl,
@@ -183,4 +190,59 @@ export function collectionSchema(kind: ArticleKind, description: string) {
       })),
     },
   }
+}
+
+// ---------------------------------------------------------------------------
+// Cluster links
+//
+// These used to be hand-written markdown at the bottom of every content file.
+// That is precisely why the cluster rotted: publishing essay N meant editing
+// N-1 older files to link back to it, and nobody did, so three essays and both
+// case studies sat with zero inbound links. Frontmatter + a shared renderer
+// makes the outbound half declarative; verify-agent-readiness.mjs enforces the
+// inbound half at build time.
+
+export interface ClusterLink {
+  href: string
+  title: string
+}
+
+function pathToRef(href: string): { kind: ArticleKind; slug: string } | null {
+  const match = href.match(/^\/(essays|case-studies|media)\/([\w-]+)$/)
+  return match ? { kind: match[1] as ArticleKind, slug: match[2] } : null
+}
+
+function resolve(href: string): ClusterLink {
+  const ref = pathToRef(href)
+  if (!ref) throw new Error(`Cluster link is not an article path: ${href}`)
+  if (!getArticleSlugs(ref.kind).includes(ref.slug)) {
+    // Fail the build rather than ship a 404 into every sibling's footer.
+    throw new Error(`Cluster link points at a missing article: ${href}`)
+  }
+  return { href, title: getArticle(ref.kind, ref.slug).title }
+}
+
+// Explicit frontmatter wins; otherwise take the most recent siblings. Either
+// way the footer is never empty and never hand-maintained.
+export function clusterLinksFor(
+  kind: ArticleKind,
+  slug: string,
+): { related: ClusterLink[]; proof: ClusterLink[] } {
+  const article = getArticle(kind, slug)
+
+  const related = article.related
+    ? article.related.map(resolve)
+    : getArticles(kind === "media" ? "essays" : kind)
+        .filter((candidate) => candidate.slug !== slug)
+        .slice(0, 3)
+        .map((candidate) => resolve(`/${kind === "media" ? "essays" : kind}/${candidate.slug}`))
+
+  const proof = article.proof
+    ? article.proof.map(resolve)
+    : getArticles("case-studies")
+        .filter((candidate) => !(kind === "case-studies" && candidate.slug === slug))
+        .slice(0, 2)
+        .map((candidate) => resolve(`/case-studies/${candidate.slug}`))
+
+  return { related, proof }
 }

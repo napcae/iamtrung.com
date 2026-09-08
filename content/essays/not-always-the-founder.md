@@ -4,6 +4,13 @@ description: "Two paid cases where the obvious answer was the founder, I went lo
 published: 2026-09-03
 updated: 2026-09-03
 source: TrungOPS/context/website/essays/not-always-the-founder.md
+related:
+  - /essays/coach-consultant-diagnostician
+  - /essays/what-happens-in-a-diagnostic
+  - /essays/shiny-object-syndrome-founder
+proof:
+  - /case-studies/building-instead-of-asking
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 You don't, until you've seen a case where I was wrong. Here are two, both paid. In the first, a legal-tech founder's technical problems turned out to be exactly as bad as described. In the second, the founder corrected his own diagnosis by filling in my intake form, before I wrote a word. A diagnosis that can't come back wrong is worth nothing.
@@ -83,5 +90,3 @@ So when a founder asks how they know I won't find them at the bottom of their ow
 ---
 
 **The Founder Bottleneck Diagnostic** is one 90-minute session, €750. You leave with the constraint named, the evidence behind it, and one concrete move. Sometimes that move is the one you were already planning. [Coach, consultant, or diagnostician — which do you need? →](/essays/coach-consultant-diagnostician)
-
-*Related: [Founder coach vs. consultant vs. diagnostician: which one do you actually need?](/essays/coach-consultant-diagnostician) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [Is shiny object syndrome why your startup keeps changing strategy?](/essays/shiny-object-syndrome-founder) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Proof: [The founder who was building instead of asking](/case-studies/building-instead-of-asking) · [The founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened)*

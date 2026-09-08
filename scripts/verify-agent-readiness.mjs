@@ -187,6 +187,58 @@ for (const route of [
   if (html) check(footerLinksToFaq(html), `${route} footer does not link to the FAQ`)
 }
 
+// --- Cluster integrity -----------------------------------------------------
+// Every indexed article must be reachable from at least one *other* article,
+// and every page must be in the sitemap. Both regressed silently before:
+// three essays and both case studies once sat with zero inbound links because
+// footers were hand-written per file, and new pages were added to the sitemap
+// only when someone remembered. These are now build failures, not something
+// to notice later.
+{
+  const kinds = ["essays", "case-studies", "media"]
+  const inbound = new Map()
+  const articles = []
+
+  for (const kind of kinds) {
+    const dir = path.join(root, "content", kind)
+    if (!fs.existsSync(dir)) continue
+    for (const file of fs.readdirSync(dir).filter((name) => name.endsWith(".md"))) {
+      const slug = file.replace(/\.md$/, "")
+      const href = `/${kind}/${slug}`
+      articles.push({ kind, slug, href, file: path.join(dir, file) })
+      if (!inbound.has(href)) inbound.set(href, 0)
+    }
+  }
+
+  const known = new Set(articles.map((a) => a.href))
+
+  for (const article of articles) {
+    const { data, content } = matter(fs.readFileSync(article.file, "utf8"))
+    const links = new Set([
+      ...(data.related || []),
+      ...(data.proof || []),
+      ...(content.match(/\((\/(?:essays|case-studies|media)\/[\w-]+)\)/g) || [])
+        .map((match) => match.slice(1, -1)),
+    ])
+    for (const href of links) {
+      check(known.has(href), `${article.href} links to a missing article: ${href}`)
+      if (href !== article.href) inbound.set(href, (inbound.get(href) || 0) + 1)
+    }
+  }
+
+  const sitemap = fs.readFileSync(path.join(root, "public", "sitemap.xml"), "utf8")
+  const llms = fs.readFileSync(path.join(root, "public", "llms.txt"), "utf8")
+
+  for (const article of articles) {
+    check(
+      inbound.get(article.href) > 0,
+      `${article.href} has no inbound links from other articles — add it to the related/proof frontmatter of a sibling`,
+    )
+    check(sitemap.includes(`https://iamtrung.com${article.href}<`), `${article.href} is missing from sitemap.xml`)
+    check(llms.includes(`https://iamtrung.com${article.href})`), `${article.href} is missing from llms.txt`)
+  }
+}
+
 if (failures.length > 0) {
   console.error("verify-agent-readiness: FAILED\n" + failures.map((f) => ` - ${f}`).join("\n"))
   process.exit(1)

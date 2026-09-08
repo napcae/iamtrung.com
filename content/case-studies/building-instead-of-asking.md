@@ -4,6 +4,10 @@ description: "He booked a diagnostic to fix his marketing. His own numbers said 
 published: 2026-09-08
 updated: 2026-09-08
 source: TrungOPS/context/website/case-studies/building-instead-of-asking.md
+related:
+  - /essays/what-happens-in-a-diagnostic
+proof:
+  - /case-studies/algomate-10-hours-a-week
 ---
 
 **Founder:** Solo founder of a consumer mobile app, roughly 18 months in (name and company withheld — no testimonial recorded).
@@ -60,5 +64,3 @@ If you want the version of this argument with the cases where the diagnosis itse
 ---
 
 *Attribution note: this founder has not recorded a testimonial. The account above is published without his name, company, product category or personal history, and contains one short self-description he volunteered in the session.*
-
-*What actually happens in a session: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic) · More proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week)*

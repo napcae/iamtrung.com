@@ -2,8 +2,15 @@ import Link from "next/link"
 import ReactMarkdown from "react-markdown"
 import { ArrowLeft } from "lucide-react"
 import { Navigation } from "@/components/navigation"
-import { SocialIcons } from "@/components/social-icons"
-import { getArticle, getLeadAnswer, breadcrumbSchema, formatDate, type ArticleKind } from "@/lib/articles"
+import { SiteFooter } from "@/components/site-footer"
+import {
+  getArticle,
+  getLeadAnswer,
+  breadcrumbSchema,
+  clusterLinksFor,
+  formatDate,
+  type ArticleKind,
+} from "@/lib/articles"
 
 // Shared renderer for /essays/[slug], /case-studies/[slug], and
 // /media/[slug]. Every page links back to the diagnostic and entity pages,
@@ -19,6 +26,7 @@ const KIND_LABEL: Record<ArticleKind, { label: string; indexPath: string; indexN
 export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string }) {
   const article = getArticle(kind, slug)
   const meta = KIND_LABEL[kind]
+  const { related, proof } = clusterLinksFor(kind, slug)
   const url = `https://iamtrung.com/${kind}/${slug}`
 
   const person = {
@@ -135,7 +143,35 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
             <ReactMarkdown>{article.content}</ReactMarkdown>
           </div>
 
-          <footer className="mt-16 border-t border-earth-sand pt-6 text-sm text-earth-muted">
+          {/* Cluster links come from frontmatter (or a recent-siblings fallback),
+              never from hand-written markdown in the body — see clusterLinksFor. */}
+          <aside className="mt-16 border-t border-earth-sand pt-6 text-sm text-earth-muted space-y-3">
+            {related.length > 0 && (
+              <p>
+                <span className="text-earth-dark">Related:</span>{" "}
+                {related.map((link, index) => (
+                  <span key={link.href}>
+                    {index > 0 && " · "}
+                    <Link href={link.href} className="text-earth-accent hover:underline">
+                      {link.title}
+                    </Link>
+                  </span>
+                ))}
+              </p>
+            )}
+            {proof.length > 0 && (
+              <p>
+                <span className="text-earth-dark">Proof:</span>{" "}
+                {proof.map((link, index) => (
+                  <span key={link.href}>
+                    {index > 0 && " · "}
+                    <Link href={link.href} className="text-earth-accent hover:underline">
+                      {link.title}
+                    </Link>
+                  </span>
+                ))}
+              </p>
+            )}
             <p>
               <Link href="/about" className="text-earth-accent hover:underline">
                 Trung Nguyen
@@ -146,18 +182,11 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
               </Link>{" "}
               for capable founders who are compensating for a blind spot instead of resolving it.
             </p>
-            <div className="mt-6 flex items-center justify-end gap-6">
-              <Link
-                href="/essays/what-happens-in-a-diagnostic"
-                className="text-earth-accent hover:underline"
-              >
-                FAQ
-              </Link>
-              <SocialIcons />
-            </div>
-          </footer>
+          </aside>
         </article>
       </main>
+
+      <SiteFooter variant="narrow" />
     </div>
   )
 }

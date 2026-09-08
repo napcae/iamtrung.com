@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { SiteFooter } from "@/components/site-footer"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -366,50 +367,7 @@ export default function ReconnectVietnamPage() {
       </main>
 
       {/* Footer */}
-      <footer className="py-12 px-6 md:px-12 lg:px-24 border-t border-earth-light/50">
-        <div className="w-full max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-            <div className="mb-6 md:mb-0">
-              <p className="text-sm text-earth-muted">
-                © {new Date().getFullYear()} Trung Nguyen. All rights reserved.
-              </p>
-            </div>
-            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-              <Link href="/" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Home
-              </Link>
-              <Link href="/#about" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                About
-              </Link>
-              <Link href="/#offerings" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Offerings
-              </Link>
-              <Link href="/essays" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Essays
-              </Link>
-              <Link href="/case-studies" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Case studies
-              </Link>
-              <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Contact
-              </Link>
-              <Link
-                href="/essays/what-happens-in-a-diagnostic"
-                className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
-              >
-                FAQ
-              </Link>
-              <Link href="/privacy" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                Privacy
-              </Link>
-            </div>
-          </div>
-
-          <div className="mt-8 flex justify-center md:justify-end">
-            <SocialIcons />
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   )
 }

@@ -4,6 +4,13 @@ description: "The mechanic-versus-driver test, what the handoff that never happe
 published: 2026-08-07
 updated: 2026-08-07
 source: TrungOPS/context/website/essays/mechanic-not-driver.md
+related:
+  - /essays/founder-is-the-bottleneck
+  - /media/feel-safe-in-your-body-victor-goenka
+  - /essays/nothing-is-moving
+  - /essays/what-happens-in-a-diagnostic
+proof:
+  - /case-studies/algomate-10-hours-a-week
 ---
 
 Because you're still doing the mechanic's job, not the driver's. A driver sets the direction and lets someone else turn the wrenches. A mechanic gets called back in every time something needs fixing, no matter who's supposed to own it. If your team still routes the real decisions through you, the company runs on your personal bandwidth, and that's the actual reason nothing moves without you in the room.
@@ -33,7 +40,3 @@ Pick one decision that landed on your desk this week that isn't actually yours t
 If it gets made and holds, you were the bottleneck on that one decision, and now you're not. Good, do it again next week with a different one.
 
 If it stalls and comes back to you anyway, even after you've handed it back cleanly, that's worth taking seriously. It usually means there's a decision one level up, the one you haven't made, that the small one was actually standing in for. That's a pattern worth naming properly, not guessing at.
-
----
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is nothing moving in my startup?](/essays/nothing-is-moving) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · Proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week)*

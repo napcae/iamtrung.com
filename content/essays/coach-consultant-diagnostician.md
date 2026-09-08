@@ -4,6 +4,13 @@ description: "Three different purchases, three different problems. A decision ru
 published: 2026-08-31
 updated: 2026-08-31
 source: TrungOPS/context/website/essays/coach-consultant-diagnostician.md
+related:
+  - /essays/not-always-the-founder
+  - /essays/what-happens-in-a-diagnostic
+  - /essays/founder-is-the-bottleneck
+proof:
+  - /case-studies/algomate-10-hours-a-week
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 A coach works on you, over months, through a goal you've already named. A consultant does defined work for you and hands back an output. A diagnostician runs one session to find the constraint underneath a problem you've been describing wrong, then leaves. Coaching buys accountability. Consulting buys capacity. A diagnostic buys an accurate name for what's actually stuck. Most founders shopping for the first two need the third first.
@@ -72,5 +79,3 @@ And anyone who genuinely knows what's wrong. If you can state the constraint pla
 ---
 
 **The Founder Bottleneck Diagnostic** is one 90-minute session for capable founders who have already tried to fix a live, expensive problem and suspect their explanation is wrong. You leave with the constraint named and one concrete move. [What happens during a diagnostic →](/essays/what-happens-in-a-diagnostic)
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know you won't just tell me I'm the bottleneck?](/essays/not-always-the-founder) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · Proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week) · [The founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened)*
