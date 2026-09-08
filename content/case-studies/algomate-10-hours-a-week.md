@@ -45,4 +45,6 @@ That's the same week — this is the fast kind of proof. For what the slow kind 
 
 *Published with Minh's permission (testimonial recorded June 2026). All quotes verbatim.*
 
+*More cases: [The founder who was building instead of asking](/case-studies/building-instead-of-asking) · [The founder who kept changing the lever](/case-studies/churn-was-a-decision-problem)*
+
 *What actually happens in a session: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic)*

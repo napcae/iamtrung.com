@@ -52,4 +52,6 @@ For the fast kind of proof — a result landing the same week — read [the agen
 
 *Attribution note: the founder recorded this testimonial on the record; his name and company aren't cleared for publication, so they're withheld.*
 
+*More cases: [The founder who kept changing the lever](/case-studies/churn-was-a-decision-problem) · [The founder who was building instead of asking](/case-studies/building-instead-of-asking)*
+
 *What actually happens in a session: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic)*
