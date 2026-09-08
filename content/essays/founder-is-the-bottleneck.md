@@ -4,6 +4,13 @@ description: "The two-week test, the five everyday signs, and why you can't see 
 published: 2026-08-03
 updated: 2026-08-07
 source: TrungOPS/context/website/essays/founder-is-the-bottleneck.md
+related:
+  - /essays/what-happens-in-a-diagnostic
+  - /essays/mechanic-not-driver
+  - /essays/not-always-the-founder
+proof:
+  - /case-studies/algomate-10-hours-a-week
+  - /case-studies/building-instead-of-asking
 ---
 
 Ask one question: if you disappeared for two weeks, would your business grow, stall, or die? If it would die, you're the bottleneck. If it would stall, you're load-bearing in places you probably shouldn't be. If it would grow, the constraint is somewhere else. Most founders land on "die" or "stall" — and most of them have a different explanation for why things are slow.
@@ -41,7 +48,3 @@ Don't reorganize, hire, or change strategy based on your current explanation of 
 ## The decision rule
 
 Run the two-week test honestly. "Grow" — go work on whatever your real constraint is; it isn't you. "Stall" — write down the three things that would stall first; those are the decisions and handoffs to fix, and you can likely do it yourself. "Die" — the bottleneck is you. That's fixable, and it's precisely the case a [Founder Bottleneck Diagnostic](/founder-diagnostic) is built for: someone outside the system pulls the facts, finds the unmade decision, and names it so you can act.
-
----
-
-*More on the person behind it: [About Trung Nguyen](/about) · Related: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver) · [Why is nothing moving in my startup?](/essays/nothing-is-moving)*

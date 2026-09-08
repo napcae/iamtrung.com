@@ -4,6 +4,13 @@ description: "The 90-minute session, step by step: what gets asked, what gets na
 published: 2026-08-03
 updated: 2026-08-07
 source: TrungOPS/context/website/essays/what-happens-in-a-diagnostic.md
+related:
+  - /essays/founder-is-the-bottleneck
+  - /essays/coach-consultant-diagnostician
+  - /essays/not-always-the-founder
+proof:
+  - /case-studies/algomate-10-hours-a-week
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 A Founder Bottleneck Diagnostic is one 90-minute session. You state what you think is wrong with your company. We pull the concrete facts — what you've tried, what happened, what the numbers say. We find the gap between your explanation and the evidence, name the actual pattern, and you leave with one concrete move. No report, no retainer, no follow-up program. The session is done when you have language for what to stop.
@@ -41,7 +48,3 @@ Don't book one if you want validation for a decision you've made, if you're look
 ## A decision rule
 
 If the same problem has survived three different explanations, your explanations are the problem — get it diagnosed. If you can name the number that would prove your current explanation right, and you've actually looked at it, you probably don't need a session yet.
-
----
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver)*

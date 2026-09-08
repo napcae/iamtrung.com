@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { SiteFooter } from "@/components/site-footer"
 import { ArrowLeft } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -107,44 +108,7 @@ export default function PrivacyPage() {
           </div>
         </section>
 
-        <footer className="py-12 px-6 md:px-12 lg:px-24 border-t border-earth-light/50">
-          <div className="w-full max-w-6xl mx-auto">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-              <div className="mb-6 md:mb-0">
-                <p className="text-sm text-earth-muted">
-                  © {new Date().getFullYear()} Trung Nguyen. All rights reserved.
-                </p>
-              </div>
-              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-                <Link href="/" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                  Home
-                </Link>
-                <Link href="/about" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                  About
-                </Link>
-                <Link
-                  href="/founder-diagnostic"
-                  className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
-                >
-                  Diagnostic
-                </Link>
-                <Link href="/#contact" className="text-sm text-earth-muted hover:text-earth-dark transition-colors">
-                  Contact
-                </Link>
-                <Link
-                  href="/essays/what-happens-in-a-diagnostic"
-                  className="text-sm text-earth-muted hover:text-earth-dark transition-colors"
-                >
-                  FAQ
-                </Link>
-              </div>
-            </div>
-
-            <div className="mt-8 flex justify-center md:justify-end">
-              <SocialIcons />
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
       </main>
     </div>
   )

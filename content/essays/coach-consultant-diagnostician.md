@@ -4,6 +4,13 @@ description: "Three different purchases, three different problems. A decision ru
 published: 2026-08-31
 updated: 2026-08-31
 source: TrungOPS/context/website/essays/coach-consultant-diagnostician.md
+related:
+  - /essays/not-always-the-founder
+  - /essays/what-happens-in-a-diagnostic
+  - /essays/founder-is-the-bottleneck
+proof:
+  - /case-studies/algomate-10-hours-a-week
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 A coach works on you, over months, through a goal you've already named. A consultant does defined work for you and hands back an output. A diagnostician runs one session to find the constraint underneath a problem you've been describing wrong, then leaves. Coaching buys accountability. Consulting buys capacity. A diagnostic buys an accurate name for what's actually stuck. Most founders shopping for the first two need the third first.

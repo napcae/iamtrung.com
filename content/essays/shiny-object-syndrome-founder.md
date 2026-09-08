@@ -5,6 +5,14 @@ published: 2026-09-02
 updated: 2026-09-02
 image: /og/strategy-reset-loop.png
 source: TrungOPS/context/website/essays/shiny-object-syndrome-founder.md
+related:
+  - /essays/nothing-is-moving
+  - /essays/founder-is-the-bottleneck
+  - /essays/what-happens-in-a-diagnostic
+  - /essays/not-always-the-founder
+proof:
+  - /case-studies/churn-was-a-decision-problem
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 Usually not. "Shiny object syndrome" describes the visible loop — new idea, brief burst of motion, reset — but it does not tell you which business decision should replace it. If your startup keeps changing strategy before the last direction can produce evidence, the useful question is not why you get distracted. It is which customer segment already pays, stays, and gives you enough evidence to commit.
@@ -71,7 +79,3 @@ If you can fill in all three for each change, you may be iterating normally.
 If the trigger was mostly possibility, the window ended early, or the number changed with the plan, do not solve that with another productivity system. Find the customer or commercial decision that has been allowed to remain undecided underneath the rotation.
 
 Self-awareness names the loop. A business decision interrupts it.
-
----
-
-*Related: [Why is nothing moving in my startup?](/essays/nothing-is-moving) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic)*

@@ -4,6 +4,11 @@ description: "Minh, founder of Algomate, thought his execution was the problem. 
 published: 2026-08-03
 updated: 2026-08-03
 source: TrungOPS/context/website/case-studies/algomate-10-hours-a-week.md
+proof:
+  - /case-studies/building-instead-of-asking
+  - /case-studies/churn-was-a-decision-problem
+related:
+  - /essays/what-happens-in-a-diagnostic
 ---
 
 **Founder:** Minh, Algomate — a marketing agency he started in February 2026, solo.
@@ -44,5 +49,3 @@ That's the same week — this is the fast kind of proof. For what the slow kind 
 ---
 
 *Published with Minh's permission (testimonial recorded June 2026). All quotes verbatim.*
-
-*What actually happens in a session: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer itself: [Founder Bottleneck Diagnostic](/founder-diagnostic)*

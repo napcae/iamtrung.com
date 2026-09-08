@@ -4,6 +4,13 @@ description: "Two paid cases where the obvious answer was the founder, I went lo
 published: 2026-09-03
 updated: 2026-09-03
 source: TrungOPS/context/website/essays/not-always-the-founder.md
+related:
+  - /essays/coach-consultant-diagnostician
+  - /essays/what-happens-in-a-diagnostic
+  - /essays/shiny-object-syndrome-founder
+proof:
+  - /case-studies/building-instead-of-asking
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 You don't, until you've seen a case where I was wrong. Here are two, both paid. In the first, a legal-tech founder's technical problems turned out to be exactly as bad as described. In the second, the founder corrected his own diagnosis by filling in my intake form, before I wrote a word. A diagnosis that can't come back wrong is worth nothing.

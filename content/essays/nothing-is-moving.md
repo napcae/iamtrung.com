@@ -4,6 +4,13 @@ description: "The ten-second test that tells you if it's an execution problem or
 published: 2026-08-07
 updated: 2026-08-07
 source: TrungOPS/context/website/essays/nothing-is-moving.md
+related:
+  - /essays/mechanic-not-driver
+  - /essays/founder-is-the-bottleneck
+  - /essays/shiny-object-syndrome-founder
+proof:
+  - /case-studies/churn-was-a-decision-problem
+  - /case-studies/the-dashboard-he-never-opened
 ---
 
 Because it's probably not an execution problem, it's a direction problem wearing an execution problem's clothes. Your team is working. Sprints close, tickets move, nobody's idle. But activity and direction are different things, and a team can be fully occupied while agreeing on almost nothing about what a good week actually produces. Effort doesn't compound when nobody's pointed at the same target.
@@ -33,7 +40,3 @@ This week, ask the ten-second question of your team, separately, and actually co
 If they match, your problem is somewhere else, probably genuinely execution, and this essay isn't about you. Go look at what's actually slowing the work down.
 
 If they don't match, don't fix it with a meeting where you restate the direction once and hope it sticks. A direction that has to be restated has usually never been decided cleanly in the first place, only announced. Find the actual undecided thing underneath it before you spend another quarter's effort compounding around a target nobody agreed on.
-
----
-
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck)*

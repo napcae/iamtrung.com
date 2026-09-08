@@ -20,6 +20,11 @@ export interface Article {
   updated: string
   content: string
   image?: string
+  // Cluster links rendered by the shared article footer. Optional: when a file
+  // omits them, relatedFor() falls back to recent siblings + a case study, so a
+  // new article can never ship with an empty footer.
+  related?: string[]
+  proof?: string[]
   // media-only fields
   podcastName?: string
   hostName?: string
@@ -50,6 +55,8 @@ export function getArticle(kind: ArticleKind, slug: string): Article {
     updated: normalizeArticleDate(data.updated),
     content,
     image: data.image,
+    related: data.related,
+    proof: data.proof,
     podcastName: data.podcastName,
     hostName: data.hostName,
     episodeUrl: data.episodeUrl,
@@ -125,4 +132,117 @@ export function formatDate(value: string): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return value
   return date.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
+}
+
+// Structural signals, not copy changes. `TrungOPS/strategy/seo.md` records the
+// SAGEO Arena (KDD 2026) finding that GEO is a pipeline — crawl/index →
+// retrieve → rerank → cite — and that schema/metadata was what mitigated
+// failures at the early stages, where rewriting prose for "quotability" can
+// actually hurt. So the lever here is structure: say what each page is and how
+// the corpus fits together, without touching a word of the essays.
+
+const SITE = "https://iamtrung.com"
+
+const KIND_INDEX: Record<ArticleKind, string> = {
+  essays: "Essays",
+  "case-studies": "Case studies",
+  media: "Media",
+}
+
+// Home > Essays > This essay. Mirrors the visible "All essays ←" trail already
+// at the top of every article page, which is what Google asks breadcrumb markup
+// to correspond to.
+export function breadcrumbSchema(kind: ArticleKind, title: string, slug: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
+      { "@type": "ListItem", position: 2, name: KIND_INDEX[kind], item: `${SITE}/${kind}` },
+      { "@type": "ListItem", position: 3, name: title, item: `${SITE}/${kind}/${slug}` },
+    ],
+  }
+}
+
+// One URL that enumerates the whole corpus for a kind. Without this an index
+// page is just a list of links; with it a crawler that fetches /essays alone
+// comes away with every title, description and date in the cluster.
+export function collectionSchema(kind: ArticleKind, description: string) {
+  const articles = getArticles(kind)
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE}/${kind}#collection`,
+    name: KIND_INDEX[kind],
+    description,
+    url: `${SITE}/${kind}`,
+    isPartOf: { "@type": "WebSite", "@id": `${SITE}/#website` },
+    about: { "@type": "Person", "@id": `${SITE}/#trung-nguyen` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: articles.length,
+      itemListOrder: "https://schema.org/ItemListOrderDescending",
+      itemListElement: articles.map((article, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE}/${kind}/${article.slug}`,
+        name: article.title,
+      })),
+    },
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Cluster links
+//
+// These used to be hand-written markdown at the bottom of every content file.
+// That is precisely why the cluster rotted: publishing essay N meant editing
+// N-1 older files to link back to it, and nobody did, so three essays and both
+// case studies sat with zero inbound links. Frontmatter + a shared renderer
+// makes the outbound half declarative; verify-agent-readiness.mjs enforces the
+// inbound half at build time.
+
+export interface ClusterLink {
+  href: string
+  title: string
+}
+
+function pathToRef(href: string): { kind: ArticleKind; slug: string } | null {
+  const match = href.match(/^\/(essays|case-studies|media)\/([\w-]+)$/)
+  return match ? { kind: match[1] as ArticleKind, slug: match[2] } : null
+}
+
+function resolve(href: string): ClusterLink {
+  const ref = pathToRef(href)
+  if (!ref) throw new Error(`Cluster link is not an article path: ${href}`)
+  if (!getArticleSlugs(ref.kind).includes(ref.slug)) {
+    // Fail the build rather than ship a 404 into every sibling's footer.
+    throw new Error(`Cluster link points at a missing article: ${href}`)
+  }
+  return { href, title: getArticle(ref.kind, ref.slug).title }
+}
+
+// Explicit frontmatter wins; otherwise take the most recent siblings. Either
+// way the footer is never empty and never hand-maintained.
+export function clusterLinksFor(
+  kind: ArticleKind,
+  slug: string,
+): { related: ClusterLink[]; proof: ClusterLink[] } {
+  const article = getArticle(kind, slug)
+
+  const related = article.related
+    ? article.related.map(resolve)
+    : getArticles(kind === "media" ? "essays" : kind)
+        .filter((candidate) => candidate.slug !== slug)
+        .slice(0, 3)
+        .map((candidate) => resolve(`/${kind === "media" ? "essays" : kind}/${candidate.slug}`))
+
+  const proof = article.proof
+    ? article.proof.map(resolve)
+    : getArticles("case-studies")
+        .filter((candidate) => !(kind === "case-studies" && candidate.slug === slug))
+        .slice(0, 2)
+        .map((candidate) => resolve(`/case-studies/${candidate.slug}`))
+
+  return { related, proof }
 }
