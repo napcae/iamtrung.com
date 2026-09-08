@@ -2,6 +2,11 @@
 
 Direct answers to the questions founders actually ask — each one opens with the answer, then goes deep.
 
+- [## How do I know you won't just tell me I'm the bottleneck?
+
+Two paid cases where the obvious answer was the founder, I went looking, and it wasn't there. Plus three questions to ask anyone selling you a diagnosis.
+
+September 3, 2026](/essays/not-always-the-founder)
 - [## Is shiny object syndrome why your startup keeps changing strategy?
 
 Why the label does not tell a founder what to do, how to distinguish healthy iteration from a reset loop, and the business decision that interrupts it.

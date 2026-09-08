@@ -4,7 +4,7 @@
 
 Effective August 26, 2026
 
-This site is run by Trung Nguyen, based in Berlin, Germany. This policy explains what data iamtrung.com collects when you visit, why, and what your options are. It applies to iamtrung.com and its subpages only — not to third-party sites this site links to, such as Cal.com, LinkedIn, or Substack.
+This site is run by Trung Nguyen, based in Ho Chi Minh City, Vietnam. This policy explains what data iamtrung.com collects when you visit, why, and what your options are. It applies to iamtrung.com and its subpages only — not to third-party sites this site links to, such as Cal.com, LinkedIn, or Substack.
 
 ## Analytics
 

@@ -34,7 +34,7 @@ Not a fit: founders who want validation, founders who want ongoing coaching, and
 
 ## Background
 
-Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Berlin. He led engineering teams, built companies through freelancing and venture-building, and spent years inside the exact system he now diagnoses: the founder-led company where everything routes through one person.
+Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Ho Chi Minh City. He led engineering teams, built companies through freelancing and venture-building, and spent years inside the exact system he now diagnoses: the founder-led company where everything routes through one person.
 
 Alongside the diagnostic work he runs [The Innernet](/the-innernet), a community for founders, and [talks about the founder's internal state](/media) — because it distorts business diagnosis. The commercial work is structural Founder Bottleneck Diagnostics, not therapy and not ongoing coaching.
 
