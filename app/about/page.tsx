@@ -142,7 +142,7 @@ export default function AboutPage() {
           <div className="w-full max-w-4xl mx-auto space-y-8">
             <h2 className="text-2xl font-semibold">Background</h2>
             <p className="text-xl leading-relaxed font-normal">
-              Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Berlin. He led
+              Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Ho Chi Minh City. He led
               engineering teams, built companies through freelancing and venture-building, and spent years
               inside the exact system he now diagnoses: the founder-led company where everything routes
               through one person.
