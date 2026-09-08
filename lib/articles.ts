@@ -126,3 +126,61 @@ export function formatDate(value: string): string {
   if (Number.isNaN(date.getTime())) return value
   return date.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
 }
+
+// Structural signals, not copy changes. `TrungOPS/strategy/seo.md` records the
+// SAGEO Arena (KDD 2026) finding that GEO is a pipeline — crawl/index →
+// retrieve → rerank → cite — and that schema/metadata was what mitigated
+// failures at the early stages, where rewriting prose for "quotability" can
+// actually hurt. So the lever here is structure: say what each page is and how
+// the corpus fits together, without touching a word of the essays.
+
+const SITE = "https://iamtrung.com"
+
+const KIND_INDEX: Record<ArticleKind, string> = {
+  essays: "Essays",
+  "case-studies": "Case studies",
+  media: "Media",
+}
+
+// Home > Essays > This essay. Mirrors the visible "All essays ←" trail already
+// at the top of every article page, which is what Google asks breadcrumb markup
+// to correspond to.
+export function breadcrumbSchema(kind: ArticleKind, title: string, slug: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
+      { "@type": "ListItem", position: 2, name: KIND_INDEX[kind], item: `${SITE}/${kind}` },
+      { "@type": "ListItem", position: 3, name: title, item: `${SITE}/${kind}/${slug}` },
+    ],
+  }
+}
+
+// One URL that enumerates the whole corpus for a kind. Without this an index
+// page is just a list of links; with it a crawler that fetches /essays alone
+// comes away with every title, description and date in the cluster.
+export function collectionSchema(kind: ArticleKind, description: string) {
+  const articles = getArticles(kind)
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE}/${kind}#collection`,
+    name: KIND_INDEX[kind],
+    description,
+    url: `${SITE}/${kind}`,
+    isPartOf: { "@type": "WebSite", "@id": `${SITE}/#website` },
+    about: { "@type": "Person", "@id": `${SITE}/#trung-nguyen` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: articles.length,
+      itemListOrder: "https://schema.org/ItemListOrderDescending",
+      itemListElement: articles.map((article, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE}/${kind}/${article.slug}`,
+        name: article.title,
+      })),
+    },
+  }
+}

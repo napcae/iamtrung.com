@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown"
 import { ArrowLeft } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
-import { getArticle, getLeadAnswer, formatDate, type ArticleKind } from "@/lib/articles"
+import { getArticle, getLeadAnswer, breadcrumbSchema, formatDate, type ArticleKind } from "@/lib/articles"
 
 // Shared renderer for /essays/[slug], /case-studies/[slug], and
 // /media/[slug]. Every page links back to the diagnostic and entity pages,
@@ -88,6 +88,10 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(kind, article.title, slug)) }}
+      />
       <Navigation />
 
       <main className="flex-1">
