@@ -74,4 +74,4 @@ Self-awareness names the loop. A business decision interrupts it.
 
 ---
 
-*Related: [Why is nothing moving in my startup?](/essays/nothing-is-moving) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic)*
+*The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [Why is nothing moving in my startup?](/essays/nothing-is-moving) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [How do I know you won't just tell me I'm the bottleneck?](/essays/not-always-the-founder) · Proof: [The founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened)*

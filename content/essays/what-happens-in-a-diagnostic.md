@@ -44,4 +44,4 @@ If the same problem has survived three different explanations, your explanations
 
 ---
 
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver)*
+*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Founder coach vs. consultant vs. diagnostician: which one do you actually need?](/essays/coach-consultant-diagnostician) · [How do I know you won't just tell me I'm the bottleneck?](/essays/not-always-the-founder) · Proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week) · [The founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened)*

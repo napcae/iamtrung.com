@@ -72,3 +72,5 @@ And anyone who genuinely knows what's wrong. If you can state the constraint pla
 ---
 
 **The Founder Bottleneck Diagnostic** is one 90-minute session for capable founders who have already tried to fix a live, expensive problem and suspect their explanation is wrong. You leave with the constraint named and one concrete move. [What happens during a diagnostic →](/essays/what-happens-in-a-diagnostic)
+
+*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know you won't just tell me I'm the bottleneck?](/essays/not-always-the-founder) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · Proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week) · [The founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened)*

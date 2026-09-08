@@ -36,4 +36,4 @@ If it stalls and comes back to you anyway, even after you've handed it back clea
 
 ---
 
-*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is nothing moving in my startup?](/essays/nothing-is-moving)*
+*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [How do I know if I'm the bottleneck in my company?](/essays/founder-is-the-bottleneck) · [Why is nothing moving in my startup?](/essays/nothing-is-moving) · [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · Proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week)*

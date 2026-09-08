@@ -44,4 +44,4 @@ Run the two-week test honestly. "Grow" — go work on whatever your real constra
 
 ---
 
-*More on the person behind it: [About Trung Nguyen](/about) · Related: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver) · [Why is nothing moving in my startup?](/essays/nothing-is-moving)*
+*More on the person behind it: [About Trung Nguyen](/about) · The offer: [Founder Bottleneck Diagnostic](/founder-diagnostic) · Related: [What happens during a Founder Bottleneck Diagnostic?](/essays/what-happens-in-a-diagnostic) · [Why is everyone still waiting on me for everything?](/essays/mechanic-not-driver) · [How do I know you won't just tell me I'm the bottleneck?](/essays/not-always-the-founder) · Proof: [The agency founder who got back 10–15 hours a week](/case-studies/algomate-10-hours-a-week)*
