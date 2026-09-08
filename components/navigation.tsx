@@ -50,6 +50,12 @@ export function Navigation() {
               Diagnostic
             </Link>
             <Link
+              href="/essays"
+              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
+            >
+              Essays
+            </Link>
+            <Link
               href="/#mission"
               className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
             >
@@ -121,6 +127,20 @@ export function Navigation() {
                 onClick={closeMenu}
               >
                 Diagnostic
+              </Link>
+              <Link
+                href="/essays"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
+                onClick={closeMenu}
+              >
+                Essays
+              </Link>
+              <Link
+                href="/case-studies"
+                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
+                onClick={closeMenu}
+              >
+                Case studies
               </Link>
               <Link
                 href="/#mission"
