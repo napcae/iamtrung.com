@@ -60,6 +60,7 @@ which documents two paid cases where the founder-psychology read was tested and 
 - [The founder who never opened his dashboard](https://iamtrung.com/case-studies/the-dashboard-he-never-opened): durable proof — funnel numbers measured six months after the session (anonymized)
 - [The founder who kept changing the lever](https://iamtrung.com/case-studies/churn-was-a-decision-problem): a churn complaint that turned out to be a missing customer-segment decision; he picked a 90-day segment from his own data in the room (anonymized)
 - [The founder who was building instead of asking](https://iamtrung.com/case-studies/building-instead-of-asking): the honest one — the diagnosis held, the change did not; published because a case set where every founder succeeds is not evidence (anonymized)
+- [When every important decision comes back to the founder](https://iamtrung.com/case-studies/every-decision-comes-back-to-the-founder): a clearly labelled composite pattern showing the failed-fix and 30–90 day decision moment when an operator or advisor should refer; no single client or claimed individual result
 
 ## Media appearances
 

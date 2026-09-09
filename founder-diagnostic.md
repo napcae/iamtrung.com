@@ -67,6 +67,16 @@ The real cost of a wrong bottleneck is the weeks spent pushing a direction that 
 
 One session. One answer.
 
+Composite referral pattern
+
+## When every important decision still comes back to the founder
+
+Someone around the founder has already tried a reasonable fix: tighter planning, a clearer process, a senior hire or more delegation. Yet the next important exception, priority call or stalled handoff still comes back to the founder. The next 30–90 days now carry a concrete cost in rework, delay or another reset. That is the moment for a diagnostic: after the first fix failed and before the next cycle is committed.
+
+Composite pattern drawn from several paid founder engagements. It does not describe one client or claim one result.
+
+[See the decision pattern](/case-studies/every-decision-comes-back-to-the-founder)
+
 What founders say
 
 > “Your question-asking approach helped me save 10 to 15 hours of nonsense outreach.”
