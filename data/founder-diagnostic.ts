@@ -73,6 +73,17 @@ export const about = {
   frame: "One session. One answer.",
 }
 
+export const compositePattern = {
+  eyebrow: "Composite referral pattern",
+  headline: "When every important decision still comes back to the founder",
+  body:
+    "Someone around the founder has already tried a reasonable fix: tighter planning, a clearer process, a senior hire or more delegation. Yet the next important exception, priority call or stalled handoff still comes back to the founder. The next 30–90 days now carry a concrete cost in rework, delay or another reset. That is the moment for a diagnostic: after the first fix failed and before the next cycle is committed.",
+  linkText: "See the decision pattern",
+  linkUrl: "/case-studies/every-decision-comes-back-to-the-founder",
+  disclosure:
+    "Composite pattern drawn from several paid founder engagements. It does not describe one client or claim one result.",
+}
+
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
 // real name; all others are role/stage only (namePublic=false -> attribution only).
 // Order: fast proof first, durable proof second — TrungOPS/offers/diagnostic.md's

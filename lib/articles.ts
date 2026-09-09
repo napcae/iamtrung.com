@@ -20,6 +20,7 @@ export interface Article {
   updated: string
   content: string
   image?: string
+  articleLabel?: string
   // Cluster links rendered by the shared article footer. Optional: when a file
   // omits them, relatedFor() falls back to recent siblings + a case study, so a
   // new article can never ship with an empty footer.
@@ -55,6 +56,7 @@ export function getArticle(kind: ArticleKind, slug: string): Article {
     updated: normalizeArticleDate(data.updated),
     content,
     image: data.image,
+    articleLabel: data.articleLabel,
     related: data.related,
     proof: data.proof,
     podcastName: data.podcastName,
