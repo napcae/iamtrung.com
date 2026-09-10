@@ -12,7 +12,6 @@ import {
   mechanism,
   process,
   about,
-  compositePattern,
   cta,
   videoEmbed,
   teardown,
@@ -305,36 +304,6 @@ export default function FounderDiagnosticPage() {
                   <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What this is</h3>
                   <p>{about.frame}</p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Composite recognition pattern — deliberately separate from outcome proof. */}
-        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
-          <div className="w-full max-w-4xl mx-auto">
-            <div className="flex gap-6">
-              <Network className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-              <div>
-                <p className="text-sm text-earth-muted font-normal tracking-wide uppercase mb-4">
-                  {compositePattern.eyebrow}
-                </p>
-                <h2 className="text-2xl font-semibold mb-6 text-earth-accent">
-                  {compositePattern.headline}
-                </h2>
-                <p className="text-lg font-normal leading-relaxed text-earth-dark max-w-2xl">
-                  {compositePattern.body}
-                </p>
-                <p className="mt-5 text-sm leading-relaxed text-earth-muted max-w-2xl">
-                  {compositePattern.disclosure}
-                </p>
-                <Link
-                  href={compositePattern.linkUrl}
-                  className="inline-flex items-center mt-6 text-sm text-earth-accent hover:underline"
-                >
-                  {compositePattern.linkText}
-                  <ArrowRight className="ml-1 h-3 w-3" />
-                </Link>
               </div>
             </div>
           </div>

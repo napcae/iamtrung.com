@@ -112,9 +112,7 @@ export function ArticlePage({ kind, slug }: { kind: ArticleKind; slug: string })
               <ArrowLeft className="mr-2 h-4 w-4" />
               {meta.indexName}
             </Link>
-            <p className="mb-4 text-sm uppercase tracking-wide text-earth-muted">
-              {article.articleLabel ?? meta.label}
-            </p>
+            <p className="mb-4 text-sm uppercase tracking-wide text-earth-muted">{meta.label}</p>
             <h1 className="text-4xl md:text-5xl text-earth-dark leading-tight">{article.title}</h1>
             <div className="mt-6 border-b border-earth-sand pb-6">
               <p className="text-sm text-earth-muted">

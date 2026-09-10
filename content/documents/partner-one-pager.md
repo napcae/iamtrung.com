@@ -2,7 +2,7 @@
 title: Make it easy to refer me
 label: Partner one-pager
 description: The pattern to recognize in your own network, and a frictionless way to make the intro. For referral partners of the Founder Bottleneck Diagnostic.
-updated: 2026-08-07
+updated: 2026-09-10
 source: TrungOPS/partnerships/one-pager.md
 audience: partner
 ---
@@ -37,6 +37,25 @@ They don't need to say it exactly. The pattern is: **smart, capable founder who 
 - Early-stage solo founders with no team yet
 - People who find the problem *interesting* but not *expensive* (no urgency, no budget)
 - Anyone shopping for coaching, motivation, or a general advisor
+
+## A pattern worth naming: when it keeps coming back to the founder
+
+The clearest referral moment isn't a first complaint, it's a *second* one. Someone around the founder
+already tried a reasonable fix — a new planning tool, a tighter weekly meeting, clearer roles, a senior
+hire, another attempt to delegate. It didn't hold. The next exception, priority call, or stalled handoff
+still lands back on the founder's desk, because a process can't carry authority nobody assigned, and a
+hire can't close priorities the founder keeps reopening.
+
+Refer when all five are true:
+
+- the founder or CEO runs an operating company with customers or a team;
+- one consequential decision will shape the next 30–90 days;
+- the current drift has a concrete cost in rework, reversal, delay or missed revenue;
+- a reasonable first fix has already failed; and
+- the founder has the authority and demonstrated ability to act on the finding.
+
+Pass when the business is still an idea, the question is general, nobody can name the cost, or the founder
+expects someone else to do the implementation for them.
 
 ## How to introduce me
 
