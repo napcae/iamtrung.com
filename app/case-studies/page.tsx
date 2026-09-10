@@ -7,7 +7,7 @@ import { getArticles, formatDate, collectionSchema } from "@/lib/articles"
 export const metadata = {
   title: "Case studies",
   description:
-    "Founder Bottleneck Diagnostic cases and clearly labelled composite patterns: what founders thought was wrong, what the work found, and when to refer.",
+    "Founder Bottleneck Diagnostic case studies — what the founder thought was wrong, what the session found, and what changed, with real numbers where clients cleared them.",
   alternates: { canonical: "/case-studies" },
 }
 
@@ -28,17 +28,13 @@ export default function CaseStudiesIndex() {
             Case studies
           </h1>
           <p className="text-lg text-earth-muted mb-16">
-            Real client cases and clearly labelled composite patterns. Names appear only where the client
-            cleared them; every quote is verbatim. Composite patterns contain no client quote or claimed
-            individual result.
+            What the founder thought was wrong, what the diagnostic found, and what changed. Names appear
+            only where the client cleared them; every quote is verbatim.
           </p>
           <ul className="space-y-12">
             {cases.map((cs) => (
               <li key={cs.slug}>
                 <Link href={`/case-studies/${cs.slug}`} className="group block">
-                  <p className="mb-2 text-xs uppercase tracking-wide text-earth-muted">
-                    {cs.articleLabel ?? "Case study"}
-                  </p>
                   <h2 className="text-2xl font-semibold group-hover:text-earth-accent transition-colors">
                     {cs.title}
                   </h2>

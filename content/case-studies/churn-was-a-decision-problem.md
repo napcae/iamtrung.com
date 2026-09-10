@@ -6,7 +6,6 @@ updated: 2026-09-08
 source: TrungOPS/context/website/case-studies/churn-was-a-decision-problem.md
 related:
   - /essays/what-happens-in-a-diagnostic
-  - /case-studies/every-decision-comes-back-to-the-founder
 proof:
   - /case-studies/the-dashboard-he-never-opened
 ---
