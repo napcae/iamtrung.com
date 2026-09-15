@@ -15,6 +15,8 @@ import { InnerCircle } from "@/components/inner-circle"
 import { BookSection } from "@/components/book-section"
 
 export const metadata = {
+  description:
+    "I find the constraint founders are scaling around instead of fixing — the Founder Bottleneck Diagnostic, case studies, and essays for founders stuck in place.",
   alternates: { canonical: "/" },
 }
 
