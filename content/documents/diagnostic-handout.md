@@ -2,7 +2,7 @@
 title: Founder Bottleneck Diagnostic
 label: A forwardable explainer
 description: One 90-minute session to find the real thing holding a founder back. Who it's for, who it's not for, and whether it actually works.
-updated: 2026-08-07
+updated: 2026-09-22
 source: TrungOPS/partnerships/referral-handout.md
 audience: prospect
 ---
@@ -52,6 +52,10 @@ Fair question, especially if we haven't worked together. A few real ones:
 > "You know that way you already know something, but it hits when someone says it to you straight? Sometimes you just need to take your medicine."
 >
 > *Johny Harris, founder of Dai Viet Rugby*
+
+> "The investment in clarity is a key to focus, focus is the key to success."
+>
+> *Alex, founder, working together on and off since the first session*
 
 ## What you walk out with
 
