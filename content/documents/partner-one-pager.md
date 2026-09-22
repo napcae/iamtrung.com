@@ -2,7 +2,7 @@
 title: Make it easy to refer me
 label: Partner one-pager
 description: The pattern to recognize in your own network, and a frictionless way to make the intro. For referral partners of the Founder Bottleneck Diagnostic.
-updated: 2026-09-10
+updated: 2026-09-22
 source: TrungOPS/partnerships/one-pager.md
 audience: partner
 ---
@@ -13,10 +13,12 @@ I find what's actually slowing a founder's team down — and in one 90-minute se
 
 ## Who it's for
 
-Founders who are moving but not sure they're moving in the right direction — capable, already building, compensating for a blind spot instead of resolving it. Two flavors:
+Founders or CEOs with a real business and one consequential decision they cannot get an independent read
+on. They have tried a reasonable fix, the result contradicted their explanation, and the next 30–90 days
+will commit meaningful money or team capacity. Once the call is clear, they can act.
 
-- **The operator** — has a team, has revenue or users, but the system is cracking. Feels the drag every day. Thinks it's a process problem; it's usually a founder problem.
-- **The nervous scaler** — just raised or just started spending. About to hire. Can feel an expensive mistake coming but can't name what it is yet.
+The moment to refer them is after the first fix failed and before the next hire, build, reorganization or
+quarter scales the workaround. Funding stage can make the stakes larger; it is not enough by itself.
 
 ## The phrases to listen for
 
@@ -30,13 +32,14 @@ These are real things founders have actually said, not invented copy. You'll kno
 - "I get sweaty every time I think about spending more."
 - "I don't know if I can scale right now — I'm more scared of what happens after than the decision itself."
 
-They don't need to say it exactly. The pattern is: **smart, capable founder who can see something's wrong but can't name it.**
+They don't need to say it exactly. The pattern is: **the same decision still blocks delivery after one
+reasonable fix, and another operating cycle will make the mistake more expensive.**
 
 ## Who it's NOT for
 
-- Early-stage solo founders with no team yet
+- People without a live costly decision or authority to act on it
 - People who find the problem *interesting* but not *expensive* (no urgency, no budget)
-- Anyone shopping for coaching, motivation, or a general advisor
+- Anyone shopping for motivation, done-for-you implementation, or a general advisor
 
 ## A pattern worth naming: when it keeps coming back to the founder
 
