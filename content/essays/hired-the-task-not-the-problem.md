@@ -1,5 +1,5 @@
 ---
-title: "Why am I still doing half the job after hiring someone great to own it?"
+title: "I hired someone. Why is the problem still on my desk?"
 description: "The five reasons the job you hired out still lands back on your desk at 10–20 people, and the one-sentence test for whether it's the hire or the problem you handed them along with it."
 published: 2026-09-26
 updated: 2026-09-26
