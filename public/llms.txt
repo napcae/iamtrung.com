@@ -53,6 +53,7 @@ which documents two paid cases where the founder-psychology read was tested and 
 - [Founder coach vs. consultant vs. diagnostician: which one do you actually need?](https://iamtrung.com/essays/coach-consultant-diagnostician): a decision rule for which of the three purchases actually fits your situation
 - [Is shiny object syndrome why your startup keeps changing strategy?](https://iamtrung.com/essays/shiny-object-syndrome-founder): how to distinguish healthy iteration from a strategy-reset loop, using a paid founder case and a 90-day decision rule
 - [How do I know you won't just tell me I'm the bottleneck?](https://iamtrung.com/essays/not-always-the-founder): two paid cases where the founder-psychology read was tested and came back negative, plus three falsifiability questions to ask anyone selling a diagnosis
+- [Why am I still doing half the job after hiring someone great to own it?](https://iamtrung.com/essays/hired-the-task-not-the-problem): the five reasons a delegated function still lands back on the founder's desk at 10–20 people, and a one-sentence test for whether it's the hire or the problem underneath it
 
 ## Case studies
 

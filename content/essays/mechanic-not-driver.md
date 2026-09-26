@@ -6,6 +6,7 @@ updated: 2026-08-07
 source: TrungOPS/context/website/essays/mechanic-not-driver.md
 related:
   - /essays/founder-is-the-bottleneck
+  - /essays/hired-the-task-not-the-problem
   - /media/feel-safe-in-your-body-victor-goenka
   - /essays/nothing-is-moving
   - /essays/what-happens-in-a-diagnostic
