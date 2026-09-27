@@ -1,10 +1,12 @@
 [Back](/)
 
-# Name the thing that's actually been blocking you — so you can work on it instead of working around it.
+# You hired leaders so the company would depend less on you. It still depends on you.
 
-Capable people are the last to know their own bottleneck. Everyone around you already sees it — they just can't say it to your face. That's not a character flaw. It's a structural blind spot, and it's why outside diagnosis exists as a category.
+Decisions they were hired to own still land on your desk. Maybe it's the wrong hire. Maybe it's the right person in a setup where they can't really own anything. One 90-minute session finds out which, before you replace anyone.
 
 ## You're not imagining it. You're compensating for it.
+
+You hired the COO, the Head of Ops, the senior lead. The team still waits for your yes. Take a week off and things slow down. You already tried delegating harder.
 
 You're still the one who breaks the tie in the Slack thread. Signs off on the vendor everyone already agreed on. Gets pulled back into the hire you delegated three months ago. Not because the team can't — because nobody's actually tested whether they could, and you've never stopped being the fallback.
 
@@ -49,7 +51,9 @@ Most founders who've done this say the same thing after: "I already knew it — 
 
 Test we hold ourselves to: you should be able to repeat what you got to a co-founder without using the words clarity, see, or name. If you can't, it wasn't specific enough — that's a miss, not a feature of the format.
 
-What it isn't: a plan, a framework, or ongoing coaching. One session. One answer. You leave knowing exactly what to stop and what to do instead — what you do with it after that is yours.
+If you hired someone to take this off your desk: the session is step one. If it's worth fixing, we change who decides what with your leader in the room, run the company that way for 30 days and count what still comes back to you. Then we check whether the diagnosis was right. The session counts toward it.
+
+What it isn't: a plan, a framework, or ongoing coaching. One session. One answer. You leave knowing exactly what to stop and what to do instead. If the diagnosis surfaces a real next step — more support, or someone else who's the better fit — I'll name it. What you do with it after that is yours.
 
 ### Who this is for
 
