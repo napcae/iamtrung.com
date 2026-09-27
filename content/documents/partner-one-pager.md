@@ -1,39 +1,45 @@
 ---
 title: Make it easy to refer me
 label: Partner one-pager
-description: The pattern to recognize in your own network, and a frictionless way to make the intro. For referral partners of the Founder Bottleneck Diagnostic.
-updated: 2026-09-22
+description: The founder who hired good people and still gets every decision back. When to think of me, and a frictionless way to make the intro. For referral partners of the Founder Bottleneck Diagnostic.
+updated: 2026-09-27
 source: TrungOPS/partnerships/one-pager.md
 audience: partner
 ---
 
 ## What I do (one line)
 
-I find what's actually slowing a founder's team down — and in one 90-minute session they stop scaling around it. They leave knowing what to stop, and the one move to make instead.
+When a founder has hired good people and decisions still come back to them, I find out why. Then we change what's causing it and check over 30 days whether the handoff actually works.
+
+
+## When to think of me
+
+A founder or CEO hired a COO, a Head of Ops, a GM or a senior lead **so the company would depend less on them**, and it still depends on them.
+
+- Decisions the new leader was hired to own still land on the founder's desk.
+- The team waits for the founder's yes on things that aren't the founder's call anymore.
+- The founder takes a week off and things slow down.
+- The founder is starting to wonder whether they hired the wrong person.
+
+That last one is the best moment to introduce me: **before anyone gets fired.** Sometimes it is the wrong hire. Often it's the right person in a setup where they can't really own anything. I don't assume which. Finding out is the work.
+
+It counts before the hire too. If a founder is betting that "once the Head of Ops is in, this stops," that's worth a look before the bet is placed.
 
 ## Who it's for
 
-Founders or CEOs with a real business and one consequential decision they cannot get an independent read
-on. They have tried a reasonable fix, the result contradicted their explanation, and the next 30–90 days
-will commit meaningful money or team capacity. Once the call is clear, they can act.
-
-The moment to refer them is after the first fix failed and before the next hire, build, reorganization or
-quarter scales the workaround. Funding stage can make the stakes larger; it is not enough by itself.
+Founder-led companies with customers and a team, usually 10 to 150 people, where the founder can actually change how decisions are made once the cause is clear. Funding stage doesn't matter much. What matters is that the hire already happened (or is about to), and it didn't take the decisions with it.
 
 ## The phrases to listen for
 
-These are real things founders have actually said, not invented copy. You'll know it's a fit when you hear something like:
+Real things founders have said, not invented copy:
 
+- "Every important decision comes back to me."
+- "We need to go from founder to system."
 - "My team is slow" / "My team feels slow."
-- "Something's been slow for months and I don't know why."
-- "I thought doing more would fix it — it just made things worse."
+- "I thought doing more would fix it. It just made things worse."
 - "I feel lost all the time, 24 hours isn't enough."
-- "I can't see the north star I used to have."
-- "I get sweaty every time I think about spending more."
-- "I don't know if I can scale right now — I'm more scared of what happens after than the decision itself."
 
-They don't need to say it exactly. The pattern is: **the same decision still blocks delivery after one
-reasonable fix, and another operating cycle will make the mistake more expensive.**
+They don't need to say it exactly. The pattern is: **a reasonable fix already happened (usually a hire), and the decisions still find their way back to the founder.**
 
 ## Who it's NOT for
 
@@ -41,7 +47,7 @@ reasonable fix, and another operating cycle will make the mistake more expensive
 - People who find the problem *interesting* but not *expensive* (no urgency, no budget)
 - Anyone shopping for motivation, done-for-you implementation, or a general advisor
 
-## A pattern worth naming: when it keeps coming back to the founder
+## Why the hire doesn't fix it on its own
 
 The clearest referral moment isn't a first complaint, it's a *second* one. Someone around the founder
 already tried a reasonable fix — a new planning tool, a tighter weekly meeting, clearer roles, a senior
@@ -64,9 +70,13 @@ expects someone else to do the implementation for them.
 
 The forwardable line:
 
-> "My friend Trung finds what's actually slowing early startup teams — 90-min session, and you walk out knowing what to stop scaling around. If that sounds like someone you know: linkedin.com/in/ctn1991. DM him 'diagnostic' to start."
+> "They hired good people and they're still in the middle of everything. Talk to my friend Trung before anyone gets fired. He works out why decisions keep coming back to the founder, and whether the fix is the person or the setup: linkedin.com/in/ctn1991. DM him 'diagnostic' to start."
 
 Or just send them my LinkedIn ([linkedin.com/in/ctn1991](https://www.linkedin.com/in/ctn1991/)) and tell them to DM `diagnostic`. They'll figure out if it's relevant.
+
+The more general version still works for founders who don't fit the hiring picture:
+
+> "My friend Trung finds what's actually slowing early startup teams. 90-min session, and you walk out knowing what to stop scaling around. If that sounds like someone you know: linkedin.com/in/ctn1991. DM him 'diagnostic' to start."
 
 ## One thing worth knowing about the relationship
 
