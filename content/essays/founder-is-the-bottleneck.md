@@ -8,6 +8,7 @@ related:
   - /essays/what-happens-in-a-diagnostic
   - /essays/mechanic-not-driver
   - /essays/not-always-the-founder
+  - /essays/hired-the-task-not-the-problem
 proof:
   - /case-studies/algomate-10-hours-a-week
   - /case-studies/building-instead-of-asking
