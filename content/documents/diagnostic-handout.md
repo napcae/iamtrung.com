@@ -1,15 +1,17 @@
 ---
 title: Founder Bottleneck Diagnostic
 label: A forwardable explainer
-description: One 90-minute session to find the real thing holding a founder back. Who it's for, who it's not for, and whether it actually works.
-updated: 2026-09-22
+description: For founders who hired good people and still get every decision back. One 90-minute session finds out why. Who it's for, who it's not for, and whether it actually works.
+updated: 2026-09-27
 source: TrungOPS/partnerships/referral-handout.md
 audience: prospect
 ---
 
 ## The short version
 
-One 90-minute session. We find the thing that's actually holding you back, not the thing you walked in thinking it was. Most founders show up already sure of the problem, "my team's slow," "marketing isn't working," "I can't focus." Usually that's not it, that's just the symptom. We find what's under it.
+You hired good people so the company would depend less on you. It still depends on you. Decisions they were hired to own still land on your desk, and you're starting to wonder if you hired the wrong person.
+
+Maybe you did. Maybe it's the right person in a setup where they can't really own anything. I don't assume which. One 90-minute session finds out what's actually keeping you in the middle. If it's worth fixing, we change it with your leader in the room and check over 30 days whether decisions actually stop coming back.
 
 ## Who's behind it
 
@@ -25,13 +27,11 @@ A peer from that time put it well:
 
 ## Who it helps
 
-Usually capable founders who already know something's off but can't quite name it. Already building, already running things, and compensating for the blind spot instead of resolving it. A lot of the time they quietly suspect they're the bottleneck themselves.
+Mostly founders running a real company with a team, who hired a COO, a Head of Ops or a senior lead to get out of the day to day. Or they're about to, and betting the hire fixes it. The team waits for their yes. A week off and things slow down. They tried delegating harder already.
 
-Two situations I see a lot. One: things are already running, team feels slow, priorities are everywhere, founder's stuck inside their own machine. Two: they just raised or just started spending, about to hire, scared of an expensive mistake they can't see coming yet. Different setup, same underlying thing.
+Same thing shows up in other shapes too. Team feels slow, priorities are everywhere, founder's stuck inside their own machine. Most founders walk in sure of the problem, "my team's slow," "marketing isn't working." Usually that's the symptom. We find what's under it.
 
-Simplest way to put it: they're confidently wrong about their own bottleneck, and stuck because of it. That's who this is for.
-
-Probably not for you if you're still at idea stage with no team or product, if you want someone to tell you you're doing fine, or if you're after ongoing coaching. This is one session. On purpose.
+Probably not for you if you're still at idea stage with no team or product, if you want someone to tell you you're doing fine, or if you're after ongoing coaching. No open-ended retainer. On purpose.
 
 ## Does it actually work
 
@@ -62,6 +62,8 @@ Fair question, especially if we haven't worked together. A few real ones:
 Usually: the thing to stop doing, said plainly. One to three real priorities instead of a long list. A decision you'd been sitting on, made. The number you'd been avoiding, finally on the table.
 
 That's basically the whole thing, honestly, not a 40-page plan. If it worked, you should be able to say it back to your co-founder in one sentence.
+
+If it's the hired-leader situation and worth going further, there's a 30 day version: we change who decides what, run the company that way for a month and count what still comes back to you. Then we check whether I was right. The session counts toward it.
 
 ## How it works
 

@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import type { Metadata } from "next"
-import { ArrowRight, ArrowLeft, Check, AlertCircle, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, MessageSquare, HelpCircle } from "lucide-react"
+import { ArrowRight, ArrowLeft, Check, AlertCircle, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, Users, MessageSquare, HelpCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -260,6 +260,11 @@ export default function FounderDiagnosticPage() {
               <div className="flex gap-6">
                 <Compass className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <p className="text-earth-muted font-normal leading-relaxed">{process.test}</p>
+              </div>
+
+              <div className="flex gap-6">
+                <Users className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <p className="text-lg font-normal leading-relaxed">{process.hiredLeader}</p>
               </div>
 
               <div className="flex gap-6">
