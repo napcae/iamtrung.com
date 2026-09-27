@@ -74,6 +74,8 @@ The forwardable line:
 
 Or just send them my LinkedIn ([linkedin.com/in/ctn1991](https://www.linkedin.com/in/ctn1991/)) and tell them to DM `diagnostic`. They'll figure out if it's relevant.
 
+Or skip the pitch and just forward the essay: [I hired someone. Why is the problem still on my desk?](/essays/hired-the-task-not-the-problem). If it lands, they'll ask who wrote it.
+
 The more general version still works for founders who don't fit the hiring picture:
 
 > "My friend Trung finds what's actually slowing early startup teams. 90-min session, and you walk out knowing what to stop scaling around. If that sounds like someone you know: linkedin.com/in/ctn1991. DM him 'diagnostic' to start."
