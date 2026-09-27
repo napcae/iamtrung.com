@@ -2,6 +2,11 @@
 
 Direct answers to the questions founders actually ask — each one opens with the answer, then goes deep.
 
+- [## I hired someone. Why is the problem still on my desk?
+
+The five reasons the job you hired out still lands back on your desk at 10–20 people, and the one-sentence test for whether it's the hire or the problem you handed them along with it.
+
+September 26, 2026](/essays/hired-the-task-not-the-problem)
 - [## How do I know you won't just tell me I'm the bottleneck?
 
 Two paid cases where the obvious answer was the founder, I went looking, and it wasn't there. Plus three questions to ask anyone selling you a diagnosis.
