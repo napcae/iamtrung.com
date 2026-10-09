@@ -114,7 +114,7 @@ Your trust makes this possible.
 
 If this resonates and you want to go deeper:
 
-- 🟢 [The Innernet](/the-innernet) — community for sustainable high performance
+- 🟢 [The InnerNet](/the-innernet) — community for sustainable high performance
 - ✉️ [The Uncomfort Zone](https://theuncomfortzone.substack.com) — reflections on work, identity, and alignment
 - 🏃 [Founders Running Club HCMC](https://www.instagram.com/frcsaigon/)
 No spam. No pressure. Just honest conversations.

@@ -18,11 +18,11 @@ After leading engineering teams and carving my own path through freelancing and 
 
 Today I run Founder Bottleneck Diagnostics: 90 minutes to find and name the constraint behind stalled decisions, execution and growth. I still write about the founder's internal state, because it distorts business diagnosis — but the commercial work is structural, not therapy and not ongoing coaching.
 
-## The Innernet
+## The InnerNet
 
 Sustainable High Performance
 
-![Innernet community gathering](./inner_circle_gathering.jpeg)
+![InnerNet community gathering](./inner_circle_gathering.jpeg)
 
 ### A Calm, High-Clarity Community for Sustainable Growth
 
@@ -74,7 +74,7 @@ A 90-minute diagnostic for bootstrapped founders who sense something structural 
 - → Clear verdict you can act on alone
 [Learn more](/founder-diagnostic)
 
-### The Innernet
+### The InnerNet
 
 A calm, high-clarity community for leaders and emerging talent who want sustainable high performance. Inner work for outer impact.
 
@@ -124,7 +124,7 @@ Robert Greene's deep dive into the path to mastery, showing how dedication, pati
 
 by Bailey Richardson, Kevin Huynh, Kai Elmer Sotto
 
-A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the Innernet community.
+A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the InnerNet community.
 
 [Get the book](https://www.amazon.com/s?k=Get%20Together%20Bailey%20Richardson%2C%20Kevin%20Huynh%2C%20Kai%20Elmer%20Sotto)
 

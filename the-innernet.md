@@ -1,6 +1,6 @@
 [Back to Home](/)
 
-# The Innernet
+# The InnerNet
 
 Sustainable High Performance
 
@@ -74,13 +74,13 @@ One deep prompt. No fluff. Your weekly mindset OS upgrade.
 ## Member Stories
 
 > "I'm really happy to have met you, and I think it's fantastic that you want to bring more structure to the startup scene here. I find sharing in the founder circle incredibly valuable, though it does require a certain level of trust."
-LienFounder & Innernet Member
+LienFounder & InnerNet Member
 
 > "I really appreciate the format because it creates meaningful connections with people who are facing similar challenges. You can feel everyone's motivation to work on their goals, and the trust we've built makes these sessions truly valuable."
-AlexFounder & Innernet Member
+AlexFounder & InnerNet Member
 
 > "We're not in this journey alone. Everyone faces their own challenges, and knowing that others are working towards their goals makes the burden feel lighter. I appreciate how supportive we are, sharing our perspectives and decision-making processes."
-Martin HoangFounder & Innernet Member
+Martin HoangFounder & InnerNet Member
 
 ## Stay Connected
 
