@@ -7,7 +7,7 @@ import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
 
 export const metadata = {
-  title: "The Innernet | Sustainable High Performance",
+  title: "The InnerNet | Sustainable High Performance",
   description:
     "A calm, high-clarity community for leaders, operators, and emerging talent who want to grow from the inside out. Inner work for outer impact.",
   alternates: { canonical: "/the-innernet" },
@@ -33,7 +33,7 @@ export default function TheInnernetPage() {
                 </Link>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
-                  The <span className="text-earth-accent">Innernet</span>
+                  The <span className="text-earth-accent">InnerNet</span>
                 </h1>
 
                 <p className="text-xl md:text-2xl font-normal text-earth-dark">
@@ -270,7 +270,7 @@ export default function TheInnernetPage() {
                       <cite itemProp="author" className="font-light">
                         Lien
                       </cite>
-                      <p className="text-sm text-earth-muted">Founder & Innernet Member</p>
+                      <p className="text-sm text-earth-muted">Founder & InnerNet Member</p>
                     </footer>
                   </div>
                 </article>
@@ -284,7 +284,7 @@ export default function TheInnernetPage() {
                       <cite itemProp="author" className="font-light">
                         Alex
                       </cite>
-                      <p className="text-sm text-earth-muted">Founder & Innernet Member</p>
+                      <p className="text-sm text-earth-muted">Founder & InnerNet Member</p>
                     </footer>
                   </div>
                 </article>
@@ -298,7 +298,7 @@ export default function TheInnernetPage() {
                       <cite itemProp="author" className="font-light">
                         Martin Hoang
                       </cite>
-                      <p className="text-sm text-earth-muted">Founder & Innernet Member</p>
+                      <p className="text-sm text-earth-muted">Founder & InnerNet Member</p>
                     </footer>
                   </div>
                 </article>

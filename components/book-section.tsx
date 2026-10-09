@@ -23,7 +23,7 @@ const books: Book[] = [
     author: "Bailey Richardson, Kevin Huynh, Kai Elmer Sotto",
     cover: "/books/get-together.jpg",
     description:
-      "A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the Innernet community.",
+      "A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the InnerNet community.",
   },
   {
     title: "The Creative Act",

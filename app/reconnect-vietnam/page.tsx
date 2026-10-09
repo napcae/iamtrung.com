@@ -320,7 +320,7 @@ export default function ReconnectVietnamPage() {
                 <ul className="space-y-4 text-xl font-normal">
                   <li className="flex items-start">
                     <span className="text-earth-green mr-3">🟢</span>
-                    <span><Link href="/the-innernet" className="text-earth-accent hover:underline">The Innernet</Link> — community for sustainable high performance</span>
+                    <span><Link href="/the-innernet" className="text-earth-accent hover:underline">The InnerNet</Link> — community for sustainable high performance</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3">✉️</span>

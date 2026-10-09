@@ -51,10 +51,10 @@ export function Offerings() {
               </Link>
             </article>
 
-            {/* The Innernet */}
+            {/* The InnerNet */}
             <article className="space-y-6 group">
               <h3 className="text-2xl font-medium group-hover:text-earth-accent transition-colors duration-300">
-                The Innernet
+                The InnerNet
               </h3>
               <p className="text-earth-dark font-normal">
                 A calm, high-clarity community for leaders and emerging talent who want sustainable high performance.
