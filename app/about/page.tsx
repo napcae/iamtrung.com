@@ -151,7 +151,7 @@ export default function AboutPage() {
             <p className="text-xl leading-relaxed font-normal">
               Alongside the diagnostic work he runs{" "}
               <Link href="/the-innernet" className="text-earth-accent hover:underline">
-                The Innernet
+                The InnerNet
               </Link>
               , a community for founders, and{" "}
               <Link href="/media" className="text-earth-accent hover:underline">

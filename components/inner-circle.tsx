@@ -13,12 +13,12 @@ export function InnerCircle() {
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
-            <h2 className="text-2xl font-semibold text-earth-accent mb-4">The Innernet</h2>
+            <h2 className="text-2xl font-semibold text-earth-accent mb-4">The InnerNet</h2>
             <p className="text-lg text-earth-dark font-normal mb-8">Sustainable High Performance</p>
             <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
               <Image
                 src="./inner_circle_gathering.jpeg"
-                alt="Innernet community gathering"
+                alt="InnerNet community gathering"
                 fill
                 className="object-cover"
                 priority

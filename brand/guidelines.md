@@ -170,7 +170,7 @@ If yes → publish. If it sounds like a consultant wrote it in a hurry → rewri
 | Offer | Name | Type |
 |-------|------|------|
 | Diagnostic | Founder Bottleneck Diagnostic (short) / 90-Minute Execution Bottleneck Diagnostic (full) | Functional + specific |
-| Community | The Innernet | Wordplay: internet + inner + inner net |
+| Community | The InnerNet | Wordplay: internet + inner + inner net |
 | Retreat | Re:Connect Vietnam | Action + context |
 | Workshop | The Uncomfort Zone | Contrast — the discomfort is the point |
 
