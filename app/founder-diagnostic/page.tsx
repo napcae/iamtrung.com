@@ -165,7 +165,7 @@ export default function FounderDiagnosticPage() {
               <div className="flex gap-6">
                 <MessageSquare className="h-6 w-6 text-earth-muted flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-muted uppercase tracking-wide font-medium mb-2">What he walked in saying</h3>
+                  <h3 className="text-sm text-earth-muted uppercase tracking-wide font-medium mb-2">The complaint, in his words</h3>
                   <p className="text-xl font-normal leading-relaxed text-earth-dark italic">&ldquo;{teardown.surfaceComplaint}&rdquo;</p>
                 </div>
               </div>
