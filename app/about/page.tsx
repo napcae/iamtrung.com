@@ -62,7 +62,7 @@ export default function AboutPage() {
                 </p>
                 <article itemScope itemType="https://schema.org/Review" className="border-l-2 border-earth-accent/30 pl-4">
                   <blockquote itemProp="reviewBody" className="text-base leading-relaxed font-normal text-earth-muted italic">
-                    "He doesn't expect anything in return. He just wants to see people succeed."
+                    "He sees more than just the person that they are right now. He sees the potential…"
                   </blockquote>
                   <footer className="mt-2 text-sm text-earth-muted not-italic">
                     — <cite itemProp="author">Michael Serpell</cite>, Planetary Productions

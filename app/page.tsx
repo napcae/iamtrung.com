@@ -211,7 +211,7 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        {/* 5. Proof: one founder, one hired leader. Alex: cleared first name (TrungOPS
+        {/* 5. Proof: founders and one hired leader. Alex: first name, website use cleared 2026-10-20; Dung Mai: full name cleared on his recorded call (TrungOPS
             testimonials/wall-of-love.md); German original is the citable source. The hired-leader quote is
             from a public post by the engineer himself; it stays unattributed until he confirms naming. */}
         <AnimatedSection id="proof" className={sectionClass}>
@@ -232,6 +232,20 @@ export default function Home() {
                     Alex
                   </cite>
                   , founder of an IT services company, client across two engagements (translated from German)
+                </footer>
+              </article>
+              <article itemScope itemType="https://schema.org/Review" className="space-y-4">
+                <p className="text-sm uppercase tracking-widest text-earth-muted">A founder, on what the work is</p>
+                <blockquote itemProp="reviewBody" className={bodyClass}>
+                  "Actually identifying, naming the problem. It's one of the biggest things, because implementation
+                  is cheap."
+                </blockquote>
+                <footer className="text-earth-muted">
+                  <cite itemProp="author" className="not-italic font-normal text-earth-dark">
+                    Dung Mai
+                  </cite>
+                  , Pathfinder Softworks. He still qualifies his own clients with a line from our first
+                  conversation: "show me the code… and I can tell you how your operation looks like."
                 </footer>
               </article>
               <article className="space-y-4">
