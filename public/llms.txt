@@ -18,7 +18,7 @@ next move — not ongoing coaching, not a course, not general startup strategy c
 
 The clearest case: they hired a COO, Head of Ops, GM or functional head to take decisions off
 them, and the decisions still come back. When the diagnostic shows the decisions should move, he
-runs the Founder Dependency Reset: a decision log, the diagnostic, a redesign session with the
+runs The Handoff (30 days to get decisions off the founder's desk and onto the hired leader's): a decision log, the diagnostic, a redesign session with the
 hired leader, a 30-day field test and a verify session against the starting count. Priced per
 company after the diagnostic.
 

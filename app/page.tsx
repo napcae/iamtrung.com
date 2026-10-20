@@ -220,7 +220,8 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        {/* 6. The path: diagnostic, then the Reset (Reset price is never published) */}
+        {/* 6. The path: diagnostic, then The Handoff (buyer-facing name of the Founder Dependency Reset;
+            price, guarantee and partner kickoff are never published here) */}
         <AnimatedSection id="how-it-works" className={`${sectionClass} bg-earth-light`}>
           <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <h2 className={headingClass}>How it works</h2>
@@ -237,7 +238,8 @@ export default function Home() {
                 </Link>
               </div>
               <div className="space-y-4">
-                <h3 className="text-2xl font-medium text-earth-accent">2. Founder Dependency Reset</h3>
+                <h3 className="text-2xl font-medium text-earth-accent">2. The Handoff</h3>
+                <p className="text-xl leading-relaxed font-medium">30 days to get decisions off your desk and onto your COO's.</p>
                 <p className={bodyClass}>
                   When the answer is to move decisions, we move them and check that they stay moved. Before we
                   start, you or your hired leader log every decision that reaches you for a week. Then: the

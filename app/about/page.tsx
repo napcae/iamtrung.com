@@ -157,7 +157,7 @@ export default function AboutPage() {
               platform team supported about six product teams that shipped without waiting on it.
             </p>
             <p className="text-xl leading-relaxed font-normal">
-              Today he runs Founder Bottleneck Diagnostics and the Founder Dependency Reset. The work is
+              Today he runs Founder Bottleneck Diagnostics and The Handoff. The work is
               structural, not therapy and not ongoing coaching.
             </p>
           </div>
