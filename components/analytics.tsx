@@ -7,6 +7,7 @@ declare global {
     swetrix?: {
       init: (projectId: string, options: { apiURL: string }) => void
       trackViews: () => void
+      track?: (event: { ev: string; meta?: Record<string, string> }) => void
     }
   }
 }

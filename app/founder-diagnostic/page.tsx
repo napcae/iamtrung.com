@@ -5,6 +5,8 @@ import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Sea
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
+import { TrackedLink } from "@/components/tracked-link"
+import { withParams } from "@/lib/url"
 import {
   founderDiagnosticMeta,
   hero,
@@ -106,20 +108,26 @@ export default function FounderDiagnosticPage() {
                   asChild
                   className="group w-full sm:w-auto max-w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-6 sm:px-10 py-5 h-auto font-normal transition-all duration-300 text-lg whitespace-normal"
                 >
-                  <a href={hero.cta.buttonUrl} target="_blank" rel="noopener noreferrer">
+                  <TrackedLink
+                    event="checkout_hero"
+                    href={withParams(hero.cta.buttonUrl, { client_reference_id: "lp_hero" })}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {hero.cta.buttonText}
                     <ArrowRight className="ml-3 h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
-                  </a>
+                  </TrackedLink>
                 </Button>
                 <p className="text-sm text-earth-muted">
-                  <a
-                    href={hero.cta.quiz.url}
+                  <TrackedLink
+                    event="quiz_hero"
+                    href={withParams(hero.cta.quiz.url, { source: "landing_hero" })}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline hover:text-earth-dark transition-colors"
                   >
                     {hero.cta.quiz.text}
-                  </a>
+                  </TrackedLink>
                 </p>
               </div>
             </div>
@@ -378,32 +386,39 @@ export default function FounderDiagnosticPage() {
               asChild
               className="group w-full sm:w-auto max-w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-6 sm:px-12 py-6 sm:py-8 h-auto font-normal transition-all duration-300 text-lg sm:text-xl whitespace-normal"
             >
-              <a href={cta.diagnostic.buttonUrl} target="_blank" rel="noopener noreferrer">
+              <TrackedLink
+                event="checkout_bottom"
+                href={withParams(cta.diagnostic.buttonUrl, { client_reference_id: "lp_bottom" })}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {cta.diagnostic.buttonText}
                 <ArrowRight className="ml-3 h-6 w-6 shrink-0 transition-transform group-hover:translate-x-1" />
-              </a>
+              </TrackedLink>
             </Button>
 
             <p className="text-sm text-earth-muted mt-8">
-              <a
+              <TrackedLink
+                event="linkedin_dm"
                 href={cta.secondary.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-earth-dark transition-colors"
               >
                 {cta.secondary.text}
-              </a>
+              </TrackedLink>
             </p>
 
             <p className="text-sm text-earth-muted mt-3">
-              <a
-                href={cta.quiz.url}
+              <TrackedLink
+                event="quiz_bottom"
+                href={withParams(cta.quiz.url, { source: "landing_bottom" })}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-earth-dark transition-colors"
               >
                 {cta.quiz.text}
-              </a>
+              </TrackedLink>
             </p>
           </div>
         </section>
