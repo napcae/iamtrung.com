@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@/components/analytics'
+import { entityDescription } from '@/components/structured-data'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -18,11 +19,6 @@ const instrumentSerif = Instrument_Serif({
   variable: '--font-serif',
 })
 
-// Canonical entity descriptor — keep identical everywhere it appears
-// (homepage, /about, structured data, external bios). Source of truth:
-// TrungOPS strategy/positioning.md (#core-title) + strategy/seo.md.
-const entityDescription =
-  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth."
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://iamtrung.com"),

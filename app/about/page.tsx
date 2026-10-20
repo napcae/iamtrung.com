@@ -5,15 +5,13 @@ import { ArrowRight, ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
-import { personSchema } from "@/components/structured-data"
+import { entityDescription, personSchema } from "@/components/structured-data"
 
 // Entity page — the canonical answer to "Who is Trung Nguyen?" for people
 // and for crawlers. Copy source of truth: TrungOPS context/website/entity-pages.md
 // (grounded in strategy/positioning.md, strategy/icp.md, offers/diagnostic.md).
 // No price appears on this page — pricing is set in the conversation.
 
-const entityDescription =
-  "Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth."
 
 export const metadata = {
   title: { absolute: "About Trung Nguyen — Founder Bottleneck Diagnostician" },
@@ -91,9 +89,10 @@ export default function AboutPage() {
               same way afterwards: "I already knew it — I just hadn't said it out loud."
             </p>
             <p className="text-xl leading-relaxed font-normal">
-              The diagnostic exists because founders are usually confidently wrong about their own bottleneck.
-              The explanation they carry — team problem, process problem, focus problem — is comfortable, and
-              the company keeps scaling around the real constraint every week it stays unnamed.
+              Most of the work starts from one situation: the founder hired senior leaders, and the important
+              decisions still come back to them. The founder usually suspects the person. The diagnostic finds
+              out whether it is the person, the role, the team's habits or an approval path nobody redesigned
+              when the hire arrived.
             </p>
             <div>
               <Link href="/founder-diagnostic">
@@ -115,50 +114,51 @@ export default function AboutPage() {
           <div className="w-full max-w-4xl mx-auto space-y-8">
             <h2 className="text-2xl font-semibold">Who he works with</h2>
             <p className="text-xl leading-relaxed font-normal">
-              Capable people are usually the last to know their own bottleneck — everyone around them
-              already sees it, they just can't say it to your face. Not a character flaw. A structural
-              blind spot. The pattern that fits:
+              Founder-led companies with customers, a team and at least one senior hire, a COO, Head of Ops, GM
+              or functional head, who was meant to take decisions off the founder. The signs:
             </p>
             <ul className="space-y-3 text-lg font-normal list-disc pl-6">
-              <li>A lot of thinking, not a lot of deciding.</li>
-              <li>The thing they said they'd resolve last month still isn't resolved.</li>
-              <li>Smart, busy — and in the same place as six months ago.</li>
-              <li>Same problem, different explanation each quarter.</li>
-              <li>The team is moving but nothing is landing.</li>
+              <li>The team still waits for the founder's yes on calls already handed off.</li>
+              <li>A week off and things slow down.</li>
+              <li>The founder has started to wonder whether they hired the wrong person.</li>
+              <li>Or the hire hasn't happened yet, and the founder wants to know what it has to take off their plate.</li>
             </ul>
             <p className="text-xl leading-relaxed font-normal">
-              Even sharp operators who are already doing well feel this right before their next real
-              jump — a calm unease where something senses off, the timing or trigger still unclear, a
-              pattern felt but not yet named.
+              He also works with capable founders before they have that team, when their own explanation for
+              what's stuck keeps not solving it. It's a structural blind spot, not a character flaw.
             </p>
             <p className="text-xl leading-relaxed font-normal">
-              Not a fit: founders who want validation, founders who want ongoing coaching, and idea-stage
-              founders with no team or product yet.
+              Not a fit: founders who want the hire judged without looking at the setup around them, founders
+              who want an interim COO or ongoing coaching, and idea-stage founders with no team or product yet.
             </p>
           </div>
         </section>
 
-        {/* Background */}
-        <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
+        {/* Background — claims limited to the Public facts table in TrungOPS
+            decisions/business-positioning/2026-10-20-career-arc-as-public-proof.md */}
+        <section id="background" className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-4xl mx-auto space-y-8">
             <h2 className="text-2xl font-semibold">Background</h2>
             <p className="text-xl leading-relaxed font-normal">
-              Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Ho Chi Minh City. He led
-              engineering teams, built companies through freelancing and venture-building, and spent years
-              inside the exact system he now diagnoses: the founder-led company where everything routes
-              through one person.
+              Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Ho Chi Minh City. He
+              has seen decisions route back to one person from the inside, and he has taken himself out of
+              that path.
             </p>
             <p className="text-xl leading-relaxed font-normal">
-              Alongside the diagnostic work he runs{" "}
-              <Link href="/the-innernet" className="text-earth-accent hover:underline">
-                The InnerNet
-              </Link>
-              , a community for founders, and{" "}
-              <Link href="/media" className="text-earth-accent hover:underline">
-                talks about the founder's internal state
-              </Link>{" "}
-              — because it distorts business diagnosis. The commercial work is structural Founder
-              Bottleneck Diagnostics, not therapy and not ongoing coaching.
+              At Contentful, from 2018 to 2020, he was one of two people on the security team while the company
+              was selling fast. Every customer security review landed on those two people until a rule changed
+              what reached them. He worked on the company-wide single sign-on rollout across about 200 apps for
+              about 300 people, where access roles were designed from each department's business processes
+              rather than a permission matrix.
+            </p>
+            <p className="text-xl leading-relaxed font-normal">
+              At Workpath, from 2021 to 2023, he led infrastructure as Lead SRE and later worked as a Staff
+              Software Engineer. The goal was to take himself and his team off the critical path. A small
+              platform team supported about six product teams that shipped without waiting on it.
+            </p>
+            <p className="text-xl leading-relaxed font-normal">
+              Today he runs Founder Bottleneck Diagnostics and the Founder Dependency Reset. The work is
+              structural, not therapy and not ongoing coaching.
             </p>
           </div>
         </section>
