@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import type { Metadata } from "next"
-import { ArrowRight, ArrowLeft, Check, AlertCircle, Network, TrendingUp, Lightbulb, ClipboardList, Search, Compass, RotateCw, Users, MessageSquare, HelpCircle } from "lucide-react"
+import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, RotateCw, Users, MessageSquare, HelpCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -9,7 +9,6 @@ import {
   founderDiagnosticMeta,
   hero,
   recognition,
-  mechanism,
   process,
   about,
   cta,
@@ -91,14 +90,6 @@ export default function FounderDiagnosticPage() {
         <section className="py-32 px-6 md:px-12 lg:px-24 min-h-[80vh] flex items-center">
           <div className="w-full max-w-4xl mx-auto">
             <div className="space-y-8">
-              <Link
-                href="/"
-                className="inline-flex items-center text-earth-muted hover:text-earth-dark transition-colors"
-              >
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Back
-              </Link>
-
               <h1 className="text-4xl md:text-5xl font-normal leading-relaxed">
                 {hero.headline}
               </h1>
@@ -106,6 +97,31 @@ export default function FounderDiagnosticPage() {
               <p className="text-xl text-earth-dark font-normal leading-relaxed max-w-2xl">
                 {hero.subheadline}
               </p>
+
+              {/* Hero CTA (2026-10-20): price and checkout above the fold; the quiz is a
+                  quiet text link, never a second button. */}
+              <div className="space-y-4">
+                <p className="text-lg text-earth-muted font-normal">{hero.cta.priceLine}</p>
+                <Button
+                  asChild
+                  className="group w-full sm:w-auto max-w-full bg-earth-accent hover:bg-earth-green text-white rounded-none px-6 sm:px-10 py-5 h-auto font-normal transition-all duration-300 text-lg whitespace-normal"
+                >
+                  <a href={hero.cta.buttonUrl} target="_blank" rel="noopener noreferrer">
+                    {hero.cta.buttonText}
+                    <ArrowRight className="ml-3 h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
+                  </a>
+                </Button>
+                <p className="text-sm text-earth-muted">
+                  <a
+                    href={hero.cta.quiz.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-earth-dark transition-colors"
+                  >
+                    {hero.cta.quiz.text}
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -162,7 +178,7 @@ export default function FounderDiagnosticPage() {
               <div className="flex gap-6">
                 <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What the data already showed</h3>
+                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">{teardown.revealLabel}</h3>
                   <ul className="space-y-3">
                     {teardown.reveal.map((fact, i) => (
                       <li key={i} className="flex items-start">
@@ -201,6 +217,9 @@ export default function FounderDiagnosticPage() {
                 <p className="text-xl font-normal leading-relaxed text-earth-dark">{teardown.realBottleneck}</p>
               </div>
 
+              {/* Bridge from the builder case to the dependency reader */}
+              <p className="text-lg font-normal leading-relaxed text-earth-dark">{teardown.bridge}</p>
+
               {/* Closing quote */}
               <div className="bg-earth-background rounded-lg p-8 border-l-4 border-earth-accent">
                 <blockquote className="text-xl font-normal leading-relaxed mb-4">
@@ -220,21 +239,16 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section 4: Mechanism — framing + existing video (preserved) */}
+        {/* Section 4: Existing video (preserved). The "I already knew it" framing line was
+            removed 2026-10-20: never a pre-purchase promise (TrungOPS strategy/positioning.md). */}
         <section className="py-24 px-6 md:px-12 lg:px-24">
           <div className="w-full max-w-4xl mx-auto">
-            <div className="space-y-12">
-              <p className="text-lg font-normal leading-relaxed text-earth-dark max-w-2xl">
-                {mechanism.framing}
-              </p>
-
-              <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
-                <iframe
-                  src={videoEmbed.src}
-                  className="w-full h-full"
-                  allow={videoEmbed.allow}
-                />
-              </div>
+            <div className="aspect-video w-full max-w-2xl rounded-lg overflow-hidden border border-earth-light shadow-sm">
+              <iframe
+                src={videoEmbed.src}
+                className="w-full h-full"
+                allow={videoEmbed.allow}
+              />
             </div>
           </div>
         </section>
@@ -303,13 +317,6 @@ export default function FounderDiagnosticPage() {
                 </div>
               </div>
 
-              <div className="bg-earth-light rounded-lg p-8 flex gap-6">
-                <Lightbulb className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">What this is</h3>
-                  <p>{about.frame}</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -357,11 +364,10 @@ export default function FounderDiagnosticPage() {
           </div>
         </section>
 
-        {/* Section: CTA — single priced rung (diagnostic). The $49 fallback is paused
-            off this page for now (operator call, 2026-08-07) — still in the data file's
-            source, just not rendered. Spec: TrungOPS/context/website/landing-page.md,
-            Section 8. Live buy/book checkout is an open build item on the TrungOPS
-            side; the button routes to the LinkedIn DM "diagnostic" flow until it ships. */}
+        {/* Section: CTA — single priced rung (diagnostic), live Stripe checkout. The €49
+            fallback is paused off this page (operator call, 2026-08-07). The quiz is the
+            one secondary path, a text link (2026-10-20). Spec:
+            TrungOPS/context/website/landing-page.md, Section 8. */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-2xl mx-auto text-center">
             <p className="text-3xl font-normal mb-4">{cta.diagnostic.headline}</p>
@@ -386,6 +392,17 @@ export default function FounderDiagnosticPage() {
                 className="underline hover:text-earth-dark transition-colors"
               >
                 {cta.secondary.text}
+              </a>
+            </p>
+
+            <p className="text-sm text-earth-muted mt-3">
+              <a
+                href={cta.quiz.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-earth-dark transition-colors"
+              >
+                {cta.quiz.text}
               </a>
             </p>
           </div>
