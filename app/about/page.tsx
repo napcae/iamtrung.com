@@ -145,16 +145,24 @@ export default function AboutPage() {
               that path.
             </p>
             <p className="text-xl leading-relaxed font-normal">
+              He started in corporate IT, then ran a small IT consultancy of his own, where he said yes to
+              everything, did all of it himself, burned out and lost the clients. After that came a web agency,
+              and a media group's digital unit, where he moved development off the corporate IT approval path:
+              resource requests that had taken six months started taking a week.
+            </p>
+            <p className="text-xl leading-relaxed font-normal">
               At Contentful, from 2018 to 2020, he was one of two people on the security team while the company
               was selling fast. Every customer security review landed on those two people until a rule changed
-              what reached them. He worked on the company-wide single sign-on rollout across about 200 apps for
-              about 300 people, where access roles were designed from each department's business processes
+              what reached them. He worked on the company-wide single sign-on rollout across hundreds of
+              applications, where access roles were designed from each department's business processes
               rather than a permission matrix.
             </p>
             <p className="text-xl leading-relaxed font-normal">
               At Workpath, from 2021 to 2023, he led infrastructure as Lead SRE and later worked as a Staff
               Software Engineer. The goal was to take himself and his team off the critical path. A small
-              platform team supported about six product teams that shipped without waiting on it.
+              platform team supported about six product teams that shipped without waiting on it. In 2022 a
+              peer review had named him as the person the application depended on. A year later the team ran
+              without him.
             </p>
             <p className="text-xl leading-relaxed font-normal">
               Today he runs Founder Bottleneck Diagnostics and The Handoff. The work is

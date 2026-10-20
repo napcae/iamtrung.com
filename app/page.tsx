@@ -82,6 +82,9 @@ export default function Home() {
                     Who is Trung Nguyen? →
                   </Link>
                 </div>
+                <p className="text-sm text-earth-muted max-w-xl">
+                  Before this: one of two people on Contentful's security team, then infrastructure lead at Workpath.
+                </p>
               </div>
               <div className="hidden lg:block relative">
                 <div className="relative w-full max-w-[390px] mx-auto rounded-lg overflow-hidden border border-earth-light/30">
@@ -141,6 +144,10 @@ export default function Home() {
                 redesigned. Until someone finds out which, you keep deciding things you already pay someone else to
                 decide.
               </p>
+              <p className={bodyClass}>
+                Replacing the hire costs a search and months with the seat empty. If the setup was the problem, the
+                next hire walks into the same one.
+              </p>
               <Link href="/essays/hired-the-task-not-the-problem" className={textLinkClass}>
                 I hired someone. Why is the problem still on my desk?
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -149,32 +156,52 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        {/* 4. Why me: the career arc as evidence for the mechanism */}
+        {/* 4. Why me: the three chairs. Claims limited to the Public facts table in TrungOPS
+            decisions/business-positioning/2026-10-20-career-arc-as-public-proof.md. Older roles stay unnamed. */}
         <AnimatedSection id="why-me" className={`${sectionClass} bg-earth-light`}>
           <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
-              <h2 className={`${headingClass} mb-12`}>I've been the bottleneck. Then I took myself out.</h2>
+              <h2 className={`${headingClass} mb-6`}>I've sat in all three chairs</h2>
+              <p className="text-lg text-earth-muted mb-12 max-w-md">
+                The founder who holds everything, the person everything routes through, and the hired leader who's
+                meant to take it over.
+              </p>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30">
                 <Image src="./workshop.jpg" alt="Trung Nguyen with a group of founders" fill className="object-cover" />
               </div>
             </div>
-            <div className="space-y-8">
+            <div className="space-y-10">
+              <div className="space-y-3">
+                <h3 className="text-xl font-medium text-earth-accent">The founder's chair</h3>
+                <p className={bodyClass}>
+                  Years ago I ran a small IT consultancy. I said yes to everything, did all of it myself, burned out
+                  and lost the clients.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <h3 className="text-xl font-medium text-earth-accent">The chair everything routes through</h3>
+                <p className={bodyClass}>
+                  At a media group's digital unit, every resource request went through corporate IT and took six
+                  months. We moved development off that path, and the same requests took a week.
+                </p>
+                <p className={bodyClass}>
+                  At Contentful I was one of two people on the security team while sales took off. Every customer's
+                  security questionnaire landed on us. More effort didn't fix it. A rule about what reaches the team
+                  did: pre-sales answered the standard questions first.
+                </p>
+              </div>
+              <div className="space-y-3">
+                <h3 className="text-xl font-medium text-earth-accent">The hired leader's chair</h3>
+                <p className={bodyClass}>
+                  At Workpath I led infrastructure. In 2022 a peer review named me as the person the application
+                  depended on. A year later the team ran without me, and a small platform team carried about six
+                  product teams shipping at the same time. I was given context and goals and left to run it, which
+                  is what you hired your leader for.
+                </p>
+              </div>
               <p className={bodyClass}>
-                At Contentful I was one of two people on the security team while the company was selling fast. Every
-                customer's security questionnaire landed on our table. Working harder didn't fix it. A rule about
-                what reaches us did: pre-sales answered the standard questions before they ever got to us. When we
-                rolled out single sign-on across about 200 apps for about 300 people, the access roles started from
-                "what are your business processes?", not a permission matrix. An access role is a written decision
-                right.
-              </p>
-              <p className={bodyClass}>
-                At Workpath I led infrastructure. The goal I set was to get myself and my team off the critical path.
-                A small platform team ended up supporting about six product teams that shipped without waiting on
-                us.
-              </p>
-              <p className={bodyClass}>
-                Now I do the same work with founders. I've run diagnostics with 40+ of them. The complaints differ.
-                The way decisions route back to the founder repeats.
+                Since 2025 I've run these diagnostics with founders in SaaS, legal tech, IT services, sports tech and
+                e-commerce. The complaints differ. The way decisions route back to the founder repeats.
               </p>
               <Link href="/about#background" className={textLinkClass}>
                 More about my background
@@ -184,14 +211,21 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        {/* 5. Proof: cleared quotes only (TrungOPS testimonials/wall-of-love.md) */}
+        {/* 5. Proof: one founder, one hired leader. Alex: cleared first name (TrungOPS
+            testimonials/wall-of-love.md); German original is the citable source. The hired-leader quote is
+            from a public post by the engineer himself; it stays unattributed until he confirms naming. */}
         <AnimatedSection id="proof" className={sectionClass}>
           <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <h2 className={headingClass}>What clients say</h2>
+            <h2 className={headingClass}>From both sides of the table</h2>
             <div className="space-y-12">
               <article itemScope itemType="https://schema.org/Review" className="space-y-4">
-                <blockquote itemProp="reviewBody" className={bodyClass}>
-                  "The investment in clarity is a key to focus, focus is the key to success."
+                <p className="text-sm uppercase tracking-widest text-earth-muted">A founder, before</p>
+                <blockquote itemProp="reviewBody" className={`${bodyClass} space-y-4`}>
+                  <p>
+                    "Endless chaos from too many projects with the wrong people, paired with my inability to let go.
+                    Often whole workdays lost to paralysis."
+                  </p>
+                  <p>"The investment in clarity is a key to focus, focus is the key to success."</p>
                 </blockquote>
                 <footer className="text-earth-muted">
                   <cite itemProp="author" className="not-italic font-normal text-earth-dark">
@@ -200,17 +234,12 @@ export default function Home() {
                   , founder of an IT services company, client across two engagements (translated from German)
                 </footer>
               </article>
-              <article itemScope itemType="https://schema.org/Review" className="space-y-4">
-                <blockquote itemProp="reviewBody" className={bodyClass}>
-                  "You know that way you already know something, but it hits when someone says it to you straight?
-                  Sometimes you just need to take your medicine."
+              <article className="space-y-4">
+                <p className="text-sm uppercase tracking-widest text-earth-muted">A leader I hired</p>
+                <blockquote className={bodyClass}>
+                  "I am deeply thankful for Trung Nguyen's trust in my potential and the chance to prove myself."
                 </blockquote>
-                <footer className="text-earth-muted">
-                  <cite itemProp="author" className="not-italic font-normal text-earth-dark">
-                    Johny Harris
-                  </cite>
-                  , Dai Viet Rugby
-                </footer>
+                <footer className="text-earth-muted">An engineer I hired at Workpath, writing about it years later</footer>
               </article>
               <Link href="/case-studies" className={textLinkClass}>
                 Read the case studies
