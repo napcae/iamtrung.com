@@ -110,6 +110,7 @@ export default function FounderDiagnosticPage() {
                 >
                   <TrackedLink
                     event="checkout_hero"
+                    carryParam="client_reference_id"
                     href={withParams(hero.cta.buttonUrl, { client_reference_id: "lp_hero" })}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -121,6 +122,7 @@ export default function FounderDiagnosticPage() {
                 <p className="text-sm text-earth-muted">
                   <TrackedLink
                     event="quiz_hero"
+                    carryParam="source"
                     href={withParams(hero.cta.quiz.url, { source: "landing_hero" })}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -388,6 +390,7 @@ export default function FounderDiagnosticPage() {
             >
               <TrackedLink
                 event="checkout_bottom"
+                carryParam="client_reference_id"
                 href={withParams(cta.diagnostic.buttonUrl, { client_reference_id: "lp_bottom" })}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -412,6 +415,7 @@ export default function FounderDiagnosticPage() {
             <p className="text-sm text-earth-muted mt-3">
               <TrackedLink
                 event="quiz_bottom"
+                carryParam="source"
                 href={withParams(cta.quiz.url, { source: "landing_bottom" })}
                 target="_blank"
                 rel="noopener noreferrer"

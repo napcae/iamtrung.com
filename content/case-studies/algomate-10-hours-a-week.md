@@ -44,7 +44,7 @@ He picked lead gen. The goal changed from "close deals" to "have ten low-stakes 
 
 > "Your question-asking approach helped me save 10 to 15 hours of nonsense outreach."
 
-That's the same week — this is the fast kind of proof. For what the slow kind looks like, six months after a session, read [the founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened).
+That's the same week — this is the fast kind of proof. For what the slow kind looks like, five months after a session, read [the founder steering without instruments](/case-studies/the-dashboard-he-never-opened).
 
 ---
 
