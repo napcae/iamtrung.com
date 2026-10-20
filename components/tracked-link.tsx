@@ -16,13 +16,38 @@ type TrackedLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
   carryParam?: string
 }
 
-function arrivalTag() {
+const ARRIVAL_KEY = 'arrival_tag'
+
+function tagFromUrl() {
   const q = new URLSearchParams(window.location.search)
   return [q.get('utm_source'), q.get('utm_campaign')]
     .filter(Boolean)
     .join('_')
     .replace(/[^A-Za-z0-9_-]/g, '')
     .slice(0, 60)
+}
+
+// Called on every page load (components/analytics.tsx): keeps the arrival tag
+// for the browser session, so a visitor who reads a case study and comes back
+// to the page still carries it.
+export function rememberArrival() {
+  const tag = tagFromUrl()
+  if (!tag) return
+  try {
+    sessionStorage.setItem(ARRIVAL_KEY, tag)
+  } catch {
+    // storage blocked: the URL tag still works on the landing page itself
+  }
+}
+
+function arrivalTag() {
+  const fromUrl = tagFromUrl()
+  if (fromUrl) return fromUrl
+  try {
+    return sessionStorage.getItem(ARRIVAL_KEY) ?? ''
+  } catch {
+    return ''
+  }
 }
 
 export function TrackedLink({ event, carryParam, onClick, ...props }: TrackedLinkProps) {

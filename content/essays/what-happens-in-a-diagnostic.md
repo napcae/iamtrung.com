@@ -21,9 +21,9 @@ That's the whole answer. The rest of this essay is what each step looks like in 
 
 **1. You name the stated problem.** You explain what you think is wrong, in your own words, uninterrupted. This matters more than it sounds: the language a founder uses to describe their problem is usually part of the problem.
 
-**2. We pull the facts.** What have you actually tried? What happened when you tried it? What does the situation look like in numbers and events, rather than in feelings? This is where most sessions turn. One founder ran an AI public speaking platform and was sure his marketing was too slow. The question that broke it open was "how many of them click the call to action?" He didn't know. He was [counting visitors and nothing after that](/case-studies/the-dashboard-he-never-opened).
+**2. We pull the facts.** What have you actually tried? What happened when you tried it? What does the situation look like in numbers and events, rather than in feelings? This is where most sessions turn. One founder ran an AI public speaking platform and was sure his marketing was too slow. The question that broke it open was "how many of them click the call to action?" He didn't know. He [watched page views, not who clicked](/case-studies/the-dashboard-he-never-opened).
 
-**3. We find the gap.** Between your diagnosis and what the data shows there is almost always daylight. Six months of outreach producing three conversations is a gap. A "slow marketing" problem sitting on top of a funnel nobody measured past the landing page is a gap.
+**3. We find the gap.** Between your diagnosis and what the data shows there is almost always daylight. Six months of outreach producing three conversations is a gap. A "slow marketing" problem sitting on top of a funnel nobody measured at the click is a gap.
 
 **4. The real pattern gets named.** One crisp formulation you couldn't produce from inside. This is where the value sits — and it's why founders keep describing the session the same way afterwards: "I already knew it, I just hadn't said it out loud." A rugby club founder put it best:
 

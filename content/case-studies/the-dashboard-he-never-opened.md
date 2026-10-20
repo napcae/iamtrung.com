@@ -1,6 +1,6 @@
 ---
 title: "The founder steering without instruments"
-description: "An early-stage founder thought his marketing was too slow and planned to post more. The diagnostic found he was counting visitors and nothing after that, and five months later the funnel numbers proved the point."
+description: "An early-stage founder thought his marketing was too slow and planned to post more. The diagnostic found he was watching page views, not who clicked, and five months later the funnel numbers proved the point."
 published: 2026-08-03
 updated: 2026-10-20
 source: TrungOPS/context/website/case-studies/the-dashboard-he-never-opened.md
@@ -12,8 +12,8 @@ related:
 ---
 
 **Founder:** Early-stage founder of an AI-powered public speaking platform (name withheld — quote recorded and shared with permission).
-**Stage:** 2–10 person team, live product, pre-scale.
-**Session:** One diagnostic session (December 2025); the results below are what he reported five months later.
+**Stage:** Solo founder at the time, live product five to six weeks after launch, about 200 users.
+**Session:** One free 45-minute diagnostic call (December 2025), the early version of today's session. The results below are what he reported five months later.
 **Result:** A funnel he could finally see — 50,000 landing page views in the six months before May 2026, 25% clicking the call to action, 80% of those creating an account, 50% of new accounts fully onboarding.
 
 ## What he thought was wrong
@@ -26,9 +26,9 @@ We broke the funnel down as a system, top to bottom. He knew how many people rea
 
 "How many of them click the call to action?" — *"I don't know."*
 
-He was counting visitors and nothing after that. He couldn't see which channel sent them or who clicked.
+He watched page views and sign-ups. Nobody tracked who clicked, and he'd never checked which channel sent them, though his analytics already showed it.
 
-The verdict: this wasn't a volume problem, and no amount of extra posting could fix it, because he was steering without instruments. The answer to "what's working?" needed two or three numbers he wasn't collecting yet.
+The verdict: this wasn't a volume problem, and no amount of extra posting could fix it, because the instruments he had went unread and the one he needed most, CTA clicks, didn't exist yet. The answer to "what's working?" needed two or three numbers: some he wasn't collecting, some he never looked at.
 
 ## What he did
 

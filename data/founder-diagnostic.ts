@@ -45,7 +45,7 @@ export const teardown = {
     "A quarter of those clicked the call to action",
     "80% of those created an account"
   ],
-  realBottleneck: "He counted visitors and nothing after that. He couldn't see where they came from or who clicked.",
+  realBottleneck: "He watched page views and sign-ups. Nobody tracked who clicked, and he'd never checked which channel sent them, though his analytics already showed it.",
   loop: [
     "Name a problem",
     "Attack it",

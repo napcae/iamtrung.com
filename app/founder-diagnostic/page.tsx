@@ -227,9 +227,6 @@ export default function FounderDiagnosticPage() {
                 <p className="text-xl font-normal leading-relaxed text-earth-dark">{teardown.realBottleneck}</p>
               </div>
 
-              {/* Bridge from the builder case to the dependency reader */}
-              <p className="text-lg font-normal leading-relaxed text-earth-dark">{teardown.bridge}</p>
-
               {/* Closing quote */}
               <div className="bg-earth-background rounded-lg p-8 border-l-4 border-earth-accent">
                 <blockquote className="text-xl font-normal leading-relaxed mb-4">
@@ -245,6 +242,12 @@ export default function FounderDiagnosticPage() {
                 Read the full case study
                 <ArrowRight className="ml-1 h-3 w-3" />
               </Link>
+
+              {/* Bridge from the builder case to the dependency reader, then the one
+                  buyer-matched case (caseStudies[0]) before the fit filter */}
+              <p className="text-lg font-normal leading-relaxed text-earth-dark">{teardown.bridge}</p>
+
+              <CaseCard c={caseStudies[0]} />
             </div>
           </div>
         </section>
@@ -339,36 +342,8 @@ export default function FounderDiagnosticPage() {
             </p>
 
             <div className="space-y-8">
-              {caseStudies.map((c) => (
-                <div key={c.id} className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
-                  <blockquote className="text-xl font-normal leading-relaxed mb-4">
-                    &ldquo;{c.quote}&rdquo;
-                  </blockquote>
-                  <cite className="not-italic font-light text-earth-muted block mb-6">— {c.attribution}</cite>
-                  <dl className="space-y-2 text-base">
-                    <div className="flex gap-3">
-                      <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Came in</dt>
-                      <dd className="text-earth-dark">{c.problem}</dd>
-                    </div>
-                    <div className="flex gap-3">
-                      <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Root</dt>
-                      <dd className="text-earth-dark">{c.root}</dd>
-                    </div>
-                    <div className="flex gap-3">
-                      <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Outcome</dt>
-                      <dd className="text-earth-dark">{c.outcome}</dd>
-                    </div>
-                  </dl>
-                  {c.caseStudySlug && (
-                    <Link
-                      href={`/case-studies/${c.caseStudySlug}`}
-                      className="inline-flex items-center mt-6 text-sm text-earth-accent hover:underline"
-                    >
-                      Read the full case study
-                      <ArrowRight className="ml-1 h-3 w-3" />
-                    </Link>
-                  )}
-                </div>
+              {caseStudies.slice(1).map((c) => (
+                <CaseCard key={c.id} c={c} />
               ))}
             </div>
           </div>
@@ -429,6 +404,40 @@ export default function FounderDiagnosticPage() {
       </main>
 
       <SiteFooter />
+    </div>
+  )
+}
+
+function CaseCard({ c }: { c: (typeof caseStudies)[number] }) {
+  return (
+    <div className="bg-earth-light rounded-lg p-8 border-l-4 border-earth-accent">
+      <blockquote className="text-xl font-normal leading-relaxed mb-4">
+        &ldquo;{c.quote}&rdquo;
+      </blockquote>
+      <cite className="not-italic font-light text-earth-muted block mb-6">— {c.attribution}</cite>
+      <dl className="space-y-2 text-base">
+        <div className="flex gap-3">
+          <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Came in</dt>
+          <dd className="text-earth-dark">{c.problem}</dd>
+        </div>
+        <div className="flex gap-3">
+          <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Root</dt>
+          <dd className="text-earth-dark">{c.root}</dd>
+        </div>
+        <div className="flex gap-3">
+          <dt className="text-earth-muted uppercase tracking-wide text-xs font-medium pt-1 w-20 flex-shrink-0">Outcome</dt>
+          <dd className="text-earth-dark">{c.outcome}</dd>
+        </div>
+      </dl>
+      {"caseStudySlug" in c && c.caseStudySlug && (
+        <Link
+          href={`/case-studies/${c.caseStudySlug}`}
+          className="inline-flex items-center mt-6 text-sm text-earth-accent hover:underline"
+        >
+          Read the full case study
+          <ArrowRight className="ml-1 h-3 w-3" />
+        </Link>
+      )}
     </div>
   )
 }

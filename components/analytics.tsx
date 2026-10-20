@@ -1,6 +1,8 @@
 'use client'
 
 import Script from 'next/script'
+import { useEffect } from 'react'
+import { rememberArrival } from '@/components/tracked-link'
 
 declare global {
   interface Window {
@@ -13,6 +15,10 @@ declare global {
 }
 
 export function Analytics() {
+  useEffect(() => {
+    rememberArrival()
+  }, [])
+
   return (
     <>
       <Script
