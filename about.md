@@ -2,11 +2,11 @@
 
 # Who is Trung Nguyen?
 
-Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostics for capable founders who are compensating for their blind spot instead of resolving it, finding and naming the structural constraint behind stalled decisions, execution and growth.
+Trung Nguyen is a Founder Bottleneck Diagnostician. He works with founder-led companies that hired senior leaders and still see the important decisions route back to the founder, finding and naming why in a 90-minute diagnostic and then changing who owns those decisions.
 
 "I'm the person you call when things are moving but you're not sure you're moving in the right direction."
 
-> "He doesn't expect anything in return. He just wants to see people succeed."
+> "He sees more than just the person that they are right now. He sees the potential…"
 — Michael Serpell, Planetary Productions
 
 ![Portrait of Trung Nguyen](/me_portrait.jpeg)
@@ -15,28 +15,33 @@ Trung Nguyen is a Founder Bottleneck Diagnostician who runs 90-minute diagnostic
 
 A 90-minute structured session with one job: find the real constraint in a founder-led company and say it out loud. State the problem, pull the facts, find the gap, name the pattern, leave with one concrete move. Not advice. Not strategy work. Most founders describe the result the same way afterwards: "I already knew it — I just hadn't said it out loud."
 
-The diagnostic exists because founders are usually confidently wrong about their own bottleneck. The explanation they carry — team problem, process problem, focus problem — is comfortable, and the company keeps scaling around the real constraint every week it stays unnamed.
+Most of the work starts from one situation: the founder hired senior leaders, and the important decisions still come back to them. The founder usually suspects the person. The diagnostic finds out whether it is the person, the role, the team's habits or an approval path nobody redesigned when the hire arrived.
 
 [How the diagnostic works](/founder-diagnostic)
 
 ## Who he works with
 
-Capable people are usually the last to know their own bottleneck — everyone around them already sees it, they just can't say it to your face. Not a character flaw. A structural blind spot. The pattern that fits:
+Founder-led companies with customers, a team and at least one senior hire, a COO, Head of Ops, GM or functional head, who was meant to take decisions off the founder. The signs:
 
-- A lot of thinking, not a lot of deciding.
-- The thing they said they'd resolve last month still isn't resolved.
-- Smart, busy — and in the same place as six months ago.
-- Same problem, different explanation each quarter.
-- The team is moving but nothing is landing.
-Even sharp operators who are already doing well feel this right before their next real jump — a calm unease where something senses off, the timing or trigger still unclear, a pattern felt but not yet named.
+- The team still waits for the founder's yes on calls already handed off.
+- A week off and things slow down.
+- The founder has started to wonder whether they hired the wrong person.
+- Or the hire hasn't happened yet, and the founder wants to know what it has to take off their plate.
+He also works with capable founders before they have that team, when their own explanation for what's stuck keeps not solving it. It's a structural blind spot, not a character flaw.
 
-Not a fit: founders who want validation, founders who want ongoing coaching, and idea-stage founders with no team or product yet.
+Not a fit: founders who want the hire judged without looking at the setup around them, founders who want an interim COO or ongoing coaching, and idea-stage founders with no team or product yet.
 
 ## Background
 
-Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Ho Chi Minh City. He led engineering teams, built companies through freelancing and venture-building, and spent years inside the exact system he now diagnoses: the founder-led company where everything routes through one person.
+Trung Nguyen is a Vietnamese-German engineer turned diagnostician, based in Ho Chi Minh City. He has seen decisions route back to one person from the inside, and he has taken himself out of that path.
 
-Alongside the diagnostic work he runs [The InnerNet](/the-innernet), a community for founders, and [talks about the founder's internal state](/media) — because it distorts business diagnosis. The commercial work is structural Founder Bottleneck Diagnostics, not therapy and not ongoing coaching.
+He started in corporate IT, then ran a small IT consultancy of his own, where he said yes to everything, did all of it himself, burned out and lost the clients. After that came a web agency, and a media group's digital unit, where he moved development off the corporate IT approval path: resource requests that had taken six months started taking a week.
+
+At Contentful, from 2018 to 2020, he was one of two people on the security team while the company was selling fast. Every customer security review landed on those two people until a rule changed what reached them. He worked on the company-wide single sign-on rollout across hundreds of applications, where access roles were designed from each department's business processes rather than a permission matrix.
+
+At Workpath, from 2021 to 2023, he led infrastructure as Lead SRE and later worked as a Staff Software Engineer. The goal was to take himself and his team off the critical path. A small platform team supported about six product teams that shipped without waiting on it. In 2022 a peer review had named him as the person the application depended on. A year later the team ran without him.
+
+Today he runs Founder Bottleneck Diagnostics and The Handoff. The work is structural, not therapy and not ongoing coaching.
 
 ## Where to verify his work
 

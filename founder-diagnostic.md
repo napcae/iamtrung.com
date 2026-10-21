@@ -61,7 +61,7 @@ It's built for founders who are already running things well and want a peer's re
 
 ### The pattern
 
-I've worked with 40+ founders who've outgrown the systems that got them here — across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
+I've worked with dozens of founders who've outgrown the systems that got them here — across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.
 
 ### The cost
 

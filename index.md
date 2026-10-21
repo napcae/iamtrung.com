@@ -1,194 +1,119 @@
-# Founder Bottleneck Diagnostician
+Founder Bottleneck Diagnostician
 
-I'm Trung Nguyen. I find the constraint founders are already scaling around instead of fixing. 90 minutes, one session — for capable founders compensating for a blind spot instead of resolving it.
+# You hired senior leaders to own the decisions. They still come back to you.
 
-[The Founder Bottleneck Diagnostic](/founder-diagnostic)
+I'm Trung Nguyen. I work with founder-led companies at exactly this point. I find out why the decisions route back to you, whether it's the person, the role or a setup nobody changed when they arrived. Then we move them to the people you hired to own them.
+
+[How the diagnostic works](/founder-diagnostic)
 
 [Who is Trung Nguyen? →](/about)
 
+Before this: one of two people on Contentful's security team, then infrastructure lead at Workpath.
+
 ![Portrait of Trung Nguyen](./me_portrait.jpeg)
 
-## My Story
+## This is for you if
 
-![Trung Nguyen in front of a Chinese Aldi](./me_aldi.jpeg)
+- You have customers, a team and at least one senior hire (a COO, Head of Ops, GM or functional head) who was meant to take decisions off you.
+- Your team still waits for your yes on calls you already handed off.
+- You take a week off and things slow down.
+- You've started to wonder whether you hired the wrong person.
+- Or you're about to make that hire and want to know what it has to take off your plate before it starts.
 
-I'm Trung. A Vietnamese-German builder obsessed with turning chaos into clarity — across startups, communities, and human systems. I design technical foundations and mindsets strong enough to grow through anything.
+## Not for you if
 
-After leading engineering teams and carving my own path through freelancing and venture-building, I learned something simple: Transformation doesn't happen through transactions — it happens when people bet on each other.
+- You want someone to confirm the hire is underperforming without looking at the setup around them.
+- You want an interim COO, or someone to manage your team for you.
+- You don't have a team yet. [Start with the diagnostic on its own.](/founder-diagnostic)
 
-Today I run Founder Bottleneck Diagnostics: 90 minutes to find and name the constraint behind stalled decisions, execution and growth. I still write about the founder's internal state, because it distorts business diagnosis — but the commercial work is structural, not therapy and not ongoing coaching.
+## It's a stage, not a character flaw
 
-## The InnerNet
+Larry Greiner described it in Harvard Business Review in 1972. Hiring managers solves the first growth crisis, the one where everything depends on the founder. It starts the next one when authority doesn't actually move.
 
-Sustainable High Performance
+The approval paths, the habits and the Slack threads still lead to you. So you suspect the hire, and the hire learns to wait.
 
-![InnerNet community gathering](./inner_circle_gathering.jpeg)
+Sometimes it is the person. Often it's the role, the team's habits or an approval path nobody redesigned. Until someone finds out which, you keep deciding things you already pay someone else to decide.
 
-### A Calm, High-Clarity Community for Sustainable Growth
+Replacing the hire costs a search and months with the seat empty. If the setup was the problem, the next hire walks into the same one.
 
-A space for leaders, operators, and emerging talent who want to grow from the inside out. We help you build sustainable high performance through guided reflection, emotional clarity, and shared wisdom.
+[I hired someone. Why is the problem still on my desk?](/essays/hired-the-task-not-the-problem)
 
-Inner work for outer impact.
+## I've sat in all three chairs
 
-#### Spaciousness > Pressure
+The founder who holds everything, the person everything routes through, and the hired leader who's meant to take it over.
 
-High standards without hardness. A space that feels like exhaling.
+![Trung Nguyen with a group of founders](./workshop.jpg)
 
-#### Clarity > Hacks
+### The founder's chair
 
-Focus on the inner loops that power everything.
+Years ago I ran a small IT consultancy. I said yes to everything, did all of it myself, burned out and lost the clients.
 
-#### Connection > Content
+### The chair everything routes through
 
-Depth without heaviness. Growth without noise.
+At a media group's digital unit, every resource request went through corporate IT and took six months. We moved development off that path, and the same requests took a week.
 
-#### Character > Skills
+At Contentful I was one of two people on the security team while sales took off. Every customer's security questionnaire landed on us. More effort didn't fix it. A rule about what reaches the team did: pre-sales answered the standard questions first.
 
-Philosophy-backed personal evolution.
+### The hired leader's chair
 
-[Join Weekly Reflection](https://lu.ma/calendar/cal-Ba6Y0gdYqYZqdIP)
+At Workpath I led infrastructure. In 2022 a peer review named me as the person the application depended on. A year later the team ran without me, and a small platform team carried about six product teams shipping at the same time. I was given context and goals and left to run it, which is what you hired your leader for.
 
-[Learn More](/the-innernet)
+Since 2025 I've run these diagnostics with founders in SaaS, legal tech, IT services, sports tech and e-commerce. The complaints differ. The way decisions route back to the founder repeats.
 
-## Mission & Vision
+[More about my background](/about#background)
 
-### Vision
+## From both sides of the table
 
-A global, high-trust ecosystem where founders, creatives, and visionaries embrace unlimited curiosity, practice fearless authenticity, demonstrate radical resilience, and foster kindness in community.
+A founder, before
 
-### Mission
+> "Endless chaos from too many projects with the wrong people, paired with my inability to let go. Often whole workdays lost to paralysis."
 
-To create presence-focused experiences that foster genuine human connection, collaboration, and personal growth—while amplifying unheard voices and funding impactful businesses.
+"The investment in clarity is a key to focus, focus is the key to success."
 
-"Build slow, build strong, build for impact. Focus on presence today, for a future worth living."
+Alex, founder of an IT services company, client across two engagements (translated from German)
 
-## How I Help
+A founder, on what the work is
 
-![Founders taking a mindful pause](./founders_pause.png)
+> "Actually identifying, naming the problem. It's one of the biggest things, because implementation is cheap."
+Dung Mai, Pathfinder Softworks. He still qualifies his own clients with a line from our first conversation: "show me the code… and I can tell you how your operation looks like."
 
-### Founder Bottleneck Diagnostic
+A leader I hired
 
-A 90-minute diagnostic for bootstrapped founders who sense something structural is off. One session. One verdict. No dependency.
+> "I am deeply thankful for Trung Nguyen's trust in my potential and the chance to prove myself."
+An engineer I hired at Workpath, writing about it years later
 
-- → Decision, execution & trust load analysis
-- → Clear verdict you can act on alone
-[Learn more](/founder-diagnostic)
+[Read the case studies](/case-studies)
 
-### The InnerNet
+## How it works
 
-A calm, high-clarity community for leaders and emerging talent who want sustainable high performance. Inner work for outer impact.
+### 1. Founder Bottleneck Diagnostic
 
-- → Weekly reflection sessions
-- → Emotional clarity & mental reset
-- → Global community of aligned minds
-[Learn more](/the-innernet)
+90 minutes, €750, book and pay directly. We find why the decisions route back to you. You leave with a written diagnosis and the first change to make. It works on its own.
 
-[Essays](/essays)
+[See the diagnostic](/founder-diagnostic)
 
-[Case studies](/case-studies)
+### 2. The Handoff
 
-[Media appearances](/media)
+30 days to get decisions off your desk and onto your COO's.
 
-## Trusted By
+When the answer is to move decisions, we move them and check that they stay moved. Before we start, you or your hired leader log every decision that reaches you for a week. Then: the diagnostic, a redesign session with your hired leader in the room, 30 days of running under the change, and a verify session that compares the count to where you started.
 
-![Trung Nguyen speaking at a workshop](./workshop.jpg)
+Scoped and priced per company after the diagnostic.
 
-> "I think it's more about learning different ways to manage my own energy from others. There are so many valuable insights shared, and I want to apply these to both my professional and personal life."
-Tina NguyenFounder & Workshop Participant
+## Before you decide
 
-> "This applies to my personal life as well. Just try everything, A-B test everything, see what works. If it feels good for you, then do it. That's the mindset I'll be applying going forward in my life."
-Minh TranFounder & Workshop Participant
+- [What happens during a Founder Bottleneck Diagnostic? →](/essays/what-happens-in-a-diagnostic)
+- [I hired someone. Why is the problem still on my desk? →](/essays/hired-the-task-not-the-problem)
+- [How do I know you won't just tell me I'm the bottleneck? →](/essays/not-always-the-founder)
+- [Founder coach vs. consultant vs. diagnostician: which one do you actually need? →](/essays/coach-consultant-diagnostician)
 
-> "I also like this group. I think it's always teaching me things. Like today, I definitely learned how to add more KPIs and make my life a little more organized, which was my goal."
-Choo ChooFounder & Workshop Participant
+## If this is your company, start with the diagnostic.
 
-## Books That Shaped Me
+90 minutes, €750, book and pay directly. Or message me on [LinkedIn](https://www.linkedin.com/in/ctn1991/) with the word "diagnostic" and one line on what keeps coming back to you.
 
-These works have profoundly influenced my thinking and approach to technology, leadership, and personal growth. They might transform your perspective too.
+[Book the diagnostic](/founder-diagnostic)
 
-![A peaceful reading space](./calm.jpeg)
-
-![Mastery cover](/books/mastery.jpg)
-
-### Mastery
-
-by Robert Greene
-
-Robert Greene's deep dive into the path to mastery, showing how dedication, patience, and strategic practice lead to exceptional achievement. This book has transformed how I approach personal growth and leadership development.
-
-[Get the book](https://www.amazon.com/s?k=Mastery%20Robert%20Greene)
-
-![Get Together cover](/books/get-together.jpg)
-
-### Get Together
-
-by Bailey Richardson, Kevin Huynh, Kai Elmer Sotto
-
-A practical guide to building communities that matter. This book has been instrumental in shaping my approach to creating meaningful connections and building the InnerNet community.
-
-[Get the book](https://www.amazon.com/s?k=Get%20Together%20Bailey%20Richardson%2C%20Kevin%20Huynh%2C%20Kai%20Elmer%20Sotto)
-
-![The Creative Act cover](/books/the-creative-act.jpg)
-
-### The Creative Act
-
-by Rick Rubin
-
-Rick Rubin's profound exploration of creativity as a spiritual practice. This book has deepened my understanding of presence, authenticity, and the creative process in both business and personal growth.
-
-[Get the book](https://www.amazon.com/s?k=The%20Creative%20Act%20Rick%20Rubin)
-
-![Wherever You Go, There You Are cover](/books/whereever-you-go.jpg)
-
-### Wherever You Go, There You Are
-
-by Jon Kabat-Zinn
-
-Jon Kabat-Zinn's classic on mindfulness meditation. This book has been foundational in my approach to cultivating presence and awareness in daily life and coaching practice.
-
-[Get the book](https://www.amazon.com/s?k=Wherever%20You%20Go%2C%20There%20You%20Are%20Jon%20Kabat-Zinn)
-
-![Mindset cover](/books/mindset.jpg)
-
-### Mindset
-
-by Carol S. Dweck
-
-Carol Dweck's groundbreaking work on the power of our beliefs. This book has been essential in my coaching approach, helping founders overcome limiting patterns and embrace growth.
-
-[Get the book](https://www.amazon.com/s?k=Mindset%20Carol%20S.%20Dweck)
-
-## Newsletter
-
-![Newsletter illustration](/newsletter.jpeg)
-
-Join founders and leaders who receive my weekly insights on growth, technology, and embracing discomfort as a catalyst for transformation.
-
-![Opening Your Inner Door: The Power of Being Real episode cover](/podcast/episode-16.jpg)
-
-Latest Episode
-
-### Opening Your Inner Door: The Power of Being Real
-
-Episode 16 • 9 min
-
-### Weekly Newsletter
-
-Get actionable insights on building resilient systems and teams, delivered directly to your inbox.
-
-[Subscribe](https://theuncomfortzone.substack.com)Join today. No spam, unsubscribe anytime.
-
-[Explore all episodes](https://theuncomfortzone.substack.com)
-
-## Let's Connect
-
-![Let's connect and start a conversation](./connect.jpeg)
-
-I work with founders who are committed to building technology with purpose and integrity. If that's you, let's start a conversation.
-
-The world needs more builders who care about the impact of what they create.
-
-[Start the Conversation](https://cal.com/trungfromberlin/intro-call)
+[Referring a founder? Here's the one-pager →](/d/partner-one-pager)
 
 ---
 Source: https://iamtrung.com/

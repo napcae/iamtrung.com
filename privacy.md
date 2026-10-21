@@ -48,6 +48,10 @@ If this policy changes in a way that matters, the effective date above will chan
 
 [FAQ](/essays/what-happens-in-a-diagnostic)
 
+[Media](/media)
+
+[InnerNet](/the-innernet)
+
 [Contact](/#contact)
 
 ---
