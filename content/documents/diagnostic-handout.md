@@ -43,7 +43,7 @@ Fair question, especially if we haven't worked together. A few real ones:
 
 > "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had."
 >
-> *Founder, early-stage public speaking platform (the result landed six months after the session, not the same week)*
+> *Founder, early-stage public speaking platform (the result landed five months after the session, not the same week)*
 
 > "You are good at laying things out on a table, like a puzzle, putting it together and helping someone articulate and see the next necessary steps. And aside from the clarity, there's always this knowledge, this certainty: we can make it work somehow with this guy, without awkwardness, without any games."
 >

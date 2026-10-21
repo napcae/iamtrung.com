@@ -1,17 +1,24 @@
 'use client'
 
 import Script from 'next/script'
+import { useEffect } from 'react'
+import { rememberArrival } from '@/components/tracked-link'
 
 declare global {
   interface Window {
     swetrix?: {
       init: (projectId: string, options: { apiURL: string }) => void
       trackViews: () => void
+      track?: (event: { ev: string; meta?: Record<string, string> }) => void
     }
   }
 }
 
 export function Analytics() {
+  useEffect(() => {
+    rememberArrival()
+  }, [])
+
   return (
     <>
       <Script
