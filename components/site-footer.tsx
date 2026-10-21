@@ -18,6 +18,8 @@ const LINKS: { href: string; label: string }[] = [
   { href: "/essays", label: "Essays" },
   { href: "/case-studies", label: "Case studies" },
   { href: "/essays/what-happens-in-a-diagnostic", label: "FAQ" },
+  { href: "/media", label: "Media" },
+  { href: "/the-innernet", label: "InnerNet" },
   { href: "/#contact", label: "Contact" },
 ]
 

@@ -73,7 +73,7 @@ export const about = {
   whoFor:
     "It's built for founders who are already running things well and want a peer's read before they scale a decision they can't fully audit themselves — the way a sharp operator checks work with another sharp operator. Not for people looking for reassurance. For people who go looking for the uncomfortable part, because growth happens by expanding past the blind spot.",
   pattern:
-    "I've worked with 40+ founders who've outgrown the systems that got them here — across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.",
+    "I've worked with dozens of founders who've outgrown the systems that got them here — across B2B SaaS, hardware, marketplace, and agency models. The surface complaints differ. The structural causes repeat. A founder who has seen the same five patterns in ten companies can name the real problem faster than the founder living inside it.",
   math: "The real cost of a wrong bottleneck is the weeks spent pushing a direction that doesn't compound. Against that, one session is small — but only if the problem is felt as expensive, not just true. You can postpone the decision. You can't postpone what the current system keeps costing you.",
   frame: "One session. One answer.",
 }
