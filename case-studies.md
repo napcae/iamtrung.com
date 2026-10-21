@@ -12,9 +12,9 @@ September 8, 2026](/case-studies/churn-was-a-decision-problem)
 He booked a diagnostic to fix his marketing. His own numbers said he had never really tried to sell — and a week later the same avoidance came back wearing a different costume.
 
 September 8, 2026](/case-studies/building-instead-of-asking)
-- [## The founder who never opened his dashboard
+- [## The founder steering without instruments
 
-An early-stage founder thought his marketing was too slow and planned to post more. The diagnostic found working tracking he had never read — and six months later the funnel numbers proved the point.
+An early-stage founder thought his marketing was too slow and planned to post more. The diagnostic found he was watching page views, not who clicked, and five months later the funnel numbers proved the point.
 
 August 3, 2026](/case-studies/the-dashboard-he-never-opened)
 - [## The agency founder who got back 10–15 hours a week

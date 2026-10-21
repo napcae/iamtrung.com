@@ -7,7 +7,7 @@
 
 ## What he thought was wrong
 
-Minh is a performance marketer. He can run ads, build funnels, do lead gen — the skills were never in question. Six months into running his own agency, outreach was eating 10 to 15 hours every week and had produced two or three real conversations.
+Minh is a performance marketer. He can run ads, build funnels, do lead gen — the skills were never in question. For two to three months, outreach had been eating 10 to 15 hours every week, and in six months it had produced two or three real conversations.
 
 His explanation: execution. He needed to work the pipeline harder, get more organized, push more volume.
 
@@ -15,7 +15,7 @@ His explanation: execution. He needed to work the pipeline harder, get more orga
 
 ## What the session found
 
-The diagnostic doesn't start from the founder's explanation. It starts from the facts: what have you tried, what happened, what do the numbers say. Six months of 10–15 hour weeks against two or three conversations is a gap no execution tweak explains.
+The diagnostic doesn't start from the founder's explanation. It starts from the facts: what have you tried, what happened, what do the numbers say. Two to three months of 10–15 hour weeks, against two or three conversations in six months, is a gap no execution tweak explains.
 
 The pattern underneath: Minh hadn't decided what Algomate was for. E-commerce clients or lead-gen clients — he could serve both, so he'd committed to neither, and every outreach message hedged between the two. On top of that, his goal for each contact was to close a deal on first touch. High stakes on every message is a reliable way to send fewer of them.
 
@@ -33,11 +33,11 @@ He picked lead gen. The goal changed from "close deals" to "have ten low-stakes 
 
 > "Your question-asking approach helped me save 10 to 15 hours of nonsense outreach."
 
-That's the same week — this is the fast kind of proof. For what the slow kind looks like, six months after a session, read [the founder who never opened his dashboard](/case-studies/the-dashboard-he-never-opened).
+That's the same week — this is the fast kind of proof. For what the slow kind looks like, five months after a session, read [the founder steering without instruments](/case-studies/the-dashboard-he-never-opened).
 
 ---
 
-*Published with Minh's permission (testimonial recorded June 2026). All quotes verbatim.*
+*Published with Minh's permission (testimonial recorded June 2026). Quotes trimmed of filler words only.*
 
 ---
 Source: https://iamtrung.com/case-studies/algomate-10-hours-a-week

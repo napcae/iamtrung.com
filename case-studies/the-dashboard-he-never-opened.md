@@ -1,9 +1,9 @@
-# The founder who never opened his dashboard
+# The founder steering without instruments
 
 **Founder:** Early-stage founder of an AI-powered public speaking platform (name withheld — quote recorded and shared with permission).
-**Stage:** 2–10 person team, live product, pre-scale.
-**Session:** One diagnostic session; results below were measured six months later.
-**Result:** A funnel he could finally see — 50,000 landing page views a month, 25% clicking the call to action, 80% of those creating an account, 50% of new accounts fully onboarding.
+**Stage:** Solo founder at the time, live product five to six weeks after launch, about 200 users.
+**Session:** One free 45-minute diagnostic call (December 2025), the early version of today's session. The results below are what he reported five months later.
+**Result:** A funnel he could finally see — 50,000 landing page views in the six months before May 2026, 25% clicking the call to action, 80% of those creating an account, 50% of new accounts fully onboarding.
 
 ## What he thought was wrong
 
@@ -11,30 +11,28 @@ Growth felt slow, so his diagnosis was marketing volume: post more content, be e
 
 ## What the session found
 
-We broke the funnel down as a system, top to bottom, and the session turned on two questions:
-
-"How many landing page views do you have?" — *"I don't know."*
+We broke the funnel down as a system, top to bottom. He knew how many people reached his landing page: about 600 the month before. The session turned on the next question:
 
 "How many of them click the call to action?" — *"I don't know."*
 
-He had UTM tracking implemented. It had been running the whole time. He had never opened it.
+He watched page views and sign-ups. Nobody tracked who clicked, and he'd never checked which channel sent them, though his analytics already showed it.
 
-The verdict: this wasn't a volume problem, and no amount of extra posting could fix it, because he was steering without instruments. The information that would answer "what's working?" already existed in his own system — unread.
+The verdict: this wasn't a volume problem, and no amount of extra posting could fix it, because the instruments he had went unread and the one he needed most, CTA clicks, didn't exist yet. The answer to "what's working?" needed two or three numbers: some he wasn't collecting, some he never looked at.
 
 ## What he did
 
 - Redesigned the landing page around one clear intent and one clear call to action
-- Started actually reading the UTM data
+- Added UTM tracking, so he could see which channel each visitor came from
 - Added CTA click tracking and in-app referral tracking
 
-## The result, six months later
+## The result, five months later
 
-- 50,000 landing page views a month
+- 50,000 landing page views in the past six months
 - 25% of visitors clicking the call to action
 - 80% of those creating an account
 - 50% of new accounts completing onboarding
 
-The gap between session and result is the point of this case. A diagnosis that only feels good in the room is worth little; this one changed what he built and measured, and the numbers showed up two quarters later.
+The gap between session and result is the point of this case. A diagnosis that only feels good in the room is worth little; this one changed what he built and measured, and the numbers showed up five months later.
 
 > "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had."
 >
