@@ -14,7 +14,7 @@ export const hero = {
     buttonText: "Book the diagnostic",
     buttonUrl: "https://buy.stripe.com/4gMfZidgA6Y61rebxj38406",
     quiz: {
-      text: "Not sure it's you yet? Take the 4-minute quiz first.",
+      text: "Not sure it's you yet? Take the 1-minute quiz first.",
       url: "https://tally.so/r/68A05P"
     }
   }
@@ -68,6 +68,7 @@ export const process = {
     "The number or fact you'd been avoiding, now in front of you"
   ],
   test: "You should be able to tell your COO what you got in two sentences. If you can't, the session missed.",
+  beforeSession: "Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it. In the session we sort them into three piles: yours, someone else's, and the ones nobody ever decided. If you've hired leaders, the last two piles are where the hire-or-setup answer starts.",
   hiredLeader: "If you hired someone to take this off your desk, the session is step one. If it's worth fixing, the next step is The Handoff, a separate engagement. We change who decides what with your leader in the room, run the company that way for 30 days and count what still comes back to you. Then we check whether the diagnosis was right. If you book it within 30 days of the session, the €750 comes off its price.",
   whatItIsnt: "What it isn't: you won't get a plan to file away or a weekly check-in. If you need more help, or someone other than me, I'll tell you. What you do with it is yours."
 }
@@ -117,9 +118,16 @@ export const caseStudies = [
 // placeholder. Button label is a plain call to action -- price lives in the
 // headline/body, not stamped on the button itself.
 export const cta = {
+  // One line of background at the ask, cleared Workpath claims only (TrungOPS PR #881).
+  about: {
+    text: "Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders.",
+    linkText: "More about me",
+    url: "/about"
+  },
   diagnostic: {
     headline: "The Diagnostic: €750",
-    body: "One 90-minute session on why decisions still come back to you. You leave knowing whether it's the hire or the setup, and the first change to make. After checkout you pick a time and answer three short questions. No screening call, no waiting for a reply.",
+    body: "One 90-minute session on why decisions still come back to you. You leave knowing whether it's the hire or the setup, and the first change to make. After checkout you pick a time, answer three short questions and start your decision log. No screening call, no waiting for a reply.",
+    credit: "If it's worth fixing, the €750 comes off The Handoff when you book it within 30 days of the session.",
     buttonText: "Book the diagnostic",
     buttonUrl: "https://buy.stripe.com/4gMfZidgA6Y61rebxj38406"
   },
@@ -128,7 +136,7 @@ export const cta = {
     url: "https://www.linkedin.com/in/ctn1991/"
   },
   quiz: {
-    text: "Not sure it's you yet? Take the 4-minute quiz first.",
+    text: "Not sure it's you yet? Take the 1-minute quiz first.",
     url: "https://tally.so/r/68A05P"
   }
 }

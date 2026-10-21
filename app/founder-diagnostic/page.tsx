@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import type { Metadata } from "next"
-import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, RotateCw, Users, MessageSquare, HelpCircle } from "lucide-react"
+import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, RotateCw, Users, MessageSquare, HelpCircle, NotebookPen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -290,6 +290,11 @@ export default function FounderDiagnosticPage() {
               </div>
 
               <div className="flex gap-6">
+                <NotebookPen className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
+                <p className="text-lg font-normal leading-relaxed">{process.beforeSession}</p>
+              </div>
+
+              <div className="flex gap-6">
                 <Users className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <p className="text-lg font-normal leading-relaxed">{process.hiredLeader}</p>
               </div>
@@ -355,9 +360,18 @@ export default function FounderDiagnosticPage() {
             TrungOPS/context/website/landing-page.md, Section 8. */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-2xl mx-auto text-center">
+            <p className="text-base font-normal leading-relaxed text-earth-muted mb-10 max-w-xl mx-auto">
+              {cta.about.text}{" "}
+              <TrackedLink event="about_bottom" href={cta.about.url} className="underline hover:text-earth-dark transition-colors">
+                {cta.about.linkText}
+              </TrackedLink>
+            </p>
             <p className="text-3xl font-normal mb-4">{cta.diagnostic.headline}</p>
-            <p className="text-lg font-normal leading-relaxed text-earth-dark mb-8 max-w-xl mx-auto">
+            <p className="text-lg font-normal leading-relaxed text-earth-dark mb-4 max-w-xl mx-auto">
               {cta.diagnostic.body}
+            </p>
+            <p className="text-base font-normal leading-relaxed text-earth-muted mb-8 max-w-xl mx-auto">
+              {cta.diagnostic.credit}
             </p>
             <Button
               asChild
