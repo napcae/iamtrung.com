@@ -50,42 +50,24 @@ export function Navigation() {
               Diagnostic
             </Link>
             <Link
+              href="/case-studies"
+              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
+            >
+              Case studies
+            </Link>
+            <Link
               href="/essays"
               className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
             >
               Essays
             </Link>
-            <Link
-              href="/#mission"
-              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
-            >
-              Mission
-            </Link>
-            <Link
-              href="/#offerings"
-              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
-            >
-              Offerings
-            </Link>
-            <Link
-              href="/#podcast"
-              className="text-sm font-normal text-earth-muted hover:text-earth-dark transition-colors"
-            >
-              Podcast
-            </Link>
-            <Link
-              href="/reconnect-vietnam"
-              className="text-sm font-normal text-earth-accent hover:text-earth-dark transition-colors"
-            >
-              Re:Connect Vietnam
-            </Link>
-            <Link href="/#contact">
+            <Link href="/founder-diagnostic">
               <Button
                 variant="outline"
                 size="sm"
                 className="border-earth-accent text-earth-accent hover:bg-earth-accent/10 hover:border-earth-accent rounded-none transition-all duration-300"
               >
-                Start the Conversation
+                Book the diagnostic
               </Button>
             </Link>
           </nav>
@@ -142,42 +124,14 @@ export function Navigation() {
               >
                 Case studies
               </Link>
-              <Link
-                href="/#mission"
-                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
-                onClick={closeMenu}
-              >
-                Mission
-              </Link>
-              <Link
-                href="/#offerings"
-                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
-                onClick={closeMenu}
-              >
-                Offerings
-              </Link>
-              <Link
-                href="/#podcast"
-                className="text-lg font-normal text-earth-dark hover:text-earth-accent transition-colors"
-                onClick={closeMenu}
-              >
-                Podcast
-              </Link>
-              <Link
-                href="/reconnect-vietnam"
-                className="text-lg font-normal text-earth-accent hover:text-earth-dark transition-colors"
-                onClick={closeMenu}
-              >
-                Re:Connect Vietnam
-              </Link>
               <div className="pt-2 border-t border-earth-light">
-                <Link href="/#contact" onClick={closeMenu}>
+                <Link href="/founder-diagnostic" onClick={closeMenu}>
                   <Button
                     variant="outline"
                     size="lg"
                     className="border-earth-accent text-earth-accent hover:bg-earth-accent hover:text-white rounded-none w-full transition-all duration-300"
                   >
-                    Start the Conversation
+                    Book the diagnostic
                   </Button>
                 </Link>
               </div>
