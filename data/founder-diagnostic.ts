@@ -23,10 +23,9 @@ export const hero = {
 export const recognition = [
   {
     id: "combined",
-    headline: "You're compensating for it, and it works too well.",
+    headline: "You're covering for the setup, and it works too well.",
     body: [
-      "The team still waits for your yes. You break the tie in the Slack thread and sign off on the vendor everyone already agreed on. Take a week off and things slow down.",
-      "Nothing has visibly broken, because you keep absorbing the cost."
+      "The team still waits for your yes. You break the tie in the Slack thread and sign off on the vendor everyone already agreed on. Take a week off and things slow down."
     ]
   }
 ]
@@ -34,7 +33,7 @@ export const recognition = [
 // Teardown — on-page visual ("anatomy of a diagnosis"). One real case, rendered
 // as a walk-through. Data-driven so the case can be swapped by editing this object.
 export const teardown = {
-  sectionHeadline: "What finding the bottleneck actually looks like",
+  sectionHeadline: "What finding the bottleneck looks like",
   attribution: "Founder, early-stage public speaking platform",
   surfaceComplaint: "Our marketing funnel was extremely slow and I didn't know why.",
   theQuestion: "How many of them click the call to action?",
@@ -45,12 +44,6 @@ export const teardown = {
     "80% of those created an account"
   ],
   realBottleneck: "He watched page views and sign-ups. Nobody tracked who clicked, and he'd never checked which channel sent them, though his analytics already showed it.",
-  loop: [
-    "Name a problem",
-    "Attack it",
-    "Nothing moves",
-    "Push harder"
-  ],
   quote: "It's like going to the doctor to get a scan you've never had before and you find out problems you didn't know you had.",
   revealLabel: "What he reported five months later",
   bridge: "For you, the question is how many decisions reached you last week that you hired someone else to make."
@@ -77,7 +70,7 @@ export const about = {
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
 // real name; all others are role/stage only (namePublic=false -> attribution only).
 // Order (2026-10-20): Alex first, the one card whose buyer hired people and still had
-// the decisions come back (the Q4 lead); then fast proof (Minh). Johny cut 2026-10-27 (page length).
+// the decisions come back (the Q4 lead); Minh and Johny cut 2026-10-27 (page length, off the dependency problem).
 export const caseStudies = [
   {
     id: "hummel-alex",
@@ -86,15 +79,6 @@ export const caseStudies = [
     problem: "Often whole workdays lost to paralysis, and no decision he could make with a clear head.",
     root: "Every failure and every decision came back to him, and nobody had made the decision rights explicit.",
     outcome: "He bought a second engagement, and he now practices saying no and cutting what only drains energy."
-  },
-  {
-    id: "tran-minh-algomate",
-    quote: "Your question-asking approach helped me save 10 to 15 hours of nonsense outreach.",
-    attribution: "Minh, Algomate",
-    problem: "Came in sure his execution was the problem.",
-    root: "He was afraid to commit to one niche, and he expected every first conversation to close.",
-    outcome: "A simple daily outreach routine he actually runs.",
-    caseStudySlug: "algomate-10-hours-a-week"
   }
 ]
 
