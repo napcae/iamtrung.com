@@ -8,7 +8,7 @@ export const founderDiagnosticMeta = {
 
 export const hero = {
   headline: "You hired leaders so the company would depend less on you. It still depends on you.",
-  subheadline: "Decisions they were hired to own still land on your desk. Maybe it's the wrong hire. Maybe it's the right person in a setup where they can't really own anything. One 90-minute session finds out which, before you replace anyone.",
+  subheadline: "Decisions they were hired to own still land on your desk. One 90-minute session finds out whether it's the hire or the setup around them, before you replace anyone.",
   cta: {
     priceLine: "€750 · 90 minutes",
     buttonText: "Book the diagnostic",
@@ -25,9 +25,8 @@ export const recognition = [
     id: "combined",
     headline: "You're compensating for it, and it works too well.",
     body: [
-      "You hired the COO, the Head of Ops, the senior lead. The team still waits for your yes. Take a week off and things slow down. You already tried delegating harder.",
-      "You're still the one who breaks the tie in the Slack thread. You sign off on the vendor everyone already agreed on. You get pulled back into the hire you delegated three months ago. Nobody has tested whether the team could decide without you, so you're still the fallback.",
-      "The setup was built for an earlier stage of the company. It still sends you decisions it shouldn't need you for. Nothing has visibly broken, because you keep absorbing the cost."
+      "The team still waits for your yes. You break the tie in the Slack thread and sign off on the vendor everyone already agreed on. Take a week off and things slow down.",
+      "Nothing has visibly broken, because you keep absorbing the cost."
     ]
   }
 ]
@@ -61,28 +60,24 @@ export const process = {
   sectionHeadline: "One session. 90 minutes. You leave with:",
   deliverables: [
     "A straight answer on whether it's the hire or the setup around them",
-    "The one thing to stop doing: the actual bottleneck, named, not the surface complaint you walked in with",
-    "The one move to make instead",
-    "1–3 real priorities replacing the current noise",
-    "A decision you'd been deferring, made",
-    "The number or fact you'd been avoiding, now in front of you"
+    "The one thing to stop doing: the actual bottleneck, named",
+    "The one move to make instead"
   ],
   test: "You should be able to tell your COO what you got in two sentences. If you can't, the session missed.",
-  beforeSession: "Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it. In the session we sort them into three piles: yours, someone else's, and the ones nobody ever decided. If you've hired leaders, the last two piles are where the hire-or-setup answer starts.",
-  hiredLeader: "If you hired someone to take this off your desk, the session is step one. If it's worth fixing, the next step is The Handoff, a separate engagement. We change who decides what with your leader in the room, run the company that way for 30 days and count what still comes back to you. Then we check whether the diagnosis was right. If you book it within 30 days of the session, the €750 comes off its price.",
-  whatItIsnt: "What it isn't: you won't get a plan to file away or a weekly check-in. If you need more help, or someone other than me, I'll tell you. What you do with it is yours."
+  beforeSession: "Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it.",
+  whatItIsnt: "What it isn't: you won't get a plan to file away or a weekly check-in. If you need someone other than me, I'll tell you."
 }
 
 export const about = {
   whoFor: "A founder-led company with customers and a team, where you've hired a COO or Head of Ops, or are hiring one, to take decisions off you. If you don't have a team yet, this isn't the right first step.",
-  pattern: "Most of the money founders have paid me came from this situation: the company still ran through them, whatever they'd already tried. Bringing in managers solves one growing pain and starts the next one, because the authority doesn't move with the title.",
-  math: "If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup. If you're about to replace your leader or send them on a leadership program, check the setup first: both bet on the person. You can postpone the decision. You can't postpone what the current system keeps costing you."
+  pattern: "Most of the money founders have paid me came from this situation: the company still ran through them, whatever they'd already tried.",
+  math: "If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup."
 }
 
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
 // real name; all others are role/stage only (namePublic=false -> attribution only).
 // Order (2026-10-20): Alex first, the one card whose buyer hired people and still had
-// the decisions come back (the Q4 lead); then fast proof (Minh), then Johny.
+// the decisions come back (the Q4 lead); then fast proof (Minh). Johny cut 2026-10-27 (page length).
 export const caseStudies = [
   {
     id: "hummel-alex",
@@ -100,14 +95,6 @@ export const caseStudies = [
     root: "He was afraid to commit to one niche, and he expected every first conversation to close.",
     outcome: "A simple daily outreach routine he actually runs.",
     caseStudySlug: "algomate-10-hours-a-week"
-  },
-  {
-    id: "harris-johny",
-    quote: "You know that way you already know something, but it hits when someone says it to you straight? Sometimes you just need to take your medicine.",
-    attribution: "Johny Harris, Dai Viet Rugby",
-    problem: "Avoided selling for a year to build community trust first.",
-    root: "Without sales there's no money to keep the mission going.",
-    outcome: "Published the three insights himself, unprompted."
   }
 ]
 
@@ -126,8 +113,8 @@ export const cta = {
   },
   diagnostic: {
     headline: "The Diagnostic: €750",
-    body: "One 90-minute session on why decisions still come back to you. You leave knowing whether it's the hire or the setup, and the first change to make. After checkout you pick a time, answer three short questions and start your decision log. No screening call, no waiting for a reply.",
-    credit: "If it's worth fixing, the €750 comes off The Handoff when you book it within 30 days of the session.",
+    body: "One 90-minute session on why decisions still come back to you. After checkout you pick a time, answer three short questions and start your decision log. No screening call.",
+    credit: "If it's worth fixing, the next step is The Handoff: 30 days with your leader in the room, counting what still comes back to you. Book it within 30 days of the session and the €750 comes off its price.",
     buttonText: "Book the diagnostic",
     buttonUrl: "https://buy.stripe.com/4gMfZidgA6Y61rebxj38406"
   },
