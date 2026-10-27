@@ -76,7 +76,7 @@ export const caseStudies = [
     id: "hummel-alex",
     quote: "Endless chaos from too many projects with the wrong people, combined with my inability to let go.",
     attribution: "Alex, founder, IT services company (translated from German)",
-    problem: "Often whole workdays lost to paralysis, and no decision he could make with a clear head.",
+    problem: "He often lost whole workdays to paralysis and couldn't make a decision with a clear head.",
     root: "Every failure and every decision came back to him, and nobody had made the decision rights explicit.",
     outcome: "He bought a second engagement, and he now practices saying no and cutting what only drains energy."
   }
@@ -98,7 +98,7 @@ export const cta = {
   diagnostic: {
     headline: "The Diagnostic: €750",
     body: "One 90-minute session on why decisions still come back to you. After checkout you pick a time, answer three short questions and start your decision log. No screening call.",
-    credit: "If it's worth fixing, the next step is The Handoff: 30 days with your leader in the room, counting what still comes back to you. Book it within 30 days of the session and the €750 comes off its price.",
+    credit: "If it's worth fixing, the next step is The Handoff: we change who decides what with your leader in the room, then count what still comes back to you for 30 days. Book it within 30 days of the session and the €750 comes off its price.",
     buttonText: "Book the diagnostic",
     buttonUrl: "https://buy.stripe.com/4gMfZidgA6Y61rebxj38406"
   },
