@@ -27,7 +27,7 @@ He bought a second engagement.
 
 ## What you walk out with
 
-- A straight answer: the hire or the setup around them
+- A written diagnosis: the hire or the setup around them
 - The thing to stop doing, said plainly
 - The one move to make instead
 

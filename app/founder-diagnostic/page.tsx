@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { SiteFooter } from "@/components/site-footer"
 import type { Metadata } from "next"
 import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, MessageSquare, HelpCircle, NotebookPen } from "lucide-react"
@@ -318,6 +319,16 @@ export default function FounderDiagnosticPage() {
             TrungOPS/context/website/landing-page.md, Section 8. */}
         <section className="py-24 px-6 md:px-12 lg:px-24 bg-earth-light">
           <div className="w-full max-w-2xl mx-auto text-center">
+            {/* Judges' table photo (2026-10-27, TrungOPS photo bank P236): the title on the name card was printed
+                by the organiser, not us. It sits with the career line at the ask, never in the hero. */}
+            <div className="relative aspect-[4/3] w-full max-w-xl mx-auto mb-6 rounded-lg overflow-hidden border border-earth-light/30">
+              <Image
+                src="/trung-judges-table.jpg"
+                alt="Trung Nguyen questioning a startup pitch from the judges' table, name card reading Founder Bottleneck Diagnostician"
+                fill
+                className="object-cover"
+              />
+            </div>
             <p className="text-base font-normal leading-relaxed text-earth-muted mb-10 max-w-xl mx-auto">
               {cta.about.text}{" "}
               <TrackedLink event="about_bottom" href={cta.about.url} className="underline hover:text-earth-dark transition-colors">
