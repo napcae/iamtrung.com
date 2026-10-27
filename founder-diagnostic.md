@@ -44,7 +44,7 @@ OutcomeHe bought a second engagement, and he now practices saying no and cutting
 
 ## One session. 90 minutes. You leave with:
 
-- A straight answer on whether it's the hire or the setup around them
+- A written diagnosis: whether it's the hire or the setup around them
 - The one thing to stop doing: the actual bottleneck, named
 - The one move to make instead
 
@@ -65,6 +65,8 @@ Most of the money founders have paid me came from this situation: the company st
 ### The cost
 
 If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup.
+
+![Trung Nguyen questioning a startup pitch from the judges' table, name card reading Founder Bottleneck Diagnostician](/trung-judges-table.jpg)
 
 Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders. [More about me](/about)
 
