@@ -18,26 +18,20 @@ export const metadata = {
 }
 
 const fitFor = [
-  "You have customers, a team and at least one senior hire (a COO, Head of Ops, GM or functional head) who was meant to take decisions off you.",
+  "You have customers, a team and at least one senior hire who was meant to take decisions off you.",
   "Your team still waits for your yes on calls you already handed off.",
-  "You take a week off and things slow down.",
   "You've started to wonder whether you hired the wrong person.",
-  "Or you're about to make that hire and want to know what it has to take off your plate before it starts.",
+  "Or you're about to make that hire.",
 ]
 
 const fitNotFor = [
-  "You want someone to confirm the hire is underperforming without looking at the setup around them.",
-  "You want an interim COO, or someone to manage your team for you.",
+  "You want someone to confirm the hire is the problem without looking at the setup.",
+  "You want an interim COO.",
 ]
 
 const beforeYouDecide = [
   { href: "/essays/what-happens-in-a-diagnostic", title: "What happens during a Founder Bottleneck Diagnostic?" },
-  { href: "/essays/hired-the-task-not-the-problem", title: "I hired someone. Why is the problem still on my desk?" },
   { href: "/essays/not-always-the-founder", title: "How do I know you won't just tell me I'm the bottleneck?" },
-  {
-    href: "/essays/coach-consultant-diagnostician",
-    title: "Founder coach vs. consultant vs. diagnostician: which one do you actually need?",
-  },
 ]
 
 const sectionClass = "py-24 md:py-32 px-6 md:px-12 lg:px-24"
@@ -63,9 +57,8 @@ export default function Home() {
                   <span className="text-earth-accent">They still come back to you.</span>
                 </h1>
                 <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal">
-                  I'm Trung Nguyen. I work with founder-led companies at exactly this point. I find out why the
-                  decisions route back to you, whether it's the person, the role or a setup nobody changed when
-                  they arrived. Then we move them to the people you hired to own them.
+                  I'm Trung Nguyen. I find out why the decisions route back to you: the person, the role or a setup
+                  nobody changed when they arrived. Then we move them to the people you hired to own them.
                 </p>
                 <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
                   <Link href="/founder-diagnostic">
@@ -131,22 +124,12 @@ export default function Home() {
             <h2 className={headingClass}>It's a stage, not a character flaw</h2>
             <div className="space-y-8">
               <p className={bodyClass}>
-                Larry Greiner described it in Harvard Business Review in 1972. Hiring managers solves the first
-                growth crisis, the one where everything depends on the founder. It starts the next one when
-                authority doesn't actually move.
+                Larry Greiner described this stage in Harvard Business Review in 1972. Hiring managers solves the
+                first growth crisis and starts the next one when authority doesn't actually move.
               </p>
               <p className={bodyClass}>
-                The approval paths, the habits and the Slack threads still lead to you. So you suspect the hire, and
-                the hire learns to wait.
-              </p>
-              <p className={bodyClass}>
-                Sometimes it is the person. Often it's the role, the team's habits or an approval path nobody
-                redesigned. Until someone finds out which, you keep deciding things you already pay someone else to
-                decide.
-              </p>
-              <p className={bodyClass}>
-                Replacing the hire costs a search and months with the seat empty. If the setup was the problem, the
-                next hire walks into the same one.
+                Sometimes it is the person. Often it's the role or an approval path nobody redesigned. Replace the
+                hire without finding out which, and the next one walks into the same setup.
               </p>
               <Link href="/essays/hired-the-task-not-the-problem" className={textLinkClass}>
                 I hired someone. Why is the problem still on my desk?
@@ -161,47 +144,41 @@ export default function Home() {
         <AnimatedSection id="why-me" className={`${sectionClass} bg-earth-light`}>
           <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
-              <h2 className={`${headingClass} mb-6`}>I've sat in all three chairs</h2>
-              <p className="text-lg text-earth-muted mb-12 max-w-md">
-                The founder who holds everything, the person everything routes through, and the hired leader who's
-                meant to take it over.
-              </p>
-              <div className="relative aspect-[4/3] rounded-lg overflow-hidden border border-earth-light/30">
-                <Image src="./workshop.jpg" alt="Trung Nguyen with a group of founders" fill className="object-cover" />
+              <h2 className={`${headingClass} mb-12`}>I've sat in all three chairs</h2>
+              <div className="relative aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
+                <Image
+                  src="./trung-roundtable.jpg"
+                  alt="Trung Nguyen explaining a point at a founder roundtable"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
             <div className="space-y-10">
               <div className="space-y-3">
                 <h3 className="text-xl font-medium text-earth-accent">The founder's chair</h3>
                 <p className={bodyClass}>
-                  Years ago I ran a small IT consultancy. I said yes to everything, did all of it myself, burned out
-                  and lost the clients.
+                  I ran a small IT consultancy, said yes to everything, burned out and lost the clients.
                 </p>
               </div>
               <div className="space-y-3">
                 <h3 className="text-xl font-medium text-earth-accent">The chair everything routes through</h3>
                 <p className={bodyClass}>
-                  At a media group's digital unit, every resource request went through corporate IT and took six
-                  months. We moved development off that path, and the same requests took a week.
-                </p>
-                <p className={bodyClass}>
-                  At Contentful I was one of two people on the security team while sales took off. Every customer's
-                  security questionnaire landed on us. More effort didn't fix it. A rule about what reaches the team
-                  did: pre-sales answered the standard questions first.
+                  At Contentful I was one of two people on the security team while sales took off. More effort
+                  didn't fix it. A rule about what reaches the team did.
                 </p>
               </div>
               <div className="space-y-3">
                 <h3 className="text-xl font-medium text-earth-accent">The hired leader's chair</h3>
                 <p className={bodyClass}>
-                  At Workpath I led infrastructure. In 2022 a peer review named me as the person the application
-                  depended on. A year later the team ran without me, and a small platform team carried about six
-                  product teams shipping at the same time. I was given context and goals and left to run it, which
-                  is what you hired your leader for.
+                  At Workpath I led infrastructure. A peer review named me as the person the application depended
+                  on, and a year later the team ran without me. I'd been given context and goals and left to run
+                  it, which is what you hired your leader for.
                 </p>
               </div>
               <p className={bodyClass}>
                 Since 2025 I've run these diagnostics with founders in SaaS, legal tech, IT services, sports tech and
-                e-commerce. The complaints differ. The way decisions route back to the founder repeats.
+                e-commerce. The way decisions route back to the founder repeats.
               </p>
               <Link href="/about#background" className={textLinkClass}>
                 More about my background
@@ -211,7 +188,8 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
-        {/* 5. Proof: founders and one hired leader. Alex: first name, website use cleared 2026-10-20; Dung Mai: full name cleared on his recorded call (TrungOPS
+        {/* 5. Proof: founders and one hired leader. Alex: first name, website use cleared 2026-10-20; Dung Mai's card cut 2026-10-27 for length (still cleared,
+            TrungOPS
             testimonials/wall-of-love.md); German original is the citable source. The hired-leader quote is
             from a public post by the engineer himself; it stays unattributed until he confirms naming. */}
         <AnimatedSection id="proof" className={sectionClass}>
@@ -225,27 +203,12 @@ export default function Home() {
                     "Endless chaos from too many projects with the wrong people, paired with my inability to let go.
                     Often whole workdays lost to paralysis."
                   </p>
-                  <p>"The investment in clarity is a key to focus, focus is the key to success."</p>
                 </blockquote>
                 <footer className="text-earth-muted">
                   <cite itemProp="author" className="not-italic font-normal text-earth-dark">
                     Alex
                   </cite>
                   , founder of an IT services company, client across two engagements (translated from German)
-                </footer>
-              </article>
-              <article itemScope itemType="https://schema.org/Review" className="space-y-4">
-                <p className="text-sm uppercase tracking-widest text-earth-muted">A founder, on what the work is</p>
-                <blockquote itemProp="reviewBody" className={bodyClass}>
-                  "Actually identifying, naming the problem. It's one of the biggest things, because implementation
-                  is cheap."
-                </blockquote>
-                <footer className="text-earth-muted">
-                  <cite itemProp="author" className="not-italic font-normal text-earth-dark">
-                    Dung Mai
-                  </cite>
-                  , Pathfinder Softworks. He still qualifies his own clients with a line from our first
-                  conversation: "show me the code… and I can tell you how your operation looks like."
                 </footer>
               </article>
               <article className="space-y-4">
@@ -284,10 +247,8 @@ export default function Home() {
                 <h3 className="text-2xl font-medium text-earth-accent">2. The Handoff</h3>
                 <p className="text-xl leading-relaxed font-medium">30 days to get decisions off your desk and onto your COO's.</p>
                 <p className={bodyClass}>
-                  When the answer is to move decisions, we move them and check that they stay moved. Before we
-                  start, you or your hired leader log every decision that reaches you for a week. Then: the
-                  diagnostic, a redesign session with your hired leader in the room, 30 days of running under the
-                  change, and a verify session that compares the count to where you started.
+                  You or your hired leader log every decision that reaches you for a week. We change who decides
+                  what with your leader in the room, run it for 30 days and compare the count to where you started.
                 </p>
                 <p className="text-lg text-earth-muted">Scoped and priced per company after the diagnostic.</p>
               </div>

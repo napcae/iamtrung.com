@@ -52,7 +52,7 @@ export const teardown = {
 export const process = {
   sectionHeadline: "One session. 90 minutes. You leave with:",
   deliverables: [
-    "A straight answer on whether it's the hire or the setup around them",
+    "A written diagnosis: whether it's the hire or the setup around them",
     "The one thing to stop doing: the actual bottleneck, named",
     "The one move to make instead"
   ],
