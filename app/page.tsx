@@ -18,7 +18,6 @@ export const metadata = {
 }
 
 const fitFor = [
-  "You have customers, a team and at least one senior hire who was meant to take decisions off you.",
   "Your team still waits for your yes on calls you already handed off.",
   "You've started to wonder whether you hired the wrong person.",
   "Or you're about to make that hire.",
@@ -57,8 +56,8 @@ export default function Home() {
                   <span className="text-earth-accent">They still come back to you.</span>
                 </h1>
                 <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal">
-                  I'm Trung Nguyen. I find out why the decisions route back to you: the person, the role or a setup
-                  nobody changed when they arrived. Then we move them to the people you hired to own them.
+                  I'm Trung Nguyen. I find out why the decisions route back to you. Then we move them to the people
+                  you hired to own them.
                 </p>
                 <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
                   <Link href="/founder-diagnostic">
@@ -124,8 +123,8 @@ export default function Home() {
             <h2 className={headingClass}>It's a stage, not a character flaw</h2>
             <div className="space-y-8">
               <p className={bodyClass}>
-                Larry Greiner described this stage in Harvard Business Review in 1972. Hiring managers solves the
-                first growth crisis and starts the next one when authority doesn't actually move.
+                Larry Greiner described this stage in Harvard Business Review in 1972. Bringing in managers solves
+                the first growth crisis and starts the next one when authority doesn't actually move.
               </p>
               <p className={bodyClass}>
                 Sometimes it is the person. Often it's the role or an approval path nobody redesigned. Replace the
@@ -178,7 +177,7 @@ export default function Home() {
               </div>
               <p className={bodyClass}>
                 Since 2025 I've run these diagnostics with founders in SaaS, legal tech, IT services, sports tech and
-                e-commerce. The way decisions route back to the founder repeats.
+                e-commerce.
               </p>
               <Link href="/about#background" className={textLinkClass}>
                 More about my background
@@ -235,7 +234,7 @@ export default function Home() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-medium text-earth-accent">1. Founder Bottleneck Diagnostic</h3>
                 <p className={bodyClass}>
-                  90 minutes, €750, book and pay directly. We find why the decisions route back to you. You leave
+                  90 minutes, €750, book and pay directly. You leave
                   with a written diagnosis and the first change to make. It works on its own.
                 </p>
                 <Link href="/founder-diagnostic" className={textLinkClass}>
@@ -245,7 +244,7 @@ export default function Home() {
               </div>
               <div className="space-y-4">
                 <h3 className="text-2xl font-medium text-earth-accent">2. The Handoff</h3>
-                <p className="text-xl leading-relaxed font-medium">30 days to get decisions off your desk and onto your COO's.</p>
+                <p className="text-xl leading-relaxed font-medium">30 days to get decisions off your desk and onto your leader's.</p>
                 <p className={bodyClass}>
                   You or your hired leader log every decision that reaches you for a week. We change who decides
                   what with your leader in the room, run it for 30 days and compare the count to where you started.
