@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import type { Metadata } from "next"
-import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, RotateCw, Users, MessageSquare, HelpCircle, NotebookPen } from "lucide-react"
+import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, MessageSquare, HelpCircle, NotebookPen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
@@ -200,28 +200,6 @@ export default function FounderDiagnosticPage() {
                 </div>
               </div>
 
-              {/* The loop */}
-              <div className="flex gap-6">
-                <RotateCw className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-sm text-earth-accent uppercase tracking-wide font-medium mb-3">The loop it breaks</h3>
-                  <div className="flex flex-wrap items-center gap-x-2 gap-y-2">
-                    {teardown.loop.map((node, i) => (
-                      <span key={i} className="flex items-center">
-                        <span className="rounded-full border border-earth-accent/40 px-4 py-2 text-sm font-normal text-earth-dark bg-earth-background">
-                          {node}
-                        </span>
-                        {i < teardown.loop.length - 1 ? (
-                          <ArrowRight className="h-4 w-4 mx-1 text-earth-muted" />
-                        ) : (
-                          <RotateCw className="h-4 w-4 mx-1 text-earth-muted" />
-                        )}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
               {/* The real bottleneck */}
               <div className="border-l-4 border-earth-accent pl-6 py-2">
                 <p className="text-xl font-normal leading-relaxed text-earth-dark">{teardown.realBottleneck}</p>
@@ -295,11 +273,6 @@ export default function FounderDiagnosticPage() {
               </div>
 
               <div className="flex gap-6">
-                <Users className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
-                <p className="text-lg font-normal leading-relaxed">{process.hiredLeader}</p>
-              </div>
-
-              <div className="flex gap-6">
                 <Search className="h-6 w-6 text-earth-accent flex-shrink-0 mt-1" />
                 <p className="text-lg font-normal leading-relaxed">{process.whatItIsnt}</p>
               </div>
@@ -335,21 +308,6 @@ export default function FounderDiagnosticPage() {
                 </div>
               </div>
 
-            </div>
-          </div>
-        </section>
-
-        {/* Section: Case studies (more proof) */}
-        <section className="py-24 px-6 md:px-12 lg:px-24">
-          <div className="w-full max-w-4xl mx-auto">
-            <p className="text-sm text-earth-muted font-normal tracking-wide uppercase mb-12">
-              What founders say
-            </p>
-
-            <div className="space-y-8">
-              {caseStudies.slice(1).map((c) => (
-                <CaseCard key={c.id} c={c} />
-              ))}
             </div>
           </div>
         </section>
@@ -443,7 +401,7 @@ function CaseCard({ c }: { c: (typeof caseStudies)[number] }) {
           <dd className="text-earth-dark">{c.outcome}</dd>
         </div>
       </dl>
-      {"caseStudySlug" in c && c.caseStudySlug && (
+      {"caseStudySlug" in c && typeof c.caseStudySlug === "string" && (
         <Link
           href={`/case-studies/${c.caseStudySlug}`}
           className="inline-flex items-center mt-6 text-sm text-earth-accent hover:underline"
