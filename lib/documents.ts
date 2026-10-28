@@ -14,6 +14,7 @@ export interface BrandedDocument {
   label: string
   description: string
   updated: string
+  image: string
   content: string
 }
 
@@ -33,6 +34,7 @@ export function getDocument(slug: string): BrandedDocument {
     label: data.label ?? "",
     description: data.description ?? "",
     updated: data.updated ? String(data.updated) : "",
+    image: data.image ?? "",
     content,
   }
 }

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { defaultOgImage } from "@/lib/og"
 import { SiteFooter } from "@/components/site-footer"
 import type { Metadata } from "next"
 import { ArrowRight, Check, AlertCircle, Network, TrendingUp, ClipboardList, Search, Compass, MessageSquare, HelpCircle, NotebookPen } from "lucide-react"
@@ -30,20 +31,13 @@ export const metadata: Metadata = {
     siteName: "Trung Nguyen",
     title: founderDiagnosticMeta.title,
     description: founderDiagnosticMeta.description,
-    images: [
-      {
-        url: "/og/founder-bottleneck-diagnostic.png",
-        width: 1200,
-        height: 630,
-        alt: "Founder Bottleneck Diagnostic — 90 minutes, one constraint, one decision",
-      },
-    ],
+    images: [defaultOgImage],
   },
   twitter: {
     card: "summary_large_image",
     title: founderDiagnosticMeta.title,
     description: founderDiagnosticMeta.description,
-    images: ["/og/founder-bottleneck-diagnostic.png"],
+    images: [defaultOgImage.url],
   },
 }
 

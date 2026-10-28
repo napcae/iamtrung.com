@@ -149,7 +149,7 @@ if (diagnosticHtml) {
     "founder-diagnostic inherits the homepage og:url",
   )
   check(
-    metaContent(diagnosticHtml, "og:title") === "Founder Bottleneck Diagnostic | Trung Nguyen",
+    metaContent(diagnosticHtml, "og:title") === "Why decisions still come back to you | Founder Bottleneck Diagnostic",
     "founder-diagnostic inherits the homepage og:title",
   )
   check(
@@ -160,12 +160,21 @@ if (diagnosticHtml) {
   check(/"price":"750","priceCurrency":"EUR"/.test(diagnosticHtml), "Service JSON-LD price is missing or stale")
 }
 
-// 8. Social previews use the branded decision graphic, not the raw portrait.
+// 8. Social previews use the branded reader-first graphic, not the raw portrait, and every
+//    forwarded /d/ document previews as itself (WhatsApp showed the homepage until 2026-10-28).
 const homeHtml = read("index.html")
 if (homeHtml) {
   check(
-    metaContent(homeHtml, "og:image") === "https://iamtrung.com/og/founder-bottleneck-diagnostic.png",
-    "homepage og:image is not the branded diagnostic graphic",
+    metaContent(homeHtml, "og:image") === "https://iamtrung.com/og/reader-first-site.png",
+    "homepage og:image is not the branded reader-first graphic",
+  )
+}
+for (const file of fs.readdirSync(path.join(outDir, "d")).filter((f) => f.endsWith(".html"))) {
+  const slug = file.replace(/\.html$/, "")
+  const docHtml = read(`d/${file}`)
+  check(
+    metaContent(docHtml, "og:url") === `https://iamtrung.com/d/${slug}`,
+    `d/${slug} does not preview as itself (og:url)`,
   )
 }
 

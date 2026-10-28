@@ -1,29 +1,18 @@
 ---
 title: You hired good people. Decisions still come back to you.
-label: Founder Bottleneck Diagnostic
+label: For founders with a leadership team
 description: For founders who hired good people and still get every decision back. One 90-minute session finds out whether it's the hire or the setup.
-updated: 2026-10-27
+updated: 2026-10-28
 source: TrungOPS/partnerships/referral-handout.md
 audience: prospect
+image: /og/reader-first-diagnostic-handout.png
 ---
 
-## The short version
+## Is it the hire or the setup?
 
 You hired a COO, a Head of Ops or a senior lead so the company would depend less on you. It still depends on you, and you're starting to wonder if you hired the wrong person.
 
 Maybe you did. Maybe it's the right person in a setup where they can't own anything. One 90-minute session finds out which. It's not for you if you're at idea stage or you want ongoing coaching.
-
-## Who's behind it
-
-I'm Trung. Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders.
-
-## What a founder said
-
-> "Endless chaos from too many projects with the wrong people, combined with my inability to let go."
->
-> Alex, founder, IT services company (translated from German)
-
-He bought a second engagement.
 
 ## What you walk out with
 
@@ -32,6 +21,18 @@ He bought a second engagement.
 - The one move to make instead
 
 If you can't tell your COO what you got in two sentences, the session missed.
+
+## Sound familiar?
+
+> "Endless chaos from too many projects with the wrong people, combined with my inability to let go."
+>
+> Alex, founder, IT services company (translated from German)
+
+He bought a second engagement.
+
+## Who you'd be working with
+
+It's me, Trung. Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders.
 
 ## How it works
 

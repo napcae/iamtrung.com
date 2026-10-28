@@ -2,7 +2,7 @@
 // Source of truth: napcae/TrungOPS — regenerate there, then sync here.
 
 export const founderDiagnosticMeta = {
-  title: "Founder Bottleneck Diagnostic | Trung Nguyen",
+  title: "Why decisions still come back to you | Founder Bottleneck Diagnostic",
   description: "You hired leaders and the decisions still come back to you. A 90-minute diagnostic finds out whether it's the hire or the setup around them. €750, book directly, no call required."
 }
 
@@ -50,7 +50,7 @@ export const teardown = {
 }
 
 export const process = {
-  sectionHeadline: "One session. 90 minutes. You leave with:",
+  sectionHeadline: "What you leave with after one 90-minute session",
   deliverables: [
     "A written diagnosis: whether it's the hire or the setup around them",
     "The one thing to stop doing: the actual bottleneck, named",
@@ -63,7 +63,7 @@ export const process = {
 
 export const about = {
   whoFor: "A founder-led company with customers and a team, where you've hired a COO or Head of Ops, or are hiring one, to take decisions off you. If you don't have a team yet, this isn't the right first step.",
-  pattern: "Most of the money founders have paid me came from this situation: the company still ran through them, whatever they'd already tried.",
+  pattern: "You're in good company. Most of what founders have paid me for is this situation: the company still ran through them, whatever they'd already tried.",
   math: "If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup."
 }
 
@@ -96,7 +96,7 @@ export const cta = {
     url: "/about"
   },
   diagnostic: {
-    headline: "The Diagnostic: €750",
+    headline: "Get your answer in 90 minutes: €750",
     body: "One 90-minute session on why decisions still come back to you. After checkout you pick a time, answer three short questions and start your decision log. No screening call.",
     credit: "If it's worth fixing, the next step is The Handoff: we change who decides what with your leader in the room, then count what still comes back to you for 30 days. Book it within 30 days of the session and the €750 comes off its price.",
     buttonText: "Book the diagnostic",

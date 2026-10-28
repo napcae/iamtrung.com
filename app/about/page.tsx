@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { SocialIcons } from "@/components/social-icons"
 import { entityDescription, personSchema } from "@/components/structured-data"
+import { defaultOgImage } from "@/lib/og"
 
 // Entity page — the canonical answer to "Who is Trung Nguyen?" for people
 // and for crawlers. Copy source of truth: TrungOPS context/website/entity-pages.md
@@ -17,6 +18,15 @@ export const metadata = {
   title: { absolute: "About Trung Nguyen — Founder Bottleneck Diagnostician" },
   description: entityDescription,
   alternates: { canonical: "/about" },
+  openGraph: {
+    type: "profile",
+    url: "/about",
+    siteName: "Trung Nguyen",
+    title: "Who you'd be working with: Trung Nguyen",
+    description:
+      "He has been the founder who held everything, the person everything ran through and the hired leader meant to take it over. So he can read your setup from every seat.",
+    images: [defaultOgImage],
+  },
 }
 
 const profilePageSchema = {
