@@ -1,6 +1,6 @@
 ---
 title: When your client hired a COO and is still the COO
-label: Partner one-pager
+label: For fractional operators, recruiters, lawyers and room hosts
 description: So your placement sticks and your engagement keeps moving. How to spot the founder, and how to pass a name on in two minutes.
 updated: 2026-10-28
 source: TrungOPS/partnerships/one-pager.md
