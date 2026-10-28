@@ -25,7 +25,7 @@ export const recognition = [
     id: "combined",
     headline: "You're covering for the setup, and it works too well.",
     body: [
-      "The team still waits for your yes. You break the tie in the Slack thread and sign off on the vendor everyone already agreed on. Take a week off and things slow down."
+      "The team still waits for your yes. Nothing reports to you on its own, so you check each project and each deal yourself. Take a week off and things slow down."
     ]
   }
 ]
@@ -56,15 +56,15 @@ export const process = {
     "The one thing to stop doing: the actual bottleneck, named",
     "The one move to make instead"
   ],
-  test: "You should be able to tell your COO what you got in two sentences. If you can't, the session missed.",
-  beforeSession: "Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it.",
+  test: "You should be able to tell your COO or co-founder what you got in two sentences. If you can't, the session missed.",
+  beforeSession: "Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it. In the session, you tell me what you think the problem is. Then we check it against your log until one pattern explains most of it.",
   whatItIsnt: "What it isn't: you won't get a plan to file away or a weekly check-in. If you need someone other than me, I'll tell you."
 }
 
 export const about = {
   whoFor: "A founder-led company with customers and a team, where you've hired a COO or Head of Ops, or are hiring one, to take decisions off you. If you don't have a team yet, this isn't the right first step.",
   pattern: "You're in good company. Most of what founders have paid me for is this situation: the company still ran through them, whatever they'd already tried.",
-  math: "If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup."
+  math: "If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup. You can put this off. The decisions keep coming to you anyway."
 }
 
 // Case studies. Only entries cleared in TrungOPS/output/testimonials.json carry a
