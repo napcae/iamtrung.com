@@ -50,7 +50,7 @@ export const teardown = {
 }
 
 export const process = {
-  sectionHeadline: "One session. 90 minutes. You leave with:",
+  sectionHeadline: "What you leave with after one 90-minute session",
   deliverables: [
     "A written diagnosis: whether it's the hire or the setup around them",
     "The one thing to stop doing: the actual bottleneck, named",
@@ -96,7 +96,7 @@ export const cta = {
     url: "/about"
   },
   diagnostic: {
-    headline: "The Diagnostic: €750",
+    headline: "Get your answer in 90 minutes: €750",
     body: "One 90-minute session on why decisions still come back to you. After checkout you pick a time, answer three short questions and start your decision log. No screening call.",
     credit: "If it's worth fixing, the next step is The Handoff: we change who decides what with your leader in the room, then count what still comes back to you for 30 days. Book it within 30 days of the session and the €750 comes off its price.",
     buttonText: "Book the diagnostic",

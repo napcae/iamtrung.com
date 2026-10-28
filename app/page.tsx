@@ -20,7 +20,7 @@ export const metadata = {
     type: "website",
     url: "/",
     siteName: "Trung Nguyen",
-    title: "Trung Nguyen — Founder Bottleneck Diagnostician",
+    title: "You hired leaders. Decisions still come back to you.",
     description: homeOgDescription,
     images: [defaultOgImage],
   },
@@ -59,7 +59,7 @@ export default function Home() {
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
-                <p className="text-sm uppercase tracking-widest text-earth-muted">Founder Bottleneck Diagnostician</p>
+                <p className="text-sm uppercase tracking-widest text-earth-muted">For founders with a leadership team</p>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
                   You hired senior leaders to own the decisions.{" "}
                   <span className="text-earth-accent">They still come back to you.</span>
@@ -132,8 +132,8 @@ export default function Home() {
             <h2 className={headingClass}>It's a stage, not a character flaw</h2>
             <div className="space-y-8">
               <p className={bodyClass}>
-                Larry Greiner described this stage in Harvard Business Review in 1972. Bringing in managers solves
-                the first growth crisis and starts the next one when authority doesn't actually move.
+                Bringing in managers solves the first growth crisis and starts the next one when authority doesn't
+                actually move. Larry Greiner described this stage in Harvard Business Review in 1972.
               </p>
               <p className={bodyClass}>
                 Sometimes it is the person. Often it's the role or an approval path nobody redesigned. Replace the
@@ -152,7 +152,7 @@ export default function Home() {
         <AnimatedSection id="why-me" className={`${sectionClass} bg-earth-light`}>
           <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
-              <h2 className={`${headingClass} mb-12`}>I've sat in all three chairs</h2>
+              <h2 className={`${headingClass} mb-12`}>Someone who's sat in all three of your chairs</h2>
               <div className="relative aspect-[3/2] rounded-lg overflow-hidden border border-earth-light/30">
                 <Image
                   src="./trung-roundtable.jpg"
@@ -202,7 +202,7 @@ export default function Home() {
             from a public post by the engineer himself; it stays unattributed until he confirms naming. */}
         <AnimatedSection id="proof" className={sectionClass}>
           <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <h2 className={headingClass}>From both sides of the table</h2>
+            <h2 className={headingClass}>Who's been where you are</h2>
             <div className="space-y-12">
               <article itemScope itemType="https://schema.org/Review" className="space-y-4">
                 <p className="text-sm uppercase tracking-widest text-earth-muted">A founder, before</p>
@@ -243,8 +243,8 @@ export default function Home() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-medium text-earth-accent">1. Founder Bottleneck Diagnostic</h3>
                 <p className={bodyClass}>
-                  90 minutes, €750, book and pay directly. You leave
-                  with a written diagnosis and the first change to make. It works on its own.
+                  You leave with a written diagnosis and the first change to make. 90 minutes, €750, book and pay
+                  directly. It works on its own.
                 </p>
                 <Link href="/founder-diagnostic" className={textLinkClass}>
                   See the diagnostic

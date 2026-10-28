@@ -22,9 +22,9 @@ export const metadata = {
     type: "profile",
     url: "/about",
     siteName: "Trung Nguyen",
-    title: "About Trung Nguyen — Founder Bottleneck Diagnostician",
+    title: "Who you'd be working with: Trung Nguyen",
     description:
-      "Who you'd be working with: Trung has been the founder who held everything, the person everything ran through and the hired leader meant to take it over.",
+      "He has been the founder who held everything, the person everything ran through and the hired leader meant to take it over. So he can read your setup from every seat.",
     images: [defaultOgImage],
   },
 }
