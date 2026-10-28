@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import type { Metadata } from "next"
+import { defaultOgImage } from "@/lib/og"
 
 // Indexed long-form content: essays (buyer-question articles), case
 // studies, and media appearances (podcast/video). Unlike /d/ documents
@@ -82,7 +83,7 @@ export function normalizeArticleDate(value: unknown): string {
 export function getArticleMetadata(kind: ArticleKind, slug: string): Metadata {
   const article = getArticle(kind, slug)
   const pathname = `/${kind}/${slug}`
-  const image = article.image || "/og/founder-bottleneck-diagnostic.png"
+  const image = article.image || defaultOgImage.url
   const imageSize = article.image ? { width: 1254, height: 1254 } : { width: 1200, height: 630 }
 
   return {

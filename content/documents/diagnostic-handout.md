@@ -2,9 +2,10 @@
 title: You hired good people. Decisions still come back to you.
 label: Founder Bottleneck Diagnostic
 description: For founders who hired good people and still get every decision back. One 90-minute session finds out whether it's the hire or the setup.
-updated: 2026-10-27
+updated: 2026-10-28
 source: TrungOPS/partnerships/referral-handout.md
 audience: prospect
+image: /og/reader-first-diagnostic-handout.png
 ---
 
 ## The short version
@@ -13,9 +14,13 @@ You hired a COO, a Head of Ops or a senior lead so the company would depend less
 
 Maybe you did. Maybe it's the right person in a setup where they can't own anything. One 90-minute session finds out which. It's not for you if you're at idea stage or you want ongoing coaching.
 
-## Who's behind it
+## What you walk out with
 
-I'm Trung. Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders.
+- A written diagnosis: the hire or the setup around them
+- The thing to stop doing, said plainly
+- The one move to make instead
+
+If you can't tell your COO what you got in two sentences, the session missed.
 
 ## What a founder said
 
@@ -25,13 +30,9 @@ I'm Trung. Before this I led infrastructure at Workpath. The job was taking my t
 
 He bought a second engagement.
 
-## What you walk out with
+## Who's behind it
 
-- A written diagnosis: the hire or the setup around them
-- The thing to stop doing, said plainly
-- The one move to make instead
-
-If you can't tell your COO what you got in two sentences, the session missed.
+I'm Trung. Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders.
 
 ## How it works
 

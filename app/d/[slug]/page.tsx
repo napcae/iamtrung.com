@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import ReactMarkdown from "react-markdown"
 import { getDocument, getDocumentSlugs, formatUpdated } from "@/lib/documents"
+import { defaultOgImage } from "@/lib/og"
 
 // Unlisted branded documents (handouts, one-pagers). Not in the nav or
 // sitemap, noindex — these are forwarded person to person, not marketing.
@@ -16,10 +17,27 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const doc = getDocument((await params).slug)
+  // Each document previews as itself when forwarded (WhatsApp, LinkedIn), never as the homepage.
+  const url = `/d/${doc.slug}`
+  const image = doc.image ? { url: doc.image, width: 1200, height: 630, alt: doc.title } : defaultOgImage
   return {
     title: `${doc.title} · Trung Nguyen`,
     description: doc.description,
     robots: { index: false, follow: false },
+    openGraph: {
+      type: "article",
+      url,
+      siteName: "Trung Nguyen",
+      title: doc.title,
+      description: doc.description,
+      images: [image],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: doc.title,
+      description: doc.description,
+      images: [image.url],
+    },
   }
 }
 

@@ -2,7 +2,7 @@
 // Source of truth: napcae/TrungOPS — regenerate there, then sync here.
 
 export const founderDiagnosticMeta = {
-  title: "Founder Bottleneck Diagnostic | Trung Nguyen",
+  title: "Why decisions still come back to you | Founder Bottleneck Diagnostic",
   description: "You hired leaders and the decisions still come back to you. A 90-minute diagnostic finds out whether it's the hire or the setup around them. €750, book directly, no call required."
 }
 
@@ -63,7 +63,7 @@ export const process = {
 
 export const about = {
   whoFor: "A founder-led company with customers and a team, where you've hired a COO or Head of Ops, or are hiring one, to take decisions off you. If you don't have a team yet, this isn't the right first step.",
-  pattern: "Most of the money founders have paid me came from this situation: the company still ran through them, whatever they'd already tried.",
+  pattern: "You're in good company. Most of what founders have paid me for is this situation: the company still ran through them, whatever they'd already tried.",
   math: "If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup."
 }
 

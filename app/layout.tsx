@@ -3,6 +3,7 @@ import { Inter, Instrument_Serif } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@/components/analytics'
 import { entityDescription } from '@/components/structured-data'
+import { defaultOgImage, homeOgDescription } from '@/lib/og'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -27,26 +28,19 @@ export const metadata: Metadata = {
     template: "%s | Trung Nguyen",
   },
   description: entityDescription,
+  // No og:url here: pages without their own openGraph must not preview as the homepage.
   openGraph: {
     type: "website",
-    url: "https://iamtrung.com",
     siteName: "Trung Nguyen",
     title: "Trung Nguyen — Founder Bottleneck Diagnostician",
-    description: entityDescription,
-    images: [
-      {
-        url: "/og/founder-bottleneck-diagnostic.png",
-        width: 1200,
-        height: 630,
-        alt: "Founder Bottleneck Diagnostic — 90 minutes, one constraint, one decision",
-      },
-    ],
+    description: homeOgDescription,
+    images: [defaultOgImage],
   },
   twitter: {
     card: "summary_large_image",
     title: "Trung Nguyen — Founder Bottleneck Diagnostician",
-    description: entityDescription,
-    images: ["/og/founder-bottleneck-diagnostic.png"],
+    description: homeOgDescription,
+    images: [defaultOgImage.url],
   },
 }
 

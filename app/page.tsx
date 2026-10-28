@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Navigation } from "@/components/navigation"
 import { AnimatedSection } from "@/components/animated-section"
 import { StructuredData, entityDescription } from "@/components/structured-data"
+import { defaultOgImage, homeOgDescription } from "@/lib/og"
 
 // Homepage — the page a referred founder checks before replying, and the page a
 // partner forwards. Copy source of truth: TrungOPS context/website/entity-pages.md
@@ -15,6 +16,14 @@ import { StructuredData, entityDescription } from "@/components/structured-data"
 export const metadata = {
   description: entityDescription,
   alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "Trung Nguyen",
+    title: "Trung Nguyen — Founder Bottleneck Diagnostician",
+    description: homeOgDescription,
+    images: [defaultOgImage],
+  },
 }
 
 const fitFor = [
@@ -56,8 +65,8 @@ export default function Home() {
                   <span className="text-earth-accent">They still come back to you.</span>
                 </h1>
                 <p className="text-lg md:text-xl text-earth-dark max-w-xl font-normal">
-                  I'm Trung Nguyen. I find out why the decisions route back to you. Then we move them to the people
-                  you hired to own them.
+                  You'll find out why the decisions route back to you, then we move them to the people you hired
+                  to own them. I'm Trung Nguyen, and I work with founder-led companies at exactly this point.
                 </p>
                 <div className="pt-4 flex flex-col sm:flex-row sm:items-center gap-4">
                   <Link href="/founder-diagnostic">
