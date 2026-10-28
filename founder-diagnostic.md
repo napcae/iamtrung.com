@@ -42,7 +42,7 @@ RootEvery failure and every decision came back to him, and nobody had made the d
 
 OutcomeHe bought a second engagement, and he now practices saying no and cutting what only drains energy.
 
-## One session. 90 minutes. You leave with:
+## What you leave with after one 90-minute session
 
 - A written diagnosis: whether it's the hire or the setup around them
 - The one thing to stop doing: the actual bottleneck, named
@@ -60,7 +60,7 @@ A founder-led company with customers and a team, where you've hired a COO or Hea
 
 ### The pattern
 
-Most of the money founders have paid me came from this situation: the company still ran through them, whatever they'd already tried.
+You're in good company. Most of what founders have paid me for is this situation: the company still ran through them, whatever they'd already tried.
 
 ### The cost
 
@@ -70,7 +70,7 @@ If it's the setup and you replace the person, you pay for a search and wait mont
 
 Before this I led infrastructure at Workpath. The job was taking my team off the critical path, so about six product teams could ship without waiting on us. Now I do that for founders. [More about me](/about)
 
-The Diagnostic: €750
+Get your answer in 90 minutes: €750
 
 One 90-minute session on why decisions still come back to you. After checkout you pick a time, answer three short questions and start your decision log. No screening call.
 

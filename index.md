@@ -1,8 +1,8 @@
-Founder Bottleneck Diagnostician
+For founders with a leadership team
 
 # You hired senior leaders to own the decisions. They still come back to you.
 
-I'm Trung Nguyen. I find out why the decisions route back to you. Then we move them to the people you hired to own them.
+You'll find out why the decisions route back to you, then we move them to the people you hired to own them. I'm Trung Nguyen, and I work with founder-led companies at exactly this point.
 
 [How the diagnostic works](/founder-diagnostic)
 
@@ -26,13 +26,13 @@ Before this: one of two people on Contentful's security team, then infrastructur
 
 ## It's a stage, not a character flaw
 
-Larry Greiner described this stage in Harvard Business Review in 1972. Bringing in managers solves the first growth crisis and starts the next one when authority doesn't actually move.
+Bringing in managers solves the first growth crisis and starts the next one when authority doesn't actually move. Larry Greiner described this stage in Harvard Business Review in 1972.
 
 Sometimes it is the person. Often it's the role or an approval path nobody redesigned. Replace the hire without finding out which, and the next one walks into the same setup.
 
 [I hired someone. Why is the problem still on my desk?](/essays/hired-the-task-not-the-problem)
 
-## I've sat in all three chairs
+## Someone who's sat in all three of your chairs
 
 ![Trung Nguyen explaining a point at a founder roundtable](./trung-roundtable.jpg)
 
@@ -52,7 +52,7 @@ Since 2025 I've run these diagnostics with founders in SaaS, legal tech, IT serv
 
 [More about my background](/about#background)
 
-## From both sides of the table
+## Who's been where you are
 
 A founder, before
 
@@ -71,7 +71,7 @@ An engineer I hired at Workpath, writing about it years later
 
 ### 1. Founder Bottleneck Diagnostic
 
-90 minutes, €750, book and pay directly. You leave with a written diagnosis and the first change to make. It works on its own.
+You leave with a written diagnosis and the first change to make. 90 minutes, €750, book and pay directly. It works on its own.
 
 [See the diagnostic](/founder-diagnostic)
 
