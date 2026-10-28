@@ -10,7 +10,7 @@ Decisions they were hired to own still land on your desk. One 90-minute session 
 
 ## You're covering for the setup, and it works too well.
 
-The team still waits for your yes. You break the tie in the Slack thread and sign off on the vendor everyone already agreed on. Take a week off and things slow down.
+The team still waits for your yes. Nothing reports to you on its own, so you check each project and each deal yourself. Take a week off and things slow down.
 
 ## What finding the bottleneck looks like
 
@@ -48,9 +48,9 @@ OutcomeHe bought a second engagement, and he now practices saying no and cutting
 - The one thing to stop doing: the actual bottleneck, named
 - The one move to make instead
 
-You should be able to tell your COO what you got in two sentences. If you can't, the session missed.
+You should be able to tell your COO or co-founder what you got in two sentences. If you can't, the session missed.
 
-Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it.
+Before we meet: until the session, write down every decision that reaches you, up to five working days. One line each: what it was and who sent it. In the session, you tell me what you think the problem is. Then we check it against your log until one pattern explains most of it.
 
 What it isn't: you won't get a plan to file away or a weekly check-in. If you need someone other than me, I'll tell you.
 
@@ -64,7 +64,7 @@ You're in good company. Most of what founders have paid me for is this situation
 
 ### The cost
 
-If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup.
+If it's the setup and you replace the person, you pay for a search and wait months with the seat empty. Then the next hire lands in the same setup. You can put this off. The decisions keep coming to you anyway.
 
 ![Trung Nguyen questioning a startup pitch from the judges' table, name card reading Founder Bottleneck Diagnostician](/trung-judges-table.jpg)
 
