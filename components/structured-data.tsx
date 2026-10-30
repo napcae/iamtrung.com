@@ -17,7 +17,7 @@ export const personSchema = {
   jobTitle: "Founder Bottleneck Diagnostician",
   description: entityDescription,
   disambiguatingDescription:
-    "This Trung Nguyen is a Vietnamese-German engineer turned Founder Bottleneck Diagnostician based in Ho Chi Minh City, Vietnam — not the Trung Nguyên Vietnamese coffee entrepreneur, and not any of the other people who share this name.",
+    "This Trung Nguyen is a Vietnamese-German engineer turned Founder Bottleneck Diagnostician based in Ho Chi Minh City, Vietnam — not Trung Nguyên, the Vietnamese coffee company (Trung Nguyên Legend), and not any of the other people who share this name.",
   sameAs: [
     "https://www.linkedin.com/in/ctn1991/",
     "https://theuncomfortzone.substack.com",

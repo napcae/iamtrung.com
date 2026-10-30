@@ -2,7 +2,7 @@
 title: When your client hired a COO and is still the COO
 label: For fractional operators, recruiters, lawyers and room hosts
 description: So your placement sticks and your engagement keeps moving. How to spot the founder, and how to pass a name on in two minutes.
-updated: 2026-10-28
+updated: 2026-10-30
 source: TrungOPS/partnerships/one-pager.md
 audience: partner
 image: /og/reader-first-partner-one-pager.png
@@ -38,3 +38,5 @@ You get a short note within two days of the first session: whether it went ahead
 If they'd rather reach out themselves, send them this:
 
 > "You hired good people and decisions still come back to you. Trung works out whether it's the person or the setup: iamtrung.com/d/diagnostic-handout"
+
+Please send the link, not just my name. Search "Trung Nguyen" and you get a coffee company.
