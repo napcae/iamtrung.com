@@ -4,6 +4,8 @@
 
 Trung Nguyen is a Founder Bottleneck Diagnostician. He works with founder-led companies that hired senior leaders and still see the important decisions route back to the founder, finding and naming why in a 90-minute diagnostic and then changing who owns those decisions.
 
+Not to be confused with Trung Nguyên, the Vietnamese coffee company.
+
 "I'm the person you call when things are moving but you're not sure you're moving in the right direction."
 
 > "He sees more than just the person that they are right now. He sees the potential…"
