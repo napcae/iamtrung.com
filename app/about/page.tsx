@@ -66,6 +66,9 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
               <div className="md:col-span-2 space-y-6">
                 <p className="text-xl leading-relaxed font-normal">{entityDescription}</p>
+                <p className="text-sm text-earth-muted">
+                  Not to be confused with Trung Nguyên, the Vietnamese coffee company.
+                </p>
                 <p className="text-xl leading-relaxed font-normal italic">
                   "I'm the person you call when things are moving but you're not sure you're moving in the
                   right direction."
