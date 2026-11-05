@@ -2,6 +2,11 @@
 
 What the founder thought was wrong, what the diagnostic found, and what changed. Names appear only where the client cleared them; every quote is verbatim.
 
+- [## The founder every decision came back to
+
+A founder with a small software team hired leads and installed a process. Decisions still routed back to him. What moved it was handing one person real ownership, and stopping before the next engagement started.
+
+November 5, 2026](/case-studies/everything-came-back-to-him)
 - [## The founder who kept changing the lever
 
 A bootstrapped SaaS founder booked a diagnostic to fix churn. The session found no churn problem — it found a business with no committed customer segment and a strategy that reset every two weeks.
