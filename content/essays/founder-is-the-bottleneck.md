@@ -10,6 +10,7 @@ related:
   - /essays/not-always-the-founder
   - /essays/hired-the-task-not-the-problem
 proof:
+  - /case-studies/everything-came-back-to-him
   - /case-studies/algomate-10-hours-a-week
   - /case-studies/building-instead-of-asking
 ---
