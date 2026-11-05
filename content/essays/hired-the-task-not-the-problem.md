@@ -9,6 +9,7 @@ related:
   - /essays/mechanic-not-driver
   - /essays/not-always-the-founder
 proof:
+  - /case-studies/everything-came-back-to-him
   - /case-studies/building-instead-of-asking
   - /case-studies/algomate-10-hours-a-week
 ---
